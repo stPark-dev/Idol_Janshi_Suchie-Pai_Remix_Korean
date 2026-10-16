@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """아이돌 작사 스치파이 Remix 한글판 빌드.
 
-    python3 tools/khpatch.py build --source "원본.cue" [--out out/ko] [--title original]
+    python3 tools/khpatch.py build --source "원본.cue" [--out out/ko] [--title original] [--opening original]
 """
 import argparse
 import sys
@@ -19,9 +19,12 @@ def main() -> int:
     b.add_argument("--source", required=True, type=Path, help="원본 .cue (트랙 1이 FILE 맨 앞에 있는 MODE1/2352)")
     b.add_argument("--out", type=Path, default=Path("out/ko"))
     b.add_argument("--title", choices=("korean", "original"), default="korean", help="타이틀 로고")
+    b.add_argument("--opening", choices=("korean", "original"), default="korean", help="오프닝 큰 글자")
+    b.add_argument("--unverified", action="store_true", help="화면 확인 전 조합도 만들기 (시험용)")
     args = ap.parse_args()
     try:
-        m = build.build(args.source, args.out, title=args.title)
+        m = build.build(args.source, args.out, title=args.title, opening=args.opening,
+                        unverified=args.unverified)
     except (build.BuildError, PlanError, ValueError, OSError) as e:
         print(f"빌드 실패: {e}", file=sys.stderr)
         return 1

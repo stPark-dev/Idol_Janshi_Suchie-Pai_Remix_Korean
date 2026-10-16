@@ -43,7 +43,7 @@ def test_every_cx_entry_round_trips_through_our_codec(disc):
 @needs_source
 def test_control_build_is_identical_to_source(tmp_path):
     out = tmp_path / "control"
-    build.build(SOURCE, out, title="original")
+    build.build(SOURCE, out, title="original", opening="original")
     m = json.loads((out / "manifest.json").read_text())
     data = out / m["data_file"]
     h = hashlib.sha1()
@@ -54,28 +54,58 @@ def test_control_build_is_identical_to_source(tmp_path):
     assert m["changes"] == []
 
 
-@needs_source
-def test_korean_build_changes_only_title_logo(tmp_path):
+def _korean(tmp_path, **kw):
     out = tmp_path / "ko"
-    build.build(SOURCE, out)
+    build.build(SOURCE, out, **kw)
     m = json.loads((out / "manifest.json").read_text())
-    assert [c["writer"] for c in m["changes"]] == ["title_logo"]
     ko = build.SourceDisc.open(out / m["cue"], check_hash=False)
+    return m, ko
+
+
+@needs_source
+def test_logo_only_build_matches_screen_verified_hash(tmp_path):
+    m, ko = _korean(tmp_path, opening="original")
+    assert [c["writer"] for c in m["changes"]] == ["title_cg"]
     c = cx.Container.parse(ko.read_file("TITL_CG.CX"))
+    orig = cx.Container.parse(build.SourceDisc.open(SOURCE).read_file("TITL_CG.CX"))
     for idx, (w, h) in build.LOGO_CELLS.items():
         img = cx.unpack_entry(c.entries[idx])
         assert (img[0] * 8, img[1]) == (w, h)
-    orig = cx.Container.parse(build.SourceDisc.open(SOURCE).read_file("TITL_CG.CX"))
     keep = [i for i in range(len(c.entries)) if i not in build.LOGO_CELLS]
     assert all(c.entries[i] == orig.entries[i] for i in keep)
-    # directory size and sector protection of every written sector
     data = ko.read_file("TITL_CG.CX")
-    assert ko.lookup("TITL_CG.CX").size == len(data)
-    assert hashlib.sha1(data).hexdigest() == build.TITLE_KO_SHA1
+    assert hashlib.sha1(data).hexdigest() == build.TITL_CG_SHA1[("korean", "original")]
+    # directory size and sector protection of every written sector
     r = ko.lookup("TITL_CG.CX")
+    assert r.size == len(data)
     for lba in [r.dir_lba] + list(range(r.lba, r.lba + (r.size + 2047) // 2048)):
         sec = ko.raw_sector(lba)
         assert bytes(cdsector.fix_mode1(bytearray(sec))) == sec
+
+
+@needs_source
+def test_opening_letters_replace_only_their_cells(tmp_path):
+    m, ko = _korean(tmp_path, unverified=True)
+    assert m["unverified"] is True and m["distribution"] is False
+    c = cx.Container.parse(ko.read_file("TITL_CG.CX"))
+    orig = cx.Container.parse(build.SourceDisc.open(SOURCE).read_file("TITL_CG.CX"))
+    changed = set(build.LOGO_CELLS) | set(build.SCROLL_LETTERS) | set(build.ART_LETTERS)
+    for i in range(len(c.entries)):
+        if i in changed:
+            a, b = cx.unpack_entry(c.entries[i]), cx.unpack_entry(orig.entries[i])
+            assert a[:2] == b[:2] and len(a) == len(b)       # same cell size and 4bpp
+            assert a != b
+        else:
+            assert c.entries[i] == orig.entries[i], i
+    blank = cx.parse_image_4bpp(cx.unpack_entry(c.entries[10]))[2]
+    assert set(blank) == {0}                                  # 士 cell left empty
+
+
+@needs_source
+def test_unverified_combination_is_refused_without_flag(tmp_path):
+    assert ("original", "korean") not in build.TITL_CG_SHA1
+    with pytest.raises(build.BuildError, match="verified"):
+        build.build(SOURCE, tmp_path / "x", title="original", opening="korean")
 
 
 def test_directory_patches_merge_per_sector():

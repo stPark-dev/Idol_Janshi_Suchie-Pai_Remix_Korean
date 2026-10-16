@@ -12,6 +12,7 @@
 
 - 초기 조사 완료: 대사는 자막 없이 음성으로만 나오고, 화면의 일본어는 모두 그림 글자입니다([`docs/initial-survey.md`](docs/initial-survey.md)).
 - 한글 타이틀 로고 적용: 「아이돌작사」·「스치파이♡」(소유자 제작). 「Remix」는 원본 영문 유지. 타이틀 화면과 오프닝 로고 장면에서 확인.
+- 오프닝 큰 글자: 흐르는 「아이돌작사」와 번쩍이는 「스·ー·치·ー·파·이」(원본 질감을 따라 생성). 오프닝 전체 진행 확인.
 
 계획(사람 결정 2026-10-16): v1.0 = 그림 글자 전부(메뉴, 대국 화면, 역 이름, 규칙 표, 프로필 카드, 패널 매치, 오프닝 소개, 스태프 롤), v1.1 = 음성 자막.
 
@@ -21,7 +22,9 @@
 
 ## 준비물
 
-- Python 3.11 이상, [Pillow](https://pypi.org/project/Pillow/), pytest (테스트용)
+- Python 3.11 이상, [Pillow](https://pypi.org/project/Pillow/) 9.4, NumPy, SciPy, pytest (테스트용)
+- 나눔스퀘어라운드 ExtraBold (`/usr/share/fonts/truetype/nanum/NanumSquareRoundEB.ttf`, 데비안 `fonts-nanum-extra`)
+- 결과 그림의 해시를 빌드가 확인하므로, 글꼴·Pillow 버전이 다르면 빌드가 멈춥니다(데비안 12 기준)
 
 ## 사용법
 
@@ -30,7 +33,9 @@
 python3 tools/khpatch.py build --source "/경로/원본.cue"
 
 # 대조군: 아무것도 바꾸지 않은 빌드 (원본과 바이트 단위로 같아야 함)
-python3 tools/khpatch.py build --source "/경로/원본.cue" --out out/control --title original
+python3 tools/khpatch.py build --source "/경로/원본.cue" --out out/control --title original --opening original
+
+# 화면 확인 전 조합을 시험할 때만: --unverified (결과 해시 고정 검사 생략, manifest에 표시)
 
 # 테스트 (원본이 work/disc/remix.cue 또는 REMIX_SOURCE에 있으면 통합 테스트도 실행)
 python3 -m pytest -q tests

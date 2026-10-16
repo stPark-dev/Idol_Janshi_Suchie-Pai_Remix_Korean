@@ -12,7 +12,9 @@ from pathlib import Path
 
 from PIL import Image
 
-from . import cdsector, cx, iso9660, logo
+import numpy as np
+
+from . import bigletters, cdsector, cx, iso9660, logo
 from .writeplan import WritePlan
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -22,10 +24,15 @@ TRACK1_SHA1 = "ac800da596c31d478989e9dac309198ddf527143"
 RAW = cdsector.RAW
 CX_FILES = ("TITL_CG.CX", "SELECT.CX", "BADGRAPH.CX", "GAMEDRV/MJCG.CX", "GOODEND/GOODEND.CX")
 
-# Title logo (survey 3.7): TITL_CG.CX single 4bpp images, byte RLE, shared palette CRAM 0x200-0x20F.
+# TITL_CG.CX: single 4bpp images, byte RLE (survey 3.4, 3.7).
 TITLE_FILE = "TITL_CG.CX"
-TITLE_KO_SHA1 = "ebd598109d6b173057c590f4d67505553b51c458"   # screen-verified result (survey 3.7, Pillow 9.4)
 TITLE_SHA1 = "39ead2b63eaff305a8c4a771e7b02a79f67153ff"
+# Results checked on screen, per (title, opening) mode (Pillow 9.4, NanumSquareRound EB).
+TITL_CG_SHA1 = {
+    ("korean", "original"): "ebd598109d6b173057c590f4d67505553b51c458",   # survey 3.7
+    ("korean", "korean"): "32a3c708f9d1c7e0b92ce8b055fb142c39b5cbcb",     # survey 3.8
+}
+# Title logo: palette CRAM 0x200-0x20F shared by both pieces.
 LOGO_CELLS = {104: (120, 21), 105: (256, 87)}
 LOGO_SOURCES = {104: ROOT / "logo_idoljanshi_120x21_ko.png", 105: ROOT / "logo_suchiepai_256x87_ko.png"}
 LOGO_PALETTE = {   # colours the original logo pieces use (RGB555 expanded), index 1 and 8 left alone
@@ -33,6 +40,13 @@ LOGO_PALETTE = {   # colours the original logo pieces use (RGB555 expanded), ind
     7: (216, 176, 200), 9: (72, 0, 48), 10: (184, 32, 128), 11: (240, 32, 168), 12: (248, 96, 192),
     13: (248, 152, 216), 14: (248, 200, 232), 15: (248, 248, 248),
 }
+
+
+# Opening big letters (survey 3.8): scroll row #5-#10 (bevel style), art flashes #11-#16.
+SCROLL_LETTERS = {5: "아", 6: "이", 7: "돌", 8: "작", 9: "사", 10: ""}   # 10 (士) left empty
+ART_LETTERS = {11: "스", 13: "치", 15: "파", 16: "이"}                # 12, 14 (ー) kept
+SCROLL_BOLD, SCROLL_MARGIN = 3, 3
+ART_BOLD, ART_MARGIN = 6, 2
 
 
 class BuildError(RuntimeError):
@@ -174,26 +188,72 @@ def _plan_file(plan: WritePlan, disc: SourceDisc, path: str, new: bytes, writer:
     return {"writer": writer, "file": path, "size": [r.size, len(new)], "sectors": sectors}
 
 
-def title_logo(original: bytes) -> bytes:
-    if hashlib.sha1(original).hexdigest() != TITLE_SHA1:
-        raise BuildError(f"{TITLE_FILE}: content is not the original")
-    c = cx.Container.parse(original)
+def _cell(c: cx.Container, idx: int) -> np.ndarray:
+    w, h, px = cx.parse_image_4bpp(cx.unpack_entry(c.entries[idx]))
+    return np.array(px, np.uint8).reshape(h, w)
+
+
+def _put(c: cx.Container, idx: int, a: np.ndarray) -> None:
+    h, w = a.shape
+    c.entries[idx] = cx.pack_entry(cx.KIND_BYTE, cx.image_4bpp(w, h, [int(v) for v in a.ravel()]))
+
+
+def _logo(c: cx.Container) -> None:
     for idx, (w, h) in LOGO_CELLS.items():
-        old = cx.unpack_entry(c.entries[idx])
-        if (old[0] * 8, old[1]) != (w, h) or len(old) != 2 + w * h // 2:
+        if _cell(c, idx).shape != (h, w):
             raise BuildError(f"{TITLE_FILE} #{idx}: not the expected {w}x{h} 4bpp logo cell")
         with Image.open(LOGO_SOURCES[idx]) as src:
             pixels = logo.quantize(logo.fit(src, w, h), LOGO_PALETTE)
-        c.entries[idx] = cx.pack_entry(cx.KIND_BYTE, cx.image_4bpp(w, h, pixels))
+        _put(c, idx, np.array(pixels, np.uint8).reshape(h, w))
+
+
+def _scroll_size(c: cx.Container) -> int:
+    """One font size for the whole scroll row: the largest that fits every cell."""
+    cells = [(ch, _cell(c, i).shape) for i, ch in SCROLL_LETTERS.items() if ch]
+    size = 8
+    while all(bigletters._render(ch, size + 1, SCROLL_BOLD).shape[1] <= w - 2 * SCROLL_MARGIN and
+              bigletters._render(ch, size + 1, SCROLL_BOLD).shape[0] <= h - 2 * SCROLL_MARGIN
+              for ch, (h, w) in cells):
+        size += 1
+    return size
+
+
+def _opening(c: cx.Container) -> None:
+    size = _scroll_size(c)
+    for idx, ch in SCROLL_LETTERS.items():
+        h, w = _cell(c, idx).shape
+        if not ch:
+            _put(c, idx, np.zeros((h, w), np.uint8))
+            continue
+        _put(c, idx, bigletters.bevel(bigletters.glyph_mask(ch, w, h, size, SCROLL_MARGIN, SCROLL_BOLD)))
+    for idx, ch in ART_LETTERS.items():
+        art = _cell(c, idx)
+        h, w = art.shape
+        _put(c, idx, bigletters.art_fill(art, bigletters.glyph_mask(ch, w, h, None, ART_MARGIN, ART_BOLD)))
+
+
+def title_cg(original: bytes, title: str, opening: str, unverified: bool = False) -> bytes:
+    if hashlib.sha1(original).hexdigest() != TITLE_SHA1:
+        raise BuildError(f"{TITLE_FILE}: content is not the original")
+    c = cx.Container.parse(original)
+    if title == "korean":
+        _logo(c)
+    if opening == "korean":
+        _opening(c)
     new = c.build()
     got = hashlib.sha1(new).hexdigest()
-    if got != TITLE_KO_SHA1:
-        raise BuildError(f"{TITLE_FILE}: Korean result {got} differs from the verified {TITLE_KO_SHA1} "
-                         "(logo PNG or Pillow resize changed; re-verify on screen before updating)")
+    want = TITL_CG_SHA1.get((title, opening))
+    if want is None and not unverified:
+        raise BuildError(f"{TITLE_FILE}: title={title} opening={opening} has not been verified on screen "
+                         "(build with unverified=True / --unverified for a test disc)")
+    if want is not None and got != want:
+        raise BuildError(f"{TITLE_FILE}: result {got} differs from the verified {want} "
+                         "(source PNG, font or Pillow changed; re-verify on screen before updating)")
     return new
 
 
-def build(source: Path, out: Path, title: str = "korean", name: str = "remix_ko") -> dict:
+def build(source: Path, out: Path, title: str = "korean", opening: str = "korean",
+          unverified: bool = False, name: str = "remix_ko") -> dict:
     disc = SourceDisc.open(Path(source))
     out = Path(out)
     check_output_paths(disc.cue, disc.data, out, name)
@@ -202,10 +262,12 @@ def build(source: Path, out: Path, title: str = "korean", name: str = "remix_ko"
     protected = [(TRACK1_SECTORS * RAW, disc.data.stat().st_size)]
     plan = WritePlan(disc.data, protected=protected)
     changes = []
-    if title == "korean":
-        changes.append(_plan_file(plan, disc, TITLE_FILE, title_logo(disc.read_file(TITLE_FILE)), "title_logo", dirs))
-    elif title != "original":
-        raise BuildError(f"unknown title mode {title}")
+    for mode in (title, opening):
+        if mode not in ("korean", "original"):
+            raise BuildError(f"unknown mode {mode}")
+    if "korean" in (title, opening):
+        new = title_cg(disc.read_file(TITLE_FILE), title, opening, unverified)
+        changes.append(_plan_file(plan, disc, TITLE_FILE, new, "title_cg", dirs))
     for lba, user in dirs.sectors().items():
         orig = disc.raw_sector(lba)
         sec = bytearray(orig)
@@ -219,6 +281,7 @@ def build(source: Path, out: Path, title: str = "korean", name: str = "remix_ko"
         "source_cue": str(disc.cue), "source_track1_sha1": disc.track1_sha1,
         "source_data_sha1": _sha1_file(disc.data), "data_file": data_name, "cue": name + ".cue",
         "data_sha1": _sha1_file(out / data_name), "changes": changes,
+        "modes": {"title": title, "opening": opening}, "unverified": unverified,
         "distribution": False,
         "distribution_note": "translation review not complete (survey 5: v1.0 = all graphic text)",
     }
