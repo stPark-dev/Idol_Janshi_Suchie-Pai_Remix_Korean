@@ -14,7 +14,7 @@ from PIL import Image
 
 import numpy as np
 
-from . import bank, bigletters, cdsector, cx, gfxtext, iso9660, logo
+from . import bank, bigletters, cdsector, credits, cx, gfxtext, iso9660, label, logo
 from .writeplan import WritePlan
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -59,6 +59,8 @@ ORIGINAL_SHA1 = {
     "PNL2.BNN": "ab440176f0336b51ed83941f44e25b8e7b027c7d",
     "KAIWADIR/CLER.BNN": "ca659716afdb9252853ff671f7ae4c6b628866a8",
     "KAIWADIR/LOAD.BNN": "7382bb1c661bb91d39ce85acbc44410273c2530e",
+    "BADGRAPH.CX": "6a797155cf8e094f8b508c793231d381c2a57d01",
+    "GOODEND/GOODEND.CX": "430be0d887fb65f415b340f05c1ec0939f5367ef",
     "SELECT.CX": "9b0734a6d425606aceb303bf8a02bc945a0142db",
     "TITL_CG.CX": TITLE_SHA1,
     "KAIWADIR/ROUND.BNN": "59e43c61bb6e151e8faf4330b56fba07be1404ac",
@@ -317,6 +319,54 @@ def graphic_file(path: str, original: bytes, entries: list[dict], layouts: dict[
     return _apply_bank(original, entries, layouts, path)
 
 
+def credits_file(path: str, original: bytes) -> bytes:
+    """Redraw the staff roll pages of one file (translation/credits.json, assets/credits/layout.json)."""
+    if hashlib.sha1(original).hexdigest() != ORIGINAL_SHA1.get(path):
+        raise BuildError(f"{path}: content is not the original")
+    t = json.loads((ROOT / "translation" / "credits.json").read_text())
+    lay = json.loads((ROOT / "assets" / "credits" / "layout.json").read_text())
+    font = lay["font"]
+    styles = {k: {"font": font, **v} for k, v in lay["styles"].items()}
+    c = cx.Container.parse(original)
+    idx = t["pages"][path]
+    pages = [cx.unpack_entry(c.entries[i]) for i in idx]
+    tall = credits.stack(pages)
+    if hashlib.sha1(tall.tobytes()).hexdigest() != t["src_sha1"]:
+        raise BuildError(f"{path}: staff roll pixels do not match src_sha1")
+    width = tall.shape[1]
+    keep = np.zeros(tall.shape, bool)
+    for e in t["entries"]:
+        if e["kind"] == "pill":
+            keep[e["y0"]:e["y1"], e["x0"]:e["x1"]] = True
+    new = np.where(keep, tall, 0).astype(np.uint8)
+    l, tp, r, b = lay["pill_clean"]["inset"]
+    try:
+        for e in t["entries"]:
+            if e["state"] not in STATES:
+                raise BuildError(f"{e['id']}: unknown state")
+            if not e["ko"].strip():
+                raise BuildError(f"{e['id']}: empty translation")
+            if e["kind"] == "pill":
+                box = (e["x0"] + l, e["y0"] + tp, e["x1"] - r, e["y1"] - b)
+                new = label.clean(new, {"method": "rows", "text_idx": lay["pill_clean"]["text_idx"]}, box)
+                new = credits.draw_line(new, {"y0": box[1], "y1": box[3], "x0": box[0], "x1": box[2], "ko": e["ko"]},
+                                        styles["pill"], width)
+            elif e["kind"] == "role_name":
+                role, name = e["ko"].split("\n")
+                x0, xm, x1 = lay["role_name_split"]
+                new = credits.draw_line(new, {"y0": e["y0"], "y1": e["y1"], "x0": x0, "x1": xm, "ko": role, "align": "left"},
+                                        styles["role"], width)
+                new = credits.draw_line(new, {"y0": e["y0"], "y1": e["y1"], "x0": xm, "x1": x1, "ko": name, "align": "right"},
+                                        styles["name"], width)
+            else:
+                new = credits.draw_line(new, e, styles[e["kind"]], width)
+    except credits.CreditsError as err:
+        raise BuildError(f"{path}: {err}") from None
+    for i, raw in zip(idx, credits.split(new, pages)):
+        c.entries[i] = cx.pack_entry(cx.KIND_BYTE, raw, optimal=True)
+    return c.build()
+
+
 def title_cells_sha1(data: bytes) -> str:
     c = cx.Container.parse(data)
     cells = sorted(set(LOGO_CELLS) | set(SCROLL_LETTERS) | set(ART_LETTERS))
@@ -385,6 +435,8 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
             group = [e for e in entries if e["file"] == path]
             new = graphic_file(path, disc.read_file(path), group, layouts)
             changes.append(_plan_file(plan, disc, path, new, f"gfx:{path}", dirs))
+        for path in ("BADGRAPH.CX", "GOODEND/GOODEND.CX"):
+            changes.append(_plan_file(plan, disc, path, credits_file(path, disc.read_file(path)), f"credits:{path}", dirs))
         texts = [{"id": e["id"], "state": e["state"]} for e in entries]
     for lba, user in dirs.sectors().items():
         orig = disc.raw_sector(lba)

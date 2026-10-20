@@ -17,6 +17,7 @@
 - 상대 소개 카드 16장과 대전 이름 칸 9개(ROUND·ROUND2 두 파일).
 - 패널 매치·정보 코너 40항목(화면 확인 전).
 - 오프닝 캐릭터 소개 40항목(본명·성우·별명).
+- 스태프 롤 131줄(BADGRAPH·GOODEND 두 파일), 클리어·읽는 중 화면(화면 확인 전).
 - 대국 화면 103항목(역 이름, 명령 버튼, 이름 칸, 리치 띠, 東場 표지, 점수 단위, 큰 입체 한자 등).
 
 계획(사람 결정 2026-10-16): v1.0 = 그림 글자 전부(메뉴, 대국 화면, 역 이름, 규칙 표, 프로필 카드, 패널 매치, 오프닝 소개, 스태프 롤), v1.1 = 음성 자막.
@@ -30,6 +31,8 @@
 | 파일 | 내용 |
 |---|---|
 | [`translation/glossary.json`](translation/glossary.json) | 용어·표기 결정(2편 승인 용어를 이어받음) |
+| [`translation/credits.json`](translation/credits.json), [`assets/credits/layout.json`](assets/credits/layout.json) | 스태프 롤 131줄(이어 붙인 좌표·종류·원문·번역) |
+| [`translation/misc.json`](translation/misc.json) | 클리어·읽는 중 화면 |
 | [`translation/intro.json`](translation/intro.json), [`assets/intro/layout.json`](assets/intro/layout.json) | 오프닝 캐릭터 소개(TITL_CG #108·#109) 40항목 |
 | [`translation/panel.json`](translation/panel.json), [`assets/panel/layout.json`](assets/panel/layout.json) | 패널 매치(PNL1)·정보 코너(PNL2) 40항목 |
 | [`translation/round.json`](translation/round.json), [`assets/round/layout.json`](assets/round/layout.json) | 상대 소개 카드 16장·대전 이름 칸 9개(ROUND2는 `ko_from`으로 같은 문구) |

@@ -171,3 +171,18 @@ def test_title_table_entries_apply_on_top_of_verified_cells(tmp_path):
     data = ko.read_file("TITL_CG.CX")
     assert build.title_cells_sha1(data) == build.TITL_CG_CELLS_SHA1[("korean", "korean")]
     assert [c["writer"] for c in m["changes"]].count("title_cg") == 1
+
+
+@needs_source
+def test_credits_same_in_both_files_and_only_roll_pages_change(tmp_path):
+    m, ko = _korean(tmp_path)
+    src = build.SourceDisc.open(SOURCE)
+    nb = cx.Container.parse(ko.read_file("BADGRAPH.CX"))
+    ng = cx.Container.parse(ko.read_file("GOODEND/GOODEND.CX"))
+    ob = cx.Container.parse(src.read_file("BADGRAPH.CX"))
+    og = cx.Container.parse(src.read_file("GOODEND/GOODEND.CX"))
+    for i in range(17):
+        assert cx.unpack_entry(nb.entries[i]) == cx.unpack_entry(ng.entries[i + 7])
+        assert cx.unpack_entry(nb.entries[i]) != cx.unpack_entry(ob.entries[i])
+    assert all(nb.entries[i] == ob.entries[i] for i in range(17, len(ob.entries)))
+    assert all(ng.entries[i] == og.entries[i] for i in list(range(7)) + list(range(24, len(og.entries))))

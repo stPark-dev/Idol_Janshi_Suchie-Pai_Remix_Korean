@@ -1,0 +1,69 @@
+{
+ "_about": "스태프 롤 스타일. 좌표는 이어 붙인 한 장(폭 152) 기준.",
+ "font": "/usr/share/fonts/truetype/nanum/NanumSquareRoundEB.ttf",
+ "styles": {
+  "role": {
+   "size": 12,
+   "fit": 8,
+   "fill": 1,
+   "edge": 2,
+   "rings": [
+    3
+   ]
+  },
+  "song": {
+   "size": 13,
+   "fit": 8,
+   "fill": 1,
+   "edge": 2,
+   "rings": [
+    3
+   ]
+  },
+  "name": {
+   "size": 15,
+   "fit": 9,
+   "fill": 12,
+   "edge": 11,
+   "rings": [
+    10
+   ]
+  },
+  "header": {
+   "size": 17,
+   "fit": 11,
+   "fill": 8,
+   "edge": 9,
+   "rings": [
+    3
+   ]
+  },
+  "pill": {
+   "size": 15,
+   "fit": 10,
+   "fill": 3,
+   "rings": [
+    10
+   ]
+  }
+ },
+ "pill_clean": {
+  "text_idx": [
+   3,
+   7,
+   9,
+   10
+  ],
+  "inset": [
+   6,
+   3,
+   6,
+   3
+  ]
+ },
+ "role_name_split": [
+  3,
+  62,
+  149
+ ]
+}
