@@ -2,6 +2,7 @@
 """아이돌 작사 스치파이 Remix 한글판 빌드.
 
     python3 tools/khpatch.py build --source "원본.cue" [--out out/ko] [--title original] [--opening original]
+                                   [--subtitles korean]
 """
 import argparse
 import sys
@@ -21,11 +22,13 @@ def main() -> int:
     b.add_argument("--title", choices=("korean", "original"), default="korean", help="타이틀 로고")
     b.add_argument("--opening", choices=("korean", "original"), default="korean", help="오프닝 큰 글자")
     b.add_argument("--graphics", choices=("korean", "original"), default="korean", help="그림 글자 번역 표(translation/*.json) 적용")
+    b.add_argument("--subtitles", choices=("korean", "none"), default="none",
+                   help="음성 자막 (assets/subtitle/scenes.json + translation/voice/)")
     b.add_argument("--unverified", action="store_true", help="화면 확인 전 조합도 만들기 (시험용)")
     args = ap.parse_args()
     try:
         m = build.build(args.source, args.out, title=args.title, opening=args.opening, graphics=args.graphics,
-                        unverified=args.unverified)
+                        unverified=args.unverified, subtitles=args.subtitles)
     except (build.BuildError, PlanError, ValueError, OSError) as e:
         print(f"빌드 실패: {e}", file=sys.stderr)
         return 1

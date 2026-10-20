@@ -14,7 +14,7 @@ from PIL import Image
 
 import numpy as np
 
-from . import bank, bigletters, cdsector, credits, cx, gfxtext, iso9660, label, logo
+from . import bank, bigletters, cdsector, credits, cx, gfxtext, iso9660, label, logo, subtitles
 from .writeplan import WritePlan
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -416,8 +416,50 @@ def title_cg(original: bytes, title: str, opening: str, unverified: bool = False
     return new
 
 
+SUBTITLE_CODE = ROOT / "assets" / "subtitle" / "SUB.BIN"       # tools/subtitle/build.sh
+SUBTITLE_SCENES = ROOT / "assets" / "subtitle" / "scenes.json"
+VOICE_DIR = ROOT / "translation" / "voice"
+
+
+def subtitle_files(plan: WritePlan, disc: SourceDisc, dirs: DirPatch, scenes_path: Path, voice_dir: Path) -> tuple[list[dict], dict, dict]:
+    """Voice subtitles (docs/voice-subtitles.md): the executable's stub, SUB.BIN and SUBDAT.BIN.
+
+    Returns (changes, root directory sectors to write over the size patches, manifest info)."""
+    S = subtitles
+    changes = []
+    exe = disc.read_file("A")
+    new = bytearray(exe)
+    for off, data in S.exe_changes(exe):
+        new[off:off + len(data)] = data
+    changes.append(_plan_file(plan, disc, "A", bytes(new), "subtitles:exe", dirs))
+    pvd = disc.user(16)
+    if struct.unpack("<I", pvd[158:162])[0] != S.DIR_LBA:
+        raise BuildError("root directory is not where the subtitle layout expects it")
+    index, subdat, info = S.build_data(json.loads(Path(scenes_path).read_text(encoding="utf-8")),
+                                       S.load_voice_docs(voice_dir), label.DEFAULT_FONT,
+                                       lambda p, is_dir: iso9660.find(disc.user, p, directory=is_dir).lba if p else S.DIR_LBA)
+    sub_bytes = S.CODE_MAX + len(index)
+    sub_lba, dat_lba = S.layout(sub_bytes, len(subdat))
+    image = S.sub_bin(SUBTITLE_CODE.read_bytes(), index, sub=(sub_lba, sub_bytes), dat=(dat_lba, len(subdat)))
+    patched = dirs.sectors()
+    sectors, where = S.disc_sectors(lambda lba: patched.get(lba) or disc.user(lba), image, subdat)
+    root = {}
+    for lba, user in sectors:
+        if S.DIR_LBA <= lba < S.DIR_LBA + S.DIR_SECTORS:
+            root[lba] = user
+            continue
+        orig = disc.raw_sector(lba)
+        sec = bytearray(orig)
+        sec[16:16 + 2048] = user
+        cdsector.fix_mode1(sec)
+        plan.add("subtitles:files", lba * RAW, orig, bytes(sec))
+    changes.append({"writer": "subtitles:files", "files": where})
+    return changes, root, info
+
+
 def build(source: Path, out: Path, title: str = "korean", opening: str = "korean", graphics: str = "korean",
-          unverified: bool = False, name: str = "remix_ko") -> dict:
+          unverified: bool = False, name: str = "remix_ko", subtitles: str = "none",
+          subtitle_scenes: Path = SUBTITLE_SCENES, voice_dir: Path = VOICE_DIR) -> dict:
     disc = SourceDisc.open(Path(source))
     out = Path(out)
     check_output_paths(disc.cue, disc.data, out, name)
@@ -429,6 +471,8 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
     for mode in (title, opening, graphics):
         if mode not in ("korean", "original"):
             raise BuildError(f"unknown mode {mode}")
+    if subtitles not in ("korean", "none"):
+        raise BuildError(f"unknown subtitle mode {subtitles}")
     entries, layouts = load_tables() if graphics == "korean" else ([], {})
     title_entries = [e for e in entries if e["file"] == TITLE_FILE]
     if "korean" in (title, opening) or title_entries:
@@ -445,7 +489,12 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
         texts = [{"id": e["id"], "state": e["state"]} for e in entries]
         texts += [{"id": e["id"], "state": e["state"]}
                   for e in json.loads((ROOT / "translation" / "credits.json").read_text())["entries"]]
-    for lba, user in dirs.sectors().items():
+    sub_info, dir_sectors = None, dirs.sectors()
+    if subtitles == "korean":
+        sub_changes, root, sub_info = subtitle_files(plan, disc, dirs, subtitle_scenes, voice_dir)
+        changes += sub_changes
+        dir_sectors = {**dirs.sectors(), **root}       # the root rewrite already holds the size patches
+    for lba, user in dir_sectors.items():
         orig = disc.raw_sector(lba)
         sec = bytearray(orig)
         sec[16:16 + 2048] = user
@@ -458,14 +507,15 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
         "source_cue": str(disc.cue), "source_track1_sha1": disc.track1_sha1,
         "source_data_sha1": _sha1_file(disc.data), "data_file": data_name, "cue": name + ".cue",
         "data_sha1": _sha1_file(out / data_name), "changes": changes,
-        "modes": {"title": title, "opening": opening, "graphics": graphics}, "unverified": unverified,
+        "modes": {"title": title, "opening": opening, "graphics": graphics, "subtitles": subtitles},
+        "unverified": unverified, "subtitles": sub_info,
         "translations": texts,
         "distribution": False,
         "distribution_note": "",
     }
     checks = json.loads((ROOT / "assets" / "screen_checks.json").read_text())
     ready = (not unverified and graphics == "korean" and title == "korean" and opening == "korean"
-             and distribution_ready(texts, checks))
+             and distribution_ready(texts, checks) and (sub_info is None or sub_info["distribution"]))
     manifest["distribution"] = ready
     manifest["screen_checks_pending"] = [c["id"] for c in checks.get("pending", [])]
     manifest["distribution_note"] = "ready" if ready else (

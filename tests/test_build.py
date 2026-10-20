@@ -6,6 +6,7 @@ import hashlib
 import json
 import os
 import pathlib
+import struct
 
 import pytest
 
@@ -192,3 +193,78 @@ def test_distribution_requires_eligible_texts_and_no_pending_screen_checks():
     assert build.distribution_ready([{"state": "distribution_eligible"}], {"pending": []}) is True
     assert build.distribution_ready([{"state": "distribution_eligible"}], {"pending": [{"id": "x"}]}) is False
     assert build.distribution_ready([{"state": "needs_human_review"}], {"pending": []}) is False
+
+
+def _subtitle_build(tmp_path, ko="안녕하세요."):
+    from remix import subtitles as S
+    voices = tmp_path / "voice"
+    (voices / "KAIWADIR" / "OPSIHO").mkdir(parents=True)
+    doc = {"voice": "KAIWADIR/OPSIHO/MAI.AIF", "lines": [{"start": 0.5, "end": 2.0, "ja": "x", "ko": ko}]}
+    (voices / "KAIWADIR" / "OPSIHO" / "MAI.json").write_text(json.dumps(doc), encoding="utf-8")
+    scenes = tmp_path / "scenes.json"
+    scenes.write_text(json.dumps({"groups": [{"id": "opsiho", "dir": "KAIWADIR/OPSIHO", "voices": ["MAI.AIF", "RIE.AIF"]}]}))
+    out = tmp_path / "sub"
+    build.build(SOURCE, out, title="original", opening="original", graphics="original", subtitles="korean",
+                subtitle_scenes=scenes, voice_dir=voices)
+    m = json.loads((out / "manifest.json").read_text())
+    return S, m, build.SourceDisc.open(out / m["cue"], check_hash=False)
+
+
+@needs_source
+def test_subtitle_build_changes_the_loader_calls_and_adds_two_files(tmp_path):
+    S, m, ko = _subtitle_build(tmp_path)
+    src = build.SourceDisc.open(SOURCE)
+    old, new = src.read_file("A"), ko.read_file("A")
+    expect = bytearray(old)
+    for off, data in S.exe_changes(old):
+        expect[off:off + len(data)] = data
+    assert new == bytes(expect)
+    sub, dat = ko.lookup("SUB.BIN"), ko.lookup("SUBDAT.BIN")
+    assert sub.lba == S.FREE_LBA and dat.lba > sub.lba
+    image = ko.read_file("SUB.BIN")
+    code = (build.ROOT / "assets" / "subtitle" / "SUB.BIN").read_bytes()
+    assert image[:S.FILES_OFF] == code[:S.FILES_OFF] and image[S.FILES_OFF + 16:len(code)] == code[S.FILES_OFF + 16:]
+    assert struct.unpack(">IIII", image[S.FILES_OFF:S.FILES_OFF + 16]) == (
+        sub.lba + 150, sub.size, dat.lba + 150, dat.size)
+    index = image[S.CODE_MAX:]
+    magic, ngroups, _ = struct.unpack(">IHH", index[:8])
+    assert (magic, ngroups) == (S.INDEX_MAGIC, 1)
+    d, o, p, n = struct.unpack(">IIHH", index[8:20])
+    from remix import iso9660
+    assert d == iso9660.find(src.user, "KAIWADIR/OPSIHO", directory=True).lba + 150
+    group = S.unpack(ko.read_file("SUBDAT.BIN")[o:o + p])[0]
+    nv = struct.unpack(">H", group[6:8])[0]
+    assert struct.unpack(f">{nv}I", group[32:32 + 4 * nv]) == (
+        src.lookup("KAIWADIR/OPSIHO/MAI.AIF").lba + 150, src.lookup("KAIWADIR/OPSIHO/RIE.AIF").lba + 150)
+    assert m["subtitles"]["lines"] == 1 and m["subtitles"]["distribution"] is False
+    assert m["distribution"] is False
+
+
+def _all_files(disc, lba=None, size=None, prefix=""):
+    """Every file of the disc as path -> (lba, size), walking the ISO directories."""
+    from remix import iso9660
+    if lba is None:
+        pvd = disc.user(16)
+        lba, size = struct.unpack("<I", pvd[158:162])[0], struct.unpack("<I", pvd[166:170])[0]
+    out = {}
+    for _, _, rec in iso9660._records(disc.user, lba, size):
+        name = rec[33:33 + rec[32]]
+        if name in (b"\0", b"\1"):
+            continue
+        path = prefix + name.split(b";")[0].decode()
+        r_lba, r_size = struct.unpack("<I", rec[2:6])[0], struct.unpack("<I", rec[10:14])[0]
+        if rec[25] & 2:
+            out.update(_all_files(disc, r_lba, r_size, path + "/"))
+        else:
+            out[path] = (r_lba, r_size)
+    return out
+
+
+@needs_source
+def test_subtitle_build_keeps_every_other_file_in_place(tmp_path):
+    S, _, ko = _subtitle_build(tmp_path)
+    src = build.SourceDisc.open(SOURCE)
+    before, after = _all_files(src), _all_files(ko)
+    assert set(after) - set(before) == {"SUB.BIN", "SUBDAT.BIN"}
+    assert {k: after[k] for k in before} == before
+    assert len(before) > 1000

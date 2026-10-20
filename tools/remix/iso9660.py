@@ -28,7 +28,8 @@ def _records(read: ReadUser, lba: int, size: int):
             p += ln
 
 
-def find(read: ReadUser, path: str) -> Record:
+def find(read: ReadUser, path: str, directory: bool = False) -> Record:
+    """A file, or with directory=True a directory, by its path."""
     pvd = read(16)
     if pvd[:6] != b"\x01CD001":
         raise IsoError("no primary volume descriptor at LBA 16")
@@ -42,7 +43,7 @@ def find(read: ReadUser, path: str) -> Record:
             if nm in (b"\x00", b"\x01"):
                 continue
             is_dir = bool(rec[25] & 2)
-            if nm.decode("latin1").split(";")[0] == part and is_dir != last:
+            if nm.decode("latin1").split(";")[0] == part and is_dir == (directory or not last):
                 lba, size = struct.unpack("<I", rec[2:6])[0], struct.unpack("<I", rec[10:14])[0]
                 if last:
                     return Record(lba, size, dl, off)

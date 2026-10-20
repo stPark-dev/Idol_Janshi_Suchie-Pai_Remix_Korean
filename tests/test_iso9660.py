@@ -65,3 +65,13 @@ def test_with_size_rejects_stale_record():
     bad[x.rec_offset + 10] ^= 1
     with pytest.raises(iso9660.IsoError):
         iso9660.with_size(bytes(bad), x, 96)
+
+
+def test_find_a_directory_only_when_asked():
+    img = _image()
+    d = iso9660.find(img.__getitem__, "SUB", directory=True)
+    assert (d.lba, d.size) == (21, 2048)
+    with pytest.raises(iso9660.IsoError):
+        iso9660.find(img.__getitem__, "SUB")                  # a file is expected by default
+    with pytest.raises(iso9660.IsoError):
+        iso9660.find(img.__getitem__, "A", directory=True)
