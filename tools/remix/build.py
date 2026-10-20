@@ -51,10 +51,11 @@ ART_BOLD, ART_MARGIN = 6, 2
 
 # Graphic text tables: translation/<name>.json + assets/<name>/layout.json. Each entry names its file
 # (table default "file") and, for CX files, the bank entry "cx_entry".
-GRAPHIC_TABLES = ("select", "round")
+GRAPHIC_TABLES = ("select", "round", "match")
 ORIGINAL_SHA1 = {
     "SELECT.CX": "9b0734a6d425606aceb303bf8a02bc945a0142db",
     "KAIWADIR/ROUND.BNN": "59e43c61bb6e151e8faf4330b56fba07be1404ac",
+    "GAMEDRV/MJCG.CX": "67b201f58538e19226202ece91eae31a8b6200ed",
     "PANELDIR/ROUND2.BNN": "6b6fe2e86c329545e5c9e2e27d1397b793d61b78",
 }
 STATES = ("untranslated", "in_progress", "needs_review", "needs_human_review", "distribution_eligible")
@@ -295,8 +296,14 @@ def graphic_file(path: str, original: bytes, entries: list[dict], layouts: dict[
     if path.endswith(".CX"):
         c = cx.Container.parse(original)
         for k in sorted({e["cx_entry"] for e in entries}):
-            c.entries[k] = _apply_bank(c.entries[k], [e for e in entries if e["cx_entry"] == k], layouts,
-                                       f"{path} #{k}")
+            group = [e for e in entries if e["cx_entry"] == k]
+            raw = c.entries[k]
+            if is_raw_bank(raw):
+                c.entries[k] = _apply_bank(raw, group, layouts, f"{path} #{k}")
+            else:   # compressed bank: unpack, edit, repack with the same kind (shortest stream)
+                kind = int.from_bytes(raw[:2], "big")
+                new = _apply_bank(cx.unpack_entry(raw), group, layouts, f"{path} #{k}")
+                c.entries[k] = cx.pack_entry(kind, new, optimal=True)
         return c.build()
     if any(e["cx_entry"] is not None for e in entries):
         raise BuildError(f"{path}: cx_entry given for a plain bank file")

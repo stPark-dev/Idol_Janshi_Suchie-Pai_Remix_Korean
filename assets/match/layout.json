@@ -1,0 +1,3105 @@
+{
+ "_about": "MJCG.CX 배치. 좌표는 텍스처 픽셀 [x0,y0,x1,y1). 역 이름 색은 텍스처마다 많이 쓰인 순서로 판별(채움, 테두리).",
+ "font": "/usr/share/fonts/truetype/nanum/NanumSquareRoundEB.ttf",
+ "entries": [
+  {
+   "id": "match.yaku.1",
+   "kind": "text",
+   "tex": 1,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.2",
+   "kind": "text",
+   "tex": 2,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.3",
+   "kind": "text",
+   "tex": 3,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.4",
+   "kind": "text",
+   "tex": 4,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.5",
+   "kind": "text",
+   "tex": 5,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.6",
+   "kind": "text",
+   "tex": 6,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.7",
+   "kind": "text",
+   "tex": 7,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.8",
+   "kind": "text",
+   "tex": 8,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.9",
+   "kind": "text",
+   "tex": 9,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.10",
+   "kind": "text",
+   "tex": 10,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.11",
+   "kind": "text",
+   "tex": 11,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.12",
+   "kind": "text",
+   "tex": 12,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.13",
+   "kind": "text",
+   "tex": 13,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.14",
+   "kind": "text",
+   "tex": 14,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.15",
+   "kind": "text",
+   "tex": 15,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.16",
+   "kind": "text",
+   "tex": 16,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.17",
+   "kind": "text",
+   "tex": 17,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.18",
+   "kind": "text",
+   "tex": 18,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.19",
+   "kind": "text",
+   "tex": 19,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.20",
+   "kind": "text",
+   "tex": 20,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.21",
+   "kind": "text",
+   "tex": 21,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.22",
+   "kind": "text",
+   "tex": 22,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.23",
+   "kind": "text",
+   "tex": 23,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.24",
+   "kind": "text",
+   "tex": 24,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.25",
+   "kind": "text",
+   "tex": 25,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.26",
+   "kind": "text",
+   "tex": 26,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.27",
+   "kind": "text",
+   "tex": 27,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.28",
+   "kind": "text",
+   "tex": 28,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 135,
+     "rings": [
+      137
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.29",
+   "kind": "text",
+   "tex": 29,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 135,
+     "rings": [
+      137
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.30",
+   "kind": "text",
+   "tex": 30,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 135,
+     "rings": [
+      137
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.31",
+   "kind": "text",
+   "tex": 31,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 140,
+     "rings": [
+      138
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.32",
+   "kind": "text",
+   "tex": 32,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 141,
+     "rings": [
+      143
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.33",
+   "kind": "text",
+   "tex": 33,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 144,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.34",
+   "kind": "text",
+   "tex": 34,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.35",
+   "kind": "text",
+   "tex": 35,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.36",
+   "kind": "text",
+   "tex": 36,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.37",
+   "kind": "text",
+   "tex": 37,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.38",
+   "kind": "text",
+   "tex": 38,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.39",
+   "kind": "text",
+   "tex": 39,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.40",
+   "kind": "text",
+   "tex": 40,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 149,
+     "rings": [
+      147
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.41",
+   "kind": "text",
+   "tex": 41,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.42",
+   "kind": "text",
+   "tex": 42,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.43",
+   "kind": "text",
+   "tex": 43,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.44",
+   "kind": "text",
+   "tex": 44,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.45",
+   "kind": "text",
+   "tex": 45,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     48,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      48,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.46",
+   "kind": "text",
+   "tex": 46,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 147,
+     "rings": [
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.47",
+   "kind": "text",
+   "tex": 47,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 131,
+     "rings": [
+      129
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.48",
+   "kind": "text",
+   "tex": 48,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 134,
+     "rings": [
+      132
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.49",
+   "kind": "text",
+   "tex": 49,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 137,
+     "rings": [
+      135
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.50",
+   "kind": "text",
+   "tex": 50,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 140,
+     "rings": [
+      138
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.51",
+   "kind": "text",
+   "tex": 51,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 143,
+     "rings": [
+      141
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.52",
+   "kind": "text",
+   "tex": 52,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 146,
+     "rings": [
+      144
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.53",
+   "kind": "text",
+   "tex": 53,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 149,
+     "rings": [
+      147
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.54",
+   "kind": "text",
+   "tex": 54,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 129,
+     "rings": [
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.55",
+   "kind": "text",
+   "tex": 55,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 132,
+     "rings": [
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.56",
+   "kind": "text",
+   "tex": 56,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 135,
+     "rings": [
+      137
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.yaku.57",
+   "kind": "text",
+   "tex": 57,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     32,
+     15
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      32,
+      15
+     ],
+     "size": 13,
+     "fit": 8,
+     "fill": 138,
+     "rings": [
+      140
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.btn.4",
+   "kind": "text",
+   "tex": 4,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     192,
+     204,
+     203,
+     193
+    ],
+    "box": [
+     2,
+     2,
+     35,
+     17
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      2,
+      35,
+      17
+     ],
+     "size": 13,
+     "fit": 9,
+     "fill": 192,
+     "edge": 193,
+     "rings": [
+      204
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.btn.5",
+   "kind": "text",
+   "tex": 5,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     192,
+     204,
+     203,
+     193
+    ],
+    "box": [
+     2,
+     2,
+     35,
+     17
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      2,
+      35,
+      17
+     ],
+     "size": 13,
+     "fit": 9,
+     "fill": 192,
+     "edge": 193,
+     "rings": [
+      204
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.btn.6",
+   "kind": "text",
+   "tex": 6,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     192,
+     204,
+     203,
+     193
+    ],
+    "box": [
+     2,
+     2,
+     35,
+     17
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      2,
+      35,
+      17
+     ],
+     "size": 13,
+     "fit": 9,
+     "fill": 192,
+     "edge": 193,
+     "rings": [
+      204
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.btn.7",
+   "kind": "text",
+   "tex": 7,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     192,
+     204,
+     203,
+     193
+    ],
+    "box": [
+     2,
+     2,
+     35,
+     17
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      2,
+      35,
+      17
+     ],
+     "size": 13,
+     "fit": 9,
+     "fill": 192,
+     "edge": 193,
+     "rings": [
+      204
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.btn.8",
+   "kind": "text",
+   "tex": 8,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     192,
+     204,
+     203,
+     193
+    ],
+    "box": [
+     2,
+     2,
+     35,
+     17
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      2,
+      35,
+      17
+     ],
+     "size": 13,
+     "fit": 9,
+     "fill": 192,
+     "edge": 193,
+     "rings": [
+      204
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.btn.9",
+   "kind": "text",
+   "tex": 9,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     192,
+     204,
+     203,
+     193
+    ],
+    "box": [
+     2,
+     2,
+     35,
+     17
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      2,
+      35,
+      17
+     ],
+     "size": 13,
+     "fit": 9,
+     "fill": 192,
+     "edge": 193,
+     "rings": [
+      204
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.btn.10",
+   "kind": "text",
+   "tex": 10,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     192,
+     204,
+     203,
+     193
+    ],
+    "box": [
+     2,
+     2,
+     35,
+     17
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      2,
+      35,
+      17
+     ],
+     "size": 13,
+     "fit": 9,
+     "fill": 192,
+     "edge": 193,
+     "rings": [
+      204
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.btn.11",
+   "kind": "text",
+   "tex": 11,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     204,
+     198,
+     203,
+     199
+    ],
+    "box": [
+     3,
+     2,
+     61,
+     17
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      3,
+      2,
+      61,
+      17
+     ],
+     "size": 13,
+     "fit": 9,
+     "fill": 192,
+     "edge": 193,
+     "rings": [
+      204
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.btn.12",
+   "kind": "text",
+   "tex": 12,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     204,
+     198,
+     203,
+     199
+    ],
+    "box": [
+     3,
+     2,
+     61,
+     17
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      3,
+      2,
+      61,
+      17
+     ],
+     "size": 13,
+     "fit": 9,
+     "fill": 192,
+     "edge": 193,
+     "rings": [
+      204
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.btn.13",
+   "kind": "text",
+   "tex": 13,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     204,
+     196,
+     197,
+     203
+    ],
+    "box": [
+     3,
+     3,
+     82,
+     18
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      3,
+      3,
+      82,
+      18
+     ],
+     "size": 13,
+     "fit": 9,
+     "fill": 196,
+     "edge": 197,
+     "rings": [
+      204
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.plate.80",
+   "kind": "text",
+   "tex": 80,
+   "clean": {
+    "method": "column",
+    "ref_x": 3,
+    "box": [
+     14,
+     0,
+     66,
+     16
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      0,
+      66,
+      16
+     ],
+     "size": 14,
+     "fit": 10,
+     "fill": 84,
+     "edge": 102,
+     "rings": [
+      105
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.plate.81",
+   "kind": "text",
+   "tex": 81,
+   "clean": {
+    "method": "column",
+    "ref_x": 3,
+    "box": [
+     14,
+     0,
+     66,
+     16
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      0,
+      66,
+      16
+     ],
+     "size": 14,
+     "fit": 10,
+     "fill": 86,
+     "edge": 104,
+     "rings": [
+      105
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.plate.82",
+   "kind": "text",
+   "tex": 82,
+   "clean": {
+    "method": "column",
+    "ref_x": 3,
+    "box": [
+     14,
+     0,
+     66,
+     16
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      0,
+      66,
+      16
+     ],
+     "size": 14,
+     "fit": 10,
+     "fill": 105,
+     "edge": 89,
+     "rings": [
+      88
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.plate.83",
+   "kind": "text",
+   "tex": 83,
+   "clean": {
+    "method": "column",
+    "ref_x": 3,
+    "box": [
+     14,
+     0,
+     66,
+     16
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      0,
+      66,
+      16
+     ],
+     "size": 14,
+     "fit": 10,
+     "fill": 105,
+     "edge": 103,
+     "rings": [
+      90
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.plate.84",
+   "kind": "text",
+   "tex": 84,
+   "clean": {
+    "method": "column",
+    "ref_x": 3,
+    "box": [
+     15,
+     0,
+     66,
+     16
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      0,
+      66,
+      16
+     ],
+     "size": 14,
+     "fit": 10,
+     "fill": 105,
+     "edge": 153,
+     "rings": [
+      92
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.plate.85",
+   "kind": "text",
+   "tex": 85,
+   "clean": {
+    "method": "column",
+    "ref_x": 3,
+    "box": [
+     8,
+     0,
+     66,
+     16
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      0,
+      66,
+      16
+     ],
+     "size": 14,
+     "fit": 10,
+     "fill": 105,
+     "edge": 104,
+     "rings": [
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.plate.86",
+   "kind": "text",
+   "tex": 86,
+   "clean": {
+    "method": "column",
+    "ref_x": 3,
+    "box": [
+     8,
+     0,
+     66,
+     16
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      0,
+      66,
+      16
+     ],
+     "size": 14,
+     "fit": 10,
+     "fill": 105,
+     "edge": 101,
+     "rings": [
+      94
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.plate.87",
+   "kind": "text",
+   "tex": 87,
+   "clean": {
+    "method": "column",
+    "ref_x": 3,
+    "box": [
+     8,
+     0,
+     66,
+     16
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      0,
+      66,
+      16
+     ],
+     "size": 14,
+     "fit": 10,
+     "fill": 105,
+     "edge": 100,
+     "rings": [
+      96
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.plate.88",
+   "kind": "text",
+   "tex": 88,
+   "clean": {
+    "method": "column",
+    "ref_x": 3,
+    "box": [
+     4,
+     0,
+     66,
+     16
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      0,
+      66,
+      16
+     ],
+     "size": 14,
+     "fit": 10,
+     "fill": 105,
+     "edge": 99,
+     "rings": [
+      98
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.riichi.93",
+   "kind": "text",
+   "tex": 93,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     22,
+     0,
+     72,
+     18
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      17,
+      0,
+      77,
+      18
+     ],
+     "size": 16,
+     "fit": 10,
+     "fill": 75,
+     "edge": 76,
+     "rings": [
+      106
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.riichi.94",
+   "kind": "text",
+   "tex": 94,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     22,
+     0,
+     72,
+     18
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      17,
+      0,
+      77,
+      18
+     ],
+     "size": 16,
+     "fit": 10,
+     "fill": 75,
+     "edge": 76,
+     "rings": [
+      106
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.icon.102",
+   "kind": "text",
+   "tex": 102,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     114,
+     75,
+     109
+    ],
+    "box": [
+     3,
+     2,
+     15,
+     14
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      3,
+      2,
+      15,
+      14
+     ],
+     "size": 11,
+     "fit": 7,
+     "fill": 75,
+     "edge": 114
+    }
+   ]
+  },
+  {
+   "id": "match.icon.103",
+   "kind": "text",
+   "tex": 103,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     75,
+     120,
+     115
+    ],
+    "box": [
+     3,
+     2,
+     15,
+     14
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      3,
+      2,
+      15,
+      14
+     ],
+     "size": 11,
+     "fit": 7,
+     "fill": 75,
+     "edge": 120
+    }
+   ]
+  },
+  {
+   "id": "match.unit.16",
+   "kind": "text",
+   "tex": 16,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     24,
+     22
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      24,
+      22
+     ],
+     "size": 20,
+     "fit": 12,
+     "fill": 9,
+     "edge": 19,
+     "rings": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.unit.17",
+   "kind": "text",
+   "tex": 17,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     24,
+     22
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      24,
+      22
+     ],
+     "size": 20,
+     "fit": 12,
+     "fill": 9,
+     "edge": 19,
+     "rings": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.unit.18",
+   "kind": "text",
+   "tex": 18,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     24,
+     22
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      24,
+      22
+     ],
+     "size": 20,
+     "fit": 12,
+     "fill": 9,
+     "edge": 19,
+     "rings": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.unit.19",
+   "kind": "text",
+   "tex": 19,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     24,
+     22
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      24,
+      22
+     ],
+     "size": 20,
+     "fit": 12,
+     "fill": 9,
+     "edge": 19,
+     "rings": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.sign.79",
+   "kind": "text",
+   "tex": 79,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     54,
+     52,
+     51,
+     50,
+     53,
+     49
+    ],
+    "box": [
+     3,
+     0,
+     47,
+     25
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      3,
+      0,
+      47,
+      25
+     ],
+     "size": 22,
+     "fit": 14,
+     "fill": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52,
+      52
+     ],
+     "edge": 53,
+     "rings": [
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.item.99",
+   "kind": "text",
+   "tex": 99,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     142
+    ],
+    "box": [
+     2,
+     1,
+     29,
+     11
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      1,
+      29,
+      11
+     ],
+     "size": 10,
+     "fit": 7,
+     "fill": 142,
+     "edge": 142
+    }
+   ]
+  },
+  {
+   "id": "match.item.100",
+   "kind": "text",
+   "tex": 100,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     206,
+     143
+    ],
+    "box": [
+     2,
+     1,
+     29,
+     11
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      1,
+      29,
+      11
+     ],
+     "size": 10,
+     "fit": 7,
+     "fill": 206,
+     "edge": 143
+    }
+   ]
+  },
+  {
+   "id": "match.item.101",
+   "kind": "text",
+   "tex": 101,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     206,
+     144
+    ],
+    "box": [
+     2,
+     1,
+     29,
+     11
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      1,
+      29,
+      11
+     ],
+     "size": 10,
+     "fit": 7,
+     "fill": 206,
+     "edge": 144
+    }
+   ]
+  },
+  {
+   "id": "match.help.14",
+   "kind": "text",
+   "tex": 14,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     160,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      160,
+      15
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 194,
+     "edge": 195,
+     "rings": [
+      204
+     ]
+    },
+    {
+     "box": [
+      0,
+      17,
+      160,
+      32
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 198,
+     "edge": 199,
+     "rings": [
+      204
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.big.15",
+   "kind": "text",
+   "tex": 15,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     168,
+     37
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      168,
+      37
+     ],
+     "size": 30,
+     "fit": 16,
+     "fill": 191,
+     "edge": 189,
+     "inner": 181,
+     "rings": [
+      188,
+      188,
+      225
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.big.16",
+   "kind": "text",
+   "tex": 16,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     168,
+     37
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      168,
+      37
+     ],
+     "size": 30,
+     "fit": 16,
+     "fill": 191,
+     "edge": 189,
+     "inner": 181,
+     "rings": [
+      188,
+      188,
+      225
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.big.19",
+   "kind": "text",
+   "tex": 19,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     168,
+     37
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      168,
+      37
+     ],
+     "size": 30,
+     "fit": 16,
+     "fill": 191,
+     "edge": 189,
+     "inner": 181,
+     "rings": [
+      188,
+      188,
+      225
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.big.20",
+   "kind": "text",
+   "tex": 20,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     168,
+     37
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      168,
+      37
+     ],
+     "size": 30,
+     "fit": 16,
+     "fill": 191,
+     "edge": 189,
+     "inner": 181,
+     "rings": [
+      188,
+      188,
+      225
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.panel.11",
+   "kind": "text",
+   "tex": 11,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     14,
+     12,
+     15,
+     13
+    ],
+    "box": [
+     3,
+     3,
+     124,
+     29
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      3,
+      3,
+      124,
+      29
+     ],
+     "size": 22,
+     "fit": 14,
+     "fill": 12,
+     "edge": 13,
+     "rings": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "match.panel.13",
+   "kind": "text",
+   "tex": 13,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     104,
+     24
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      104,
+      24
+     ],
+     "size": 18,
+     "fit": 11,
+     "fill": 22,
+     "edge": 24,
+     "rings": [
+      34
+     ]
+    }
+   ]
+  }
+ ]
+}

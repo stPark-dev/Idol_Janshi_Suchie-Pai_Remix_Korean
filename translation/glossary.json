@@ -1521,6 +1521,22 @@
    "state": "proposed",
    "origin": "remix",
    "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "panel.title",
+   "ja": "パネルマッチ",
+   "ko": "패널 매치",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 PMATCH 번역과 같은 표기"
+  },
+  {
+   "id": "item.suchie_eye",
+   "ja": "スーチーアイ",
+   "ko": "스치아이",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 ハイパーアイ=하이퍼아이와 같은 방식"
   }
  ]
 }

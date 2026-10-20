@@ -62,3 +62,26 @@ def test_encode_not_larger_than_literal_bound():
     data = bytes(range(256)) * 4
     # worst case: one control unit per 128 literal bytes
     assert len(rle.encode(data, rle.BYTE)) <= len(data) + (len(data) + 127) // 128
+
+
+@pytest.mark.parametrize("unit", [rle.BYTE, rle.WORD])
+def test_optimal_encoder_round_trips_and_is_not_larger(unit):
+    import random
+    rng = random.Random(5)
+    for _ in range(20):
+        parts = []
+        for _ in range(rng.randint(1, 40)):
+            if rng.random() < 0.5:
+                parts.append(bytes([rng.randrange(4)]) * (rng.randint(1, 300) * unit))
+            else:
+                parts.append(bytes(rng.randrange(256) for _ in range(rng.randint(1, 50) * unit)))
+        data = b"".join(parts)
+        best = rle.encode_optimal(data, unit)
+        assert rle.decode(best, unit, len(data)) == data
+        assert len(best) <= len(rle.encode(data, unit))
+
+
+def test_optimal_encoder_prefers_two_runs_inside_literals_only_when_cheaper():
+    # "AABAA" byte mode: literal 5 (6 bytes) beats run+lit+run (2+2+2 = 6) or ties; never worse
+    data = b"\x01\x01\x02\x01\x01"
+    assert len(rle.encode_optimal(data, rle.BYTE)) <= 6

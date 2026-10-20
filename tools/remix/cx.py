@@ -56,12 +56,13 @@ def unpack_entry(entry: bytes) -> bytes:
     return rle.decode(entry[4:], _UNIT[kind], size)
 
 
-def pack_entry(kind: int, data: bytes) -> bytes:
+def pack_entry(kind: int, data: bytes, optimal: bool = False) -> bytes:
     if kind not in _UNIT:
         raise CxError(f"unknown entry kind {kind:#06x}")
     if len(data) > 0xFFFF:
         raise CxError("unpacked size does not fit the 16-bit size field")
-    e = struct.pack(">HH", kind, len(data)) + rle.encode(data, _UNIT[kind])
+    enc = rle.encode_optimal if optimal else rle.encode
+    e = struct.pack(">HH", kind, len(data)) + enc(data, _UNIT[kind])
     return e + bytes(-len(e) % 4)
 
 

@@ -8,6 +8,8 @@ The decoder stops when the requested output size is reached. Round trips through
 were confirmed on screen for both unit sizes (docs/initial-survey.md 3.6, 3.7).
 """
 
+import bisect
+
 BYTE = 1
 WORD = 2
 
@@ -81,3 +83,54 @@ def encode(data: bytes, unit: int) -> bytes:
             i += 1
     flush()
     return bytes(out)
+
+
+def encode_optimal(data: bytes, unit: int, candidates: int = 16) -> bytes:
+    """Shortest stream found by dynamic programming over block boundaries.
+
+    A literal block only ends where a run of two or more units starts, at the block length limit,
+    or at the end; a run takes its full length or a few units less. Never longer than encode().
+    """
+    max_lit, max_run = _limits(unit)
+    if len(data) % unit:
+        raise RleError("data is not a whole number of units")
+    units = [data[i:i + unit] for i in range(0, len(data), unit)]
+    n = len(units)
+    run = [0] * (n + 1)
+    for i in range(n - 1, -1, -1):
+        run[i] = min(run[i + 1] + 1, max_run) if i + 1 < n and units[i] == units[i + 1] else 1
+    starts = [i for i in range(n) if run[i] >= 2] + [n]
+    INF = float("inf")
+    cost = [INF] * (n + 1)
+    step = [None] * (n + 1)
+    cost[n] = 0
+    for i in range(n - 1, -1, -1):
+        best, how = INF, None
+        r = run[i]
+        if r >= 2:
+            for ln in {*range(2, min(r, 8) + 1), r, r - 1}:
+                if ln >= 2:
+                    c = 2 * unit + cost[i + ln]
+                    if c < best:
+                        best, how = c, ("run", ln)
+        k = bisect.bisect_right(starts, i)
+        ends = starts[k:k + candidates]
+        ends.append(min(i + max_lit, n))
+        for j in ends:
+            if j - i > max_lit or j <= i:
+                continue
+            c = unit * (1 + j - i) + cost[j]
+            if c < best:
+                best, how = c, ("lit", j - i)
+        cost[i], step[i] = best, how
+    out = bytearray()
+    i = 0
+    while i < n:
+        kind, ln = step[i]
+        if kind == "run":
+            out += (ln - 2).to_bytes(unit, "big", signed=True) + units[i]
+        else:
+            out += (-ln).to_bytes(unit, "big", signed=True) + b"".join(units[i:i + ln])
+        i += ln
+    greedy = encode(data, unit)
+    return bytes(out) if len(out) <= len(greedy) else greedy

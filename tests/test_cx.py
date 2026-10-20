@@ -85,3 +85,10 @@ def test_parse_rejects_gap_before_first_entry():
     data = struct.pack(">IHH", 12, 1, 1) + struct.pack(">I", 4) + bytes(8)
     with pytest.raises(cx.CxError, match="first entry"):
         cx.Container.parse(data)
+
+
+def test_pack_entry_optimal_round_trip_and_alignment():
+    raw = bytes([4, 3]) + bytes([1, 1, 2, 3, 3, 3, 3]) * 6 + bytes(4)
+    for kind in (cx.KIND_BYTE, cx.KIND_WORD):
+        e = cx.pack_entry(kind, raw, optimal=True)
+        assert len(e) % 4 == 0 and cx.unpack_entry(e) == raw
