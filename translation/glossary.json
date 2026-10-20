@@ -1550,9 +1550,10 @@
    "id": "panel.tatsumaki",
    "ja": "タツマキ選択気",
    "ko": "회오리 선택",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "배패를 고르는 아이템. 気는 그림상 글자 그대로(의미 불명확)"
+   "note": "배패를 고르는 아이템. 気는 그림상 글자 그대로(의미 불명확)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달)"
   },
   {
    "id": "va.takada",
