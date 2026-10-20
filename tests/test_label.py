@@ -105,3 +105,35 @@ def test_fit_size_shrinks_until_it_fits():
     assert label.fit_size("물고기자리", (0, 0, 48, 12), 12, minimum=7, rings=1) < 12
     with pytest.raises(label.LabelError):
         label.fit_size("물고기자리물고기자리", (0, 0, 20, 12), 12, minimum=7)
+
+
+def test_draw_text_shadow_sits_below_right_of_glyph():
+    a = np.zeros((40, 40), np.uint8)
+    out = label.draw_text(a, "ㅣ", box=(0, 0, 40, 40), size=30, fill=1, shadow={"idx": 7, "dx": 2, "dy": 2})
+    ys, xs = np.nonzero(out == 7)
+    gy, gx = np.nonzero(out == 1)
+    assert len(ys) and xs.max() > gx.max() and ys.max() > gy.max()
+
+
+def test_draw_text_bold_thickens():
+    a = np.zeros((40, 40), np.uint8)
+    thin = label.draw_text(a, "ㅣ", box=(0, 0, 40, 40), size=26, fill=1)
+    bold = label.draw_text(a, "ㅣ", box=(0, 0, 40, 40), size=26, fill=1, bold=2)
+    assert (bold == 1).sum() > (thin == 1).sum()
+
+
+def test_draw_text_extruded_shadow_fills_every_offset_and_bottom_edge():
+    a = np.zeros((40, 40), np.uint8)
+    out = label.draw_text(a, "ㅡ", box=(0, 0, 40, 40), size=30, fill=1,
+                          shadow={"idx": 7, "dx": 0, "dy": 4, "extrude": True, "edge": 8})
+    ys, xs = np.nonzero(out == 1)
+    x = int(np.median(xs))
+    col = out[:, x].tolist()
+    bottom = max(y for y in range(40) if col[y] == 1)
+    assert col[bottom + 1:bottom + 5] == [7, 7, 7, 7] and col[bottom + 5] == 8
+
+
+def test_clean_rowmode_flattens_each_row_to_its_most_common_index():
+    a = np.array([[1, 2, 1, 1], [3, 3, 9, 4]], np.uint8)
+    out = label.clean(a, {"method": "rowmode"}, box=(0, 0, 4, 2))
+    assert out.tolist() == [[1, 1, 1, 1], [3, 3, 3, 3]]

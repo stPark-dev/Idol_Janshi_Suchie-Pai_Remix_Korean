@@ -1420,6 +1420,124 @@
    "terms": [],
    "note": "2편 번역(승인)과 같은 문구",
    "ko": "득점 클리어!"
+  },
+  {
+   "id": "match.kanji.2.25",
+   "cx_entry": 2,
+   "tex": [
+    25
+   ],
+   "src_sha1": "8f3490f5cad9007f32b023a4494ccac77be3feed",
+   "ja": "役",
+   "state": "needs_review",
+   "terms": [
+    "score.yaku"
+   ],
+   "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸",
+   "ko": "역"
+  },
+  {
+   "id": "match.kanji.2.26",
+   "cx_entry": 2,
+   "tex": [
+    26
+   ],
+   "src_sha1": "b2583688e73ef681b288c224eb10ab6d645a1f88",
+   "ja": "満",
+   "state": "needs_review",
+   "terms": [
+    "score.man"
+   ],
+   "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸",
+   "ko": "만"
+  },
+  {
+   "id": "match.kanji.2.27",
+   "cx_entry": 2,
+   "tex": [
+    27
+   ],
+   "src_sha1": "a22670769884312ebd35238555de4c150ded7ad9",
+   "ja": "貫",
+   "state": "needs_review",
+   "terms": [
+    "score.kan"
+   ],
+   "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸",
+   "ko": "관"
+  },
+  {
+   "id": "match.kanji.2.28",
+   "cx_entry": 2,
+   "tex": [
+    28
+   ],
+   "src_sha1": "696ce5b6b86c6e894824d74b040c65a27311b0f5",
+   "ja": "三",
+   "state": "needs_review",
+   "terms": [
+    "score.san"
+   ],
+   "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸",
+   "ko": "삼"
+  },
+  {
+   "id": "match.kanji.2.29",
+   "cx_entry": 2,
+   "tex": [
+    29
+   ],
+   "src_sha1": "2adbc48134419891d7b22501ddd0bb5c3cfccc62",
+   "ja": "倍",
+   "state": "needs_review",
+   "terms": [
+    "score.bai"
+   ],
+   "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸",
+   "ko": "배"
+  },
+  {
+   "id": "match.kanji.3.0",
+   "cx_entry": 3,
+   "tex": [
+    0
+   ],
+   "src_sha1": "82373cef16c49200d7186a3ecddaf221bb9629ee",
+   "ja": "跳",
+   "state": "needs_review",
+   "terms": [
+    "score.hane"
+   ],
+   "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸 (한 칸에 두 음절, 2편과 같음)",
+   "ko": "하네"
+  },
+  {
+   "id": "match.panel.20",
+   "cx_entry": 2,
+   "tex": [
+    20
+   ],
+   "src_sha1": "bb0c7b0921a6224b4ed0d166eadb91cba9511cb4",
+   "ja": "ツミコミレベル",
+   "state": "needs_review",
+   "terms": [
+    "panel.tsumikomi"
+   ],
+   "note": "ツミコミ=積み込み(패를 미리 쌓아 두는 속임수). 패널 매치에서 올리는 레벨",
+   "ko": "패 쌓기 레벨"
+  },
+  {
+   "id": "match.haipai.88",
+   "cx_entry": 88,
+   "tex": [
+    0
+   ],
+   "src_sha1": "3ba86d0b3e9f006988ed04ad5121fc82f726f728",
+   "ja": "好きな配牌を選んでね!!",
+   "state": "needs_review",
+   "terms": [],
+   "note": "배패 선택(아이템) 안내",
+   "ko": "원하는 배패를 골라 줘!!"
   }
  ]
 }

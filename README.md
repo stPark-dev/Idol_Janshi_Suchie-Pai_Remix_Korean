@@ -15,7 +15,7 @@
 - 오프닝 큰 글자: 흐르는 「아이돌작사」와 번쩍이는 「스·ー·치·ー·파·이」(원본 질감을 따라 생성). 오프닝 전체 진행 확인.
 - 메뉴·캐릭터 선택·사운드 테스트·규칙 화면 그림 글자 44개(2차 검수 완료, 사람 확인 대기).
 - 상대 소개 카드 16장과 대전 이름 칸 9개(ROUND·ROUND2 두 파일).
-- 대국 화면 95항목(역 이름, 명령 버튼, 이름 칸, 리치 띠, 東場 표지, 점수 단위 등). 남은 것: 큰 입체 한자 6개, ツミコミレベル, 배패 안내.
+- 대국 화면 103항목(역 이름, 명령 버튼, 이름 칸, 리치 띠, 東場 표지, 점수 단위, 큰 입체 한자 등).
 
 계획(사람 결정 2026-10-16): v1.0 = 그림 글자 전부(메뉴, 대국 화면, 역 이름, 규칙 표, 프로필 카드, 패널 매치, 오프닝 소개, 스태프 롤), v1.1 = 음성 자막.
 
@@ -29,7 +29,7 @@
 |---|---|
 | [`translation/glossary.json`](translation/glossary.json) | 용어·표기 결정(2편 승인 용어를 이어받음) |
 | [`translation/round.json`](translation/round.json), [`assets/round/layout.json`](assets/round/layout.json) | 상대 소개 카드 16장·대전 이름 칸 9개(ROUND2는 `ko_from`으로 같은 문구) |
-| [`translation/match.json`](translation/match.json), [`assets/match/layout.json`](assets/match/layout.json) | 대국 화면(MJCG.CX 압축 묶음) 95항목 |
+| [`translation/match.json`](translation/match.json), [`assets/match/layout.json`](assets/match/layout.json) | 대국 화면(MJCG.CX 압축 묶음) 103항목 |
 | [`translation/select.json`](translation/select.json), [`assets/select/layout.json`](assets/select/layout.json) | SELECT.CX 그림 글자 44개(원문·원본 해시·번역·상태)와 배치(지우기 방식, 글자 상자·크기·색 번호) |
 
 번역 상태: `needs_review` → `needs_human_review` → `distribution_eligible`.

@@ -46,19 +46,23 @@ def apply(b: Bank, entry: dict, lay: dict, original: dict[int, np.ndarray] | Non
             if len(lines) != len(lay["lines"]):
                 raise GfxTextError(f"{entry['id']}: {len(lines)} lines but layout has {len(lay['lines'])}")
             t = lay["tex"]
-            cl = lay["clean"]
-            px = label.clean(b.get(t), cl, tuple(cl["box"]), b.get(cl["source"]) if "source" in cl else None)
+            px = b.get(t)
+            for cl in (lay["clean"] if isinstance(lay["clean"], list) else [lay["clean"]]):
+                px = label.clean(px, cl, tuple(cl["box"]), b.get(cl["source"]) if "source" in cl else None)
             for text, ln in zip(lines, lay["lines"]):
                 if text:
                     size = ln["size"]
                     if "fit" in ln:
                         size = label.fit_size(text, tuple(ln["box"]), size, ln["fit"],
-                                              len(ln.get("rings") or []) + (1 if ln.get("outline") is not None else 0),
+                                              len(ln.get("rings") or []) + (1 if ln.get("outline") is not None else 0)
+                                              + ln.get("bold", 0)
+                                              + max(abs(ln.get("shadow", {}).get("dx", 0)), abs(ln.get("shadow", {}).get("dy", 0))),
                                               ln.get("font", font))
                     px = label.draw_text(px, text, tuple(ln["box"]), size, ln["fill"], ln.get("edge"),
                                          ln.get("outline"), ln.get("align", "center"), ln.get("dx", 0),
                                          ln.get("dy", 0), font=ln.get("font", font), rings=ln.get("rings"),
-                                         inner=ln.get("inner"))
+                                         inner=ln.get("inner"), bold=ln.get("bold", 0),
+                                         shadow=ln.get("shadow"))
             b.set(t, px)
         else:
             raise GfxTextError(f"{entry['id']}: unknown layout kind {lay['kind']}")

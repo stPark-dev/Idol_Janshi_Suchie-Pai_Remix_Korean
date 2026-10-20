@@ -1537,6 +1537,14 @@
    "state": "proposed",
    "origin": "remix",
    "note": "2편 ハイパーアイ=하이퍼아이와 같은 방식"
+  },
+  {
+   "id": "panel.tsumikomi",
+   "ja": "ツミコミ(積み込み)",
+   "ko": "패 쌓기",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 'ツミコミ牌交換!'=패 바꿔치기(상황 표현)와 별개로 레벨 이름"
   }
  ]
 }

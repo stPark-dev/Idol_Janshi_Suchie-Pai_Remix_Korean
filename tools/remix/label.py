@@ -29,19 +29,22 @@ def _check_glyphs(font: ImageFont.FreeTypeFont, text: str) -> None:
 def draw_text(pixels: np.ndarray, text: str, box: tuple[int, int, int, int], size: int, fill,
               edge=None, outline: int | None = None, align: str = "center",
               dx: int = 0, dy: int = 0, font: str = DEFAULT_FONT, rings: list[int] | None = None,
-              inner: int | None = None) -> np.ndarray:
+              inner: int | None = None, bold: int = 0, shadow: dict | None = None) -> np.ndarray:
     """box = (x0, y0, x1, y1), exclusive end. fill/edge: an index, or one index per box row
     (vertical gradient). rings: indices of successive one-pixel rings around the glyphs, innermost
     first (outline=n is rings=[n]). inner: index for core pixels whose four neighbours are also
-    core (a centre line on bold glyphs). Returns a new array."""
+    core (a centre line on bold glyphs). bold: extra stroke radius in pixels. shadow:
+    {"idx": n, "dx": x, "dy": y} = glyph and rings stamped again, offset, underneath. Returns a new array."""
     rings = list(rings or []) + ([outline] if outline is not None else [])
     f = ImageFont.truetype(font, size)
     _check_glyphs(f, text)
     x0, y0, x1, y1 = box
     w, h = x1 - x0, y1 - y0
     l, t, r, b = f.getbbox(text)
-    pad = len(rings)
-    if r - l + 2 * pad > w or b - t + 2 * pad > h:
+    pad = len(rings) + bold
+    sdx, sdy = (shadow["dx"], shadow["dy"]) if shadow else (0, 0)
+    ex = 1 if shadow and shadow.get("edge") is not None else 0     # bottom edge row/column of the shadow
+    if r - l + 2 * pad + abs(sdx) + (ex if sdx else 0) > w or b - t + 2 * pad + abs(sdy) + (ex if sdy else 0) > h:
         raise LabelError(f"{text!r} at {size}px ({r - l}x{b - t}) does not fit the {w}x{h} box")
     if align == "center":
         tx = (w - (r - l)) / 2 - l
@@ -51,10 +54,17 @@ def draw_text(pixels: np.ndarray, text: str, box: tuple[int, int, int, int], siz
         tx = w - pad - r
     else:
         raise LabelError(f"unknown align {align}")
-    ty = (h - (b - t)) / 2 - t
+    ty = (h - (b - t)) / 2 - t - sdy / 2
+    tx -= sdx / 2 if align == "center" else 0
     im = Image.new("L", (w, h))
     ImageDraw.Draw(im).text((round(tx) + dx, round(ty) + dy), text, font=f, fill=255)
     cov = np.array(im)
+    if bold:
+        y, x = np.ogrid[-bold:bold + 1, -bold:bold + 1]
+        disk = x * x + y * y <= bold * bold + bold
+        core_b = ndimage.binary_dilation(cov >= CORE, structure=disk)
+        soft_b = ndimage.binary_dilation(cov >= SOFT, structure=disk) & ~core_b
+        cov = np.where(core_b, 255, np.where(soft_b, 100, 0)).astype(np.uint8)
     ink = cov >= SOFT
     if pad:
         border = np.zeros_like(ink)
@@ -74,6 +84,22 @@ def draw_text(pixels: np.ndarray, text: str, box: tuple[int, int, int, int], siz
     edges = fills if edge is None else per_row(edge)
     out = pixels.copy()
     sub = out[y0:y1, x0:x1]
+    if shadow:
+        full = ndimage.binary_dilation(ink, iterations=len(rings)) if rings else ink
+        def shifted(m, dx, dy):
+            o = np.zeros_like(m)
+            ys, xs = np.nonzero(m)
+            ys, xs = ys + dy, xs + dx
+            keep = (ys >= 0) & (ys < h) & (xs >= 0) & (xs < w)
+            o[ys[keep], xs[keep]] = True
+            return o
+        steps = max(abs(sdx), abs(sdy)) if shadow.get("extrude") else 1
+        sh = np.zeros_like(full)
+        for k in range(1, steps + 1):
+            sh |= shifted(full, round(sdx * k / steps), round(sdy * k / steps))
+        if shadow.get("edge") is not None:
+            sub[shifted(sh | full, int(np.sign(sdx)), int(np.sign(sdy))) & ~sh & ~full] = shadow["edge"]
+        sub[sh & ~full] = shadow["idx"]
     covered = ink
     for idx in rings:
         ring = ndimage.binary_dilation(covered) & ~covered
@@ -103,6 +129,7 @@ def clean(pixels: np.ndarray, spec: dict, box: tuple[int, int, int, int],
           source: np.ndarray | None = None) -> np.ndarray:
     """Remove source text inside box. spec: {"method": "copy"} (from source, same shape),
     {"method": "fill", "index": n}, {"method": "column", "ref_x": x} (every column takes column x),
+    {"method": "rowmode"} (each row takes its most common index; for text drawn in background colours),
     {"method": "rows", "text_idx": [...]} (each text pixel takes
     the most common non-text index of its row inside the box)."""
     x0, y0, x1, y1 = box
@@ -112,6 +139,9 @@ def clean(pixels: np.ndarray, spec: dict, box: tuple[int, int, int, int],
         if source is None or source.shape != pixels.shape:
             raise LabelError("copy clean needs a source texture of the same size")
         out[y0:y1, x0:x1] = source[y0:y1, x0:x1]
+    elif m == "rowmode":
+        for y in range(y0, y1):
+            out[y, x0:x1] = Counter(int(v) for v in pixels[y, x0:x1]).most_common(1)[0][0]
     elif m == "column":
         out[y0:y1, x0:x1] = pixels[y0:y1, spec["ref_x"]][:, None]
     elif m == "fill":
