@@ -8,7 +8,7 @@
 
 ## 현재 상태
 
-개발 중(배포판 없음). 빌드 결과의 `manifest.json`은 `distribution: false`입니다.
+개발 중(배포판 없음). 번역 394항목은 최종 검수(Claude, 소유자 위임)를 마쳤고, 남은 화면 확인 8건([`assets/screen_checks.json`](assets/screen_checks.json))을 소유자가 플레이로 확인하면 빌드가 `distribution: true`를 냅니다.
 
 - 초기 조사 완료: 대사는 자막 없이 음성으로만 나오고, 화면의 일본어는 모두 그림 글자입니다([`docs/initial-survey.md`](docs/initial-survey.md)).
 - 한글 타이틀 로고 적용: 「아이돌작사」·「스치파이♡」(소유자 제작). 「Remix」는 원본 영문 유지. 타이틀 화면과 오프닝 로고 장면에서 확인.

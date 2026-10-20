@@ -1,0 +1,20 @@
+{
+ "_about": "화면 확인이 남은 장면. 확인되면 항목을 pending에서 done으로 옮기고 근거(누가·언제·스크린샷)를 적는다. pending이 비고 모든 번역이 distribution_eligible일 때만 빌드가 배포 가능으로 판정한다.",
+ "pending": [
+  {"id": "match.buttons", "what": "명령 버튼(리치·퐁·치·깡·론·쯔모·일발·스치봉·스치아이·할 수 없어요)과 조작 안내", "how": "플레이"},
+  {"id": "match.kanji", "what": "만관 이상 화료 시 큰 입체 글자(역·만·관·삼·배·하네)", "how": "플레이"},
+  {"id": "match.icon103", "what": "뒷도라(裏→뒷) 아이콘의 쓰임", "how": "플레이"},
+  {"id": "match.haipai", "what": "「원하는 배패를 골라 줘!!」(회오리 선택 아이템)", "how": "플레이"},
+  {"id": "panel", "what": "패널 매치 전체(안내문·패널·레벨 문구, 숫자 빈칸 51·55·56·63, 정보 코너)", "how": "플레이"},
+  {"id": "misc.clear", "what": "클리어/축하해♡", "how": "플레이"},
+  {"id": "misc.loading", "what": "잠깐만 기다려 줘", "how": "플레이"},
+  {"id": "credits", "what": "엔딩 스태프 롤(BADGRAPH·GOODEND)", "how": "플레이"}
+ ],
+ "done": [
+  {"id": "title", "what": "타이틀·오프닝 로고·큰 글자", "evidence": "work/evidence/ko-title.png, ko-opening-scroll.png, ko-opening-flash.png (Claude, Mednafen)"},
+  {"id": "select", "what": "메뉴·캐릭터 선택·사운드 테스트·규칙", "evidence": "work/evidence/ko-menu.png, ko-charsel.png, ko-sound-rules.png, ko-rules.png"},
+  {"id": "round", "what": "상대 소개 카드·Round 이름 칸", "evidence": "work/evidence/ko-card.png, ko-round-plate.png"},
+  {"id": "match.screen", "what": "대국 화면 이름 칸·동장·화료 결과 역 이름·점수 단위·노~텐", "evidence": "work/evidence/ko-match.png, ko-result.png, work/state_konoten.mc8"},
+  {"id": "intro", "what": "오프닝 캐릭터 소개", "evidence": "work/evidence/ko-intro.png, ko-intro-cv.png"}
+ ]
+}

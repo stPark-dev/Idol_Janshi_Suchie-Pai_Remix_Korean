@@ -50,10 +50,11 @@
    "kind": "pill",
    "ja": "キャスト",
    "ko": "캐스트",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "note": "",
    "x0": 31,
-   "x1": 118
+   "x1": 118,
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l001",
@@ -63,8 +64,9 @@
    "kind": "role",
    "ja": "スーチーパイ・キョウコ",
    "ko": "스치파이·쿄코",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l002",
@@ -74,8 +76,9 @@
    "kind": "name",
    "ja": "かない みか",
    "ko": "카나이 미카",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l003",
@@ -85,8 +88,9 @@
    "kind": "role",
    "ja": "マイ",
    "ko": "마이",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l004",
@@ -96,8 +100,9 @@
    "kind": "name",
    "ja": "吉田 古奈美",
    "ko": "요시다 코나미",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l005",
@@ -107,8 +112,9 @@
    "kind": "role",
    "ja": "ユキ",
    "ko": "유키",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l006",
@@ -118,8 +124,9 @@
    "kind": "name",
    "ja": "高橋 美紀",
    "ko": "타카하시 미키",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l007",
@@ -129,8 +136,9 @@
    "kind": "role",
    "ja": "ルミ",
    "ko": "루미",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l008",
@@ -140,8 +148,9 @@
    "kind": "name",
    "ja": "冨永 みーな",
    "ko": "토미나가 미나",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l009",
@@ -151,8 +160,9 @@
    "kind": "role",
    "ja": "シホ",
    "ko": "시호",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l010",
@@ -162,8 +172,9 @@
    "kind": "name",
    "ja": "矢島 晶子",
    "ko": "야지마 아키코",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l011",
@@ -173,8 +184,9 @@
    "kind": "role",
    "ja": "サユリ",
    "ko": "사유리",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l012",
@@ -184,8 +196,9 @@
    "kind": "name",
    "ja": "西原 久美子",
    "ko": "니시하라 쿠미코",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l013",
@@ -195,8 +208,9 @@
    "kind": "role",
    "ja": "エリカ",
    "ko": "에리카",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l014",
@@ -206,8 +220,9 @@
    "kind": "name",
    "ja": "平松 晶子",
    "ko": "히라마츠 아키코",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l015",
@@ -217,8 +232,9 @@
    "kind": "role",
    "ja": "リエ",
    "ko": "리에",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l016",
@@ -228,8 +244,9 @@
    "kind": "name",
    "ja": "深見 梨加",
    "ko": "후카미 리카",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l017",
@@ -239,8 +256,9 @@
    "kind": "role",
    "ja": "レイカ",
    "ko": "레이카",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l018",
@@ -250,8 +268,9 @@
    "kind": "name",
    "ja": "松本 梨香",
    "ko": "마츠모토 리카",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l019",
@@ -261,8 +280,9 @@
    "kind": "role",
    "ja": "ミユリ",
    "ko": "미유리",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l020",
@@ -272,8 +292,9 @@
    "kind": "name",
    "ja": "こおろぎさとみ",
    "ko": "코오로기 사토미",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l021",
@@ -283,8 +304,9 @@
    "kind": "role",
    "ja": "サチコ",
    "ko": "사치코",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l022",
@@ -294,8 +316,9 @@
    "kind": "name",
    "ja": "折笠 愛",
    "ko": "오리카사 아이",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l023",
@@ -305,8 +328,9 @@
    "kind": "role",
    "ja": "マリナ",
    "ko": "마리나",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l024",
@@ -316,8 +340,9 @@
    "kind": "name",
    "ja": "水谷 優子",
    "ko": "미즈타니 유코",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l025",
@@ -327,8 +352,9 @@
    "kind": "role",
    "ja": "ミホ・ケイコ",
    "ko": "미호·케이코",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l026",
@@ -338,8 +364,9 @@
    "kind": "name",
    "ja": "高田 由美",
    "ko": "타카다 유미",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l027",
@@ -349,8 +376,9 @@
    "kind": "role",
    "ja": "アユミ・ユカリ",
    "ko": "아유미·유카리",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l028",
@@ -360,8 +388,9 @@
    "kind": "name",
    "ja": "高乃 麗",
    "ko": "타카노 우라라",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l029",
@@ -371,10 +400,11 @@
    "kind": "pill",
    "ja": "スタッフ",
    "ko": "스태프",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "note": "",
    "x0": 31,
-   "x1": 118
+   "x1": 118,
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l030",
@@ -384,8 +414,9 @@
    "kind": "role",
    "ja": "キャラクターデザイン/原画",
    "ko": "캐릭터 디자인/원화",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l031",
@@ -395,8 +426,9 @@
    "kind": "name",
    "ja": "園田 健一",
    "ko": "소노다 켄이치",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l032",
@@ -406,8 +438,9 @@
    "kind": "role",
    "ja": "アニメーション原画",
    "ko": "애니메이션 원화",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l033",
@@ -417,8 +450,9 @@
    "kind": "name",
    "ja": "本田 雄",
    "ko": "혼다 타케시",
-   "state": "needs_review",
-   "note": "本田雄 = 혼다 타케시(애니메이터)"
+   "state": "distribution_eligible",
+   "note": "本田雄 = 혼다 타케시(애니메이터)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l034",
@@ -428,8 +462,9 @@
    "kind": "header",
    "ja": "原案",
    "ko": "원안",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l035",
@@ -439,8 +474,9 @@
    "kind": "name",
    "ja": "山崎 裕介",
    "ko": "야마자키 유스케",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l036",
@@ -450,8 +486,9 @@
    "kind": "name",
    "ja": "将無音",
    "ko": "쇼무온",
-   "state": "needs_review",
-   "note": "将無音=쇼무온(필명, 다른 읽기 가능성 있음) — 읽기 확인: 프로젝트 소유자 2026-10-20 (검토 의견 전달)"
+   "state": "distribution_eligible",
+   "note": "将無音=쇼무온(필명, 다른 읽기 가능성 있음) — 읽기 확인: 프로젝트 소유자 2026-10-20 (검토 의견 전달)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l037",
@@ -461,8 +498,9 @@
    "kind": "header",
    "ja": "プログラム",
    "ko": "프로그램",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l038",
@@ -472,8 +510,9 @@
    "kind": "role",
    "ja": "メインプログラム",
    "ko": "메인 프로그램",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l039",
@@ -483,8 +522,9 @@
    "kind": "name",
    "ja": "ZAX",
    "ko": "ZAX",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l040",
@@ -494,8 +534,9 @@
    "kind": "role",
    "ja": "OP & セレクト & パネル",
    "ko": "OP & 셀렉트 & 패널",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l041",
@@ -505,8 +546,9 @@
    "kind": "name",
    "ja": "清水 保治",
    "ko": "시미즈 야스하루",
-   "state": "needs_review",
-   "note": "清水保治=시미즈 야스하루 — 읽기 확인: 프로젝트 소유자 2026-10-20 (검토 의견 전달)"
+   "state": "distribution_eligible",
+   "note": "清水保治=시미즈 야스하루 — 읽기 확인: 프로젝트 소유자 2026-10-20 (검토 의견 전달)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l042",
@@ -516,8 +558,9 @@
    "kind": "role",
    "ja": "会話シーン & 演出 & ED",
    "ko": "대화 장면 & 연출 & ED",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l043",
@@ -527,8 +570,9 @@
    "kind": "name",
    "ja": "YUI",
    "ko": "YUI",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l044",
@@ -538,8 +582,9 @@
    "kind": "role",
    "ja": "THANKS",
    "ko": "THANKS",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l045",
@@ -549,8 +594,9 @@
    "kind": "name",
    "ja": "美樹村 まき",
    "ko": "미키무라 마키",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l046",
@@ -560,8 +606,9 @@
    "kind": "name",
    "ja": "志村 安啓",
    "ko": "시무라 야스히로",
-   "state": "needs_review",
-   "note": "志村安啓=시무라 야스히로 — 읽기 확인: 프로젝트 소유자 2026-10-20 (검토 의견 전달)"
+   "state": "distribution_eligible",
+   "note": "志村安啓=시무라 야스히로 — 읽기 확인: 프로젝트 소유자 2026-10-20 (검토 의견 전달)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l047",
@@ -571,8 +618,9 @@
    "kind": "name",
    "ja": "大原 健志",
    "ko": "오하라 타케시",
-   "state": "needs_review",
-   "note": "大原健志=오오하라 타케시(장음 생략) — 프로젝트 소유자 2026-10-20 (검토 의견 전달)"
+   "state": "distribution_eligible",
+   "note": "大原健志=오오하라 타케시(장음 생략) — 프로젝트 소유자 2026-10-20 (검토 의견 전달)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l048",
@@ -582,8 +630,9 @@
    "kind": "name",
    "ja": "KIN",
    "ko": "KIN",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l049",
@@ -593,8 +642,9 @@
    "kind": "name",
    "ja": "Ryuji",
    "ko": "Ryuji",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l050",
@@ -603,9 +653,10 @@
    "y1": 1695,
    "kind": "role",
    "ja": "マウス:モーション:",
-   "ko": "마우스 모션",
-   "state": "needs_review",
-   "note": ""
+   "ko": "입 모양 모션",
+   "state": "distribution_eligible",
+   "note": "マウス=mouth(입). 51줄과 이어서 Mouth Motion Capture System(MMCS), 53줄 립싱크 담당과 맞음 — 최종 검수",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l051",
@@ -615,8 +666,9 @@
    "kind": "role",
    "ja": "キャプチャー:システム(MMCS)",
    "ko": "캡처 시스템(MMCS)",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l052",
@@ -626,8 +678,9 @@
    "kind": "name",
    "ja": "鏡門-皇帝",
    "ko": "카가미카도 코테이",
-   "state": "needs_review",
-   "note": "鏡門-皇帝=카가미카도 코테이, 필명 — 프로젝트 소유자 2026-10-20 (검토 의견 전달)"
+   "state": "distribution_eligible",
+   "note": "鏡門-皇帝=카가미카도 코테이, 필명 — 프로젝트 소유자 2026-10-20 (검토 의견 전달)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l053",
@@ -637,8 +690,9 @@
    "kind": "role",
    "ja": "デモ ロパク 担当",
    "ko": "데모 립싱크 담당",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l054",
@@ -648,8 +702,9 @@
    "kind": "name",
    "ja": "中沢 伸弘",
    "ko": "나카자와 노부히로",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l055",
@@ -659,8 +714,9 @@
    "kind": "role",
    "ja": "サウンド圧縮技術者",
    "ko": "사운드 압축 기술자",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l056",
@@ -670,8 +726,9 @@
    "kind": "name",
    "ja": "テラケン",
    "ko": "테라켄",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l057",
@@ -681,8 +738,9 @@
    "kind": "name",
    "ja": "岩本 修一",
    "ko": "이와모토 슈이치",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l058",
@@ -692,8 +750,9 @@
    "kind": "header",
    "ja": "グラフィック",
    "ko": "그래픽",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l059",
@@ -703,8 +762,9 @@
    "kind": "role",
    "ja": "画面設計・文字職人",
    "ko": "화면 설계·문자 장인",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l060",
@@ -714,8 +774,9 @@
    "kind": "role",
    "ja": "会話シーンSDキャラ作成",
    "ko": "대화 장면 SD 캐릭터 제작",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l061",
@@ -725,8 +786,9 @@
    "kind": "name",
    "ja": "高橋 将人(??O??)",
    "ko": "타카하시 마사토",
-   "state": "needs_review",
-   "note": "원문 이름 뒤 작은 괄호 글자를 읽을 수 없어 뺌"
+   "state": "distribution_eligible",
+   "note": "원문 이름 뒤 작은 괄호 글자를 읽을 수 없어 뺌",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l062",
@@ -736,8 +798,9 @@
    "kind": "role",
    "ja": "進行管理 & キャラCG作成",
    "ko": "진행 관리 & 캐릭터 CG 제작",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l063",
@@ -747,8 +810,9 @@
    "kind": "role",
    "ja": "(スーチーパイ・シホ)",
    "ko": "(스치파이·시호)",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l064",
@@ -758,8 +822,9 @@
    "kind": "name",
    "ja": "宮崎 幸",
    "ko": "미야자키 유키",
-   "state": "needs_review",
-   "note": "宮崎幸=미야자키 유키(또는 사치) — 프로젝트 소유자 2026-10-20 (검토 의견 전달)"
+   "state": "distribution_eligible",
+   "note": "宮崎幸=미야자키 유키(또는 사치) — 프로젝트 소유자 2026-10-20 (검토 의견 전달)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l065",
@@ -769,8 +834,9 @@
    "kind": "role",
    "ja": "OP & キャラCG作成",
    "ko": "OP & 캐릭터 CG 제작",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l066",
@@ -780,8 +846,9 @@
    "kind": "role",
    "ja": "(マイ・エリカ・リエ)",
    "ko": "(마이·에리카·리에)",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l067",
@@ -791,8 +858,9 @@
    "kind": "name",
    "ja": "SUGI",
    "ko": "SUGI",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l068",
@@ -802,8 +870,9 @@
    "kind": "role",
    "ja": "キャラCG作成(ルミ・",
    "ko": "캐릭터 CG 제작(루미·",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l069",
@@ -813,8 +882,9 @@
    "kind": "role",
    "ja": "サユリ・レイカ・キョウコ)",
    "ko": "사유리·레이카·쿄코)",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l070",
@@ -824,8 +894,9 @@
    "kind": "name",
    "ja": "宮本 光司",
    "ko": "미야모토 코지",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l071",
@@ -835,8 +906,9 @@
    "kind": "role",
    "ja": "BG & キャラCG作成",
    "ko": "BG & 캐릭터 CG 제작",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l072",
@@ -846,8 +918,9 @@
    "kind": "role",
    "ja": "(ユキ・サチコ・ユカリ)",
    "ko": "(유키·사치코·유카리)",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l073",
@@ -857,8 +930,9 @@
    "kind": "name",
    "ja": "OSAMU K.",
    "ko": "OSAMU K.",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l074",
@@ -868,8 +942,9 @@
    "kind": "role",
    "ja": "BG & キャラCG作成",
    "ko": "BG & 캐릭터 CG 제작",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l075",
@@ -879,8 +954,9 @@
    "kind": "role",
    "ja": "(マリナ・アユミ)",
    "ko": "(마리나·아유미)",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l076",
@@ -890,8 +966,9 @@
    "kind": "name",
    "ja": "鈴木 康文",
    "ko": "스즈키 야스후미",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l077",
@@ -901,8 +978,9 @@
    "kind": "role",
    "ja": "BG & キャラCG作成",
    "ko": "BG & 캐릭터 CG 제작",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l078",
@@ -912,8 +990,9 @@
    "kind": "role",
    "ja": "(ミユリ・ミホ・ケイコ)",
    "ko": "(미유리·미호·케이코)",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l079",
@@ -923,8 +1002,9 @@
    "kind": "name",
    "ja": "藤本 K",
    "ko": "후지모토 K",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l080",
@@ -934,8 +1014,9 @@
    "kind": "header",
    "ja": "サウンド",
    "ko": "사운드",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l081",
@@ -945,8 +1026,9 @@
    "kind": "role",
    "ja": "サウンド & サバかんシステム",
    "ko": "사운드 & 사바칸 시스템",
-   "state": "needs_review",
-   "note": "サバかん(사바캉=고등어 통조림) — 내부 코드명으로 보고 음차 — 프로젝트 소유자 2026-10-20 (검토 의견 전달)"
+   "state": "distribution_eligible",
+   "note": "サバかん(사바캉=고등어 통조림) — 내부 코드명으로 보고 음차 — 프로젝트 소유자 2026-10-20 (검토 의견 전달)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l082",
@@ -956,8 +1038,9 @@
    "kind": "name",
    "ja": "緒方 貴宏",
    "ko": "오가타 타카히로",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l083",
@@ -967,8 +1050,9 @@
    "kind": "role",
    "ja": "常駐サウンドデータ",
    "ko": "상주 사운드 데이터",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l084",
@@ -978,8 +1062,9 @@
    "kind": "name",
    "ja": "大河 雄一郎",
    "ko": "오카와 유이치로",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l085",
@@ -989,8 +1074,9 @@
    "kind": "role",
    "ja": "MIDIサウンド",
    "ko": "MIDI 사운드",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l086",
@@ -1000,8 +1086,9 @@
    "kind": "name",
    "ja": "(有)タイムベース",
    "ko": "(유)타임베이스",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l087",
@@ -1011,8 +1098,9 @@
    "kind": "role_name",
    "ja": "音源  生方 則孝",
    "ko": "음원\n우부카타 노리타카",
-   "state": "needs_review",
-   "note": "生方則孝=우부카타 노리타카"
+   "state": "distribution_eligible",
+   "note": "生方則孝=우부카타 노리타카",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l088",
@@ -1022,8 +1110,9 @@
    "kind": "role_name",
    "ja": "作曲  原田 智弘",
    "ko": "작곡\n하라다 토모히로",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l089",
@@ -1033,8 +1122,9 @@
    "kind": "role_name",
    "ja": "協力  松原 健夫",
    "ko": "협력\n마츠바라 타케오",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l090",
@@ -1044,8 +1134,9 @@
    "kind": "header",
    "ja": "テーマ曲",
    "ko": "테마곡",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l091",
@@ -1055,8 +1146,9 @@
    "kind": "song",
    "ja": "「World Birthday」",
    "ko": "「World Birthday」",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l092",
@@ -1066,8 +1158,9 @@
    "kind": "role_name",
    "ja": "作詞  松本 比呂",
    "ko": "작사\n마츠모토 히로",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l093",
@@ -1077,8 +1170,9 @@
    "kind": "role_name",
    "ja": "作曲・編曲  生方 則孝",
    "ko": "작곡·편곡\n우부카타 노리타카",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l094",
@@ -1088,8 +1182,9 @@
    "kind": "role_name",
    "ja": "歌  かない みか",
    "ko": "노래\n카나이 미카",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l095",
@@ -1099,8 +1194,9 @@
    "kind": "song",
    "ja": "「Power and Love」",
    "ko": "「Power and Love」",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l096",
@@ -1110,8 +1206,9 @@
    "kind": "role_name",
    "ja": "作詞  松本 比呂",
    "ko": "작사\n마츠모토 히로",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l097",
@@ -1121,8 +1218,9 @@
    "kind": "role_name",
    "ja": "作曲・編曲  生方 則孝",
    "ko": "작곡·편곡\n우부카타 노리타카",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l098",
@@ -1132,8 +1230,9 @@
    "kind": "role_name",
    "ja": "歌  冨永 みーな",
    "ko": "노래\n토미나가 미나",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l099",
@@ -1143,8 +1242,9 @@
    "kind": "song",
    "ja": "「恋の一歩は私から」",
    "ko": "「사랑의 첫걸음은 나부터」",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l100",
@@ -1154,8 +1254,9 @@
    "kind": "role_name",
    "ja": "作詞  松本 比呂",
    "ko": "작사\n마츠모토 히로",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l101",
@@ -1165,8 +1266,9 @@
    "kind": "role_name",
    "ja": "作曲・編曲  生方 則孝",
    "ko": "작곡·편곡\n우부카타 노리타카",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l102",
@@ -1176,8 +1278,9 @@
    "kind": "role_name",
    "ja": "歌  矢島 晶子",
    "ko": "노래\n야지마 아키코",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l103",
@@ -1187,8 +1290,9 @@
    "kind": "role",
    "ja": "レコーディング",
    "ko": "레코딩",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l104",
@@ -1198,8 +1302,9 @@
    "kind": "name",
    "ja": "Studio JOE",
    "ko": "Studio JOE",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l105",
@@ -1209,8 +1314,9 @@
    "kind": "header",
    "ja": "協力",
    "ko": "협력",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l106",
@@ -1220,8 +1326,9 @@
    "kind": "name",
    "ja": "アーツビジョン",
    "ko": "아츠비전",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l107",
@@ -1231,8 +1338,9 @@
    "kind": "name",
    "ja": "81プロデュース",
    "ko": "81 프로듀스",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l108",
@@ -1242,8 +1350,9 @@
    "kind": "name",
    "ja": "大橋巨泉事務所",
    "ko": "오하시 쿄센 사무소",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l109",
@@ -1253,8 +1362,9 @@
    "kind": "name",
    "ja": "劇団21世紀FOX",
    "ko": "극단 21세기 FOX",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l110",
@@ -1264,8 +1374,9 @@
    "kind": "name",
    "ja": "賢プロダクション",
    "ko": "켄 프로덕션",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l111",
@@ -1275,8 +1386,9 @@
    "kind": "name",
    "ja": "サン・ミュージック",
    "ko": "선 뮤직",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l112",
@@ -1286,8 +1398,9 @@
    "kind": "name",
    "ja": "同人舎プロダクション",
    "ko": "도진샤 프로덕션",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l113",
@@ -1297,8 +1410,9 @@
    "kind": "name",
    "ja": "ぷろだくしょんバオバブ",
    "ko": "프로덕션 바오바브",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l114",
@@ -1308,8 +1422,9 @@
    "kind": "role",
    "ja": "キャスティング協力",
    "ko": "캐스팅 협력",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l115",
@@ -1319,8 +1434,9 @@
    "kind": "name",
    "ja": "石原 竜太",
    "ko": "이시하라 류타",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l116",
@@ -1330,8 +1446,9 @@
    "kind": "name",
    "ja": "(賢プロダクション)",
    "ko": "(켄 프로덕션)",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l117",
@@ -1341,8 +1458,9 @@
    "kind": "role",
    "ja": "録音",
    "ko": "녹음",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l118",
@@ -1352,8 +1470,9 @@
    "kind": "name",
    "ja": "セントラル録音株式会社",
    "ko": "센트럴 녹음 주식회사",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l119",
@@ -1363,8 +1482,9 @@
    "kind": "name",
    "ja": "星野 敏昭",
    "ko": "호시노 토시아키",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l120",
@@ -1374,8 +1494,9 @@
    "kind": "role",
    "ja": "録音アシスタント",
    "ko": "녹음 어시스턴트",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l121",
@@ -1385,8 +1506,9 @@
    "kind": "name",
    "ja": "諸星 高子",
    "ko": "모로보시 타카코",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l122",
@@ -1396,8 +1518,9 @@
    "kind": "name",
    "ja": "梨本 亮子",
    "ko": "나시모토 료코",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l123",
@@ -1407,8 +1530,9 @@
    "kind": "header",
    "ja": "SPECIAL THANKS",
    "ko": "SPECIAL THANKS",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l124",
@@ -1418,8 +1542,9 @@
    "kind": "name",
    "ja": "森田かちさと",
    "ko": "모리타 카치사토",
-   "state": "needs_review",
-   "note": "森田かちさと=모리타 카치사토 — 읽기 확인: 프로젝트 소유자 2026-10-20 (검토 의견 전달)"
+   "state": "distribution_eligible",
+   "note": "森田かちさと=모리타 카치사토 — 읽기 확인: 프로젝트 소유자 2026-10-20 (검토 의견 전달)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l125",
@@ -1429,8 +1554,9 @@
    "kind": "name",
    "ja": "笹原 太郎",
    "ko": "사사하라 타로",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l126",
@@ -1440,8 +1566,9 @@
    "kind": "name",
    "ja": "JALECO R&D",
    "ko": "JALECO R&D",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l127",
@@ -1451,8 +1578,9 @@
    "kind": "role",
    "ja": "企画協力/シナリオ協力",
    "ko": "기획 협력/시나리오 협력",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l128",
@@ -1462,8 +1590,9 @@
    "kind": "name",
    "ja": "荒井 正広",
    "ko": "아라이 마사히로",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l129",
@@ -1473,8 +1602,9 @@
    "kind": "header",
    "ja": "企画/監督",
    "ko": "기획/감독",
-   "state": "needs_review",
-   "note": ""
+   "state": "distribution_eligible",
+   "note": "",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "credits.l130",
@@ -1484,8 +1614,9 @@
    "kind": "name",
    "ja": "風穴 尚紀",
    "ko": "카자아나 나오키",
-   "state": "needs_review",
-   "note": "風穴尚紀=카자아나 나오키 — 읽기 확인: 프로젝트 소유자 2026-10-20 (검토 의견 전달)"
+   "state": "distribution_eligible",
+   "note": "風穴尚紀=카자아나 나오키 — 읽기 확인: 프로젝트 소유자 2026-10-20 (검토 의견 전달)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   }
  ]
 }

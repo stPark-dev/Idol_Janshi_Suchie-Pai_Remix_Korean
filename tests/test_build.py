@@ -186,3 +186,9 @@ def test_credits_same_in_both_files_and_only_roll_pages_change(tmp_path):
         assert cx.unpack_entry(nb.entries[i]) != cx.unpack_entry(ob.entries[i])
     assert all(nb.entries[i] == ob.entries[i] for i in range(17, len(ob.entries)))
     assert all(ng.entries[i] == og.entries[i] for i in list(range(7)) + list(range(24, len(og.entries))))
+
+
+def test_distribution_requires_eligible_texts_and_no_pending_screen_checks():
+    assert build.distribution_ready([{"state": "distribution_eligible"}], {"pending": []}) is True
+    assert build.distribution_ready([{"state": "distribution_eligible"}], {"pending": [{"id": "x"}]}) is False
+    assert build.distribution_ready([{"state": "needs_human_review"}], {"pending": []}) is False

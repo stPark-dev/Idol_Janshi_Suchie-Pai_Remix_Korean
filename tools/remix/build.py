@@ -319,6 +319,11 @@ def graphic_file(path: str, original: bytes, entries: list[dict], layouts: dict[
     return _apply_bank(original, entries, layouts, path)
 
 
+def distribution_ready(texts: list[dict], checks: dict) -> bool:
+    """Every translation reviewed and no screen still waiting for in-game confirmation."""
+    return bool(texts) and all(t["state"] == "distribution_eligible" for t in texts) and not checks.get("pending")
+
+
 def credits_file(path: str, original: bytes) -> bytes:
     """Redraw the staff roll pages of one file (translation/credits.json, assets/credits/layout.json)."""
     if hashlib.sha1(original).hexdigest() != ORIGINAL_SHA1.get(path):
@@ -438,6 +443,8 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
         for path in ("BADGRAPH.CX", "GOODEND/GOODEND.CX"):
             changes.append(_plan_file(plan, disc, path, credits_file(path, disc.read_file(path)), f"credits:{path}", dirs))
         texts = [{"id": e["id"], "state": e["state"]} for e in entries]
+        texts += [{"id": e["id"], "state": e["state"]}
+                  for e in json.loads((ROOT / "translation" / "credits.json").read_text())["entries"]]
     for lba, user in dirs.sectors().items():
         orig = disc.raw_sector(lba)
         sec = bytearray(orig)
@@ -454,7 +461,15 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
         "modes": {"title": title, "opening": opening, "graphics": graphics}, "unverified": unverified,
         "translations": texts,
         "distribution": False,
-        "distribution_note": "translation review not complete (survey 5: v1.0 = all graphic text)",
+        "distribution_note": "",
     }
+    checks = json.loads((ROOT / "assets" / "screen_checks.json").read_text())
+    ready = (not unverified and graphics == "korean" and title == "korean" and opening == "korean"
+             and distribution_ready(texts, checks))
+    manifest["distribution"] = ready
+    manifest["screen_checks_pending"] = [c["id"] for c in checks.get("pending", [])]
+    manifest["distribution_note"] = "ready" if ready else (
+        "development build" if unverified or "original" in (graphics, title, opening)
+        else "waiting for review or in-game checks (assets/screen_checks.json)")
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n")
     return manifest

@@ -1244,89 +1244,100 @@
    "id": "ui.decide",
    "ja": "決定",
    "ko": "결정",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 select1.json 번역(승인)과 같은 표기"
+   "note": "2편 select1.json 번역(승인)과 같은 표기",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "ui.play",
    "ja": "演奏",
    "ko": "연주",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 select1.json 번역(승인)"
+   "note": "2편 select1.json 번역(승인)",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "ui.stop",
    "ja": "中止",
    "ko": "중지",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 select1.json 번역(승인)"
+   "note": "2편 select1.json 번역(승인)",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "ui.explain",
    "ja": "説明",
    "ko": "설명",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": ""
+   "note": "",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "ui.sing",
    "ja": "歌:",
    "ko": "노래:",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 select1.json 번역(승인)"
+   "note": "2편 select1.json 번역(승인)",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "ui.ng",
    "ja": "NG集",
    "ko": "NG집",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 select1.json 번역(승인)"
+   "note": "2편 select1.json 번역(승인)",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "menu.char_select",
    "ja": "キャラクター選択",
    "ko": "캐릭터 선택",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "메뉴 패 8장: 캐릭터·빈칸·선택·빈칸 2"
+   "note": "메뉴 패 8장: 캐릭터·빈칸·선택·빈칸 2",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "menu.sound_test",
    "ja": "サウンドテスト",
    "ko": "사운드 테스트",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": ""
+   "note": "",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "menu.rules",
    "ja": "麻雀大会ルール",
    "ko": "마작대회 규칙",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "패 8장에 맞춰 '마작대회'를 붙여 씀"
+   "note": "패 8장에 맞춰 '마작대회'를 붙여 씀",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "rule.kuitan",
    "ja": "喰い断(クイタン)",
    "ko": "쿠이탕",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "규칙 표"
+   "note": "규칙 표",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "rule.double_yakuman",
    "ja": "ダブル・トリプル役満",
    "ko": "더블·트리플 역만",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "규칙 표"
+   "note": "규칙 표",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "rule.atozuke",
@@ -1341,33 +1352,37 @@
    "id": "rule.keishiki_tenpai",
    "ja": "形式テンパイ",
    "ko": "형식 텐파이",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "규칙 표"
+   "note": "규칙 표",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "rule.kazoe",
    "ja": "数え役満",
    "ko": "헤아림 역만",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "규칙 표"
+   "note": "규칙 표",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "rule.start_points",
    "ja": "持ち点",
    "ko": "내 시작 점수",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "플레이어만 해당(상대는 20000)"
+   "note": "플레이어만 해당(상대는 20000)",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "rule.furiten_riichi",
    "ja": "フリテンリーチ",
    "ko": "후리텐 리치",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "규칙 표"
+   "note": "규칙 표",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "rule.noten_bappu",
@@ -1382,169 +1397,190 @@
    "id": "rule.kuikae",
    "ja": "喰い替え",
    "ko": "쿠이카에",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "규칙 표"
+   "note": "규칙 표",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "rule.tsumibou",
    "ja": "積み棒",
    "ko": "본장봉",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2차 검수로 연장봉에서 바꿈"
+   "note": "2차 검수로 연장봉에서 바꿈",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "rule.ryanhan_shibari",
    "ja": "二翻しばり",
    "ko": "2판 묶음",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "규칙 표"
+   "note": "규칙 표",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "zodiac.libra",
    "ja": "てんびん座",
    "ko": "천칭자리",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "zodiac.aquarius",
    "ja": "みずがめ座",
    "ko": "물병자리",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "zodiac.virgo",
    "ja": "おとめ座",
    "ko": "처녀자리",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "zodiac.leo",
    "ja": "しし座",
    "ko": "사자자리",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "zodiac.cancer",
    "ja": "かに座",
    "ko": "게자리",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "zodiac.capricorn",
    "ja": "やぎ座",
    "ko": "염소자리",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "zodiac.scorpio",
    "ja": "さそり座",
    "ko": "전갈자리",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "zodiac.pisces",
    "ja": "うお座",
    "ko": "물고기자리",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "zodiac.aries",
    "ja": "おひつじ座",
    "ko": "양자리",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "name.ayumi",
    "ja": "木田亜由美",
    "ko": "키다 아유미",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "name.marina",
    "ja": "北山麻里奈",
    "ko": "키타야마 마리나",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "name.miho",
    "ja": "片桐美穂",
    "ko": "카타기리 미호",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "name.sachiko",
    "ja": "安西早智子",
    "ko": "안자이 사치코",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "name.yukari",
    "ja": "楠本由加理",
    "ko": "쿠스모토 유카리",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "name.keiko",
    "ja": "西原恵子",
    "ko": "니시하라 케이코",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.title",
    "ja": "パネルマッチ",
    "ko": "패널 매치",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 PMATCH 번역과 같은 표기"
+   "note": "2편 PMATCH 번역과 같은 표기",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "item.suchie_eye",
    "ja": "スーチーアイ",
    "ko": "스치아이",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 ハイパーアイ=하이퍼아이와 같은 방식"
+   "note": "2편 ハイパーアイ=하이퍼아이와 같은 방식",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.tsumikomi",
    "ja": "ツミコミ(積み込み)",
    "ko": "패 쌓기",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "2편 'ツミコミ牌交換!'=패 바꿔치기(상황 표현)와 별개로 레벨 이름"
+   "note": "2편 'ツミコミ牌交換!'=패 바꿔치기(상황 표현)와 별개로 레벨 이름",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.tatsumaki",
@@ -1559,17 +1595,19 @@
    "id": "va.takada",
    "ja": "高田由美",
    "ko": "타카다 유미",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "성우 이름, 2편 표기 규칙"
+   "note": "성우 이름, 2편 표기 규칙",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "va.takano",
    "ja": "高乃麗",
    "ko": "타카노 우라라",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "성우 이름, 2편 표기 규칙"
+   "note": "성우 이름, 2편 표기 규칙",
+   "approved_by": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   }
  ]
 }

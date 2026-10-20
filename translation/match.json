@@ -10,12 +10,13 @@
    ],
    "src_sha1": "7c472f943b424e56c9b5601c229316d6c671764e",
    "ja": "立直",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.立直"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "리치"
+   "ko": "리치",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.2",
@@ -25,12 +26,13 @@
    ],
    "src_sha1": "af40519f688cf3c8aca9200bd396df6fcf6703b4",
    "ja": "一発",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.一発"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "일발"
+   "ko": "일발",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.3",
@@ -40,12 +42,13 @@
    ],
    "src_sha1": "89b6d96e645f2ca6ef70632957250b69682400b0",
    "ja": "門前清摸",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.門前清摸"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "멘젠쯔모"
+   "ko": "멘젠쯔모",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.4",
@@ -55,12 +58,13 @@
    ],
    "src_sha1": "2bdbee74a9aa1f521f3596233b54adf98e2b2195",
    "ja": "嶺上開花",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.嶺上開花"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "영상개화"
+   "ko": "영상개화",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.5",
@@ -70,12 +74,13 @@
    ],
    "src_sha1": "9f4eff1eca545ec820df96d675161d474aa4937c",
    "ja": "海底撈月",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.海底撈月"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "해저로월"
+   "ko": "해저로월",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.6",
@@ -85,12 +90,13 @@
    ],
    "src_sha1": "9bbbc96262fa677c59ab299063aa76a92d0d536d",
    "ja": "河底撈魚",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.河底撈魚"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "하저로어"
+   "ko": "하저로어",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.7",
@@ -100,12 +106,13 @@
    ],
    "src_sha1": "cb1d228524430e48b4f8c16cb8dd598f7e75cf63",
    "ja": "断么九",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.断么九"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "탕야오"
+   "ko": "탕야오",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.8",
@@ -115,12 +122,13 @@
    ],
    "src_sha1": "7f7356945d775ea178bd920cf50c123b1878db28",
    "ja": "平和",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.平和"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "핑후"
+   "ko": "핑후",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.9",
@@ -130,12 +138,13 @@
    ],
    "src_sha1": "d5a9e9d72f5a28e83e737ef32816b7b61fe615f5",
    "ja": "一盃口",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.一盃口"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "이페코"
+   "ko": "이페코",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.10",
@@ -145,12 +154,13 @@
    ],
    "src_sha1": "282853950cc41968e0381ad241fca9eb6f7c6e0c",
    "ja": "一気通貫",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.一気通貫"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "일기통관"
+   "ko": "일기통관",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.11",
@@ -160,12 +170,13 @@
    ],
    "src_sha1": "6b61fc4771e9242412d214370247eb8db6001065",
    "ja": "三色同順",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.三色同順"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "삼색동순"
+   "ko": "삼색동순",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.12",
@@ -175,12 +186,13 @@
    ],
    "src_sha1": "8bbe1b65591886beb87d6951c814ad7e2c24342f",
    "ja": "全帯么",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.全帯么"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "찬타"
+   "ko": "찬타",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.13",
@@ -190,12 +202,13 @@
    ],
    "src_sha1": "2689e5c2bbe657812109a4701e47144146e78ac8",
    "ja": "一色三順",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.一色三順"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "일색삼순"
+   "ko": "일색삼순",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.14",
@@ -205,12 +218,13 @@
    ],
    "src_sha1": "f08eac75cc94a5008547405ae8cfc69a4d870036",
    "ja": "七対子",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.七対子"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "치또이츠"
+   "ko": "치또이츠",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.15",
@@ -220,12 +234,13 @@
    ],
    "src_sha1": "368c2c5e1e4c354049a34e16bb2632158fdae7f6",
    "ja": "Wリーチ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.Wリーチ"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "더블 리치"
+   "ko": "더블 리치",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.16",
@@ -235,12 +250,13 @@
    ],
    "src_sha1": "ac17f5f2f400b22eca574843a13070209931ab69",
    "ja": "混一色",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.混一色"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "혼일색"
+   "ko": "혼일색",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.17",
@@ -250,12 +266,13 @@
    ],
    "src_sha1": "06260e2d24d20f57a4717f96dde0e0f227c33fe5",
    "ja": "混老頭",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.混老頭"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "혼노두"
+   "ko": "혼노두",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.18",
@@ -265,12 +282,13 @@
    ],
    "src_sha1": "bf34733e47299a640a64d06d4b07a83fbc8685be",
    "ja": "対々和",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.対々和"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "또이또이"
+   "ko": "또이또이",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.19",
@@ -280,12 +298,13 @@
    ],
    "src_sha1": "ffd624090af1f820029ea3ad3b8accf9b906e742",
    "ja": "三暗刻",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.三暗刻"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "산안커"
+   "ko": "산안커",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.20",
@@ -295,12 +314,13 @@
    ],
    "src_sha1": "ec0ecadc380f1dec14e0e5e5224084973b4f67df",
    "ja": "三槓子",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.三槓子"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "산깡쯔"
+   "ko": "산깡쯔",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.21",
@@ -310,12 +330,13 @@
    ],
    "src_sha1": "6de4cabd5068e0fa41ab4ac5d0829badd4d93296",
    "ja": "一気通貫",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.一気通貫"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.10"
+   "ko_from": "match.yaku.10",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.22",
@@ -325,12 +346,13 @@
    ],
    "src_sha1": "b857cdafd6da746865774b9a473c37670f1feb45",
    "ja": "三色同順",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.三色同順"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.11"
+   "ko_from": "match.yaku.11",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.23",
@@ -340,12 +362,13 @@
    ],
    "src_sha1": "b538b0f9f1a37e182a9e53d91c2538a2ada7a64a",
    "ja": "三色同刻",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.三色同刻"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "삼색동각"
+   "ko": "삼색동각",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.24",
@@ -355,12 +378,13 @@
    ],
    "src_sha1": "a7b2e35aebd92cc4177deabef8d9ceb4f2a57c43",
    "ja": "三連刻",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.三連刻"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "삼연각"
+   "ko": "삼연각",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.25",
@@ -370,12 +394,13 @@
    ],
    "src_sha1": "a3f6063ffe182a1d0f1753b64379e7168bdeeb44",
    "ja": "純全帯么",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.純全帯么"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "준찬타"
+   "ko": "준찬타",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.26",
@@ -385,12 +410,13 @@
    ],
    "src_sha1": "9404f6f566248ed3a7779180381ec4e19c35c798",
    "ja": "全帯么",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.全帯么"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.12"
+   "ko_from": "match.yaku.12",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.27",
@@ -400,12 +426,13 @@
    ],
    "src_sha1": "ebd89080b08664b0d7defb08b51548016d395215",
    "ja": "一色三順",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.一色三順"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.13"
+   "ko_from": "match.yaku.13",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.28",
@@ -415,12 +442,13 @@
    ],
    "src_sha1": "237be84757101d52da05be4206ab6915d0eac0e8",
    "ja": "混一色",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.混一色"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.16"
+   "ko_from": "match.yaku.16",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.29",
@@ -430,12 +458,13 @@
    ],
    "src_sha1": "548ee633b3e42a4b3385e56b7ba8dc2146e0ffc7",
    "ja": "二盃口",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.二盃口"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "량페코"
+   "ko": "량페코",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.30",
@@ -445,12 +474,13 @@
    ],
    "src_sha1": "917df3c86d3f5ffd3c2d3313ba5f2df8f2aa1d03",
    "ja": "純全帯么",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.純全帯么"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.25"
+   "ko_from": "match.yaku.25",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.31",
@@ -460,12 +490,13 @@
    ],
    "src_sha1": "9e3f669b00b78c04cee3bc4d824b51d5444bc041",
    "ja": "小三元",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.小三元"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "소삼원"
+   "ko": "소삼원",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.32",
@@ -475,12 +506,13 @@
    ],
    "src_sha1": "3ccc0580ac8adc5709a35d652cc24551531c3258",
    "ja": "清一色",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.清一色"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "청일색"
+   "ko": "청일색",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.33",
@@ -490,12 +522,13 @@
    ],
    "src_sha1": "eb1473cf4854f3e45a55a8965133447b1a398413",
    "ja": "清一色",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.清一色"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.32"
+   "ko_from": "match.yaku.32",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.34",
@@ -505,12 +538,13 @@
    ],
    "src_sha1": "a5a656cf28cde610d0ba9e844f412c512111e9b3",
    "ja": "清老頭",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.清老頭"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "청노두"
+   "ko": "청노두",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.35",
@@ -520,12 +554,13 @@
    ],
    "src_sha1": "ceef472d0bacace2d8fb967ca7379c8fd570024f",
    "ja": "天和",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.天和"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "천화"
+   "ko": "천화",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.36",
@@ -535,12 +570,13 @@
    ],
    "src_sha1": "f3aace968b5e458f309f7c30d548f2a1dc7ad6ea",
    "ja": "地和",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.地和"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "지화"
+   "ko": "지화",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.37",
@@ -550,12 +586,13 @@
    ],
    "src_sha1": "9633efd40df01ecda7df660a892c3d1a816ae4fd",
    "ja": "人和",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.人和"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "인화"
+   "ko": "인화",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.38",
@@ -565,12 +602,13 @@
    ],
    "src_sha1": "afa9063c73690cddb85356cc8bb3cf2d5919d2c2",
    "ja": "字一色",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.字一色"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "자일색"
+   "ko": "자일색",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.39",
@@ -580,12 +618,13 @@
    ],
    "src_sha1": "13fcb04a31c04d659b31bc1860932de0765d50f9",
    "ja": "緑一色",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.緑一色"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "녹일색"
+   "ko": "녹일색",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.40",
@@ -595,12 +634,13 @@
    ],
    "src_sha1": "b0776052ac16abb66c911e9625ec46a8e043abc9",
    "ja": "大三元",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.大三元"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "대삼원"
+   "ko": "대삼원",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.41",
@@ -610,12 +650,13 @@
    ],
    "src_sha1": "9ec37699915fcdd0affeebf7b845d84feaeb9b38",
    "ja": "四喜和",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.四喜和"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "사희화"
+   "ko": "사희화",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.42",
@@ -625,12 +666,13 @@
    ],
    "src_sha1": "c4addc9f929047f2a9a589954807f556568fc579",
    "ja": "四暗刻",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.四暗刻"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "스안커"
+   "ko": "스안커",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.43",
@@ -640,12 +682,13 @@
    ],
    "src_sha1": "358a7cd7f7e8957c2fcb5320b30c269caf3dfe17",
    "ja": "四槓子",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.四槓子"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "스깡쯔"
+   "ko": "스깡쯔",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.44",
@@ -655,12 +698,13 @@
    ],
    "src_sha1": "69654d7bcdecfc30f0df210e25cfb4c6c37a39eb",
    "ja": "国士無双",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.国士無双"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "국사무쌍"
+   "ko": "국사무쌍",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.45",
@@ -670,12 +714,13 @@
    ],
    "src_sha1": "9591d7dc93368248619273c12fd5c45f425418c8",
    "ja": "大車輪",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.大車輪"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "대차륜"
+   "ko": "대차륜",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.46",
@@ -685,12 +730,13 @@
    ],
    "src_sha1": "6b0331903a4cbfec9d0689ee16ad9ec638b1c090",
    "ja": "九連宝燈",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.九連宝燈"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "구련보등"
+   "ko": "구련보등",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.47",
@@ -700,12 +746,13 @@
    ],
    "src_sha1": "fb23fb9765d1b729ab1e40ab8e887167d90247ab",
    "ja": "ドラ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.ドラ"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "도라"
+   "ko": "도라",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.48",
@@ -715,12 +762,13 @@
    ],
    "src_sha1": "fb25aa63a36bb4e26eefb0e4560cdb4b63d3b390",
    "ja": "ドラ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.ドラ"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.47"
+   "ko_from": "match.yaku.47",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.49",
@@ -730,12 +778,13 @@
    ],
    "src_sha1": "ac46234b605d37bedfa985f29281025a183ad558",
    "ja": "ドラ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.ドラ"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.47"
+   "ko_from": "match.yaku.47",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.50",
@@ -745,12 +794,13 @@
    ],
    "src_sha1": "c7a4775cc6b407f6d169946253376d16f1c8bf9d",
    "ja": "ドラ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.ドラ"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.47"
+   "ko_from": "match.yaku.47",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.51",
@@ -760,12 +810,13 @@
    ],
    "src_sha1": "418894a451a12acc6c21bf95636fc559f5265245",
    "ja": "ドラ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.ドラ"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.47"
+   "ko_from": "match.yaku.47",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.52",
@@ -775,12 +826,13 @@
    ],
    "src_sha1": "b87bd98e13738f7c68634949cab5b64ccc50d0d9",
    "ja": "ドラ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.ドラ"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.47"
+   "ko_from": "match.yaku.47",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.53",
@@ -790,12 +842,13 @@
    ],
    "src_sha1": "b21a2a64702c4fef457f2a56a87f45bbe31c3942",
    "ja": "ドラ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.ドラ"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.47"
+   "ko_from": "match.yaku.47",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.54",
@@ -805,12 +858,13 @@
    ],
    "src_sha1": "b26f4b04c630c84c24690047780fb301deb401a7",
    "ja": "役牌",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.役牌"
    ],
    "note": "화료 화면 역 이름",
-   "ko": "역패"
+   "ko": "역패",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.55",
@@ -820,12 +874,13 @@
    ],
    "src_sha1": "4808b1f7f78df0c57055d74a89874b6a861cab0e",
    "ja": "役牌",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.役牌"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.54"
+   "ko_from": "match.yaku.54",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.56",
@@ -835,12 +890,13 @@
    ],
    "src_sha1": "a7db34f63b8811cdb4d8ead5bd9f9381f2ae19b4",
    "ja": "役牌",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.役牌"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.54"
+   "ko_from": "match.yaku.54",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.yaku.57",
@@ -850,12 +906,13 @@
    ],
    "src_sha1": "c7c412ff3ad197f8eb83b5c69e0a20663428833f",
    "ja": "役牌",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.役牌"
    ],
    "note": "같은 역의 다른 색 판",
-   "ko_from": "match.yaku.54"
+   "ko_from": "match.yaku.54",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.btn.4",
@@ -865,12 +922,13 @@
    ],
    "src_sha1": "7bb8cc3f96779751941b8e0c59c82ce5c99660a3",
    "ja": "リーチ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "call.riichi"
    ],
    "note": "명령 버튼",
-   "ko": "리치"
+   "ko": "리치",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.btn.5",
@@ -880,12 +938,13 @@
    ],
    "src_sha1": "5be20a991d6ed1f60188130cfab4a8bee6678b7c",
    "ja": "ポン",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "call.pon"
    ],
    "note": "명령 버튼",
-   "ko": "퐁"
+   "ko": "퐁",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.btn.6",
@@ -895,12 +954,13 @@
    ],
    "src_sha1": "a33e74a0d8211b7a5441eedffa40c18994335b79",
    "ja": "チー",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "call.chi"
    ],
    "note": "명령 버튼",
-   "ko": "치"
+   "ko": "치",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.btn.7",
@@ -910,12 +970,13 @@
    ],
    "src_sha1": "f7ad128e5a6aba9c31690604e139825b4c6ffb25",
    "ja": "カン",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "call.kan"
    ],
    "note": "명령 버튼",
-   "ko": "깡"
+   "ko": "깡",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.btn.8",
@@ -925,12 +986,13 @@
    ],
    "src_sha1": "c4f1da4bb0d0816c246b416725ce9e674ee2a8d5",
    "ja": "ロン",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "call.ron"
    ],
    "note": "명령 버튼",
-   "ko": "론"
+   "ko": "론",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.btn.9",
@@ -940,12 +1002,13 @@
    ],
    "src_sha1": "de0dde84a74ff1199f0ceaf762338e20df0da50b",
    "ja": "ツモ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "call.tsumo"
    ],
    "note": "명령 버튼",
-   "ko": "쯔모"
+   "ko": "쯔모",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.btn.10",
@@ -955,12 +1018,13 @@
    ],
    "src_sha1": "0deb10f14115ead26c9b9de671c0125c2a43703c",
    "ja": "一発",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "call.ippatsu"
    ],
    "note": "명령 버튼",
-   "ko": "일발"
+   "ko": "일발",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.btn.11",
@@ -970,12 +1034,13 @@
    ],
    "src_sha1": "c6eaf6e4b31b578fb515654ebc7dd98589e4f7b4",
    "ja": "スーチー棒",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "item.suchie_stick"
    ],
    "note": "명령 버튼(아이템)",
-   "ko": "스치봉"
+   "ko": "스치봉",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.btn.12",
@@ -985,12 +1050,13 @@
    ],
    "src_sha1": "1b75ea975e27c954824d045e5d854d912f06cc7d",
    "ja": "スーチーアイ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "item.suchie_eye"
    ],
    "note": "명령 버튼(아이템)",
-   "ko": "스치아이"
+   "ko": "스치아이",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.btn.13",
@@ -1000,10 +1066,11 @@
    ],
    "src_sha1": "8f535323170dced08d7e4b7af766abadecc9fa5c",
    "ja": "できません",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
    "note": "오른쪽 아이콘은 그대로",
-   "ko": "할 수 없어요"
+   "ko": "할 수 없어요",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.plate.80",
@@ -1013,12 +1080,13 @@
    ],
    "src_sha1": "2c28b20a07bda8e1f3c3359016e839e16e09d9bb",
    "ja": "ユキ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "name.yuki"
    ],
    "note": "대국 화면 이름 칸 (ROUND 이름 칸과 다른 그림)",
-   "ko": "유키"
+   "ko": "유키",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.plate.81",
@@ -1028,12 +1096,13 @@
    ],
    "src_sha1": "9c972363d759bc78c18c0da8ca49b8edf3c36763",
    "ja": "マイ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "name.mai"
    ],
    "note": "대국 화면 이름 칸 (ROUND 이름 칸과 다른 그림)",
-   "ko": "마이"
+   "ko": "마이",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.plate.82",
@@ -1043,12 +1112,13 @@
    ],
    "src_sha1": "51e9b208ad89baa793a3cafb73d2c4579fbabb1f",
    "ja": "シホ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "name.shiho"
    ],
    "note": "대국 화면 이름 칸 (ROUND 이름 칸과 다른 그림)",
-   "ko": "시호"
+   "ko": "시호",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.plate.83",
@@ -1058,12 +1128,13 @@
    ],
    "src_sha1": "ad9f93ffb3aeebfed64bd3caff9369dbd626d618",
    "ja": "ルミ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "name.rumi"
    ],
    "note": "대국 화면 이름 칸 (ROUND 이름 칸과 다른 그림)",
-   "ko": "루미"
+   "ko": "루미",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.plate.84",
@@ -1073,12 +1144,13 @@
    ],
    "src_sha1": "605b231b9d11fb725fcb14003a9b935136d94fd4",
    "ja": "リエ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "name.rie"
    ],
    "note": "대국 화면 이름 칸 (ROUND 이름 칸과 다른 그림)",
-   "ko": "리에"
+   "ko": "리에",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.plate.85",
@@ -1088,12 +1160,13 @@
    ],
    "src_sha1": "4e83434acde97a38c7382487bdc57326282fd9b6",
    "ja": "サユリ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "name.sayuri"
    ],
    "note": "대국 화면 이름 칸 (ROUND 이름 칸과 다른 그림)",
-   "ko": "사유리"
+   "ko": "사유리",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.plate.86",
@@ -1103,12 +1176,13 @@
    ],
    "src_sha1": "2d75c621e5a42c910515e74c2adfa77571135d02",
    "ja": "エリカ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "name.erika"
    ],
    "note": "대국 화면 이름 칸 (ROUND 이름 칸과 다른 그림)",
-   "ko": "에리카"
+   "ko": "에리카",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.plate.87",
@@ -1118,12 +1192,13 @@
    ],
    "src_sha1": "9da61c91f723f1b599b73526895f49242bd3633a",
    "ja": "レイカ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "name.reika"
    ],
    "note": "대국 화면 이름 칸 (ROUND 이름 칸과 다른 그림)",
-   "ko": "레이카"
+   "ko": "레이카",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.plate.88",
@@ -1133,12 +1208,13 @@
    ],
    "src_sha1": "fadeb9a7d989d755b063d76ebf312f1384b5b764",
    "ja": "スーチーパイ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "name.suchie"
    ],
    "note": "대국 화면 이름 칸 (ROUND 이름 칸과 다른 그림)",
-   "ko": "스치파이"
+   "ko": "스치파이",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.riichi.93",
@@ -1148,12 +1224,13 @@
    ],
    "src_sha1": "ccab968b2f75831bf7aa99e22190567b8d48ab7b",
    "ja": "リーチ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "call.riichi"
    ],
    "note": "리치 선언 띠",
-   "ko": "리치"
+   "ko": "리치",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.riichi.94",
@@ -1163,12 +1240,13 @@
    ],
    "src_sha1": "ff334768f63b4e27b0b916a85cd3080bdc1d49fa",
    "ja": "リーチ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "call.riichi"
    ],
    "note": "리치 선언 띠",
-   "ko_from": "match.riichi.93"
+   "ko_from": "match.riichi.93",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.icon.102",
@@ -1178,12 +1256,13 @@
    ],
    "src_sha1": "5ca1729dd28ec253ff9e750d924b1ac2a2ee6c5a",
    "ja": "ドラ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.ドラ"
    ],
    "note": "도라 표시 아이콘. 안쪽이 12px라 두 글자는 읽을 수 없어 한 글자(화면 확인 2026-10-20)",
-   "ko": "도"
+   "ko": "도",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.icon.103",
@@ -1193,12 +1272,13 @@
    ],
    "src_sha1": "f1cdb09ed0be1c2540c910b1b2b8db1f673a2f0a",
    "ja": "裏",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "voice.uradora"
    ],
-   "note": "뒷도라 표시로 추정(화면 확인 필요)",
-   "ko": "뒷"
+   "note": "뒷도라 표시로 추정(화면 확인 필요) / 최종 검수: 글자는 확정, 화면 쓰임은 플레이 확인 대상",
+   "ko": "뒷",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.unit.16",
@@ -1208,12 +1288,13 @@
    ],
    "src_sha1": "86a5b1641fd55d6b702b742af947ae435aa2804b",
    "ja": "符",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "score.fu"
    ],
    "note": "점수 계산 단위",
-   "ko": "부"
+   "ko": "부",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.unit.17",
@@ -1223,12 +1304,13 @@
    ],
    "src_sha1": "585248ff995ffa98ced1fc5e03131d8ddc93614d",
    "ja": "飜",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "score.han"
    ],
    "note": "점수 계산 단위",
-   "ko": "판"
+   "ko": "판",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.unit.18",
@@ -1238,12 +1320,13 @@
    ],
    "src_sha1": "3f26117bccf12d4636458e2c8f564a1cdec1d562",
    "ja": "点",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "score.ten"
    ],
    "note": "점수 계산 단위",
-   "ko": "점"
+   "ko": "점",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.unit.19",
@@ -1253,10 +1336,11 @@
    ],
    "src_sha1": "509a8acf915f3299dda7bf5900f0d5340484caab",
    "ja": "回",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
    "note": "점수 계산 단위",
-   "ko": "회"
+   "ko": "회",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.sign.79",
@@ -1266,12 +1350,13 @@
    ],
    "src_sha1": "5b0d04e5f0663c790b7c4a6b9befe82c65e7f533",
    "ja": "東場",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "round.east"
    ],
    "note": "국면 표지. 아래 ×0 칸은 그대로",
-   "ko": "동장"
+   "ko": "동장",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.item.99",
@@ -1281,12 +1366,13 @@
    ],
    "src_sha1": "ee7cd6cc49a2aaa331006631be69e8975700d53e",
    "ja": "ステック",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "item.suchie_stick_panel"
    ],
    "note": "보유 아이템 표시",
-   "ko": "스틱"
+   "ko": "스틱",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.item.100",
@@ -1296,12 +1382,13 @@
    ],
    "src_sha1": "5e47217412bbac87bd0af833d4a2a3ec2b6172b5",
    "ja": "ハイパー",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
-    "item.hyper_eye"
+    "panel.sekkan"
    ],
-   "note": "보유 아이템 표시",
-   "ko": "하이퍼"
+   "note": "보유 아이템 표시 / 최종 검수: ハイパーせっかん(하이퍼 응징) 아이템 표시",
+   "ko": "하이퍼",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.item.101",
@@ -1311,12 +1398,13 @@
    ],
    "src_sha1": "afa5a834b08fe0aa6c9483ffabefa619f40c06c8",
    "ja": "S.アイ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "item.suchie_eye"
    ],
    "note": "보유 아이템 표시",
-   "ko": "S.아이"
+   "ko": "S.아이",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.help.14",
@@ -1326,12 +1414,13 @@
    ],
    "src_sha1": "d1ac05568b4d00389ac6e65834b726b0055f4a9d",
    "ja": "方向ボタンで組合せを選んでね!\n(決定はCボタン)",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.decide"
    ],
    "note": "2편 번역(승인)과 같은 문장",
-   "ko": "방향 버튼으로 조합을 골라 줘!\n(결정은 C 버튼)"
+   "ko": "방향 버튼으로 조합을 골라 줘!\n(결정은 C 버튼)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.big.15",
@@ -1341,12 +1430,13 @@
    ],
    "src_sha1": "5b6710e7f18e0eb5e0577f4527b60925695a66d7",
    "ja": "てんぱい",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "decl.tenpai"
    ],
    "note": "대국 결과 큰 글자",
-   "ko": "텐파이"
+   "ko": "텐파이",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.big.16",
@@ -1356,12 +1446,13 @@
    ],
    "src_sha1": "37bcc9c287466a8ce5110d5acef1c43def5dde84",
    "ja": "の〜てん",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "decl.noten"
    ],
    "note": "대국 결과 큰 글자",
-   "ko": "노~텐"
+   "ko": "노~텐",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.big.19",
@@ -1371,12 +1462,13 @@
    ],
    "src_sha1": "0a270d4ae037a8bc609f345387fa4298d5820a1f",
    "ja": "四開槓流れ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "decl.suukaikan"
    ],
    "note": "대국 결과 큰 글자",
-   "ko": "사깡유국"
+   "ko": "사깡유국",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.big.20",
@@ -1386,12 +1478,13 @@
    ],
    "src_sha1": "3746b3c75397872956293ab684015e89f59de209",
    "ja": "流し満貫",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "decl.nagashi"
    ],
    "note": "대국 결과 큰 글자",
-   "ko": "유국만관"
+   "ko": "유국만관",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.panel.11",
@@ -1401,12 +1494,13 @@
    ],
    "src_sha1": "1f277a37b95d6dce3244524888c344a9f4eb01dd",
    "ja": "パネルマッチ",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "panel.title"
    ],
    "note": "보너스 게임 띠. 오른쪽 끝 장식은 그대로",
-   "ko": "패널 매치"
+   "ko": "패널 매치",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.panel.13",
@@ -1416,10 +1510,11 @@
    ],
    "src_sha1": "8627e763e8659e12168039601be1930357a0bf04",
    "ja": "得点クリアー!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
    "note": "2편 번역(승인)과 같은 문구",
-   "ko": "득점 클리어!"
+   "ko": "득점 클리어!",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.kanji.2.25",
@@ -1429,12 +1524,13 @@
    ],
    "src_sha1": "8f3490f5cad9007f32b023a4494ccac77be3feed",
    "ja": "役",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "score.yaku"
    ],
    "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸",
-   "ko": "역"
+   "ko": "역",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.kanji.2.26",
@@ -1444,12 +1540,13 @@
    ],
    "src_sha1": "b2583688e73ef681b288c224eb10ab6d645a1f88",
    "ja": "満",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "score.man"
    ],
    "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸",
-   "ko": "만"
+   "ko": "만",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.kanji.2.27",
@@ -1459,12 +1556,13 @@
    ],
    "src_sha1": "a22670769884312ebd35238555de4c150ded7ad9",
    "ja": "貫",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "score.kan"
    ],
    "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸",
-   "ko": "관"
+   "ko": "관",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.kanji.2.28",
@@ -1474,12 +1572,13 @@
    ],
    "src_sha1": "696ce5b6b86c6e894824d74b040c65a27311b0f5",
    "ja": "三",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "score.san"
    ],
    "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸",
-   "ko": "삼"
+   "ko": "삼",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.kanji.2.29",
@@ -1489,12 +1588,13 @@
    ],
    "src_sha1": "2adbc48134419891d7b22501ddd0bb5c3cfccc62",
    "ja": "倍",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "score.bai"
    ],
    "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸",
-   "ko": "배"
+   "ko": "배",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.kanji.3.0",
@@ -1504,12 +1604,13 @@
    ],
    "src_sha1": "82373cef16c49200d7186a3ecddaf221bb9629ee",
    "ja": "跳",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "score.hane"
    ],
    "note": "역만·만관·하네만·배만·삼배만을 이루는 큰 글자 한 칸 (한 칸에 두 음절, 2편과 같음)",
-   "ko": "하네"
+   "ko": "하네",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.panel.20",
@@ -1519,12 +1620,13 @@
    ],
    "src_sha1": "bb0c7b0921a6224b4ed0d166eadb91cba9511cb4",
    "ja": "ツミコミレベル",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "panel.tsumikomi"
    ],
    "note": "ツミコミ=積み込み(패를 미리 쌓아 두는 속임수). 패널 매치에서 올리는 레벨",
-   "ko": "패 쌓기 레벨"
+   "ko": "패 쌓기 레벨",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "match.haipai.88",
@@ -1534,10 +1636,11 @@
    ],
    "src_sha1": "3ba86d0b3e9f006988ed04ad5121fc82f726f728",
    "ja": "好きな配牌を選んでね!!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
    "note": "배패 선택(아이템) 안내",
-   "ko": "원하는 배패를 골라 줘!!"
+   "ko": "원하는 배패를 골라 줘!!",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   }
  ]
 }

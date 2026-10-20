@@ -10,9 +10,10 @@
    "src_sha1": "dc8d4b570f622e0eca69dbf4a88eb7ebaf07a5a4",
    "ja": "クリアー\nおめでとう♡",
    "ko": "클리어\n축하해♡",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "스테이지 클리어 화면. 원본은 기울임꼴 — 그러데이션만 재현"
+   "note": "스테이지 클리어 화면. 원본은 기울임꼴 — 그러데이션만 재현",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "misc.loading",
@@ -23,9 +24,10 @@
    "src_sha1": "f5509a9edc7a4cba30034bd91360b408d63554d6",
    "ja": "ちょっとまっててね",
    "ko": "잠깐만 기다려 줘",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "읽는 중 화면 아래쪽 작은 글자. 위쪽 Now Loading(영어)과 오른쪽 아이콘은 그대로"
+   "note": "읽는 중 화면 아래쪽 작은 글자. 위쪽 Now Loading(영어)과 오른쪽 아이콘은 그대로",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   }
  ]
 }

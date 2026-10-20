@@ -18,12 +18,12 @@
    "src_sha1": "14d0cb5b46b17eb324ed88b2428a297ddf50ff44",
    "ja": "キャラクター選択",
    "ko": "캐릭터 선택",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "menu.char_select"
    ],
    "note": "패 8장에 한 글자씩. 배치: 캐릭터_선택__ (왼쪽 정렬, 남는 패는 빈 패)",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.menu.sound",
@@ -41,12 +41,12 @@
    "src_sha1": "9d058e2c8ddf8f183140f6fcb28718db477667fc",
    "ja": "サウンド テスト",
    "ko": "사운드 테스트",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "menu.sound_test"
    ],
    "note": "원본도 5번째 패가 빈 패. 배치: 사운드_테스트_",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.menu.rules",
@@ -64,12 +64,12 @@
    "src_sha1": "cdb3c489bef8938aa593c6cf5e279ce027e94502",
    "ja": "麻雀大会 ルール",
    "ko": "마작대회 규칙",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "menu.rules"
    ],
    "note": "배치: 마작대회_규칙_",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.menu.title",
@@ -80,12 +80,12 @@
    "src_sha1": "ae0cce44f08b17fb7c52e16d736ff34d92795935",
    "ja": "メニュー",
    "ko": "메뉴",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.menu"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.menu.choose",
@@ -96,12 +96,12 @@
    "src_sha1": "be96bc5375662e18e7092cf6355285cd594f6d57",
    "ja": "選ぶ",
    "ko": "선택",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.choose"
    ],
    "note": "버튼 위쪽",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.menu.decide",
@@ -112,12 +112,12 @@
    "src_sha1": "be96bc5375662e18e7092cf6355285cd594f6d57",
    "ja": "決定",
    "ko": "결정",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.decide"
    ],
    "note": "버튼 아래쪽",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.epithet.0",
@@ -128,12 +128,12 @@
    "src_sha1": "7d93810e7460d6223fb38d087c67379637264f5c",
    "ja": "アンコ(暗刻)の",
    "ko": "안커의",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "term.ankou"
    ],
    "note": "캐릭터 선택 별명 윗줄. 아랫줄 영문 이름(MAI)은 그대로.",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.epithet.1",
@@ -144,12 +144,12 @@
    "src_sha1": "4941eac47af4a08fb05f868f53b9d9157cdc3d51",
    "ja": "ブリッジ(一通)の",
    "ko": "브리지(일통)의",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "epithet.bridge"
    ],
    "note": "캐릭터 선택 별명 윗줄. 아랫줄 영문 이름(YUKI)은 그대로. 괄호 속 一通(일기통관)은 칸이 좁아 뺌 / 2차 검수: 一通이 ブリッジ=일기통관이라는 유일한 단서라 괄호를 살림",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.epithet.2",
@@ -160,12 +160,12 @@
    "src_sha1": "5d43754e53b66b819ef35f50fbcec493f9c5c4dc",
    "ja": "チャンタの",
    "ko": "찬타의",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.全帯么"
    ],
    "note": "캐릭터 선택 별명 윗줄. 아랫줄 영문 이름(RUMI)은 그대로.",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.epithet.3",
@@ -176,12 +176,12 @@
    "src_sha1": "6dd7cd088db897f197da1e65aa1ee126ae71c730",
    "ja": "ドラの",
    "ko": "도라의",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.ドラ"
    ],
    "note": "캐릭터 선택 별명 윗줄. 아랫줄 영문 이름(SIHO)은 그대로.",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.epithet.4",
@@ -192,12 +192,12 @@
    "src_sha1": "3414d6b729b7a06b40011f5e7a969bda9b252fd2",
    "ja": "イーペーコーの",
    "ko": "이페코의",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "yaku.一盃口"
    ],
    "note": "캐릭터 선택 별명 윗줄. 아랫줄 영문 이름(SAYURI)은 그대로.",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.epithet.5",
@@ -208,12 +208,12 @@
    "src_sha1": "ea63ee513bf3a434b6fb66949b2f06d60020b902",
    "ja": "フウパイ(風牌)の",
    "ko": "풍패의",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "term.kazehai"
    ],
    "note": "캐릭터 선택 별명 윗줄. 아랫줄 영문 이름(ERIKA)은 그대로.",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.epithet.6",
@@ -224,12 +224,12 @@
    "src_sha1": "ae7e129deeabfd29f3fbfaf0eb1629241e415d8a",
    "ja": "ジハイ(字牌)の",
    "ko": "자패의",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "term.jihai"
    ],
    "note": "캐릭터 선택 별명 윗줄. 아랫줄 영문 이름(RIE)은 그대로.",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.charsel.choose",
@@ -240,12 +240,12 @@
    "src_sha1": "aa5206535ed5fa30ed315f97b5cd54d4351bec54",
    "ja": "選ぶ",
    "ko": "선택",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.choose"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.charsel.decide",
@@ -256,12 +256,12 @@
    "src_sha1": "aa5206535ed5fa30ed315f97b5cd54d4351bec54",
    "ja": "決定",
    "ko": "결정",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.decide"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.charsel.explain",
@@ -272,12 +272,12 @@
    "src_sha1": "aa5206535ed5fa30ed315f97b5cd54d4351bec54",
    "ja": "説明",
    "ko": "설명",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.explain"
    ],
    "note": "B 버튼: 캐릭터 설명",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.charsel.prompt",
@@ -288,10 +288,10 @@
    "src_sha1": "d4c4282503a1355792e74630ad5070adb6ab363a",
    "ja": "好きな娘を\n選んでね",
    "ko": "맘에 드는 애를\n골라 줘",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [],
    "note": "캐릭터 선택 화면 말풍선 / 2차 검수: '좋아하는 애'는 짝사랑 상대로 읽힐 수 있음",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.sound.title",
@@ -302,12 +302,12 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "サウンドテスト",
    "ko": "사운드 테스트",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "menu.sound_test"
    ],
    "note": "줄마다 색이 바뀌는 원본 그러데이션(행 3~29)을 그대로 씀",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.sound.singer1",
@@ -318,13 +318,13 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "歌:かないみか",
    "ko": "노래: 카나이 미카",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.sing",
     "va.kanai"
    ],
    "note": "World Birthday",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.sound.singer2",
@@ -335,13 +335,13 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "歌:冨永みーな",
    "ko": "노래: 토미나가 미나",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.sing",
     "va.tominaga"
    ],
    "note": "Power and Love",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.sound.song3",
@@ -352,10 +352,10 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "恋の一歩は私から",
    "ko": "사랑의 첫걸음은 나부터",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [],
    "note": "곡 제목",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.sound.singer3",
@@ -366,13 +366,13 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "歌:矢島晶子",
    "ko": "노래: 야지마 아키코",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.sing",
     "va.yajima"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.sound.ng",
@@ -383,13 +383,13 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "おまけ(NG集)",
    "ko": "보너스(NG집)",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.omake",
     "ui.ng"
    ],
    "note": "뒤의 'No.'와 번호는 그대로",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.sound.choose",
@@ -400,12 +400,12 @@
    "src_sha1": "9c462ff9fd4eeb7bc43af74a494c7af10fae570b",
    "ja": "選ぶ",
    "ko": "선택",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.choose"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.sound.play",
@@ -416,12 +416,12 @@
    "src_sha1": "9c462ff9fd4eeb7bc43af74a494c7af10fae570b",
    "ja": "演奏",
    "ko": "연주",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.play"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.sound.stop",
@@ -432,12 +432,12 @@
    "src_sha1": "9c462ff9fd4eeb7bc43af74a494c7af10fae570b",
    "ja": "中止",
    "ko": "중지",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.stop"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.title",
@@ -448,13 +448,13 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "スーチーパイ麻雀大会ルール",
    "ko": "스치파이 마작대회 규칙",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "name.suchie",
     "menu.rules"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r1l",
@@ -465,12 +465,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "クイタン…有り",
    "ko": "쿠이탕\n있음",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "rule.kuitan"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r1r",
@@ -481,12 +481,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "ダブル・トリプル役満…有り",
    "ko": "더블·트리플 역만\n있음",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "rule.double_yakuman"
    ],
    "note": "칸이 좁아 10px",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r2l",
@@ -497,12 +497,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "後ヅケ…有り",
    "ko": "아토즈케\n있음",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "rule.atozuke"
    ],
    "note": "後付け: 소유자 결정 아토즈케 (프로젝트 소유자 2026-10-20)",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r2r",
@@ -513,12 +513,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "四開カン流れ…有り",
    "ko": "사깡유국\n있음",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "decl.suukaikan"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r3l",
@@ -529,12 +529,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "形式テンパイ…有り",
    "ko": "형식 텐파이\n있음",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "rule.keishiki_tenpai"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r3r",
@@ -545,12 +545,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "数え役満…有り(13翻以上)",
    "ko": "헤아림 역만\n13판 이상",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "rule.kazoe"
    ],
    "note": "칸이 좁아 10px / 2차 검수: '~'는 일본식 줄임",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r4l",
@@ -561,12 +561,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "流し満貫…有り",
    "ko": "유국만관\n있음",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "decl.nagashi"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r4r",
@@ -577,13 +577,13 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "プレイヤー持ち点 1500点",
    "ko": "내 시작 점수\n1500점",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "rule.start_points",
     "score.ten"
    ],
    "note": "2차 검수: プレイヤー持ち点 — 대국 화면에서 플레이어 1500, 상대 20000으로 시작함을 확인",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r5l",
@@ -594,12 +594,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "フリテンリーチ…有り",
    "ko": "후리텐 리치\n있음",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "rule.furiten_riichi"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r5r",
@@ -610,12 +610,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "ノーテン罰符 1500点",
    "ko": "노텐 벌점\n1500점",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "rule.noten_bappu"
    ],
    "note": "노텐 벌점: 소유자 결정 (프로젝트 소유자 2026-10-20)",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r6l",
@@ -626,12 +626,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "喰い替え…有り",
    "ko": "쿠이카에\n있음",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "rule.kuikae"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r6r",
@@ -642,12 +642,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "積み棒 300点",
    "ko": "본장봉\n300점",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "rule.tsumibou"
    ],
    "note": "2차 검수: 積み棒=본장봉(연장은 連荘)",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r7",
@@ -658,13 +658,13 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "ウラドラ(リーチ時のみ)・カンドラ・カンウラ 有ります",
    "ko": "뒷도라(리치만)·깡도라·깡뒷도라\n있음",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "voice.uradora",
     "voice.kandora"
    ],
    "note": "원본은 '리치 시에만'을 강조 색으로 씀 / 2차 검수: のみ(리치일 때만) 살림",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r8",
@@ -675,13 +675,13 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "場のリーチ棒は、リーチに関係なく和がった人の物です",
    "ko": "리치봉은 리치 안 해도 화료한 사람 몫",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "call.riichi",
     "voice.agaru"
    ],
    "note": "원문: 공탁 리치봉은 리치 여부와 관계없이 화료한 사람의 것. 폭 173px에 맞춰 줄임",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)",
    "approved_by": "프로젝트 소유자 2026-10-20 (줄인 문장 승인: \"아주 좋아요\")"
   },
   {
@@ -693,14 +693,14 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "ハイテイでのポン・チー・カンはできません",
    "ko": "해저에서는 퐁·치·깡 불가",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "call.pon",
     "call.chi",
     "call.kan"
    ],
    "note": "2차 검수: ハイテイでの에 가깝게",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.r10",
@@ -711,12 +711,12 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "二翻しばりは有りません",
    "ko": "2판 묶음 없음",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "rule.ryanhan_shibari"
    ],
    "note": "",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "select.rules.menu",
@@ -727,12 +727,12 @@
    "src_sha1": "09ac708a6dc19bd67da1f823a54f782aa697fbff",
    "ja": "メニュー",
    "ko": "메뉴",
-   "state": "needs_human_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.menu"
    ],
    "note": "B 버튼",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   }
  ]
 }

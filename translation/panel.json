@@ -10,11 +10,12 @@
    "src_sha1": "52a025658a91764e02c9deea85174289054930c6",
    "ja": "ボーナスゲーム!\n★パネルマッチ★",
    "ko": "보너스 게임!\n★패널 매치★",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "panel.title"
    ],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.44",
@@ -25,9 +26,10 @@
    "src_sha1": "d813ee2f40fb4a588161d654d2e514e5fe3d0be1",
    "ja": "ルールはズバリ!\n神経衰弱です!!",
    "ko": "규칙은 딱 하나!\n짝맞추기예요!!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "2편 神経衰弱=짝맞추기"
+   "note": "2편 神経衰弱=짝맞추기",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.45",
@@ -38,9 +40,10 @@
    "src_sha1": "a3c10d0466e99df1e55b3182e916bc7db2770481",
    "ja": "パネルが揃えば\n大ラッキー♥",
    "ko": "패널을 맞추면\n대박이야♥",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.46",
@@ -50,10 +53,11 @@
    ],
    "src_sha1": "5be6e5ec983e8f2eb732bdb7870c6dc3fbb0a9f3",
    "ja": "アイテムやポイン\nトがもらえるよ!",
-   "ko": "아이템이나 포인트\n를 받을 수 있어!",
-   "state": "needs_review",
+   "ko": "아이템이나 포인트를\n받을 수 있어!",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "원문도 단어가 줄을 넘어감(ポイン/ト)"
+   "note": "원문도 단어가 줄을 넘어감(ポイン/ト) / 최종 검수: 조사 「를」이 줄 머리에 오지 않게 끊는 자리를 바꿈",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.47",
@@ -64,9 +68,10 @@
    "src_sha1": "8c387aae0dfe26431e9c30f4903b0b06801c53b5",
    "ja": "パネルをめくって\nアイテム獲得!!",
    "ko": "패널을 뒤집어서\n아이템 획득!!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.48",
@@ -77,9 +82,10 @@
    "src_sha1": "a6f257d532e53e8a7883943caa250bbab9e18ad1",
    "ja": "ポイントをためて\nレベルを上げよう",
    "ko": "포인트를 모아서\n레벨을 올리자",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.49",
@@ -90,11 +96,12 @@
    "src_sha1": "875651baa880809ecd210f7fe873f28789f48fc8",
    "ja": "方向ボタンで選び\nCボタンで決定!",
    "ko": "방향 버튼으로 골라\nC 버튼으로 결정!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.decide"
    ],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.50",
@@ -105,9 +112,10 @@
    "src_sha1": "119fca86eacfaed82ce7f48d35e894f6bb749299",
    "ja": "パネルクリアー!\nおめでとう!",
    "ko": "패널 클리어!\n축하해!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.52",
@@ -118,9 +126,10 @@
    "src_sha1": "75d51cbb38f4168473b00b2ee4c54860276f6d89",
    "ja": "次はアイテムも\n当てよーねっ!",
    "ko": "다음엔 아이템도\n맞혀 보자!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.53",
@@ -131,9 +140,10 @@
    "src_sha1": "daaa3f087c231dc1d146fb0bb2b7aab50fa9b56a",
    "ja": "…ザンネン!\n次回に期待っ!!",
    "ko": "…아쉬워!\n다음을 기대해!!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.54",
@@ -144,9 +154,10 @@
    "src_sha1": "775754021bdce094d3406ceab27febbeeaf74cf7",
    "ja": "得点クリアー!\nポイント+2!",
    "ko": "득점 클리어!\n포인트 +2!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.57",
@@ -157,12 +168,13 @@
    "src_sha1": "e31f872903b7582114329df71a81d6cf4badbaf4",
    "ja": "タツマキ選択気\n配牌を選べます",
    "ko": "회오리 선택\n배패를 고를 수 있어",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "panel.tatsumaki"
    ],
    "note": "タツマキ(竜巻)=회오리. 마지막 글자는 그림상 気(選択気). 아이템 이름이라 '선택'으로",
-   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — 회오리 선택"
+   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — 회오리 선택",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.58",
@@ -173,11 +185,12 @@
    "src_sha1": "df2206fb39c6f23e1fb4f2c16a582feb31b93901",
    "ja": "スーチーアイ\n相手の牌を透視!",
    "ko": "스치아이\n상대의 패를 투시!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "item.suchie_eye"
    ],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.59",
@@ -188,11 +201,12 @@
    "src_sha1": "2cbd300ea2bd2e4ea94e92fbf7b5455a31b8da4e",
    "ja": "ハイパーせっかん\n敵の当り牌を破壊",
    "ko": "하이퍼 응징\n적의 대기패를 파괴",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "panel.sekkan"
    ],
-   "note": "2편 せっかん=응징"
+   "note": "2편 せっかん=응징",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.60",
@@ -203,11 +217,12 @@
    "src_sha1": "53d5e9442b00c0c1be960224abbe0909765a1e90",
    "ja": "必殺!スーチー棒\n一発リーチ棒です",
    "ko": "필살! 스치봉\n일발 리치봉이에요",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "item.suchie_stick"
    ],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.61",
@@ -218,9 +233,10 @@
    "src_sha1": "cb4d4886f5aacd61fc79467eccc16b41fe7def60",
    "ja": "…おしいっ!\n次は当ててね!",
    "ko": "…아까워!\n다음엔 맞혀 줘!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.62",
@@ -231,9 +247,10 @@
    "src_sha1": "8ea84dc562accc0fac8490d1ddadf121dc8df4b8",
    "ja": "…ハズレ!\n次はがんばってね",
    "ko": "…꽝!\n다음엔 힘내!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "2편 ハズレ=꽝"
+   "note": "2편 ハズレ=꽝",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.64",
@@ -244,9 +261,10 @@
    "src_sha1": "6e6cb8c648a1cda35e9119b806ba3c9f8caa074b",
    "ja": "ポイントパネルを\nアイテムに変換!",
    "ko": "포인트 패널을\n아이템으로 변환!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패널 매치 안내"
+   "note": "패널 매치 안내",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.51",
@@ -257,9 +275,10 @@
    "src_sha1": "52ec2874c224f80a1de8f44a31eb05257ef433d7",
    "ja": "アイテム□つ獲得\n次もがんばってね",
    "ko": "아이템\n개 획득\n다음에도 힘내!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "윗줄 빈 칸에 게임이 개수를 그림 (빈 칸 x 58~75 유지)"
+   "note": "윗줄 빈 칸에 게임이 개수를 그림 (빈 칸 x 58~75 유지)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.55",
@@ -270,9 +289,10 @@
    "src_sha1": "c66b835fc7ed88b3a54ff64e71821cd1948773ee",
    "ja": "ポイント+1あと\n□点で",
    "ko": "포인트 +1! 레벨업까지\n\n점",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "아랫줄 빈 칸에 게임이 남은 점수를 그림. あと□点で=레벨업까지 □점 (빈 칸 x 0~17 유지)"
+   "note": "아랫줄 빈 칸에 게임이 남은 점수를 그림. あと□点で=레벨업까지 □점 (빈 칸 x 0~17 유지)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.msg.56",
@@ -283,9 +303,10 @@
    "src_sha1": "d79221f1dbe75a27a00e2f38a8b2f599469ad971",
    "ja": "ポイント+③!あ\nと□点で",
    "ko": "포인트 +3! 레벨업까지\n\n점",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "55와 같은 형식 (빈 칸 x 15~32 유지)"
+   "note": "55와 같은 형식 (빈 칸 x 15~32 유지)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.face.16",
@@ -296,12 +317,13 @@
    "src_sha1": "37c785bb20e632422a081bbd98082324d578a3b1",
    "ja": "タツマキ\n選択気",
    "ko": "회오리\n선택",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "panel.tatsumaki"
    ],
    "note": "패널 그림. 57번 안내와 같은 아이템",
-   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — 회오리 선택"
+   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — 회오리 선택",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.face.17",
@@ -312,11 +334,12 @@
    "src_sha1": "144fe8d466f5c8bc17a720a605695fe8d2f98ae6",
    "ja": "必殺!\nスーチー棒",
    "ko": "필살!\n스치봉",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "item.suchie_stick"
    ],
-   "note": "패널 그림"
+   "note": "패널 그림",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.face.22",
@@ -327,9 +350,10 @@
    "src_sha1": "f99ef2941e59c674cb3a5f2aadb279508426e300",
    "ja": "パネル\nクリアー",
    "ko": "패널\n클리어",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패널 그림"
+   "note": "패널 그림",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.level.65",
@@ -340,9 +364,10 @@
    "src_sha1": "cec2054efae2351629bd28673c60cc29d30173b7",
    "ja": "レベルUP",
    "ko": "레벨 UP",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패 쌓기 레벨 표시"
+   "note": "패 쌓기 레벨 표시",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.level.67",
@@ -353,9 +378,10 @@
    "src_sha1": "edade6d39316657f94ff7b0c51ed4a4eb8f4e07f",
    "ja": "レベル2",
    "ko": "레벨 2",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패 쌓기 레벨 표시"
+   "note": "패 쌓기 레벨 표시",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.level.68",
@@ -366,9 +392,10 @@
    "src_sha1": "8ecf8778dd003a9551cdc8bca5283fea2f3783c3",
    "ja": "レベル3",
    "ko": "레벨 3",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패 쌓기 레벨 표시"
+   "note": "패 쌓기 레벨 표시",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.level.70",
@@ -379,9 +406,10 @@
    "src_sha1": "1214abeb576a8c410999c6c791cd0b99c8599c58",
    "ja": "レベルUP!!",
    "ko": "레벨 UP!!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패 쌓기 레벨 표시"
+   "note": "패 쌓기 레벨 표시",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.level.71",
@@ -392,9 +420,10 @@
    "src_sha1": "38996761e3c496c64a8ab19526f484f7ab3f7d09",
    "ja": "レベルMAX!!",
    "ko": "레벨 MAX!!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "패 쌓기 레벨 표시"
+   "note": "패 쌓기 레벨 표시",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.point.63",
@@ -405,9 +434,10 @@
    "src_sha1": "6a5793ff840eda9e0d789b52b6ed3962d365f378",
    "ja": "ポイント+",
    "ko": "포인트+",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "오른쪽 끝(x=110)을 원본에 맞춤: 게임이 + 뒤에 숫자를 그림"
+   "note": "오른쪽 끝(x=110)을 원본에 맞춤: 게임이 + 뒤에 숫자를 그림",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.info.2",
@@ -418,11 +448,12 @@
    "src_sha1": "fa4d47af66e8c9db8e32f3dec420d0d5ac909cae",
    "ja": "スーチーインフォメーションコーナー",
    "ko": "스치 인포메이션 코너",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "name.suchie"
    ],
-   "note": "정보 코너 창 제목 띠(캐릭터 선택의 B 설명)"
+   "note": "정보 코너 창 제목 띠(캐릭터 선택의 B 설명)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.info.3",
@@ -433,11 +464,12 @@
    "src_sha1": "7cdab8e7b5b564ba5bf279a557e52cb233f533f1",
    "ja": "ルール説明",
    "ko": "규칙 설명",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.explain"
    ],
-   "note": "정보 코너 항목"
+   "note": "정보 코너 항목",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.info.4",
@@ -448,11 +480,12 @@
    "src_sha1": "c14d94139b18496eccdd188b812d8344ffc53b01",
    "ja": "パネル説明",
    "ko": "패널 설명",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.explain"
    ],
-   "note": "정보 코너 항목"
+   "note": "정보 코너 항목",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.info.5",
@@ -463,9 +496,10 @@
    "src_sha1": "417f9d73f1cb344a5be0695c4f81539e1cdb145b",
    "ja": "もどる",
    "ko": "돌아가기",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "정보 코너 항목"
+   "note": "정보 코너 항목",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.info.6",
@@ -476,11 +510,12 @@
    "src_sha1": "19f7052fc8e0bafb3ec9d69bdcf105292d3dcac4",
    "ja": "中止は",
    "ko": "중지는",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "ui.stop"
    ],
-   "note": "「중지는 B 버튼」 앞 조각"
+   "note": "「중지는 B 버튼」 앞 조각",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.info.7",
@@ -491,9 +526,10 @@
    "src_sha1": "e11fe1d2590eb81211c523f81922a0d02eff60ce",
    "ja": "Bボタン",
    "ko": "B 버튼",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
-   "note": "「중지는 B 버튼」 뒤 조각"
+   "note": "「중지는 B 버튼」 뒤 조각",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.info.27",
@@ -504,12 +540,13 @@
    "src_sha1": "10056aad8c56fb7db3890b63ef856b8d258823e5",
    "ja": "ツミコミ",
    "ko": "패 쌓기",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [
     "panel.tsumikomi"
    ],
    "note": "문장 조각: 패 쌓기 / 레벨 / [숫자] / (빈칸) / 달성!",
-   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — '패 쌓기 레벨 □ 달성!' 문장 구조"
+   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — '패 쌓기 레벨 □ 달성!' 문장 구조",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.info.28",
@@ -520,10 +557,11 @@
    "src_sha1": "9d92bfdca94e89a05a2150634245e10b5006a377",
    "ja": "レベルが",
    "ko": "레벨",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
    "note": "문장 조각. 숫자가 2·3·MAX라 조사(로/으로)가 바뀌지 않게 '달성!'으로 짬",
-   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — '패 쌓기 레벨 □ 달성!' 문장 구조"
+   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — '패 쌓기 레벨 □ 달성!' 문장 구조",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.info.30",
@@ -534,10 +572,11 @@
    "src_sha1": "a6a1450b6705ba92cfc9a600a7c5c0d4beea082c",
    "ja": "なりました!",
    "ko": "달성!",
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
    "note": "문장 조각. 원문 'に'(29번)는 빈칸으로",
-   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — '패 쌓기 레벨 □ 달성!' 문장 구조"
+   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — '패 쌓기 레벨 □ 달성!' 문장 구조",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
    "id": "panel.info.29",
@@ -549,10 +588,11 @@
    "ja": "に",
    "ko": "",
    "blank": true,
-   "state": "needs_review",
+   "state": "distribution_eligible",
    "terms": [],
    "note": "문장 조각. 한국어 문장 '패 쌓기 레벨 [숫자] 달성!'에서는 필요 없어 비움",
-   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — '패 쌓기 레벨 □ 달성!' 문장 구조"
+   "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — '패 쌓기 레벨 □ 달성!' 문장 구조",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   }
  ]
 }
