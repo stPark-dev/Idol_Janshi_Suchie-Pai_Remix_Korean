@@ -50,7 +50,12 @@ def apply(b: Bank, entry: dict, lay: dict, original: dict[int, np.ndarray] | Non
             px = label.clean(b.get(t), cl, tuple(cl["box"]), b.get(cl["source"]) if "source" in cl else None)
             for text, ln in zip(lines, lay["lines"]):
                 if text:
-                    px = label.draw_text(px, text, tuple(ln["box"]), ln["size"], ln["fill"], ln.get("edge"),
+                    size = ln["size"]
+                    if "fit" in ln:
+                        size = label.fit_size(text, tuple(ln["box"]), size, ln["fit"],
+                                              len(ln.get("rings") or []) + (1 if ln.get("outline") is not None else 0),
+                                              ln.get("font", font))
+                    px = label.draw_text(px, text, tuple(ln["box"]), size, ln["fill"], ln.get("edge"),
                                          ln.get("outline"), ln.get("align", "center"), ln.get("dx", 0),
                                          ln.get("dy", 0), font=ln.get("font", font), rings=ln.get("rings"),
                                          inner=ln.get("inner"))

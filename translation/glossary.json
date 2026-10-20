@@ -1,1107 +1,1244 @@
 {
- "_about": "용어·표기 결정. state: approved(이 게임에서 사람 승인) / transferred(2편에서 사람 승인, 이 게임 적용은 소유자 확인 대기) / proposed(초벌) / conflicting. 같은 원어라도 적용 범위가 다르면 별도 id.",
+ "_about": "용어·표기 결정. state: approved(이 게임에서 사람 승인) / proposed(초벌) / conflicting. 같은 원어라도 적용 범위가 다르면 별도 id.",
  "rules": {
-  "japanese_names": "일본어 이름은 통용 표기 (つ=츠, 어두 か·た행 격음 등). 사람 결정: 프로젝트 소유자 2026-09-29 (표기 통일 답변). 이전 규칙(국립국어원 표기법)은 폐기 (2편 결정, 이 게임 적용 확인 대기)",
-  "voice_actor_names": "성우 이름(歌:)도 통용 표기 (사람 결정): かないみか=카나이 미카, 吉田古奈美=요시다 코나미, 松本梨香=마츠모토 리카, 水谷優子=미즈타니 유코, 西原久美子=니시하라 쿠미코, 高橋美紀=타카하시 미키 (2편 결정, 이 게임 적용 확인 대기)",
-  "mahjong_terms": "마작 용어·역 이름은 국내 통용 표기(작혼식): 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변) (2편 결정, 이 게임 적용 확인 대기)",
-  "tile_faces": "마작패 앞면(萬 등)은 원형 유지: 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변) (2편 결정, 이 게임 적용 확인 대기)"
+  "japanese_names": "일본어 이름은 통용 표기 (つ=츠, 어두 か·た행 격음 등). 사람 결정: 프로젝트 소유자 2026-09-29 (표기 통일 답변). 이전 규칙(국립국어원 표기법)은 폐기 (2편 결정, 이 게임 적용 승인: 프로젝트 소유자 2026-10-20)",
+  "voice_actor_names": "성우 이름(歌:)도 통용 표기 (사람 결정): かないみか=카나이 미카, 吉田古奈美=요시다 코나미, 松本梨香=마츠모토 리카, 水谷優子=미즈타니 유코, 西原久美子=니시하라 쿠미코, 高橋美紀=타카하시 미키 (2편 결정, 이 게임 적용 승인: 프로젝트 소유자 2026-10-20)",
+  "mahjong_terms": "마작 용어·역 이름은 국내 통용 표기(작혼식): 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변) (2편 결정, 이 게임 적용 승인: 프로젝트 소유자 2026-10-20)",
+  "tile_faces": "마작패 앞면(萬 등)은 원형 유지: 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변) (2편 결정, 이 게임 적용 승인: 프로젝트 소유자 2026-10-20)"
  },
  "terms": [
   {
    "id": "diff.easy",
    "ja": "イージー",
    "ko": "쉬움",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (메뉴 한글화 범위 질문에 대한 답)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "diff.normal",
    "ja": "ノーマル",
    "ko": "보통",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (메뉴 한글화 범위 질문에 대한 답)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "diff.hard",
    "ja": "ハード",
    "ko": "어려움",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (메뉴 한글화 범위 질문에 대한 답)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "ui.select",
    "ja": "〜セレクト",
    "ko": "~ 선택",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (메뉴 한글화 범위 질문에 대한 답)",
-   "note": "파트너 선택, 난이도 선택, 스테이지 선택"
+   "note": "파트너 선택, 난이도 선택, 스테이지 선택",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "ui.menu",
    "ja": "メニュー",
    "ko": "메뉴",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-10-01 (번역 검수 결과 승인 답변)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "ui.choose",
    "ja": "選ぶ",
    "ko": "선택",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-10-01 (번역 검수 결과 승인 답변)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "ui.omake",
    "ja": "おまけ",
    "ko": "보너스",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (표기 통일 답변)",
-   "note": "화면 표기 '보너스'"
+   "note": "화면 표기 '보너스'",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.suchie",
    "ja": "スーチー",
    "ko": "스치",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 제공 표지·로고 표기",
-   "note": "스치파이"
+   "note": "스치파이",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.alice",
    "ja": "篠原ありす",
    "ko": "시노하라 아리스",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "통용 표기 규칙 적용 (이름 자체는 사람 확인 전)"
+   "note": "통용 표기 규칙 적용 (이름 자체는 사람 확인 전)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.tsukasa",
    "ja": "一文字つかさ",
    "ko": "이치몬지 츠카사",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (메뉴 번역 확인 답변)",
-   "note": "국립국어원 '쓰카사' 대신 통용 표기 '츠카사' (사람 결정)"
+   "note": "국립국어원 '쓰카사' 대신 통용 표기 '츠카사' (사람 결정)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.sanae",
    "ja": "槙枝早苗",
    "ko": "마키에다 사나에",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성 읽기 まきえだ (pixiv 백과사전)"
+   "note": "성 읽기 まきえだ (pixiv 백과사전)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.rumi",
    "ja": "佐々木留美",
    "ko": "사사키 루미",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.milk",
    "ja": "みるく",
    "ko": "밀크",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (메뉴 번역 확인 답변)",
-   "note": "루미의 애완 토끼"
+   "note": "루미의 애완 토끼",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.shiho",
    "ja": "志穂",
    "ko": "시호",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-10-01 (번역 검수 결과 승인 답변)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.cecil",
    "ja": "セシル",
    "ko": "세실",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-10-01 (번역 검수 결과 승인 답변)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.yuki",
    "ja": "佑紀",
    "ko": "유키",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-10-01 (번역 검수 결과 승인 답변)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.kyoko",
    "ja": "恭子",
    "ko": "쿄코",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (메뉴 번역 확인 답변)",
-   "note": "국립국어원 '교코' 대신 통용 표기 '쿄코' (사람 결정)"
+   "note": "국립국어원 '교코' 대신 통용 표기 '쿄코' (사람 결정)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "pun.pinfu",
    "ja": "平和 (마작 역 핑후와 '평화' 말장난)",
    "ko": "핑후",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (메뉴 번역 확인 답변)",
-   "note": "파트너 소개 '平和を愛する勇者' → '핑후를 사랑하는 용사'"
+   "note": "파트너 소개 '平和を愛する勇者' → '핑후를 사랑하는 용사'",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.立直",
    "ja": "立直",
    "ko": "리치",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.一発",
    "ja": "一発",
    "ko": "일발",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.門前清摸",
    "ja": "門前清摸",
    "ko": "멘젠쯔모",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.嶺上開花",
    "ja": "嶺上開花",
    "ko": "영상개화",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.海底撈月",
    "ja": "海底撈月",
    "ko": "해저로월",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.河底撈魚",
    "ja": "河底撈魚",
    "ko": "하저로어",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.断么九",
    "ja": "断么九",
    "ko": "탕야오",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.平和",
    "ja": "平和",
    "ko": "핑후",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.一盃口",
    "ja": "一盃口",
    "ko": "이페코",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.一気通貫",
    "ja": "一気通貫",
    "ko": "일기통관",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.三色同順",
    "ja": "三色同順",
    "ko": "삼색동순",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.全帯么",
    "ja": "全帯么",
    "ko": "찬타",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.七対子",
    "ja": "七対子",
    "ko": "치또이츠",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.Wリーチ",
    "ja": "Wリーチ",
    "ko": "더블 리치",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.混一色",
    "ja": "混一色",
    "ko": "혼일색",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.混老頭",
    "ja": "混老頭",
    "ko": "혼노두",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.対々和",
    "ja": "対々和",
    "ko": "또이또이",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.三暗刻",
    "ja": "三暗刻",
    "ko": "산안커",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.三槓子",
    "ja": "三槓子",
    "ko": "산깡쯔",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.三色同刻",
    "ja": "三色同刻",
    "ko": "삼색동각",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.三連刻",
    "ja": "三連刻",
    "ko": "삼연각",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.純全帯么",
    "ja": "純全帯么",
    "ko": "준찬타",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.一色三順",
    "ja": "一色三順",
    "ko": "일색삼순",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.清老頭",
    "ja": "清老頭",
    "ko": "청노두",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.二盃口",
    "ja": "二盃口",
    "ko": "량페코",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.小三元",
    "ja": "小三元",
    "ko": "소삼원",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.么九振切",
    "ja": "么九振切",
    "ko": "유국만관",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.清一色",
    "ja": "清一色",
    "ko": "청일색",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.天和",
    "ja": "天和",
    "ko": "천화",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.地和",
    "ja": "地和",
    "ko": "지화",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.人和",
    "ja": "人和",
    "ko": "인화",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.字一色",
    "ja": "字一色",
    "ko": "자일색",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.緑一色",
    "ja": "緑一色",
    "ko": "녹일색",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.大三元",
    "ja": "大三元",
    "ko": "대삼원",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.四喜和",
    "ja": "四喜和",
    "ko": "사희화",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.四暗刻",
    "ja": "四暗刻",
    "ko": "스안커",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.四槓子",
    "ja": "四槓子",
    "ko": "스깡쯔",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.国士無双",
    "ja": "国士無双",
    "ko": "국사무쌍",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.大車輪",
    "ja": "大車輪",
    "ko": "대차륜",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.十三不塔",
    "ja": "十三不塔",
    "ko": "십삼불탑",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.九連宝燈",
    "ja": "九連宝燈",
    "ko": "구련보등",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.ドラ",
    "ja": "ドラ",
    "ko": "도라",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "yaku.役牌",
    "ja": "役牌",
    "ko": "역패",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기(작혼식)"
+   "note": "국내 통용 표기(작혼식)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "call.pon",
    "ja": "ポン",
    "ko": "퐁",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "call.chi",
    "ja": "チー",
    "ko": "치",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "call.kan",
    "ja": "カン",
    "ko": "깡",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "call.riichi",
    "ja": "リーチ",
    "ko": "리치",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "call.ron",
    "ja": "ロン",
    "ko": "론",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "call.tsumo",
    "ja": "ツモ",
    "ko": "쯔모",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "call.ippatsu",
    "ja": "一発",
    "ko": "일발",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "decl.tenpai",
    "ja": "てんぱい",
    "ko": "텐파이",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "decl.noten",
    "ja": "の〜てん",
    "ko": "노~텐",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "decl.nagashi",
    "ja": "流し満貫",
    "ko": "유국만관",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "decl.suukaikan",
    "ja": "四開槓流れ",
    "ko": "사깡유국",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "score.hane",
    "ja": "跳",
    "ko": "하네",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "跳満 조합용 한 칸에 '하네' 두 음절 (사람 결정)"
+   "note": "跳満 조합용 한 칸에 '하네' 두 음절 (사람 결정)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "score.bai",
    "ja": "倍",
    "ko": "배",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "score.kan",
    "ja": "貫",
    "ko": "관",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "score.san",
    "ja": "三",
    "ko": "삼",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "score.man",
    "ja": "満",
    "ko": "만",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "score.yaku",
    "ja": "役",
    "ko": "역",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "item.suchie_stick",
    "ja": "スーチー棒",
    "ko": "스치봉",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "item.hyper_eye",
    "ja": "ハイパーアイ",
    "ko": "하이퍼아이",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "칸이 좁아 9px (사람 결정)"
+   "note": "칸이 좁아 9px (사람 결정)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "wind.east",
    "ja": "東",
    "ko": "동",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "wind.south",
    "ja": "南",
    "ko": "남",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "round.east",
    "ja": "東場",
    "ko": "동장",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "score.fu",
    "ja": "符",
    "ko": "부",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "score.han",
    "ja": "飜",
    "ko": "판",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "score.ten",
    "ja": "点",
    "ko": "점",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "국내 통용 표기"
+   "note": "국내 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "ui.omakase",
    "ja": "おまかせモード",
    "ko": "자동 모드",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-29 (대국 화면 번역 확인 답변)",
-   "note": "사람 결정"
+   "note": "사람 결정",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.cecil_full",
    "ja": "セシル・デリンジャー",
    "ko": "세실 데린저",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "통용 표기 규칙 적용"
+   "note": "통용 표기 규칙 적용",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.kyoko_full",
    "ja": "御崎恭子",
    "ko": "미사키 쿄코",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "통용 표기 규칙 적용"
+   "note": "통용 표기 규칙 적용",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.shiho_full",
    "ja": "片桐志穂",
    "ko": "카타기리 시호",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "통용 표기 규칙 적용"
+   "note": "통용 표기 규칙 적용",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.yuki_full",
    "ja": "水野佑紀",
    "ko": "미즈노 유키",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "통용 표기 규칙 적용"
+   "note": "통용 표기 규칙 적용",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.miyuri",
    "ja": "桜井美優里",
    "ko": "사쿠라이 미유리",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "통용 표기 규칙 적용"
+   "note": "통용 표기 규칙 적용",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.mai",
    "ja": "天野麻衣",
    "ko": "아마노 마이",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "통용 표기 규칙 적용"
+   "note": "통용 표기 규칙 적용",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.erika",
    "ja": "西野絵利佳",
    "ko": "니시노 에리카",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "통용 표기 규칙 적용"
+   "note": "통용 표기 규칙 적용",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.rie",
    "ja": "南條理恵",
    "ko": "난조 리에",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "통용 표기 규칙 적용"
+   "note": "통용 표기 규칙 적용",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.sayuri",
    "ja": "河本小百合",
    "ko": "카와모토 사유리",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "통용 표기 규칙 적용"
+   "note": "통용 표기 규칙 적용",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "name.reika",
    "ja": "橘麗華",
    "ko": "타치바나 레이카",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "통용 표기 규칙 적용"
+   "note": "통용 표기 규칙 적용",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "term.ankou",
    "ja": "暗刻(アンコ)",
    "ko": "안커",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "마작 용어 통용 표기(작혼식, 산안커와 같은 계열)"
+   "note": "마작 용어 통용 표기(작혼식, 산안커와 같은 계열)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "term.kazehai",
    "ja": "風牌(フウパイ)",
    "ko": "풍패",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "마작 용어 통용 표기"
+   "note": "마작 용어 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "term.jihai",
    "ja": "字牌(ジハイ)",
    "ko": "자패",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "마작 용어 통용 표기"
+   "note": "마작 용어 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "epithet.peach",
    "ja": "ピーチパイ",
    "ko": "피치파이",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-10-01 (번역 검수 결과 승인 답변)",
-   "note": "오프닝 별명 (아리스)"
+   "note": "오프닝 별명 (아리스)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "epithet.cherry",
    "ja": "チェリーパイ",
    "ko": "체리파이",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-10-01 (번역 검수 결과 승인 답변)",
-   "note": "오프닝 별명 (사나에)"
+   "note": "오프닝 별명 (사나에)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "epithet.lemon",
    "ja": "レモンパイ",
    "ko": "레몬파이",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-10-01 (번역 검수 결과 승인 답변)",
-   "note": "오프닝 별명 (츠카사)"
+   "note": "오프닝 별명 (츠카사)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "epithet.bridge",
    "ja": "ブリッジ",
    "ko": "브리지",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "ブリッジ = 작품 안에서 일기통관(一気通貫) 쌓기를 가리키는 별칭. 원문의 독특한 표현을 살려 음역(일기통관으로 바꾸지 않음). 표기는 브릿지가 아닌 브리지"
+   "note": "ブリッジ = 작품 안에서 일기통관(一気通貫) 쌓기를 가리키는 별칭. 원문의 독특한 표현을 살려 음역(일기통관으로 바꾸지 않음). 표기는 브릿지가 아닌 브리지",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "ui.koto",
    "ja": "〜こと…",
    "ko": "일명 「〜」",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "N1こと N2 = 'N1이라는 별명의 N2'(동격). '라 불리는'은 번역투, '본명'은 뜻이 강해 쓰지 않음. 조사 문제도 없음"
+   "note": "N1こと N2 = 'N1이라는 별명의 N2'(동격). '라 불리는'은 번역투, '본명'은 뜻이 강해 쓰지 않음. 조사 문제도 없음",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "ui.cv",
    "ja": "声",
    "ko": "CV",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "声 → CV (칸이 좁고 게임·애니 UI에서 익숙)"
+   "note": "声 → CV (칸이 좁고 게임·애니 UI에서 익숙)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.yoshida",
    "ja": "吉田古奈美",
    "ko": "요시다 코나미",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.hiramatsu",
    "ja": "平松晶子",
    "ko": "히라마츠 아키코",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.nishihara",
    "ja": "西原久美子",
    "ko": "니시하라 쿠미코",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.fukami",
    "ja": "深見梨加",
    "ko": "후카미 리카",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.matsumoto",
    "ja": "松本梨香",
    "ko": "마츠모토 리카",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.korogi",
    "ja": "こおろぎさとみ",
    "ko": "코오로기 사토미",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.mizutani",
    "ja": "水谷優子",
    "ko": "미즈타니 유코",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.tominaga",
    "ja": "冨永みーな",
    "ko": "토미나가 미나",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.takahashi",
    "ja": "高橋美紀",
    "ko": "타카하시 미키",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.yajima",
    "ja": "矢島晶子",
    "ko": "야지마 아키코",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.orikasa",
    "ja": "折笠愛",
    "ko": "오리카사 아이",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "va.kanai",
    "ja": "かないみか",
    "ko": "카나이 미카",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "성우 이름 통용 표기"
+   "note": "성우 이름 통용 표기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "zodiac.sagittarius",
    "ja": "いて座",
    "ko": "궁수자리",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (오프닝·카드 표기 확인 답변)",
-   "note": "천문 표준 명칭(한국천문연구원). 사수자리 대신"
+   "note": "천문 표준 명칭(한국천문연구원). 사수자리 대신",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "title.idol_janshi",
    "ja": "アイドル雀士",
    "ko": "아이돌 작사",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 제공 표지·로고 표기",
-   "note": "제목 앞부분"
+   "note": "제목 앞부분",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "ui.new_game",
    "ja": "最初から始める",
    "ko": "처음부터 시작",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (타이틀 선택지 확인 답변)",
-   "note": "타이틀 선택지"
+   "note": "타이틀 선택지",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "ui.continue",
    "ja": "続きから始める",
    "ko": "이어서 시작",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-09-30 (타이틀 선택지 확인 답변)",
-   "note": "타이틀 선택지"
+   "note": "타이틀 선택지",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "item.suchie_stick_panel",
    "ja": "スーチースティック",
    "ko": "스치스틱",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-10-01 (번역 검수 결과 승인 답변)",
-   "note": "패널 매치 아이템. 대국 화면의 スーチー棒(item.suchie_stick, 스치봉)과 다른 물건"
+   "note": "패널 매치 아이템. 대국 화면의 スーチー棒(item.suchie_stick, 스치봉)과 다른 물건",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "panel.sekkan",
    "ja": "せっかん",
    "ko": "응징",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — 프로젝트 소유자 2026-10-01 (번역 검수 결과 승인 답변)",
-   "note": "패널 매치 패널(折檻)"
+   "note": "패널 매치 패널(折檻)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.agaru",
    "ja": "上がる",
    "ko": "화료",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": "마작: 和了하다"
+   "note": "마작: 和了하다",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.uradora",
    "ja": "裏ドラ",
    "ko": "뒷도라",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.kandora",
    "ja": "カンドラ",
    "ko": "깡도라",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.naku",
    "ja": "鳴く",
    "ko": "울다",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": "마작: 副露. 명사형 「울기」"
+   "note": "마작: 副露. 명사형 「울기」",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.kenzan",
    "ja": "見参 / 参上",
    "ko": "등장",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": "변신 외침 「〜見参!」"
+   "note": "변신 외침 「〜見参!」",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.janshi",
    "ja": "雀士",
    "ko": "작사",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": "제목 표기 아이돌 작사와 같음. 「마작사」 쓰지 않음"
+   "note": "제목 표기 아이돌 작사와 같음. 「마작사」 쓰지 않음",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.ikasama",
    "ja": "イカサマ",
    "ko": "사기 / 속임수",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": "사람이면 사기꾼, 행위면 속임수"
+   "note": "사람이면 사기꾼, 행위면 속임수",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.pyon",
    "ja": "〜ぴょん",
    "ko": "~뿅",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": "밀크 말끝 (사람 결정 2026-10-04)"
+   "note": "밀크 말끝 (사람 결정 2026-10-04)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.mya",
    "ja": "〜みゃ",
    "ko": "~먀",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": "밀크 말끝 (사람 결정 2026-10-04)"
+   "note": "밀크 말끝 (사람 결정 2026-10-04)",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.rank",
    "ja": "三等陸尉",
    "ko": "3등 육위",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": "츠카사의 계급, 직역"
+   "note": "츠카사의 계급, 직역",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.regiment",
    "ja": "普通科連隊",
    "ko": "보통과연대",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": "직역"
+   "note": "직역",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.heroine",
    "ja": "正義のヒロイン",
    "ko": "정의의 히로인",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "voice.mikata",
    "ja": "正義の味方",
    "ko": "정의의 사도",
-   "state": "transferred",
+   "state": "approved",
    "origin": "suchie-pai2 glossary: approved — Claude 최종 검수 2026-10-05 (프로젝트 소유자가 음성 자막 검수를 위임)",
-   "note": ""
+   "note": "",
+   "approved_by": "프로젝트 소유자 2026-10-20 (2편 승인 용어를 이 게임에 그대로 적용)"
   },
   {
    "id": "ui.decide",
@@ -1194,10 +1331,11 @@
   {
    "id": "rule.atozuke",
    "ja": "後付け(後ヅケ)",
-   "ko": "후부",
-   "state": "proposed",
+   "ko": "아토즈케",
+   "state": "approved",
    "origin": "remix",
-   "note": "규칙 표"
+   "note": "규칙 표",
+   "approved_by": "프로젝트 소유자 2026-10-20 (후부/아토즈케 중 아토즈케 선택)"
   },
   {
    "id": "rule.keishiki_tenpai",
@@ -1235,9 +1373,10 @@
    "id": "rule.noten_bappu",
    "ja": "ノーテン罰符",
    "ko": "노텐 벌점",
-   "state": "proposed",
+   "state": "approved",
    "origin": "remix",
-   "note": "규칙 표"
+   "note": "규칙 표",
+   "approved_by": "프로젝트 소유자 2026-10-20 (벌점/벌부 중 벌점 선택)"
   },
   {
    "id": "rule.kuikae",
@@ -1262,6 +1401,126 @@
    "state": "proposed",
    "origin": "remix",
    "note": "규칙 표"
+  },
+  {
+   "id": "zodiac.libra",
+   "ja": "てんびん座",
+   "ko": "천칭자리",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "zodiac.aquarius",
+   "ja": "みずがめ座",
+   "ko": "물병자리",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "zodiac.virgo",
+   "ja": "おとめ座",
+   "ko": "처녀자리",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "zodiac.leo",
+   "ja": "しし座",
+   "ko": "사자자리",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "zodiac.cancer",
+   "ja": "かに座",
+   "ko": "게자리",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "zodiac.capricorn",
+   "ja": "やぎ座",
+   "ko": "염소자리",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "zodiac.scorpio",
+   "ja": "さそり座",
+   "ko": "전갈자리",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "zodiac.pisces",
+   "ja": "うお座",
+   "ko": "물고기자리",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "zodiac.aries",
+   "ja": "おひつじ座",
+   "ko": "양자리",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "name.ayumi",
+   "ja": "木田亜由美",
+   "ko": "키다 아유미",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "name.marina",
+   "ja": "北山麻里奈",
+   "ko": "키타야마 마리나",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "name.miho",
+   "ja": "片桐美穂",
+   "ko": "카타기리 미호",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "name.sachiko",
+   "ja": "安西早智子",
+   "ko": "안자이 사치코",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "name.yukari",
+   "ja": "楠本由加理",
+   "ko": "쿠스모토 유카리",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
+  },
+  {
+   "id": "name.keiko",
+   "ja": "西原恵子",
+   "ko": "니시하라 케이코",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "2편 이름 표기 규칙(통용 표기)을 따름"
   }
  ]
 }

@@ -92,3 +92,16 @@ def test_draw_text_inner_marks_eroded_core():
     ys, xs = np.nonzero(out == 9)
     for y, x in zip(ys, xs):                       # inner pixels are surrounded by glyph pixels
         assert all(out[y + dy, x + dx] in (1, 9) for dy, dx in ((0, 1), (1, 0), (0, -1), (-1, 0)))
+
+
+def test_clean_column_copies_reference_column():
+    a = np.array([[1, 2, 9, 9, 3],
+                  [4, 5, 9, 9, 6]], np.uint8)
+    out = label.clean(a, {"method": "column", "ref_x": 1}, box=(2, 0, 4, 2))
+    assert out.tolist() == [[1, 2, 2, 2, 3], [4, 5, 5, 5, 6]]
+
+
+def test_fit_size_shrinks_until_it_fits():
+    assert label.fit_size("물고기자리", (0, 0, 48, 12), 12, minimum=7, rings=1) < 12
+    with pytest.raises(label.LabelError):
+        label.fit_size("물고기자리물고기자리", (0, 0, 20, 12), 12, minimum=7)

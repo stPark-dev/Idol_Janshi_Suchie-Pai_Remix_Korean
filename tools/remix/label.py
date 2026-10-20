@@ -88,10 +88,22 @@ def draw_text(pixels: np.ndarray, text: str, box: tuple[int, int, int, int], siz
     return out
 
 
+def fit_size(text: str, box: tuple[int, int, int, int], size: int, minimum: int, rings: int = 0,
+             font: str = DEFAULT_FONT) -> int:
+    """Largest size <= size (down to minimum) at which text plus rings fits the box."""
+    w, h = box[2] - box[0], box[3] - box[1]
+    for s in range(size, minimum - 1, -1):
+        l, t, r, b = ImageFont.truetype(font, s).getbbox(text)
+        if r - l + 2 * rings <= w and b - t + 2 * rings <= h:
+            return s
+    raise LabelError(f"{text!r} does not fit the {w}x{h} box even at {minimum}px")
+
+
 def clean(pixels: np.ndarray, spec: dict, box: tuple[int, int, int, int],
           source: np.ndarray | None = None) -> np.ndarray:
     """Remove source text inside box. spec: {"method": "copy"} (from source, same shape),
-    {"method": "fill", "index": n}, {"method": "rows", "text_idx": [...]} (each text pixel takes
+    {"method": "fill", "index": n}, {"method": "column", "ref_x": x} (every column takes column x),
+    {"method": "rows", "text_idx": [...]} (each text pixel takes
     the most common non-text index of its row inside the box)."""
     x0, y0, x1, y1 = box
     out = pixels.copy()
@@ -100,6 +112,8 @@ def clean(pixels: np.ndarray, spec: dict, box: tuple[int, int, int, int],
         if source is None or source.shape != pixels.shape:
             raise LabelError("copy clean needs a source texture of the same size")
         out[y0:y1, x0:x1] = source[y0:y1, x0:x1]
+    elif m == "column":
+        out[y0:y1, x0:x1] = pixels[y0:y1, spec["ref_x"]][:, None]
     elif m == "fill":
         out[y0:y1, x0:x1] = spec["index"]
     elif m == "rows":

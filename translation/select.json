@@ -18,7 +18,7 @@
    "src_sha1": "14d0cb5b46b17eb324ed88b2428a297ddf50ff44",
    "ja": "キャラクター選択",
    "ko": "캐릭터 선택",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "menu.char_select"
    ],
@@ -41,7 +41,7 @@
    "src_sha1": "9d058e2c8ddf8f183140f6fcb28718db477667fc",
    "ja": "サウンド テスト",
    "ko": "사운드 테스트",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "menu.sound_test"
    ],
@@ -64,7 +64,7 @@
    "src_sha1": "cdb3c489bef8938aa593c6cf5e279ce027e94502",
    "ja": "麻雀大会 ルール",
    "ko": "마작대회 규칙",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "menu.rules"
    ],
@@ -80,7 +80,7 @@
    "src_sha1": "ae0cce44f08b17fb7c52e16d736ff34d92795935",
    "ja": "メニュー",
    "ko": "메뉴",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.menu"
    ],
@@ -96,7 +96,7 @@
    "src_sha1": "be96bc5375662e18e7092cf6355285cd594f6d57",
    "ja": "選ぶ",
    "ko": "선택",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.choose"
    ],
@@ -112,7 +112,7 @@
    "src_sha1": "be96bc5375662e18e7092cf6355285cd594f6d57",
    "ja": "決定",
    "ko": "결정",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.decide"
    ],
@@ -128,7 +128,7 @@
    "src_sha1": "7d93810e7460d6223fb38d087c67379637264f5c",
    "ja": "アンコ(暗刻)の",
    "ko": "안커의",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "term.ankou"
    ],
@@ -144,7 +144,7 @@
    "src_sha1": "4941eac47af4a08fb05f868f53b9d9157cdc3d51",
    "ja": "ブリッジ(一通)の",
    "ko": "브리지(일통)의",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "epithet.bridge"
    ],
@@ -160,7 +160,7 @@
    "src_sha1": "5d43754e53b66b819ef35f50fbcec493f9c5c4dc",
    "ja": "チャンタの",
    "ko": "찬타의",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "yaku.全帯么"
    ],
@@ -176,7 +176,7 @@
    "src_sha1": "6dd7cd088db897f197da1e65aa1ee126ae71c730",
    "ja": "ドラの",
    "ko": "도라의",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "yaku.ドラ"
    ],
@@ -192,7 +192,7 @@
    "src_sha1": "3414d6b729b7a06b40011f5e7a969bda9b252fd2",
    "ja": "イーペーコーの",
    "ko": "이페코의",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "yaku.一盃口"
    ],
@@ -208,7 +208,7 @@
    "src_sha1": "ea63ee513bf3a434b6fb66949b2f06d60020b902",
    "ja": "フウパイ(風牌)の",
    "ko": "풍패의",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "term.kazehai"
    ],
@@ -224,7 +224,7 @@
    "src_sha1": "ae7e129deeabfd29f3fbfaf0eb1629241e415d8a",
    "ja": "ジハイ(字牌)の",
    "ko": "자패의",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "term.jihai"
    ],
@@ -240,7 +240,7 @@
    "src_sha1": "aa5206535ed5fa30ed315f97b5cd54d4351bec54",
    "ja": "選ぶ",
    "ko": "선택",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.choose"
    ],
@@ -256,7 +256,7 @@
    "src_sha1": "aa5206535ed5fa30ed315f97b5cd54d4351bec54",
    "ja": "決定",
    "ko": "결정",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.decide"
    ],
@@ -272,7 +272,7 @@
    "src_sha1": "aa5206535ed5fa30ed315f97b5cd54d4351bec54",
    "ja": "説明",
    "ko": "설명",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.explain"
    ],
@@ -288,7 +288,7 @@
    "src_sha1": "d4c4282503a1355792e74630ad5070adb6ab363a",
    "ja": "好きな娘を\n選んでね",
    "ko": "맘에 드는 애를\n골라 줘",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [],
    "note": "캐릭터 선택 화면 말풍선 / 2차 검수: '좋아하는 애'는 짝사랑 상대로 읽힐 수 있음",
    "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
@@ -302,7 +302,7 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "サウンドテスト",
    "ko": "사운드 테스트",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "menu.sound_test"
    ],
@@ -318,7 +318,7 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "歌:かないみか",
    "ko": "노래: 카나이 미카",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.sing",
     "va.kanai"
@@ -335,7 +335,7 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "歌:冨永みーな",
    "ko": "노래: 토미나가 미나",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.sing",
     "va.tominaga"
@@ -352,7 +352,7 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "恋の一歩は私から",
    "ko": "사랑의 첫걸음은 나부터",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [],
    "note": "곡 제목",
    "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
@@ -366,7 +366,7 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "歌:矢島晶子",
    "ko": "노래: 야지마 아키코",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.sing",
     "va.yajima"
@@ -383,7 +383,7 @@
    "src_sha1": "6304be81f52d66578abd58100b37aedbc91fb3ae",
    "ja": "おまけ(NG集)",
    "ko": "보너스(NG집)",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.omake",
     "ui.ng"
@@ -400,7 +400,7 @@
    "src_sha1": "9c462ff9fd4eeb7bc43af74a494c7af10fae570b",
    "ja": "選ぶ",
    "ko": "선택",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.choose"
    ],
@@ -416,7 +416,7 @@
    "src_sha1": "9c462ff9fd4eeb7bc43af74a494c7af10fae570b",
    "ja": "演奏",
    "ko": "연주",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.play"
    ],
@@ -432,7 +432,7 @@
    "src_sha1": "9c462ff9fd4eeb7bc43af74a494c7af10fae570b",
    "ja": "中止",
    "ko": "중지",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.stop"
    ],
@@ -448,7 +448,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "スーチーパイ麻雀大会ルール",
    "ko": "스치파이 마작대회 규칙",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "name.suchie",
     "menu.rules"
@@ -465,7 +465,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "クイタン…有り",
    "ko": "쿠이탕\n있음",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "rule.kuitan"
    ],
@@ -481,7 +481,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "ダブル・トリプル役満…有り",
    "ko": "더블·트리플 역만\n있음",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "rule.double_yakuman"
    ],
@@ -496,12 +496,12 @@
    ],
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "後ヅケ…有り",
-   "ko": "후부\n있음",
-   "state": "needs_review",
+   "ko": "아토즈케\n있음",
+   "state": "needs_human_review",
    "terms": [
     "rule.atozuke"
    ],
-   "note": " / 2차 검수: 후부가 맞지만 낯선 말(대안 아토즈케) — 소유자 확인",
+   "note": "後付け: 소유자 결정 아토즈케 (프로젝트 소유자 2026-10-20)",
    "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
   },
   {
@@ -513,7 +513,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "四開カン流れ…有り",
    "ko": "사깡유국\n있음",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "decl.suukaikan"
    ],
@@ -529,7 +529,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "形式テンパイ…有り",
    "ko": "형식 텐파이\n있음",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "rule.keishiki_tenpai"
    ],
@@ -545,7 +545,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "数え役満…有り(13翻以上)",
    "ko": "헤아림 역만\n13판 이상",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "rule.kazoe"
    ],
@@ -561,7 +561,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "流し満貫…有り",
    "ko": "유국만관\n있음",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "decl.nagashi"
    ],
@@ -577,7 +577,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "プレイヤー持ち点 1500点",
    "ko": "내 시작 점수\n1500점",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "rule.start_points",
     "score.ten"
@@ -594,7 +594,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "フリテンリーチ…有り",
    "ko": "후리텐 리치\n있음",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "rule.furiten_riichi"
    ],
@@ -610,11 +610,11 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "ノーテン罰符 1500点",
    "ko": "노텐 벌점\n1500점",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "rule.noten_bappu"
    ],
-   "note": " / 2차 검수: 커뮤니티 용어는 벌부. 벌점/벌부 소유자 선택 필요",
+   "note": "노텐 벌점: 소유자 결정 (프로젝트 소유자 2026-10-20)",
    "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
   },
   {
@@ -626,7 +626,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "喰い替え…有り",
    "ko": "쿠이카에\n있음",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "rule.kuikae"
    ],
@@ -642,7 +642,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "積み棒 300点",
    "ko": "본장봉\n300점",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "rule.tsumibou"
    ],
@@ -658,7 +658,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "ウラドラ(リーチ時のみ)・カンドラ・カンウラ 有ります",
    "ko": "뒷도라(리치만)·깡도라·깡뒷도라\n있음",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "voice.uradora",
     "voice.kandora"
@@ -675,13 +675,14 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "場のリーチ棒は、リーチに関係なく和がった人の物です",
    "ko": "리치봉은 리치 안 해도 화료한 사람 몫",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "call.riichi",
     "voice.agaru"
    ],
    "note": "원문: 공탁 리치봉은 리치 여부와 관계없이 화료한 사람의 것. 폭 173px에 맞춰 줄임",
-   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기"
+   "review": "2차 검수 완료(Claude 독립 검수 2026-10-20). 사람 확인 대기",
+   "approved_by": "프로젝트 소유자 2026-10-20 (줄인 문장 승인: \"아주 좋아요\")"
   },
   {
    "id": "select.rules.r9",
@@ -692,7 +693,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "ハイテイでのポン・チー・カンはできません",
    "ko": "해저에서는 퐁·치·깡 불가",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "call.pon",
     "call.chi",
@@ -710,7 +711,7 @@
    "src_sha1": "1b1b9f92e7d4eb5f3b2211c87147660c77271347",
    "ja": "二翻しばりは有りません",
    "ko": "2판 묶음 없음",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "rule.ryanhan_shibari"
    ],
@@ -726,7 +727,7 @@
    "src_sha1": "09ac708a6dc19bd67da1f823a54f782aa697fbff",
    "ja": "メニュー",
    "ko": "메뉴",
-   "state": "needs_review",
+   "state": "needs_human_review",
    "terms": [
     "ui.menu"
    ],

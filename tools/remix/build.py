@@ -49,9 +49,14 @@ SCROLL_BOLD, SCROLL_MARGIN = 3, 3
 ART_BOLD, ART_MARGIN = 6, 2
 
 
-# SELECT.CX graphic text (translation/select.json + assets/select/layout.json).
-SELECT_FILE = "SELECT.CX"
-SELECT_SHA1 = "9b0734a6d425606aceb303bf8a02bc945a0142db"
+# Graphic text tables: translation/<name>.json + assets/<name>/layout.json. Each entry names its file
+# (table default "file") and, for CX files, the bank entry "cx_entry".
+GRAPHIC_TABLES = ("select", "round")
+ORIGINAL_SHA1 = {
+    "SELECT.CX": "9b0734a6d425606aceb303bf8a02bc945a0142db",
+    "KAIWADIR/ROUND.BNN": "59e43c61bb6e151e8faf4330b56fba07be1404ac",
+    "PANELDIR/ROUND2.BNN": "6b6fe2e86c329545e5c9e2e27d1397b793d61b78",
+}
 STATES = ("untranslated", "in_progress", "needs_review", "needs_human_review", "distribution_eligible")
 
 
@@ -243,27 +248,59 @@ def load_table(name: str) -> tuple[list[dict], list[dict]]:
     lay = json.loads((ROOT / "assets" / name / "layout.json").read_text())
     for l in lay["entries"]:
         l.setdefault("font", lay["font"])
+    for e in t["entries"]:
+        e.setdefault("file", t.get("file"))
+        e.setdefault("cx_entry", None)
     return t["entries"], lay["entries"]
 
 
-def select_cx(original: bytes) -> tuple[bytes, list[dict]]:
-    if hashlib.sha1(original).hexdigest() != SELECT_SHA1:
-        raise BuildError(f"{SELECT_FILE}: content is not the original")
-    entries, layouts = load_table("select")
-    bad = [e["id"] for e in entries if e["state"] not in STATES]
-    if bad:
-        raise BuildError(f"unknown translation state in {bad}")
-    c = cx.Container.parse(original)
-    lay = {l["id"]: l for l in layouts}
-    for k in sorted({e["cx_entry"] for e in entries}):
-        b = bank.Bank.parse(c.entries[k])
-        group = [e for e in entries if e["cx_entry"] == k]
-        try:
-            gfxtext.apply_all(b, group, [lay[e["id"]] for e in group if e["id"] in lay])
-        except gfxtext.GfxTextError as e:
-            raise BuildError(f"{SELECT_FILE} #{k}: {e}") from None
-        c.entries[k] = b.build()
-    return c.build(), [{"id": e["id"], "state": e["state"]} for e in entries]
+def load_tables(names=GRAPHIC_TABLES) -> tuple[list[dict], dict[str, dict]]:
+    """All entries (ko_from resolved to the referenced entry's wording) and layouts by id."""
+    entries, layouts = [], {}
+    for n in names:
+        e, l = load_table(n)
+        entries += e
+        for x in l:
+            if x["id"] in layouts:
+                raise BuildError(f"duplicate layout id {x['id']}")
+            layouts[x["id"]] = x
+    by_id = {e["id"]: e for e in entries}
+    if len(by_id) != len(entries):
+        raise BuildError("duplicate translation ids")
+    for e in entries:
+        if "ko_from" in e:
+            src = by_id.get(e["ko_from"])
+            if src is None or "ko_from" in src:
+                raise BuildError(f"{e['id']}: ko_from {e['ko_from']!r} is not a direct entry")
+            e["ko"], e["state"] = src["ko"], src["state"]
+        if e["state"] not in STATES:
+            raise BuildError(f"{e['id']}: unknown translation state {e['state']!r}")
+        if e["id"] not in layouts:
+            raise BuildError(f"{e['id']}: no layout")
+    return entries, layouts
+
+
+def _apply_bank(raw: bytes, group: list[dict], layouts: dict[str, dict], where: str) -> bytes:
+    b = bank.Bank.parse(raw)
+    try:
+        gfxtext.apply_all(b, group, [layouts[e["id"]] for e in group])
+    except gfxtext.GfxTextError as e:
+        raise BuildError(f"{where}: {e}") from None
+    return b.build()
+
+
+def graphic_file(path: str, original: bytes, entries: list[dict], layouts: dict[str, dict]) -> bytes:
+    if hashlib.sha1(original).hexdigest() != ORIGINAL_SHA1.get(path):
+        raise BuildError(f"{path}: content is not the original")
+    if path.endswith(".CX"):
+        c = cx.Container.parse(original)
+        for k in sorted({e["cx_entry"] for e in entries}):
+            c.entries[k] = _apply_bank(c.entries[k], [e for e in entries if e["cx_entry"] == k], layouts,
+                                       f"{path} #{k}")
+        return c.build()
+    if any(e["cx_entry"] is not None for e in entries):
+        raise BuildError(f"{path}: cx_entry given for a plain bank file")
+    return _apply_bank(original, entries, layouts, path)
 
 
 def title_cg(original: bytes, title: str, opening: str, unverified: bool = False) -> bytes:
@@ -286,7 +323,7 @@ def title_cg(original: bytes, title: str, opening: str, unverified: bool = False
     return new
 
 
-def build(source: Path, out: Path, title: str = "korean", opening: str = "korean", select: str = "korean",
+def build(source: Path, out: Path, title: str = "korean", opening: str = "korean", graphics: str = "korean",
           unverified: bool = False, name: str = "remix_ko") -> dict:
     disc = SourceDisc.open(Path(source))
     out = Path(out)
@@ -296,16 +333,20 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
     protected = [(TRACK1_SECTORS * RAW, disc.data.stat().st_size)]
     plan = WritePlan(disc.data, protected=protected)
     changes = []
-    for mode in (title, opening, select):
+    for mode in (title, opening, graphics):
         if mode not in ("korean", "original"):
             raise BuildError(f"unknown mode {mode}")
     if "korean" in (title, opening):
         new = title_cg(disc.read_file(TITLE_FILE), title, opening, unverified)
         changes.append(_plan_file(plan, disc, TITLE_FILE, new, "title_cg", dirs))
     texts = []
-    if select == "korean":
-        new, texts = select_cx(disc.read_file(SELECT_FILE))
-        changes.append(_plan_file(plan, disc, SELECT_FILE, new, "select", dirs))
+    if graphics == "korean":
+        entries, layouts = load_tables()
+        for path in sorted({e["file"] for e in entries}):
+            group = [e for e in entries if e["file"] == path]
+            new = graphic_file(path, disc.read_file(path), group, layouts)
+            changes.append(_plan_file(plan, disc, path, new, f"gfx:{path}", dirs))
+        texts = [{"id": e["id"], "state": e["state"]} for e in entries]
     for lba, user in dirs.sectors().items():
         orig = disc.raw_sector(lba)
         sec = bytearray(orig)
@@ -319,7 +360,7 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
         "source_cue": str(disc.cue), "source_track1_sha1": disc.track1_sha1,
         "source_data_sha1": _sha1_file(disc.data), "data_file": data_name, "cue": name + ".cue",
         "data_sha1": _sha1_file(out / data_name), "changes": changes,
-        "modes": {"title": title, "opening": opening, "select": select}, "unverified": unverified,
+        "modes": {"title": title, "opening": opening, "graphics": graphics}, "unverified": unverified,
         "translations": texts,
         "distribution": False,
         "distribution_note": "translation review not complete (survey 5: v1.0 = all graphic text)",

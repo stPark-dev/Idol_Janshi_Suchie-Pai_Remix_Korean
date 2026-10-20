@@ -43,7 +43,7 @@ def test_every_cx_entry_round_trips_through_our_codec(disc):
 @needs_source
 def test_control_build_is_identical_to_source(tmp_path):
     out = tmp_path / "control"
-    build.build(SOURCE, out, title="original", opening="original", select="original")
+    build.build(SOURCE, out, title="original", opening="original", graphics="original")
     m = json.loads((out / "manifest.json").read_text())
     data = out / m["data_file"]
     h = hashlib.sha1()
@@ -64,7 +64,7 @@ def _korean(tmp_path, **kw):
 
 @needs_source
 def test_logo_only_build_matches_screen_verified_hash(tmp_path):
-    m, ko = _korean(tmp_path, opening="original", select="original")
+    m, ko = _korean(tmp_path, opening="original", graphics="original")
     assert [c["writer"] for c in m["changes"]] == ["title_cg"]
     c = cx.Container.parse(ko.read_file("TITL_CG.CX"))
     orig = cx.Container.parse(build.SourceDisc.open(SOURCE).read_file("TITL_CG.CX"))
@@ -122,13 +122,15 @@ def test_directory_patches_merge_per_sector():
 def test_select_graphics_change_only_listed_textures(tmp_path):
     from remix import bank
     m, ko = _korean(tmp_path)
-    assert "select" in [c["writer"] for c in m["changes"]]
+    assert "gfx:SELECT.CX" in [c["writer"] for c in m["changes"]]
     src = build.SourceDisc.open(SOURCE)
     new_c = cx.Container.parse(ko.read_file("SELECT.CX"))
     old_c = cx.Container.parse(src.read_file("SELECT.CX"))
     assert len(ko.read_file("SELECT.CX")) == len(src.read_file("SELECT.CX"))
     touched: dict[int, set[int]] = {}
-    for e in build.load_table("select")[0]:
+    for e in build.load_tables()[0]:
+        if e["file"] != "SELECT.CX":
+            continue
         touched.setdefault(e["cx_entry"], set()).update(e["tex"])
     for i, (a, b) in enumerate(zip(new_c.entries, old_c.entries)):
         if i not in touched:
@@ -141,6 +143,22 @@ def test_select_graphics_change_only_listed_textures(tmp_path):
 
 
 def test_tables_have_one_layout_per_entry_and_known_states():
-    entries, layouts = build.load_table("select")
-    assert sorted(e["id"] for e in entries) == sorted(l["id"] for l in layouts)
+    entries, layouts = build.load_tables()
+    assert sorted(e["id"] for e in entries) == sorted(layouts)
     assert all(e["state"] in build.STATES for e in entries)
+    assert all(e["file"] in build.ORIGINAL_SHA1 for e in entries)
+
+
+@needs_source
+def test_round_plates_keep_their_frame_rows(tmp_path):
+    """column clean must copy a straight-section column: frame rows 4/21 stay opaque frame colour"""
+    from remix import bank
+    m, ko = _korean(tmp_path)
+    entries, layouts = build.load_tables(("round",))
+    for e in entries:
+        if ".plate." not in e["id"]:
+            continue
+        a = bank.Bank.parse(ko.read_file(e["file"])).get(e["tex"][0])
+        x0, _, x1, _ = layouts[e["id"]]["clean"]["box"]
+        for y in (4, 21):
+            assert (a[y, x0:x1] != 0).all(), (e["id"], y)

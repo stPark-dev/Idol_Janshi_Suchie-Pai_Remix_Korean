@@ -20,11 +20,11 @@ def main() -> int:
     b.add_argument("--out", type=Path, default=Path("out/ko"))
     b.add_argument("--title", choices=("korean", "original"), default="korean", help="타이틀 로고")
     b.add_argument("--opening", choices=("korean", "original"), default="korean", help="오프닝 큰 글자")
-    b.add_argument("--select", choices=("korean", "original"), default="korean", help="메뉴·캐릭터 선택·규칙·사운드 테스트 그림 글자")
+    b.add_argument("--graphics", choices=("korean", "original"), default="korean", help="그림 글자 번역 표(translation/*.json) 적용")
     b.add_argument("--unverified", action="store_true", help="화면 확인 전 조합도 만들기 (시험용)")
     args = ap.parse_args()
     try:
-        m = build.build(args.source, args.out, title=args.title, opening=args.opening, select=args.select,
+        m = build.build(args.source, args.out, title=args.title, opening=args.opening, graphics=args.graphics,
                         unverified=args.unverified)
     except (build.BuildError, PlanError, ValueError, OSError) as e:
         print(f"빌드 실패: {e}", file=sys.stderr)

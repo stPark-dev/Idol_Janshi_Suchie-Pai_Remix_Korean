@@ -1,0 +1,1814 @@
+{
+ "_about": "ROUND/ROUND2 배치. 좌표는 텍스처 픽셀 [x0,y0,x1,y1). fit = 칸에 맞을 때까지 줄일 최소 크기. column = 글자 없는 세로줄(ref_x)을 상자 전체에 복사해 빈 판을 만듦.",
+ "font": "/usr/share/fonts/truetype/nanum/NanumSquareRoundEB.ttf",
+ "entries": [
+  {
+   "id": "round.card.0",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.1",
+   "kind": "text",
+   "tex": 1,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.2",
+   "kind": "text",
+   "tex": 2,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.3",
+   "kind": "text",
+   "tex": 3,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.4",
+   "kind": "text",
+   "tex": 4,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.5",
+   "kind": "text",
+   "tex": 5,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.6",
+   "kind": "text",
+   "tex": 6,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.7",
+   "kind": "text",
+   "tex": 7,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.8",
+   "kind": "text",
+   "tex": 8,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.9",
+   "kind": "text",
+   "tex": 9,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.10",
+   "kind": "text",
+   "tex": 10,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.11",
+   "kind": "text",
+   "tex": 11,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.12",
+   "kind": "text",
+   "tex": 12,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.13",
+   "kind": "text",
+   "tex": 13,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.14",
+   "kind": "text",
+   "tex": 14,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.card.15",
+   "kind": "text",
+   "tex": 15,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     112,
+     32
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      0,
+      110,
+      20
+     ],
+     "size": 16,
+     "fit": 11,
+     "fill": 171,
+     "edge": 99,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      2,
+      20,
+      32,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 101,
+     "edge": 66,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      32,
+      20,
+      80,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 167,
+     "edge": 98,
+     "rings": [
+      51
+     ]
+    },
+    {
+     "box": [
+      80,
+      20,
+      110,
+      32
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 100,
+     "edge": 68,
+     "rings": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.plate.0",
+   "kind": "text",
+   "tex": 28,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     23,
+     0,
+     87,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 11,
+     "edge": 47,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round2.plate.0",
+   "kind": "text",
+   "tex": 11,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     23,
+     0,
+     87,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 11,
+     "edge": 47,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.plate.1",
+   "kind": "text",
+   "tex": 29,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     23,
+     0,
+     87,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 26,
+     "edge": 46,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round2.plate.1",
+   "kind": "text",
+   "tex": 12,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     23,
+     0,
+     87,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 26,
+     "edge": 46,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.plate.2",
+   "kind": "text",
+   "tex": 30,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     23,
+     0,
+     84,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 89,
+     "edge": 54,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round2.plate.2",
+   "kind": "text",
+   "tex": 13,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     23,
+     0,
+     84,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 89,
+     "edge": 54,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.plate.3",
+   "kind": "text",
+   "tex": 31,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     23,
+     0,
+     87,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 42,
+     "edge": 49,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round2.plate.3",
+   "kind": "text",
+   "tex": 14,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     23,
+     0,
+     87,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 42,
+     "edge": 49,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.plate.4",
+   "kind": "text",
+   "tex": 32,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     13,
+     0,
+     96,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 23,
+     "edge": 47,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round2.plate.4",
+   "kind": "text",
+   "tex": 15,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     13,
+     0,
+     96,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 23,
+     "edge": 47,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.plate.5",
+   "kind": "text",
+   "tex": 33,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     13,
+     0,
+     97,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 151,
+     "edge": 94,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round2.plate.5",
+   "kind": "text",
+   "tex": 16,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     13,
+     0,
+     97,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 151,
+     "edge": 94,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.plate.6",
+   "kind": "text",
+   "tex": 34,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     24,
+     0,
+     87,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 44,
+     "edge": 1,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round2.plate.6",
+   "kind": "text",
+   "tex": 17,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     24,
+     0,
+     87,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 44,
+     "edge": 1,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.plate.7",
+   "kind": "text",
+   "tex": 35,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     15,
+     0,
+     97,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 65,
+     "edge": 49,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round2.plate.7",
+   "kind": "text",
+   "tex": 18,
+   "clean": {
+    "method": "column",
+    "ref_x": 6,
+    "box": [
+     15,
+     0,
+     97,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 65,
+     "edge": 49,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round.plate.8",
+   "kind": "text",
+   "tex": 36,
+   "clean": {
+    "method": "column",
+    "ref_x": 103,
+    "box": [
+     6,
+     0,
+     103,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 50,
+     "edge": 49,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "id": "round2.plate.8",
+   "kind": "text",
+   "tex": 19,
+   "clean": {
+    "method": "column",
+    "ref_x": 103,
+    "box": [
+     6,
+     0,
+     103,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      6,
+      1,
+      106,
+      25
+     ],
+     "size": 19,
+     "fit": 12,
+     "fill": 50,
+     "edge": 49,
+     "rings": [
+      146
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,531 @@
+{
+ "_about": "상대 소개 카드·대전 이름 칸(KAIWADIR/ROUND.BNN, PANELDIR/ROUND2.BNN). ko의 줄 = 배치의 lines 순서. ko_from = 같은 문구를 쓰는 다른 항목(문구는 한 곳에만).",
+ "entries": [
+  {
+   "id": "round.card.0",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    0
+   ],
+   "src_sha1": "0b8c13a3d04948be7eff3aea6175198eef7e36cc",
+   "ja": "天野 麻衣\n18才 てんびん座 AB型",
+   "ko": "아마노 마이\n18세\n천칭자리\nAB형",
+   "state": "needs_review",
+   "terms": [
+    "name.mai",
+    "zodiac.libra"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.1",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    1
+   ],
+   "src_sha1": "ea50d041c0ff4370b7eda71cd58434eae7591207",
+   "ja": "水野 佑紀\n17才 みずがめ座 O型",
+   "ko": "미즈노 유키\n17세\n물병자리\nO형",
+   "state": "needs_review",
+   "terms": [
+    "name.yuki_full",
+    "zodiac.aquarius"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.2",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    2
+   ],
+   "src_sha1": "bcddf3b70f5c91622a44d2c29c9d7671e96827a0",
+   "ja": "佐々木 留美\n20才 おとめ座 O型",
+   "ko": "사사키 루미\n20세\n처녀자리\nO형",
+   "state": "needs_review",
+   "terms": [
+    "name.rumi",
+    "zodiac.virgo"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.3",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    3
+   ],
+   "src_sha1": "f87d7d680c2b7bd42fb077b34c0dbe7dd7654c65",
+   "ja": "片桐 志穂\n21才 おとめ座 O型",
+   "ko": "카타기리 시호\n21세\n처녀자리\nO형",
+   "state": "needs_review",
+   "terms": [
+    "name.shiho_full",
+    "zodiac.virgo"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.4",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    4
+   ],
+   "src_sha1": "f211b3658c6919cd790bca986983fea4cf7615ae",
+   "ja": "河本 小百合\n21才 しし座 B型",
+   "ko": "카와모토 사유리\n21세\n사자자리\nB형",
+   "state": "needs_review",
+   "terms": [
+    "name.sayuri",
+    "zodiac.leo"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.5",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    5
+   ],
+   "src_sha1": "01e2e0701c5ca4d22f0fb41a1b57f36aee193d0b",
+   "ja": "西野 絵利佳\n23才 かに座 AB型",
+   "ko": "니시노 에리카\n23세\n게자리\nAB형",
+   "state": "needs_review",
+   "terms": [
+    "name.erika",
+    "zodiac.cancer"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.6",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    6
+   ],
+   "src_sha1": "8d28a830592d4812d3e3a02c8ad64a4ea98b78a4",
+   "ja": "南條 理恵\n22才 やぎ座 A型",
+   "ko": "난조 리에\n22세\n염소자리\nA형",
+   "state": "needs_review",
+   "terms": [
+    "name.rie",
+    "zodiac.capricorn"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.7",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    7
+   ],
+   "src_sha1": "ca4906b298544223ef07979a8ef3d1dd2d9aa469",
+   "ja": "橘 麗華\n24才 さそり座 B型",
+   "ko": "타치바나 레이카\n24세\n전갈자리\nB형",
+   "state": "needs_review",
+   "terms": [
+    "name.reika",
+    "zodiac.scorpio"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.8",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    8
+   ],
+   "src_sha1": "5b26d4dca81393d1fe2b7f7b6f3a913ba22efad1",
+   "ja": "御崎 恭子\n18才 いて座 A型",
+   "ko": "미사키 쿄코\n18세\n궁수자리\nA형",
+   "state": "needs_review",
+   "terms": [
+    "name.kyoko_full",
+    "zodiac.sagittarius"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.9",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    9
+   ],
+   "src_sha1": "dd21c73d84b672a3d8b12ec22b356fe2dd805f60",
+   "ja": "木田 亜由美\n18才 うお座 O型",
+   "ko": "키다 아유미\n18세\n물고기자리\nO형",
+   "state": "needs_review",
+   "terms": [
+    "name.ayumi",
+    "zodiac.pisces"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.10",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    10
+   ],
+   "src_sha1": "ed6a8ec9c94bb588e20bd74ccb02e51b5e2bec4e",
+   "ja": "北山 麻里奈\n20才 しし座 AB型",
+   "ko": "키타야마 마리나\n20세\n사자자리\nAB형",
+   "state": "needs_review",
+   "terms": [
+    "name.marina",
+    "zodiac.leo"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.11",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    11
+   ],
+   "src_sha1": "8ecf0be03cbd05232f3a57de9c2919f4a7574183",
+   "ja": "片桐 美穂\n17才 やぎ座 O型",
+   "ko": "카타기리 미호\n17세\n염소자리\nO형",
+   "state": "needs_review",
+   "terms": [
+    "name.miho",
+    "zodiac.capricorn"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.12",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    12
+   ],
+   "src_sha1": "2e208762d7be52557e8d5ec8c5c7b748a4003170",
+   "ja": "桜井 美優里\n9才 かに座 B型",
+   "ko": "사쿠라이 미유리\n9세\n게자리\nB형",
+   "state": "needs_review",
+   "terms": [
+    "name.miyuri",
+    "zodiac.cancer"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.13",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    13
+   ],
+   "src_sha1": "a86e16cf2b2571601cc873eb4fbf7a6b87feaaa7",
+   "ja": "安西 早智子\n23才 てんびん座 B型",
+   "ko": "안자이 사치코\n23세\n천칭자리\nB형",
+   "state": "needs_review",
+   "terms": [
+    "name.sachiko",
+    "zodiac.libra"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.14",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    14
+   ],
+   "src_sha1": "2b53fa8914b165eb98718582eaf61a2a80b74b33",
+   "ja": "楠本 由加理\n25才 いて座 A型",
+   "ko": "쿠스모토 유카리\n25세\n궁수자리\nA형",
+   "state": "needs_review",
+   "terms": [
+    "name.yukari",
+    "zodiac.sagittarius"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.card.15",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    15
+   ],
+   "src_sha1": "e286fa22f55f2def389b736912f00a2e971eaa4b",
+   "ja": "西原 恵子\n21才 おひつじ座 A型",
+   "ko": "니시하라 케이코\n21세\n양자리\nA형",
+   "state": "needs_review",
+   "terms": [
+    "name.keiko",
+    "zodiac.aries"
+   ],
+   "note": "상대 소개 카드: 이름 / 나이·별자리·혈액형"
+  },
+  {
+   "id": "round.plate.0",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    28
+   ],
+   "src_sha1": "3000d8552b68dd0b1ee8547652f933246ecbcd6d",
+   "ja": "マイ",
+   "ko": "마이",
+   "state": "needs_review",
+   "terms": [
+    "name.mai"
+   ],
+   "note": "대전 소개(Round) 이름 칸"
+  },
+  {
+   "id": "round2.plate.0",
+   "file": "PANELDIR/ROUND2.BNN",
+   "tex": [
+    11
+   ],
+   "src_sha1": "3000d8552b68dd0b1ee8547652f933246ecbcd6d",
+   "ja": "マイ",
+   "ko_from": "round.plate.0",
+   "state": "needs_review",
+   "terms": [
+    "name.mai"
+   ],
+   "note": "ROUND.BNN과 같은 그림(패널 매치 쪽)"
+  },
+  {
+   "id": "round.plate.1",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    29
+   ],
+   "src_sha1": "1b69935d0b8c58c5b22f98a3187beae7b222b4be",
+   "ja": "ユキ",
+   "ko": "유키",
+   "state": "needs_review",
+   "terms": [
+    "name.yuki"
+   ],
+   "note": "대전 소개(Round) 이름 칸"
+  },
+  {
+   "id": "round2.plate.1",
+   "file": "PANELDIR/ROUND2.BNN",
+   "tex": [
+    12
+   ],
+   "src_sha1": "1b69935d0b8c58c5b22f98a3187beae7b222b4be",
+   "ja": "ユキ",
+   "ko_from": "round.plate.1",
+   "state": "needs_review",
+   "terms": [
+    "name.yuki"
+   ],
+   "note": "ROUND.BNN과 같은 그림(패널 매치 쪽)"
+  },
+  {
+   "id": "round.plate.2",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    30
+   ],
+   "src_sha1": "23987226a43753454172b052a3a8cc4287d85e16",
+   "ja": "ルミ",
+   "ko": "루미",
+   "state": "needs_review",
+   "terms": [
+    "name.rumi"
+   ],
+   "note": "대전 소개(Round) 이름 칸"
+  },
+  {
+   "id": "round2.plate.2",
+   "file": "PANELDIR/ROUND2.BNN",
+   "tex": [
+    13
+   ],
+   "src_sha1": "23987226a43753454172b052a3a8cc4287d85e16",
+   "ja": "ルミ",
+   "ko_from": "round.plate.2",
+   "state": "needs_review",
+   "terms": [
+    "name.rumi"
+   ],
+   "note": "ROUND.BNN과 같은 그림(패널 매치 쪽)"
+  },
+  {
+   "id": "round.plate.3",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    31
+   ],
+   "src_sha1": "34469e48783cab742921f5dd2eecd6a362c613ff",
+   "ja": "シホ",
+   "ko": "시호",
+   "state": "needs_review",
+   "terms": [
+    "name.shiho"
+   ],
+   "note": "대전 소개(Round) 이름 칸"
+  },
+  {
+   "id": "round2.plate.3",
+   "file": "PANELDIR/ROUND2.BNN",
+   "tex": [
+    14
+   ],
+   "src_sha1": "34469e48783cab742921f5dd2eecd6a362c613ff",
+   "ja": "シホ",
+   "ko_from": "round.plate.3",
+   "state": "needs_review",
+   "terms": [
+    "name.shiho"
+   ],
+   "note": "ROUND.BNN과 같은 그림(패널 매치 쪽)"
+  },
+  {
+   "id": "round.plate.4",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    32
+   ],
+   "src_sha1": "cc2f169d7bfb9df0aec5134f6871287816ff2c82",
+   "ja": "サユリ",
+   "ko": "사유리",
+   "state": "needs_review",
+   "terms": [
+    "name.sayuri"
+   ],
+   "note": "대전 소개(Round) 이름 칸"
+  },
+  {
+   "id": "round2.plate.4",
+   "file": "PANELDIR/ROUND2.BNN",
+   "tex": [
+    15
+   ],
+   "src_sha1": "cc2f169d7bfb9df0aec5134f6871287816ff2c82",
+   "ja": "サユリ",
+   "ko_from": "round.plate.4",
+   "state": "needs_review",
+   "terms": [
+    "name.sayuri"
+   ],
+   "note": "ROUND.BNN과 같은 그림(패널 매치 쪽)"
+  },
+  {
+   "id": "round.plate.5",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    33
+   ],
+   "src_sha1": "d6ee47a7a70decc9f46160210e5926c8f0687372",
+   "ja": "エリカ",
+   "ko": "에리카",
+   "state": "needs_review",
+   "terms": [
+    "name.erika"
+   ],
+   "note": "대전 소개(Round) 이름 칸"
+  },
+  {
+   "id": "round2.plate.5",
+   "file": "PANELDIR/ROUND2.BNN",
+   "tex": [
+    16
+   ],
+   "src_sha1": "d6ee47a7a70decc9f46160210e5926c8f0687372",
+   "ja": "エリカ",
+   "ko_from": "round.plate.5",
+   "state": "needs_review",
+   "terms": [
+    "name.erika"
+   ],
+   "note": "ROUND.BNN과 같은 그림(패널 매치 쪽)"
+  },
+  {
+   "id": "round.plate.6",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    34
+   ],
+   "src_sha1": "7bac9e58fe20c18212711521425677387b7097b7",
+   "ja": "リエ",
+   "ko": "리에",
+   "state": "needs_review",
+   "terms": [
+    "name.rie"
+   ],
+   "note": "대전 소개(Round) 이름 칸"
+  },
+  {
+   "id": "round2.plate.6",
+   "file": "PANELDIR/ROUND2.BNN",
+   "tex": [
+    17
+   ],
+   "src_sha1": "7bac9e58fe20c18212711521425677387b7097b7",
+   "ja": "リエ",
+   "ko_from": "round.plate.6",
+   "state": "needs_review",
+   "terms": [
+    "name.rie"
+   ],
+   "note": "ROUND.BNN과 같은 그림(패널 매치 쪽)"
+  },
+  {
+   "id": "round.plate.7",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    35
+   ],
+   "src_sha1": "0bcd90aa8f28020a5057e7c19a1ff7d93c809177",
+   "ja": "レイカ",
+   "ko": "레이카",
+   "state": "needs_review",
+   "terms": [
+    "name.reika"
+   ],
+   "note": "대전 소개(Round) 이름 칸"
+  },
+  {
+   "id": "round2.plate.7",
+   "file": "PANELDIR/ROUND2.BNN",
+   "tex": [
+    18
+   ],
+   "src_sha1": "0bcd90aa8f28020a5057e7c19a1ff7d93c809177",
+   "ja": "レイカ",
+   "ko_from": "round.plate.7",
+   "state": "needs_review",
+   "terms": [
+    "name.reika"
+   ],
+   "note": "ROUND.BNN과 같은 그림(패널 매치 쪽)"
+  },
+  {
+   "id": "round.plate.8",
+   "file": "KAIWADIR/ROUND.BNN",
+   "tex": [
+    36
+   ],
+   "src_sha1": "8844862d744580948959783a43c34aa390e67374",
+   "ja": "スーチーパイ",
+   "ko": "스치파이",
+   "state": "needs_review",
+   "terms": [
+    "name.suchie"
+   ],
+   "note": "대전 소개(Round) 이름 칸"
+  },
+  {
+   "id": "round2.plate.8",
+   "file": "PANELDIR/ROUND2.BNN",
+   "tex": [
+    19
+   ],
+   "src_sha1": "8844862d744580948959783a43c34aa390e67374",
+   "ja": "スーチーパイ",
+   "ko_from": "round.plate.8",
+   "state": "needs_review",
+   "terms": [
+    "name.suchie"
+   ],
+   "note": "ROUND.BNN과 같은 그림(패널 매치 쪽)"
+  }
+ ]
+}

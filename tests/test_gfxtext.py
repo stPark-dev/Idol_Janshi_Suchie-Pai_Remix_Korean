@@ -103,3 +103,11 @@ def test_tiles_take_blank_from_original_even_when_blank_is_overwritten_first():
             {"id": "b", "kind": "tiles", "blank": 2, "box": [2, 13, 15, 29], "size": 14, "fill": 26, "cells": "라_"}]
     gfxtext.apply_all(b, entries, lays)
     assert (b.get(4) == 9).all()          # blank copy is the untouched original, not "다"
+
+
+def test_text_line_fit_shrinks_font():
+    b = _bank(1, w=48, h=16)
+    lay = {"id": "x", "kind": "text", "tex": 0, "clean": {"method": "fill", "index": 0, "box": [0, 0, 48, 16]},
+           "lines": [{"box": [0, 0, 48, 16], "size": 14, "fit": 8, "fill": 1}]}
+    gfxtext.apply(b, _entry(b, [0], "물고기자리"), lay)
+    assert (b.get(0) == 1).any()
