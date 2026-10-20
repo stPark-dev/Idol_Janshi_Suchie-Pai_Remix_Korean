@@ -1,0 +1,1745 @@
+{
+ "_about": "PNL1/PNL2 배치. 좌표는 텍스처 픽셀 [x0,y0,x1,y1).",
+ "font": "/usr/share/fonts/truetype/nanum/NanumSquareRoundEB.ttf",
+ "entries": [
+  {
+   "id": "panel.msg.43",
+   "tex": 43,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 83,
+     "edge": 89,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 99,
+     "edge": 83,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.44",
+   "tex": 44,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 88,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 89,
+     "edge": 87,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.45",
+   "tex": 45,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 88,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 83,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.46",
+   "tex": 46,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 91,
+     "edge": 95,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 88,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.47",
+   "tex": 47,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 88,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 91,
+     "edge": 87,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.48",
+   "tex": 48,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 95,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 88,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.49",
+   "tex": 49,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 85,
+     "edge": 87,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 89,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.50",
+   "tex": 50,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 83,
+     "edge": 87,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 99,
+     "edge": 83,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.52",
+   "tex": 52,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 91,
+     "edge": 87,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 88,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.53",
+   "tex": 53,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 95,
+     "edge": 96,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 88,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.54",
+   "tex": 54,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 83,
+     "edge": 85,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 99,
+     "edge": 83,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.57",
+   "tex": 57,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 62,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 89,
+     "edge": 90,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.58",
+   "tex": 58,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 62,
+     "edge": 87,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 89,
+     "edge": 90,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.59",
+   "tex": 59,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 62,
+     "edge": 87,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 89,
+     "edge": 90,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.60",
+   "tex": 60,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 62,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 89,
+     "edge": 90,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.61",
+   "tex": 61,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 58,
+     "edge": 15,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 58,
+     "edge": 9,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.62",
+   "tex": 62,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 58,
+     "edge": 15,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 58,
+     "edge": 9,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.64",
+   "tex": 64,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 58,
+     "edge": 9,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 58,
+     "edge": 52,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.51",
+   "tex": 51,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      58,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 91,
+     "edge": 89,
+     "rings": [
+      97
+     ],
+     "align": "right"
+    },
+    {
+     "box": [
+      75,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 91,
+     "edge": 89,
+     "rings": [
+      97
+     ],
+     "align": "left"
+    },
+    {
+     "box": [
+      0,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 88,
+     "rings": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.55",
+   "tex": 55,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 104,
+     "edge": 87,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      1,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 85,
+     "edge": 87,
+     "rings": [
+      97
+     ],
+     "align": "right"
+    },
+    {
+     "box": [
+      17,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 85,
+     "edge": 87,
+     "rings": [
+      97
+     ],
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "panel.msg.56",
+   "tex": 56,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      128,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 104,
+     "edge": 95,
+     "rings": [
+      97
+     ]
+    },
+    {
+     "box": [
+      0,
+      13,
+      15,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 85,
+     "rings": [
+      97
+     ],
+     "align": "right"
+    },
+    {
+     "box": [
+      32,
+      13,
+      128,
+      26
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 87,
+     "edge": 85,
+     "rings": [
+      97
+     ],
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "panel.face.16",
+   "tex": 16,
+   "kind": "text",
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     140,
+     138,
+     139,
+     134
+    ],
+    "box": [
+     8,
+     6,
+     64,
+     41
+    ],
+    "fallback": 137
+   },
+   "lines": [
+    {
+     "box": [
+      8,
+      6,
+      64,
+      24
+     ],
+     "size": 15,
+     "fit": 9,
+     "fill": 140,
+     "edge": 139,
+     "rings": [
+      138
+     ]
+    },
+    {
+     "box": [
+      8,
+      23,
+      64,
+      41
+     ],
+     "size": 15,
+     "fit": 9,
+     "fill": 140,
+     "edge": 139,
+     "rings": [
+      138
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.face.17",
+   "tex": 17,
+   "kind": "text",
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     162,
+     166,
+     165,
+     164,
+     168
+    ],
+    "box": [
+     8,
+     6,
+     64,
+     41
+    ],
+    "fallback": 156
+   },
+   "lines": [
+    {
+     "box": [
+      8,
+      6,
+      64,
+      24
+     ],
+     "size": 15,
+     "fit": 9,
+     "fill": 162,
+     "edge": 165,
+     "rings": [
+      166
+     ]
+    },
+    {
+     "box": [
+      8,
+      23,
+      64,
+      41
+     ],
+     "size": 15,
+     "fit": 9,
+     "fill": 162,
+     "edge": 165,
+     "rings": [
+      166
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.face.22",
+   "tex": 22,
+   "kind": "text",
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     130,
+     117,
+     126,
+     129
+    ],
+    "box": [
+     8,
+     6,
+     64,
+     41
+    ],
+    "fallback": 111
+   },
+   "lines": [
+    {
+     "box": [
+      8,
+      6,
+      64,
+      24
+     ],
+     "size": 15,
+     "fit": 9,
+     "fill": 130,
+     "edge": 126,
+     "rings": [
+      117
+     ]
+    },
+    {
+     "box": [
+      8,
+      23,
+      64,
+      41
+     ],
+     "size": 15,
+     "fit": 9,
+     "fill": 130,
+     "edge": 126,
+     "rings": [
+      117
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.level.65",
+   "tex": 65,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     80,
+     13
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      80,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 89,
+     "edge": 90,
+     "rings": [
+      97
+     ],
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "panel.level.67",
+   "tex": 67,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     13
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 85,
+     "edge": 86,
+     "rings": [
+      97
+     ],
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "panel.level.68",
+   "tex": 68,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     13
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 83,
+     "edge": 84,
+     "rings": [
+      97
+     ],
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "panel.level.70",
+   "tex": 70,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     120,
+     13
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      120,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 34,
+     "edge": 41,
+     "rings": [
+      58
+     ],
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "panel.level.71",
+   "tex": 71,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     120,
+     13
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      120,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 52,
+     "edge": 50,
+     "rings": [
+      58
+     ],
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "panel.point.63",
+   "tex": 63,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     128,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      110,
+      13
+     ],
+     "size": 12,
+     "fit": 8,
+     "fill": 58,
+     "edge": 9,
+     "rings": [
+      51
+     ],
+     "align": "right"
+    }
+   ]
+  },
+  {
+   "id": "panel.info.2",
+   "tex": 2,
+   "kind": "text",
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     128,
+     129,
+     81,
+     69,
+     28
+    ],
+    "box": [
+     3,
+     2,
+     181,
+     14
+    ],
+    "fallback": 87
+   },
+   "lines": [
+    {
+     "box": [
+      3,
+      2,
+      181,
+      14
+     ],
+     "size": 11,
+     "fit": 8,
+     "fill": 128,
+     "shadow": {
+      "idx": 81,
+      "dx": 1,
+      "dy": 1
+     }
+    }
+   ]
+  },
+  {
+   "id": "panel.info.3",
+   "tex": 3,
+   "kind": "text",
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     25,
+     89,
+     40,
+     70,
+     77
+    ],
+    "box": [
+     0,
+     0,
+     88,
+     13
+    ],
+    "fallback": 62
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      88,
+      13
+     ],
+     "size": 10,
+     "fit": 7,
+     "fill": 25,
+     "edge": 40,
+     "rings": [
+      89
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.info.4",
+   "tex": 4,
+   "kind": "text",
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     25,
+     89,
+     40,
+     70,
+     77
+    ],
+    "box": [
+     0,
+     0,
+     88,
+     13
+    ],
+    "fallback": 62
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      88,
+      13
+     ],
+     "size": 10,
+     "fit": 7,
+     "fill": 25,
+     "edge": 40,
+     "rings": [
+      89
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panel.info.5",
+   "tex": 5,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     56,
+     14
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      56,
+      14
+     ],
+     "size": 11,
+     "fit": 7,
+     "fill": 89,
+     "edge": 6,
+     "rings": [
+      55
+     ],
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "id": "panel.info.6",
+   "tex": 6,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     56,
+     13
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      56,
+      13
+     ],
+     "size": 11,
+     "fit": 7,
+     "fill": 8,
+     "edge": 70,
+     "rings": [
+      89
+     ],
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "id": "panel.info.7",
+   "tex": 7,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     64,
+     13
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      64,
+      13
+     ],
+     "size": 11,
+     "fit": 7,
+     "fill": 85,
+     "edge": 70,
+     "rings": [
+      89
+     ],
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "id": "panel.info.27",
+   "tex": 27,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     80,
+     21
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      80,
+      21
+     ],
+     "size": 14,
+     "fit": 7,
+     "fill": 52,
+     "edge": 88,
+     "rings": [
+      71
+     ],
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "id": "panel.info.28",
+   "tex": 28,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     88,
+     21
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      88,
+      21
+     ],
+     "size": 14,
+     "fit": 7,
+     "fill": 52,
+     "edge": 88,
+     "rings": [
+      71
+     ],
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "id": "panel.info.30",
+   "tex": 30,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     120,
+     21
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      120,
+      21
+     ],
+     "size": 14,
+     "fit": 7,
+     "fill": 52,
+     "edge": 88,
+     "rings": [
+      71
+     ],
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "id": "panel.info.29",
+   "tex": 29,
+   "kind": "text",
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     24,
+     21
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      24,
+      21
+     ],
+     "size": 12,
+     "fill": 0
+    }
+   ]
+  }
+ ]
+}

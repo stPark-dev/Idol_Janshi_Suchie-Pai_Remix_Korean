@@ -137,3 +137,9 @@ def test_clean_rowmode_flattens_each_row_to_its_most_common_index():
     a = np.array([[1, 2, 1, 1], [3, 3, 9, 4]], np.uint8)
     out = label.clean(a, {"method": "rowmode"}, box=(0, 0, 4, 2))
     assert out.tolist() == [[1, 1, 1, 1], [3, 3, 3, 3]]
+
+
+def test_clean_rows_fallback_for_rows_without_background():
+    a = np.array([[1, 1, 1], [5, 1, 5]], np.uint8)
+    out = label.clean(a, {"method": "rows", "text_idx": [1], "fallback": 9}, box=(0, 0, 3, 2))
+    assert out.tolist() == [[9, 9, 9], [5, 5, 5]]

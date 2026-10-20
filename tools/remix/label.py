@@ -152,7 +152,9 @@ def clean(pixels: np.ndarray, spec: dict, box: tuple[int, int, int, int],
             row = out[y, x0:x1]
             bg = [int(v) for v in row if int(v) not in text]
             if not bg and any(int(v) in text for v in row):
-                raise LabelError(f"row {y} has no background pixel to restore from")
+                if "fallback" not in spec:
+                    raise LabelError(f"row {y} has no background pixel to restore from")
+                bg = [spec["fallback"]]
             if bg:
                 fill = Counter(bg).most_common(1)[0][0]
                 row[np.isin(row, list(text))] = fill

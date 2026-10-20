@@ -51,8 +51,10 @@ ART_BOLD, ART_MARGIN = 6, 2
 
 # Graphic text tables: translation/<name>.json + assets/<name>/layout.json. Each entry names its file
 # (table default "file") and, for CX files, the bank entry "cx_entry".
-GRAPHIC_TABLES = ("select", "round", "match")
+GRAPHIC_TABLES = ("select", "round", "match", "panel")
 ORIGINAL_SHA1 = {
+    "PNL1.BNN": "5bdbb036a14a211e7a8146f8ba14787d3558508b",
+    "PNL2.BNN": "ab440176f0336b51ed83941f44e25b8e7b027c7d",
     "SELECT.CX": "9b0734a6d425606aceb303bf8a02bc945a0142db",
     "KAIWADIR/ROUND.BNN": "59e43c61bb6e151e8faf4330b56fba07be1404ac",
     "GAMEDRV/MJCG.CX": "67b201f58538e19226202ece91eae31a8b6200ed",

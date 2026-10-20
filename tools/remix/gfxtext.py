@@ -26,8 +26,8 @@ def apply(b: Bank, entry: dict, lay: dict, original: dict[int, np.ndarray] | Non
     if _sha(orig, entry["tex"]) != entry["src_sha1"]:
         raise GfxTextError(f"{entry['id']}: source texture does not match src_sha1")
     ko = entry.get("ko", "")
-    if not ko.strip():
-        raise GfxTextError(f"{entry['id']}: empty translation")
+    if not ko.strip() and not entry.get("blank"):
+        raise GfxTextError(f"{entry['id']}: empty translation (set \"blank\": true to clear on purpose)")
     font = lay.get("font", label.DEFAULT_FONT)
     try:
         if lay["kind"] == "tiles":
@@ -42,7 +42,7 @@ def apply(b: Bank, entry: dict, lay: dict, original: dict[int, np.ndarray] | Non
                                                              font=font)
                 b.set(t, px)
         elif lay["kind"] == "text":
-            lines = ko.split("\n")
+            lines = ko.split("\n") if ko.strip() else [""] * len(lay["lines"])
             if len(lines) != len(lay["lines"]):
                 raise GfxTextError(f"{entry['id']}: {len(lines)} lines but layout has {len(lay['lines'])}")
             t = lay["tex"]

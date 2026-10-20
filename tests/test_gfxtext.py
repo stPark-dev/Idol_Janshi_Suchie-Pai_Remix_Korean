@@ -126,3 +126,11 @@ def test_text_accepts_a_list_of_clean_steps():
     gfxtext.apply(b, _entry(b, [0], "가"), lay)
     out = b.get(0)
     assert not (out == 7).any() and not (out == 8).any()
+
+
+def test_explicit_blank_entry_only_cleans():
+    b = _bank(1, w=24, h=16, fill=7)
+    lay = {"id": "x", "kind": "text", "tex": 0, "clean": {"method": "fill", "index": 0, "box": [0, 0, 24, 16]},
+           "lines": [{"box": [0, 0, 24, 16], "size": 12, "fill": 1}]}
+    gfxtext.apply(b, _entry(b, [0], "", blank=True), lay)
+    assert (b.get(0) == 0).all()
