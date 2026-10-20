@@ -74,7 +74,7 @@ def test_logo_only_build_matches_screen_verified_hash(tmp_path):
     keep = [i for i in range(len(c.entries)) if i not in build.LOGO_CELLS]
     assert all(c.entries[i] == orig.entries[i] for i in keep)
     data = ko.read_file("TITL_CG.CX")
-    assert hashlib.sha1(data).hexdigest() == build.TITL_CG_SHA1[("korean", "original")]
+    assert build.title_cells_sha1(data) == build.TITL_CG_CELLS_SHA1[("korean", "original")]
     # directory size and sector protection of every written sector
     r = ko.lookup("TITL_CG.CX")
     assert r.size == len(data)
@@ -89,7 +89,8 @@ def test_opening_letters_replace_only_their_cells(tmp_path):
     assert m["unverified"] is True and m["distribution"] is False
     c = cx.Container.parse(ko.read_file("TITL_CG.CX"))
     orig = cx.Container.parse(build.SourceDisc.open(SOURCE).read_file("TITL_CG.CX"))
-    changed = set(build.LOGO_CELLS) | set(build.SCROLL_LETTERS) | set(build.ART_LETTERS)
+    changed = set(build.LOGO_CELLS) | set(build.SCROLL_LETTERS) | set(build.ART_LETTERS) | {
+        e["cx_entry"] for e in build.load_tables()[0] if e["file"] == "TITL_CG.CX"}
     for i in range(len(c.entries)):
         if i in changed:
             a, b = cx.unpack_entry(c.entries[i]), cx.unpack_entry(orig.entries[i])
@@ -103,7 +104,7 @@ def test_opening_letters_replace_only_their_cells(tmp_path):
 
 @needs_source
 def test_unverified_combination_is_refused_without_flag(tmp_path):
-    assert ("original", "korean") not in build.TITL_CG_SHA1
+    assert ("original", "korean") not in build.TITL_CG_CELLS_SHA1
     with pytest.raises(build.BuildError, match="verified"):
         build.build(SOURCE, tmp_path / "x", title="original", opening="korean")
 
@@ -162,3 +163,11 @@ def test_round_plates_keep_their_frame_rows(tmp_path):
         x0, _, x1, _ = layouts[e["id"]]["clean"]["box"]
         for y in (4, 21):
             assert (a[y, x0:x1] != 0).all(), (e["id"], y)
+
+
+@needs_source
+def test_title_table_entries_apply_on_top_of_verified_cells(tmp_path):
+    m, ko = _korean(tmp_path)
+    data = ko.read_file("TITL_CG.CX")
+    assert build.title_cells_sha1(data) == build.TITL_CG_CELLS_SHA1[("korean", "korean")]
+    assert [c["writer"] for c in m["changes"]].count("title_cg") == 1

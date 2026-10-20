@@ -1,0 +1,660 @@
+{
+ "_about": "오프닝 캐릭터 소개(TITL_CG.CX 묶음 #108 이름·성우, #109 별명). 로고·큰 글자 칸과 별개로, 그 결과 위에 적용.",
+ "entries": [
+  {
+   "id": "intro.name.1",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    1
+   ],
+   "src_sha1": "ff5d75dbe1e208c7854a132be00219d630c7963c",
+   "ja": "天野麻衣",
+   "ko": "아마노 마이",
+   "state": "needs_review",
+   "terms": [
+    "name.mai"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.2",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    2
+   ],
+   "src_sha1": "c236c1801d305e45859d3f18eff4f66acc72b3c8",
+   "ja": "水野佑紀",
+   "ko": "미즈노 유키",
+   "state": "needs_review",
+   "terms": [
+    "name.yuki_full"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.3",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    3
+   ],
+   "src_sha1": "6fa88b5ac76d9af05637b8fecfd02fc874e85daa",
+   "ja": "佐々木留美",
+   "ko": "사사키 루미",
+   "state": "needs_review",
+   "terms": [
+    "name.rumi"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.4",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    4
+   ],
+   "src_sha1": "96aa2eb70ab08958e42eaa49d5f9a3d984b5f282",
+   "ja": "片桐志穂",
+   "ko": "카타기리 시호",
+   "state": "needs_review",
+   "terms": [
+    "name.shiho_full"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.5",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    5
+   ],
+   "src_sha1": "82b96d2316fb038abfc2858a798b0e343823e493",
+   "ja": "河本小百合",
+   "ko": "카와모토 사유리",
+   "state": "needs_review",
+   "terms": [
+    "name.sayuri"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.6",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    6
+   ],
+   "src_sha1": "b4106721070e62f2355427e7a647e90ef64d08d3",
+   "ja": "西野絵利佳",
+   "ko": "니시노 에리카",
+   "state": "needs_review",
+   "terms": [
+    "name.erika"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.7",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    7
+   ],
+   "src_sha1": "5227826550665542413a2c5d568f586cb6929829",
+   "ja": "南條理恵",
+   "ko": "난조 리에",
+   "state": "needs_review",
+   "terms": [
+    "name.rie"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.8",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    8
+   ],
+   "src_sha1": "aab8fea04af0bda8418c177aa7b0bd24a06d661d",
+   "ja": "橘麗華",
+   "ko": "타치바나 레이카",
+   "state": "needs_review",
+   "terms": [
+    "name.reika"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.9",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    9
+   ],
+   "src_sha1": "60a872dabebea74968f7e75b7bb2d4e3c710bc99",
+   "ja": "安西早智子",
+   "ko": "안자이 사치코",
+   "state": "needs_review",
+   "terms": [
+    "name.sachiko"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.10",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    10
+   ],
+   "src_sha1": "96010c0a22f555a141c3a61bd0277189d21003e6",
+   "ja": "桜井美優里",
+   "ko": "사쿠라이 미유리",
+   "state": "needs_review",
+   "terms": [
+    "name.miyuri"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.11",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    11
+   ],
+   "src_sha1": "ff8e4c1da32bf2d239524b3f5e3ce2e0e8a9bfc6",
+   "ja": "北山麻里奈",
+   "ko": "키타야마 마리나",
+   "state": "needs_review",
+   "terms": [
+    "name.marina"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.12",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    12
+   ],
+   "src_sha1": "02f49ca757289ba7084fed42d158d87bd8ee3b35",
+   "ja": "西原恵子",
+   "ko": "니시하라 케이코",
+   "state": "needs_review",
+   "terms": [
+    "name.keiko"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.13",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    13
+   ],
+   "src_sha1": "0c73454697031b491100c0d951000518b549d50b",
+   "ja": "片桐美穂",
+   "ko": "카타기리 미호",
+   "state": "needs_review",
+   "terms": [
+    "name.miho"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.14",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    14
+   ],
+   "src_sha1": "76f7023481be22db17cac77b2bcf6ef710f2aa0d",
+   "ja": "木田亜由美",
+   "ko": "키다 아유미",
+   "state": "needs_review",
+   "terms": [
+    "name.ayumi"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.15",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    15
+   ],
+   "src_sha1": "d4cc3c51a766011e299085c45cf3eed03f7c698b",
+   "ja": "楠本由加理",
+   "ko": "쿠스모토 유카리",
+   "state": "needs_review",
+   "terms": [
+    "name.yukari"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.name.16",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    16
+   ],
+   "src_sha1": "e5e93952ed0164c17319179a7bb968a6be5360c1",
+   "ja": "御崎恭子",
+   "ko": "미사키 쿄코",
+   "state": "needs_review",
+   "terms": [
+    "name.kyoko_full"
+   ],
+   "note": "오프닝 캐릭터 소개: 본명"
+  },
+  {
+   "id": "intro.cv.17",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    17
+   ],
+   "src_sha1": "0119bad77fbfbab89ecc02cad5d2dad8a303cc71",
+   "ja": "吉田古奈美",
+   "ko": "요시다 코나미",
+   "state": "needs_review",
+   "terms": [
+    "va.yoshida"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.18",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    18
+   ],
+   "src_sha1": "2479e628cd6ced48904130a4109e0bf35f82770d",
+   "ja": "高橋美紀",
+   "ko": "타카하시 미키",
+   "state": "needs_review",
+   "terms": [
+    "va.takahashi"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.19",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    19
+   ],
+   "src_sha1": "b6720c02d29d04a92b7244f49925658ac409dc77",
+   "ja": "冨永みーな",
+   "ko": "토미나가 미나",
+   "state": "needs_review",
+   "terms": [
+    "va.tominaga"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.20",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    20
+   ],
+   "src_sha1": "bdd31ff97f78dcbec3ead48de124e31a41dd7ad8",
+   "ja": "矢島晶子",
+   "ko": "야지마 아키코",
+   "state": "needs_review",
+   "terms": [
+    "va.yajima"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.21",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    21
+   ],
+   "src_sha1": "1802edf2cfae1386a0e55770228c3b31b27caaee",
+   "ja": "西原久美子",
+   "ko": "니시하라 쿠미코",
+   "state": "needs_review",
+   "terms": [
+    "va.nishihara"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.22",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    22
+   ],
+   "src_sha1": "e6d95d22f77e3d550e38a9eae5bc8fea112159cf",
+   "ja": "平松晶子",
+   "ko": "히라마츠 아키코",
+   "state": "needs_review",
+   "terms": [
+    "va.hiramatsu"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.23",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    23
+   ],
+   "src_sha1": "c1556a24a25718353221fc88961cbe0fce3b01e2",
+   "ja": "深見梨加",
+   "ko": "후카미 리카",
+   "state": "needs_review",
+   "terms": [
+    "va.fukami"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.24",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    24
+   ],
+   "src_sha1": "fda19067ed9e2783e0d34e2a03f25251ccda23fd",
+   "ja": "松本梨香",
+   "ko": "마츠모토 리카",
+   "state": "needs_review",
+   "terms": [
+    "va.matsumoto"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.25",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    25
+   ],
+   "src_sha1": "f7201c14bafeb605f5b8b9a0bfb224a2b78f1424",
+   "ja": "折笠愛",
+   "ko": "오리카사 아이",
+   "state": "needs_review",
+   "terms": [
+    "va.orikasa"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.26",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    26
+   ],
+   "src_sha1": "1aa88a68c626ee1edde15e1435dc8d16a89e3f14",
+   "ja": "こおろぎさとみ",
+   "ko": "코오로기 사토미",
+   "state": "needs_review",
+   "terms": [
+    "va.korogi"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.27",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    27
+   ],
+   "src_sha1": "e57b5273e7f870cf358508117faabaed819ee102",
+   "ja": "水谷優子",
+   "ko": "미즈타니 유코",
+   "state": "needs_review",
+   "terms": [
+    "va.mizutani"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.28",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    28
+   ],
+   "src_sha1": "bbc4bcf578f2ebd92123925b3f64b56854b20ebc",
+   "ja": "高田由美",
+   "ko": "타카다 유미",
+   "state": "needs_review",
+   "terms": [
+    "va.takada"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.29",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    29
+   ],
+   "src_sha1": "0f21ff1d791967c63974562776e9531be5a6f137",
+   "ja": "高乃麗",
+   "ko": "타카노 우라라",
+   "state": "needs_review",
+   "terms": [
+    "va.takano"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.cv.30",
+   "file": "TITL_CG.CX",
+   "cx_entry": 108,
+   "tex": [
+    30
+   ],
+   "src_sha1": "cbba537a6654f904b6cc4de9b3c1f8d34e44caa9",
+   "ja": "かないみか",
+   "ko": "카나이 미카",
+   "state": "needs_review",
+   "terms": [
+    "va.kanai"
+   ],
+   "note": "오프닝 캐릭터 소개: 성우"
+  },
+  {
+   "id": "intro.koto.1",
+   "file": "TITL_CG.CX",
+   "cx_entry": 109,
+   "tex": [
+    1
+   ],
+   "src_sha1": "600f17357bba779c47a45d0dd7912281e2eab888",
+   "ja": "アンコのマイ こと…",
+   "ko": "일명\n「안커의 마이」",
+   "state": "needs_review",
+   "terms": [
+    "term.ankou",
+    "name.mai",
+    "ui.koto"
+   ],
+   "note": "2편과 같은 형식: 'N1こと N2' → '일명 「N1」'. 일명은 こと… 색(흰 글자·파란 테두리)"
+  },
+  {
+   "id": "intro.koto.2",
+   "file": "TITL_CG.CX",
+   "cx_entry": 109,
+   "tex": [
+    2
+   ],
+   "src_sha1": "88cdea58016311a53df8df851e8755603cb58e4f",
+   "ja": "ブリッジのユキ こと…",
+   "ko": "일명\n「브리지의 유키」",
+   "state": "needs_review",
+   "terms": [
+    "epithet.bridge",
+    "name.yuki",
+    "ui.koto"
+   ],
+   "note": "2편과 같은 형식: 'N1こと N2' → '일명 「N1」'. 일명은 こと… 색(흰 글자·파란 테두리)"
+  },
+  {
+   "id": "intro.koto.3",
+   "file": "TITL_CG.CX",
+   "cx_entry": 109,
+   "tex": [
+    3
+   ],
+   "src_sha1": "8d38b3f7109f357ecbe7ef8ca8ae6c895b81dce2",
+   "ja": "チャンタのルミ こと…",
+   "ko": "일명\n「찬타의 루미」",
+   "state": "needs_review",
+   "terms": [
+    "yaku.全帯么",
+    "name.rumi",
+    "ui.koto"
+   ],
+   "note": "2편과 같은 형식: 'N1こと N2' → '일명 「N1」'. 일명은 こと… 색(흰 글자·파란 테두리)"
+  },
+  {
+   "id": "intro.koto.4",
+   "file": "TITL_CG.CX",
+   "cx_entry": 109,
+   "tex": [
+    4
+   ],
+   "src_sha1": "126b02db30df9e2b6e66340fc0aedc5083a75ce4",
+   "ja": "ドラのシホ こと…",
+   "ko": "일명\n「도라의 시호」",
+   "state": "needs_review",
+   "terms": [
+    "yaku.ドラ",
+    "name.shiho",
+    "ui.koto"
+   ],
+   "note": "2편과 같은 형식: 'N1こと N2' → '일명 「N1」'. 일명은 こと… 색(흰 글자·파란 테두리)"
+  },
+  {
+   "id": "intro.koto.5",
+   "file": "TITL_CG.CX",
+   "cx_entry": 109,
+   "tex": [
+    5
+   ],
+   "src_sha1": "1840eabe987c847e2daba6ddf983a3b458a7c579",
+   "ja": "イーペーコーのサユリ こと…",
+   "ko": "일명\n「이페코의 사유리」",
+   "state": "needs_review",
+   "terms": [
+    "yaku.一盃口",
+    "name.sayuri",
+    "ui.koto"
+   ],
+   "note": "2편과 같은 형식: 'N1こと N2' → '일명 「N1」'. 일명은 こと… 색(흰 글자·파란 테두리)"
+  },
+  {
+   "id": "intro.koto.6",
+   "file": "TITL_CG.CX",
+   "cx_entry": 109,
+   "tex": [
+    6
+   ],
+   "src_sha1": "9c149d41faa0460bfbb663657647ddb458422f19",
+   "ja": "フウパイのエリカ こと…",
+   "ko": "일명\n「풍패의 에리카」",
+   "state": "needs_review",
+   "terms": [
+    "term.kazehai",
+    "name.erika",
+    "ui.koto"
+   ],
+   "note": "2편과 같은 형식: 'N1こと N2' → '일명 「N1」'. 일명은 こと… 색(흰 글자·파란 테두리)"
+  },
+  {
+   "id": "intro.koto.7",
+   "file": "TITL_CG.CX",
+   "cx_entry": 109,
+   "tex": [
+    7
+   ],
+   "src_sha1": "b940ad3c5f6bc18af3621c51dbb242e383cd0dae",
+   "ja": "ジハイのリエ こと…",
+   "ko": "일명\n「자패의 리에」",
+   "state": "needs_review",
+   "terms": [
+    "term.jihai",
+    "name.rie",
+    "ui.koto"
+   ],
+   "note": "2편과 같은 형식: 'N1こと N2' → '일명 「N1」'. 일명은 こと… 색(흰 글자·파란 테두리)"
+  },
+  {
+   "id": "intro.koto.9",
+   "file": "TITL_CG.CX",
+   "cx_entry": 109,
+   "tex": [
+    9
+   ],
+   "src_sha1": "791950be035a07c09714f5665bca263371bc4a35",
+   "ja": "スーチーパイ こと…",
+   "ko": "일명\n「스치파이」",
+   "state": "needs_review",
+   "terms": [
+    "name.suchie",
+    "ui.koto"
+   ],
+   "note": "2편과 같은 형식: 'N1こと N2' → '일명 「N1」'. 일명은 こと… 색(흰 글자·파란 테두리)"
+  },
+  {
+   "id": "intro.koto.8",
+   "file": "TITL_CG.CX",
+   "cx_entry": 109,
+   "tex": [
+    8
+   ],
+   "src_sha1": "2b4de2e92d5c782c0bd0734f806be187513302d7",
+   "ja": "最強の雀士",
+   "ko": "최강의 작사",
+   "state": "needs_review",
+   "terms": [
+    "voice.janshi"
+   ],
+   "note": "레이카 소개(こと 없음)"
+  },
+  {
+   "id": "intro.cv.frame",
+   "file": "TITL_CG.CX",
+   "cx_entry": 109,
+   "tex": [
+    0
+   ],
+   "src_sha1": "f1fe8e25a840c030a22ce67d6784c9de32583a69",
+   "ja": "(声 )",
+   "ko": "CV",
+   "state": "needs_review",
+   "terms": [
+    "ui.cv"
+   ],
+   "note": "성우 이름 앞 괄호 틀의 '声'만 바꿈(괄호는 그대로)"
+  }
+ ]
+}

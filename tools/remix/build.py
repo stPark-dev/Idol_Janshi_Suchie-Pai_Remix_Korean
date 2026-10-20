@@ -27,10 +27,12 @@ CX_FILES = ("TITL_CG.CX", "SELECT.CX", "BADGRAPH.CX", "GAMEDRV/MJCG.CX", "GOODEN
 # TITL_CG.CX: single 4bpp images, byte RLE (survey 3.4, 3.7).
 TITLE_FILE = "TITL_CG.CX"
 TITLE_SHA1 = "39ead2b63eaff305a8c4a771e7b02a79f67153ff"
-# Results checked on screen, per (title, opening) mode (Pillow 9.4, NanumSquareRound EB).
-TITL_CG_SHA1 = {
-    ("korean", "original"): "ebd598109d6b173057c590f4d67505553b51c458",   # survey 3.7
-    ("korean", "korean"): "32a3c708f9d1c7e0b92ce8b055fb142c39b5cbcb",     # survey 3.8
+# Logo and opening cells checked on screen, per (title, opening) mode: SHA-1 of the unpacked logo,
+# scroll and art cells in index order (Pillow 9.4, NanumSquareRound EB). Table entries for other
+# TITL_CG cells (translation/*.json) are applied afterwards and are not part of this pin.
+TITL_CG_CELLS_SHA1 = {
+    ("korean", "original"): "fb5bdefdd369224cb704cffba21379b9366a3825",   # survey 3.7
+    ("korean", "korean"): "34a2eb23b45f81432b978451f7f3168439d80b98",     # survey 3.8
 }
 # Title logo: palette CRAM 0x200-0x20F shared by both pieces.
 LOGO_CELLS = {104: (120, 21), 105: (256, 87)}
@@ -51,11 +53,12 @@ ART_BOLD, ART_MARGIN = 6, 2
 
 # Graphic text tables: translation/<name>.json + assets/<name>/layout.json. Each entry names its file
 # (table default "file") and, for CX files, the bank entry "cx_entry".
-GRAPHIC_TABLES = ("select", "round", "match", "panel")
+GRAPHIC_TABLES = ("select", "round", "match", "panel", "intro")
 ORIGINAL_SHA1 = {
     "PNL1.BNN": "5bdbb036a14a211e7a8146f8ba14787d3558508b",
     "PNL2.BNN": "ab440176f0336b51ed83941f44e25b8e7b027c7d",
     "SELECT.CX": "9b0734a6d425606aceb303bf8a02bc945a0142db",
+    "TITL_CG.CX": TITLE_SHA1,
     "KAIWADIR/ROUND.BNN": "59e43c61bb6e151e8faf4330b56fba07be1404ac",
     "GAMEDRV/MJCG.CX": "67b201f58538e19226202ece91eae31a8b6200ed",
     "PANELDIR/ROUND2.BNN": "6b6fe2e86c329545e5c9e2e27d1397b793d61b78",
@@ -312,7 +315,14 @@ def graphic_file(path: str, original: bytes, entries: list[dict], layouts: dict[
     return _apply_bank(original, entries, layouts, path)
 
 
-def title_cg(original: bytes, title: str, opening: str, unverified: bool = False) -> bytes:
+def title_cells_sha1(data: bytes) -> str:
+    c = cx.Container.parse(data)
+    cells = sorted(set(LOGO_CELLS) | set(SCROLL_LETTERS) | set(ART_LETTERS))
+    return hashlib.sha1(b"".join(cx.unpack_entry(c.entries[i]) for i in cells)).hexdigest()
+
+
+def title_cg(original: bytes, title: str, opening: str, unverified: bool = False,
+             entries: list[dict] | None = None, layouts: dict[str, dict] | None = None) -> bytes:
     if hashlib.sha1(original).hexdigest() != TITLE_SHA1:
         raise BuildError(f"{TITLE_FILE}: content is not the original")
     c = cx.Container.parse(original)
@@ -321,14 +331,31 @@ def title_cg(original: bytes, title: str, opening: str, unverified: bool = False
     if opening == "korean":
         _opening(c)
     new = c.build()
-    got = hashlib.sha1(new).hexdigest()
-    want = TITL_CG_SHA1.get((title, opening))
-    if want is None and not unverified:
-        raise BuildError(f"{TITLE_FILE}: title={title} opening={opening} has not been verified on screen "
-                         "(build with unverified=True / --unverified for a test disc)")
-    if want is not None and got != want:
-        raise BuildError(f"{TITLE_FILE}: result {got} differs from the verified {want} "
-                         "(source PNG, font or Pillow changed; re-verify on screen before updating)")
+    if "korean" in (title, opening):
+        got = title_cells_sha1(new)
+        want = TITL_CG_CELLS_SHA1.get((title, opening))
+        if want is None and not unverified:
+            raise BuildError(f"{TITLE_FILE}: title={title} opening={opening} has not been verified on screen "
+                             "(build with unverified=True / --unverified for a test disc)")
+        if want is not None and got != want:
+            raise BuildError(f"{TITLE_FILE}: logo/opening cells {got} differ from the verified {want} "
+                             "(source PNG, font or Pillow changed; re-verify on screen before updating)")
+    if entries:
+        pinned = set(LOGO_CELLS) | set(SCROLL_LETTERS) | set(ART_LETTERS)
+        clash = [e["id"] for e in entries if e["cx_entry"] in pinned]
+        if clash:
+            raise BuildError(f"{TITLE_FILE}: table entries touch logo/opening cells: {clash}")
+        c = cx.Container.parse(new)
+        for k in sorted({e["cx_entry"] for e in entries}):
+            group = [e for e in entries if e["cx_entry"] == k]
+            raw = c.entries[k]
+            if is_raw_bank(raw):
+                c.entries[k] = _apply_bank(raw, group, layouts, f"{TITLE_FILE} #{k}")
+            else:
+                kind = int.from_bytes(raw[:2], "big")
+                c.entries[k] = cx.pack_entry(kind, _apply_bank(cx.unpack_entry(raw), group, layouts,
+                                                               f"{TITLE_FILE} #{k}"), optimal=True)
+        new = c.build()
     return new
 
 
@@ -345,13 +372,14 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
     for mode in (title, opening, graphics):
         if mode not in ("korean", "original"):
             raise BuildError(f"unknown mode {mode}")
-    if "korean" in (title, opening):
-        new = title_cg(disc.read_file(TITLE_FILE), title, opening, unverified)
+    entries, layouts = load_tables() if graphics == "korean" else ([], {})
+    title_entries = [e for e in entries if e["file"] == TITLE_FILE]
+    if "korean" in (title, opening) or title_entries:
+        new = title_cg(disc.read_file(TITLE_FILE), title, opening, unverified, title_entries, layouts)
         changes.append(_plan_file(plan, disc, TITLE_FILE, new, "title_cg", dirs))
     texts = []
     if graphics == "korean":
-        entries, layouts = load_tables()
-        for path in sorted({e["file"] for e in entries}):
+        for path in sorted({e["file"] for e in entries} - {TITLE_FILE}):
             group = [e for e in entries if e["file"] == path]
             new = graphic_file(path, disc.read_file(path), group, layouts)
             changes.append(_plan_file(plan, disc, path, new, f"gfx:{path}", dirs))

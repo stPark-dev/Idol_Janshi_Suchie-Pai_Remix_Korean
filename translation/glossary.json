@@ -1553,6 +1553,22 @@
    "state": "proposed",
    "origin": "remix",
    "note": "배패를 고르는 아이템. 気는 그림상 글자 그대로(의미 불명확)"
+  },
+  {
+   "id": "va.takada",
+   "ja": "高田由美",
+   "ko": "타카다 유미",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "성우 이름, 2편 표기 규칙"
+  },
+  {
+   "id": "va.takano",
+   "ja": "高乃麗",
+   "ko": "타카노 우라라",
+   "state": "proposed",
+   "origin": "remix",
+   "note": "성우 이름, 2편 표기 규칙"
   }
  ]
 }
