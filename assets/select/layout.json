@@ -1,0 +1,1694 @@
+{
+ "_about": "SELECT.CX 그림 글자 배치. 좌표는 텍스처 픽셀 [x0, y0, x1, y1) (끝 미포함). clean: 원문 지우기(copy=다른 텍스처에서 복사, fill=한 색으로, rows=text_idx 픽셀을 그 줄의 배경색으로). fill/edge/outline = 글자 채움·가장자리·바깥선 색 번호.",
+ "font": "/usr/share/fonts/truetype/nanum/NanumSquareRoundEB.ttf",
+ "entries": [
+  {
+   "id": "select.menu.char",
+   "kind": "tiles",
+   "blank": 20,
+   "box": [
+    2,
+    13,
+    15,
+    29
+   ],
+   "size": 14,
+   "fill": 26,
+   "edge": 30,
+   "cells": "캐릭터_선택__"
+  },
+  {
+   "id": "select.menu.sound",
+   "kind": "tiles",
+   "blank": 20,
+   "box": [
+    2,
+    13,
+    15,
+    29
+   ],
+   "size": 14,
+   "fill": 74,
+   "edge": 48,
+   "cells": "사운드_테스트_"
+  },
+  {
+   "id": "select.menu.rules",
+   "kind": "tiles",
+   "blank": 20,
+   "box": [
+    2,
+    13,
+    15,
+    29
+   ],
+   "size": 14,
+   "fill": 61,
+   "edge": 45,
+   "cells": "마작대회_규칙_"
+  },
+  {
+   "id": "select.menu.title",
+   "kind": "text",
+   "tex": 33,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     18,
+     42
+    ],
+    "box": [
+     4,
+     3,
+     116,
+     26
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      3,
+      116,
+      26
+     ],
+     "size": 21,
+     "fill": 18,
+     "edge": 42,
+     "outline": 2
+    }
+   ]
+  },
+  {
+   "id": "select.menu.choose",
+   "kind": "text",
+   "tex": 32,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     17,
+     40
+    ],
+    "box": [
+     28,
+     10,
+     57,
+     25
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      28,
+      10,
+      57,
+      25
+     ],
+     "size": 13,
+     "fill": 17,
+     "edge": 40
+    }
+   ]
+  },
+  {
+   "id": "select.menu.decide",
+   "kind": "text",
+   "tex": 32,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     17,
+     40
+    ],
+    "box": [
+     28,
+     38,
+     57,
+     53
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      28,
+      38,
+      57,
+      53
+     ],
+     "size": 13,
+     "fill": 17,
+     "edge": 40
+    }
+   ]
+  },
+  {
+   "id": "select.epithet.0",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     1,
+     2,
+     79,
+     18
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      1,
+      2,
+      79,
+      18
+     ],
+     "size": 14,
+     "fill": 19,
+     "edge": 47,
+     "rings": [
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "id": "select.epithet.1",
+   "kind": "text",
+   "tex": 1,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     1,
+     2,
+     79,
+     18
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      1,
+      2,
+      79,
+      18
+     ],
+     "size": 12,
+     "fill": 19,
+     "edge": 47,
+     "rings": [
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "id": "select.epithet.2",
+   "kind": "text",
+   "tex": 2,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     1,
+     2,
+     79,
+     18
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      1,
+      2,
+      79,
+      18
+     ],
+     "size": 14,
+     "fill": 19,
+     "edge": 47,
+     "rings": [
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "id": "select.epithet.3",
+   "kind": "text",
+   "tex": 3,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     1,
+     2,
+     79,
+     18
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      1,
+      2,
+      79,
+      18
+     ],
+     "size": 14,
+     "fill": 19,
+     "edge": 47,
+     "rings": [
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "id": "select.epithet.4",
+   "kind": "text",
+   "tex": 4,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     1,
+     2,
+     79,
+     18
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      1,
+      2,
+      79,
+      18
+     ],
+     "size": 14,
+     "fill": 19,
+     "edge": 47,
+     "rings": [
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "id": "select.epithet.5",
+   "kind": "text",
+   "tex": 5,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     1,
+     2,
+     79,
+     18
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      1,
+      2,
+      79,
+      18
+     ],
+     "size": 14,
+     "fill": 19,
+     "edge": 47,
+     "rings": [
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "id": "select.epithet.6",
+   "kind": "text",
+   "tex": 6,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     1,
+     2,
+     79,
+     18
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      1,
+      2,
+      79,
+      18
+     ],
+     "size": 14,
+     "fill": 19,
+     "edge": 47,
+     "rings": [
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "id": "select.charsel.choose",
+   "kind": "text",
+   "tex": 8,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     14,
+     32
+    ],
+    "box": [
+     28,
+     10,
+     58,
+     25
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      28,
+      10,
+      58,
+      25
+     ],
+     "size": 13,
+     "fill": 14,
+     "edge": 32
+    }
+   ]
+  },
+  {
+   "id": "select.charsel.decide",
+   "kind": "text",
+   "tex": 8,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     14,
+     32
+    ],
+    "box": [
+     28,
+     38,
+     58,
+     53
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      28,
+      38,
+      58,
+      53
+     ],
+     "size": 13,
+     "fill": 14,
+     "edge": 32
+    }
+   ]
+  },
+  {
+   "id": "select.charsel.explain",
+   "kind": "text",
+   "tex": 8,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     14,
+     32
+    ],
+    "box": [
+     28,
+     66,
+     58,
+     81
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      28,
+      66,
+      58,
+      81
+     ],
+     "size": 13,
+     "fill": 14,
+     "edge": 32
+    }
+   ]
+  },
+  {
+   "id": "select.charsel.prompt",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "fill",
+    "index": 0,
+    "box": [
+     0,
+     0,
+     80,
+     42
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      0,
+      0,
+      80,
+      21
+     ],
+     "size": 12,
+     "fill": 58,
+     "edge": 33,
+     "rings": [
+      44,
+      2,
+      31
+     ],
+     "inner": 3
+    },
+    {
+     "box": [
+      0,
+      21,
+      80,
+      42
+     ],
+     "size": 12,
+     "fill": 58,
+     "edge": 33,
+     "rings": [
+      44,
+      2,
+      31
+     ],
+     "inner": 3
+    }
+   ]
+  },
+  {
+   "id": "select.sound.title",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     8,
+     6,
+     5,
+     4,
+     3,
+     2,
+     12,
+     17,
+     11,
+     20
+    ],
+    "box": [
+     3,
+     4,
+     181,
+     29
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      3,
+      182,
+      30
+     ],
+     "size": 20,
+     "fill": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      6,
+      5,
+      4,
+      3,
+      2,
+      2,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+     ],
+     "edge": 17,
+     "rings": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "select.sound.singer1",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     8,
+     12,
+     20,
+     15,
+     11
+    ],
+    "box": [
+     60,
+     62,
+     176,
+     78
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      60,
+      62,
+      176,
+      78
+     ],
+     "size": 11,
+     "fill": 8,
+     "edge": 11,
+     "rings": [
+      12,
+      20
+     ],
+     "align": "right"
+    }
+   ]
+  },
+  {
+   "id": "select.sound.singer2",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     8,
+     12,
+     20,
+     15,
+     11
+    ],
+    "box": [
+     60,
+     98,
+     176,
+     114
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      60,
+      98,
+      176,
+      114
+     ],
+     "size": 11,
+     "fill": 8,
+     "edge": 11,
+     "rings": [
+      12,
+      20
+     ],
+     "align": "right"
+    }
+   ]
+  },
+  {
+   "id": "select.sound.song3",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     8,
+     12,
+     20,
+     15,
+     11
+    ],
+    "box": [
+     12,
+     115,
+     176,
+     134
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      12,
+      115,
+      176,
+      134
+     ],
+     "size": 13,
+     "fill": 8,
+     "edge": 11,
+     "rings": [
+      12,
+      20
+     ],
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "select.sound.singer3",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     8,
+     12,
+     20,
+     15,
+     11
+    ],
+    "box": [
+     60,
+     134,
+     176,
+     150
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      60,
+      134,
+      176,
+      150
+     ],
+     "size": 11,
+     "fill": 8,
+     "edge": 11,
+     "rings": [
+      12,
+      20
+     ],
+     "align": "right"
+    }
+   ]
+  },
+  {
+   "id": "select.sound.ng",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     8,
+     12,
+     20,
+     15,
+     11
+    ],
+    "box": [
+     12,
+     152,
+     94,
+     171
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      12,
+      152,
+      94,
+      171
+     ],
+     "size": 13,
+     "fill": 8,
+     "edge": 11,
+     "rings": [
+      12,
+      20
+     ],
+     "align": "left"
+    }
+   ]
+  },
+  {
+   "id": "select.sound.choose",
+   "kind": "text",
+   "tex": 1,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     7,
+     14
+    ],
+    "box": [
+     28,
+     10,
+     58,
+     25
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      28,
+      10,
+      58,
+      25
+     ],
+     "size": 13,
+     "fill": 7,
+     "edge": 14
+    }
+   ]
+  },
+  {
+   "id": "select.sound.play",
+   "kind": "text",
+   "tex": 1,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     7,
+     14
+    ],
+    "box": [
+     28,
+     38,
+     58,
+     53
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      28,
+      38,
+      58,
+      53
+     ],
+     "size": 13,
+     "fill": 7,
+     "edge": 14
+    }
+   ]
+  },
+  {
+   "id": "select.sound.stop",
+   "kind": "text",
+   "tex": 1,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     7,
+     14
+    ],
+    "box": [
+     28,
+     66,
+     58,
+     81
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      28,
+      66,
+      58,
+      81
+     ],
+     "size": 13,
+     "fill": 7,
+     "edge": 14
+    }
+   ]
+  },
+  {
+   "id": "select.rules.title",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     4,
+     13
+    ],
+    "box": [
+     2,
+     2,
+     178,
+     18
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      2,
+      1,
+      178,
+      19
+     ],
+     "size": 13,
+     "fill": 1,
+     "rings": [
+      4,
+      13
+     ],
+     "font": "/usr/share/fonts/truetype/nanum/NanumSquareRoundEB.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r1l",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     1,
+     20,
+     80,
+     37
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      20,
+      78,
+      37
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      4,
+      20,
+      78,
+      37
+     ],
+     "size": 11,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r1r",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     81,
+     20,
+     179,
+     37
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      84,
+      20,
+      177,
+      37
+     ],
+     "size": 10,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      84,
+      20,
+      177,
+      37
+     ],
+     "size": 10,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r2l",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     1,
+     38,
+     80,
+     55
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      38,
+      78,
+      55
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      4,
+      38,
+      78,
+      55
+     ],
+     "size": 11,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r2r",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     81,
+     38,
+     179,
+     55
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      84,
+      38,
+      177,
+      55
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      84,
+      38,
+      177,
+      55
+     ],
+     "size": 11,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r3l",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     1,
+     56,
+     80,
+     73
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      56,
+      78,
+      73
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      4,
+      56,
+      78,
+      73
+     ],
+     "size": 11,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r3r",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     81,
+     56,
+     179,
+     73
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      84,
+      56,
+      177,
+      73
+     ],
+     "size": 10,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      84,
+      56,
+      177,
+      73
+     ],
+     "size": 10,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r4l",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     1,
+     74,
+     80,
+     91
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      74,
+      78,
+      91
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      4,
+      74,
+      78,
+      91
+     ],
+     "size": 11,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r4r",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     81,
+     74,
+     179,
+     91
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      84,
+      74,
+      177,
+      91
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      84,
+      74,
+      177,
+      91
+     ],
+     "size": 11,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r5l",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     1,
+     92,
+     80,
+     109
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      92,
+      78,
+      109
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      4,
+      92,
+      78,
+      109
+     ],
+     "size": 11,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r5r",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     81,
+     92,
+     179,
+     109
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      84,
+      92,
+      177,
+      109
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      84,
+      92,
+      177,
+      109
+     ],
+     "size": 11,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r6l",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     1,
+     110,
+     80,
+     127
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      110,
+      78,
+      127
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      4,
+      110,
+      78,
+      127
+     ],
+     "size": 11,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r6r",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     81,
+     110,
+     179,
+     127
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      84,
+      110,
+      177,
+      127
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      84,
+      110,
+      177,
+      127
+     ],
+     "size": 11,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r7",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     1,
+     128,
+     179,
+     145
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      128,
+      177,
+      145
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    },
+    {
+     "box": [
+      4,
+      128,
+      177,
+      145
+     ],
+     "size": 11,
+     "fill": 2,
+     "edge": 12,
+     "align": "right",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r8",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     1,
+     146,
+     179,
+     163
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      146,
+      177,
+      163
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r9",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     1,
+     164,
+     179,
+     181
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      164,
+      177,
+      181
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.r10",
+   "kind": "text",
+   "tex": 0,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     1,
+     2,
+     11,
+     12,
+     16,
+     21
+    ],
+    "box": [
+     1,
+     182,
+     179,
+     198
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      4,
+      182,
+      177,
+      198
+     ],
+     "size": 11,
+     "fill": 1,
+     "edge": 11,
+     "align": "left",
+     "font": "/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf"
+    }
+   ]
+  },
+  {
+   "id": "select.rules.menu",
+   "kind": "text",
+   "tex": 1,
+   "clean": {
+    "method": "rows",
+    "text_idx": [
+     3,
+     10
+    ],
+    "box": [
+     28,
+     10,
+     58,
+     25
+    ]
+   },
+   "lines": [
+    {
+     "box": [
+      28,
+      10,
+      58,
+      25
+     ],
+     "size": 13,
+     "fill": 3,
+     "edge": 10
+    }
+   ]
+  }
+ ]
+}

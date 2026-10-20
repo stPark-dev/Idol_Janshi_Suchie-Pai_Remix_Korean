@@ -13,12 +13,22 @@
 - 초기 조사 완료: 대사는 자막 없이 음성으로만 나오고, 화면의 일본어는 모두 그림 글자입니다([`docs/initial-survey.md`](docs/initial-survey.md)).
 - 한글 타이틀 로고 적용: 「아이돌작사」·「스치파이♡」(소유자 제작). 「Remix」는 원본 영문 유지. 타이틀 화면과 오프닝 로고 장면에서 확인.
 - 오프닝 큰 글자: 흐르는 「아이돌작사」와 번쩍이는 「스·ー·치·ー·파·이」(원본 질감을 따라 생성). 오프닝 전체 진행 확인.
+- 메뉴·캐릭터 선택·사운드 테스트·규칙 화면 그림 글자 44개(번역 검수 전).
 
 계획(사람 결정 2026-10-16): v1.0 = 그림 글자 전부(메뉴, 대국 화면, 역 이름, 규칙 표, 프로필 카드, 패널 매치, 오프닝 소개, 스태프 롤), v1.1 = 음성 자막.
 
 ## 지원 원본
 
 `Idol Janshi Suchie-Pai Remix (Japan)` — 트랙 1(MODE1/2352, 147,518섹터) SHA-1 `ac800da596c31d478989e9dac309198ddf527143`. CHD는 `chdman extractcd`로 BIN/CUE로 풀어서 씁니다. 트랙 1 해시가 다르면 빌드가 거부합니다.
+
+## 번역 데이터
+
+| 파일 | 내용 |
+|---|---|
+| [`translation/glossary.json`](translation/glossary.json) | 용어·표기 결정. 2편에서 승인된 결정은 `transferred`(이 게임 적용 확인 대기) |
+| [`translation/select.json`](translation/select.json), [`assets/select/layout.json`](assets/select/layout.json) | SELECT.CX 그림 글자 44개(원문·원본 해시·번역·상태)와 배치(지우기 방식, 글자 상자·크기·색 번호) |
+
+번역 상태: `needs_review` → `needs_human_review` → `distribution_eligible`.
 
 ## 준비물
 
@@ -33,7 +43,7 @@
 python3 tools/khpatch.py build --source "/경로/원본.cue"
 
 # 대조군: 아무것도 바꾸지 않은 빌드 (원본과 바이트 단위로 같아야 함)
-python3 tools/khpatch.py build --source "/경로/원본.cue" --out out/control --title original --opening original
+python3 tools/khpatch.py build --source "/경로/원본.cue" --out out/control --title original --opening original --select original
 
 # 화면 확인 전 조합을 시험할 때만: --unverified (결과 해시 고정 검사 생략, manifest에 표시)
 

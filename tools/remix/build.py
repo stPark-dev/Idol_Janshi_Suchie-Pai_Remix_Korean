@@ -14,7 +14,7 @@ from PIL import Image
 
 import numpy as np
 
-from . import bigletters, cdsector, cx, iso9660, logo
+from . import bank, bigletters, cdsector, cx, gfxtext, iso9660, logo
 from .writeplan import WritePlan
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -47,6 +47,12 @@ SCROLL_LETTERS = {5: "아", 6: "이", 7: "돌", 8: "작", 9: "사", 10: ""}   # 
 ART_LETTERS = {11: "스", 13: "치", 15: "파", 16: "이"}                # 12, 14 (ー) kept
 SCROLL_BOLD, SCROLL_MARGIN = 3, 3
 ART_BOLD, ART_MARGIN = 6, 2
+
+
+# SELECT.CX graphic text (translation/select.json + assets/select/layout.json).
+SELECT_FILE = "SELECT.CX"
+SELECT_SHA1 = "9b0734a6d425606aceb303bf8a02bc945a0142db"
+STATES = ("untranslated", "in_progress", "needs_review", "needs_human_review", "distribution_eligible")
 
 
 class BuildError(RuntimeError):
@@ -232,6 +238,34 @@ def _opening(c: cx.Container) -> None:
         _put(c, idx, bigletters.art_fill(art, bigletters.glyph_mask(ch, w, h, None, ART_MARGIN, ART_BOLD)))
 
 
+def load_table(name: str) -> tuple[list[dict], list[dict]]:
+    t = json.loads((ROOT / "translation" / f"{name}.json").read_text())
+    lay = json.loads((ROOT / "assets" / name / "layout.json").read_text())
+    for l in lay["entries"]:
+        l.setdefault("font", lay["font"])
+    return t["entries"], lay["entries"]
+
+
+def select_cx(original: bytes) -> tuple[bytes, list[dict]]:
+    if hashlib.sha1(original).hexdigest() != SELECT_SHA1:
+        raise BuildError(f"{SELECT_FILE}: content is not the original")
+    entries, layouts = load_table("select")
+    bad = [e["id"] for e in entries if e["state"] not in STATES]
+    if bad:
+        raise BuildError(f"unknown translation state in {bad}")
+    c = cx.Container.parse(original)
+    lay = {l["id"]: l for l in layouts}
+    for k in sorted({e["cx_entry"] for e in entries}):
+        b = bank.Bank.parse(c.entries[k])
+        group = [e for e in entries if e["cx_entry"] == k]
+        try:
+            gfxtext.apply_all(b, group, [lay[e["id"]] for e in group if e["id"] in lay])
+        except gfxtext.GfxTextError as e:
+            raise BuildError(f"{SELECT_FILE} #{k}: {e}") from None
+        c.entries[k] = b.build()
+    return c.build(), [{"id": e["id"], "state": e["state"]} for e in entries]
+
+
 def title_cg(original: bytes, title: str, opening: str, unverified: bool = False) -> bytes:
     if hashlib.sha1(original).hexdigest() != TITLE_SHA1:
         raise BuildError(f"{TITLE_FILE}: content is not the original")
@@ -252,7 +286,7 @@ def title_cg(original: bytes, title: str, opening: str, unverified: bool = False
     return new
 
 
-def build(source: Path, out: Path, title: str = "korean", opening: str = "korean",
+def build(source: Path, out: Path, title: str = "korean", opening: str = "korean", select: str = "korean",
           unverified: bool = False, name: str = "remix_ko") -> dict:
     disc = SourceDisc.open(Path(source))
     out = Path(out)
@@ -262,12 +296,16 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
     protected = [(TRACK1_SECTORS * RAW, disc.data.stat().st_size)]
     plan = WritePlan(disc.data, protected=protected)
     changes = []
-    for mode in (title, opening):
+    for mode in (title, opening, select):
         if mode not in ("korean", "original"):
             raise BuildError(f"unknown mode {mode}")
     if "korean" in (title, opening):
         new = title_cg(disc.read_file(TITLE_FILE), title, opening, unverified)
         changes.append(_plan_file(plan, disc, TITLE_FILE, new, "title_cg", dirs))
+    texts = []
+    if select == "korean":
+        new, texts = select_cx(disc.read_file(SELECT_FILE))
+        changes.append(_plan_file(plan, disc, SELECT_FILE, new, "select", dirs))
     for lba, user in dirs.sectors().items():
         orig = disc.raw_sector(lba)
         sec = bytearray(orig)
@@ -281,7 +319,8 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
         "source_cue": str(disc.cue), "source_track1_sha1": disc.track1_sha1,
         "source_data_sha1": _sha1_file(disc.data), "data_file": data_name, "cue": name + ".cue",
         "data_sha1": _sha1_file(out / data_name), "changes": changes,
-        "modes": {"title": title, "opening": opening}, "unverified": unverified,
+        "modes": {"title": title, "opening": opening, "select": select}, "unverified": unverified,
+        "translations": texts,
         "distribution": False,
         "distribution_note": "translation review not complete (survey 5: v1.0 = all graphic text)",
     }
