@@ -2,19 +2,9 @@
  "_about": "v1.1 음성 자막을 기본으로 켜기 전에 끝내야 할 확인(사람 결정, 프로젝트 소유자 2026-10-21: 8개 화면 확인과 핵심 자막 확인이 끝나면 기본값으로 켬). pending이 비어야 자막 넣은 빌드가 배포 가능. 받아쓰기로 정한 provisional 줄의 음성 확인은 여기 들지 않고 줄마다 status로 따로 남는다(docs/voice-subtitles.md 1.2).",
  "pending": [
   {
-   "id": "sub.panel",
-   "what": "패널 매치 탈의 장면(A~D)과 끝난 뒤 대화(E)에 자막이 제자리에 나오고 그림을 가리지 않음",
-   "how": "플레이"
-  },
-  {
    "id": "sub.winner",
    "what": "우승 장면(WINNER)과 후일담(DDGOOD), GOODEND 인사",
    "how": "플레이(엔딩까지)"
-  },
-  {
-   "id": "sub.sinf",
-   "what": "패널 매치 설명(SINF*)·규칙(ROULE)·패널 체인지(CHANGE)",
-   "how": "플레이"
   },
   {
    "id": "sub.continue",
@@ -47,6 +37,16 @@
    "id": "sub.intro",
    "what": "캐릭터 선택에서 B(설명)로 나오는 쿄코의 캐릭터 소개",
    "evidence": "프로젝트 소유자 플레이 확인 2026-10-21 (\"캐릭터 소개 OK\", Mednafen, out/ko_sub)"
+  },
+  {
+   "id": "sub.panel",
+   "what": "패널 매치 탈의 장면(A~D)과 끝난 뒤 대화(E)에 자막이 제자리에 나오고 그림을 가리지 않음",
+   "evidence": "프로젝트 소유자 플레이 확인 2026-10-21 (Mednafen, out/ko_sub 자막 디스크, 두 번째 대국까지 — \"눈에 거슬리는 부분이 없음\")"
+  },
+  {
+   "id": "sub.sinf",
+   "what": "패널 매치 설명(SINF*)·규칙(ROULE)·패널 체인지(CHANGE)",
+   "evidence": "프로젝트 소유자 플레이 확인 2026-10-21 (Mednafen, out/ko_sub 자막 디스크, 두 번째 대국까지 — \"눈에 거슬리는 부분이 없음\")"
   }
  ]
 }
