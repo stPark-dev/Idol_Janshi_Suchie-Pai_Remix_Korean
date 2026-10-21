@@ -1,5 +1,5 @@
 {
- "_about": "PNL1/PNL2 배치. 좌표는 텍스처 픽셀 [x0,y0,x1,y1).",
+ "_about": "PNL1/PNL2 배치. 좌표는 텍스처 픽셀 [x0,y0,x1,y1). kind image = img/의 덮어쓰기 그림(팔레트 번호, 0 = 원본 유지; work/scripts/panel_import.py로 만듦).",
  "font": "/usr/share/fonts/truetype/nanum/NanumSquareRoundEB.ttf",
  "entries": [
   {
@@ -1041,166 +1041,6 @@
    ]
   },
   {
-   "id": "panel.face.16",
-   "tex": 16,
-   "kind": "text",
-   "clean": {
-    "method": "rows",
-    "text_idx": [
-     140,
-     138,
-     139,
-     134
-    ],
-    "box": [
-     8,
-     6,
-     64,
-     41
-    ],
-    "fallback": 137
-   },
-   "lines": [
-    {
-     "box": [
-      8,
-      6,
-      64,
-      24
-     ],
-     "size": 15,
-     "fit": 9,
-     "fill": 140,
-     "edge": 139,
-     "rings": [
-      138
-     ]
-    },
-    {
-     "box": [
-      8,
-      23,
-      64,
-      41
-     ],
-     "size": 15,
-     "fit": 9,
-     "fill": 140,
-     "edge": 139,
-     "rings": [
-      138
-     ]
-    }
-   ]
-  },
-  {
-   "id": "panel.face.17",
-   "tex": 17,
-   "kind": "text",
-   "clean": {
-    "method": "rows",
-    "text_idx": [
-     162,
-     166,
-     165,
-     164,
-     168
-    ],
-    "box": [
-     8,
-     6,
-     64,
-     41
-    ],
-    "fallback": 156
-   },
-   "lines": [
-    {
-     "box": [
-      8,
-      6,
-      64,
-      24
-     ],
-     "size": 15,
-     "fit": 9,
-     "fill": 162,
-     "edge": 165,
-     "rings": [
-      166
-     ]
-    },
-    {
-     "box": [
-      8,
-      23,
-      64,
-      41
-     ],
-     "size": 15,
-     "fit": 9,
-     "fill": 162,
-     "edge": 165,
-     "rings": [
-      166
-     ]
-    }
-   ]
-  },
-  {
-   "id": "panel.face.22",
-   "tex": 22,
-   "kind": "text",
-   "clean": {
-    "method": "rows",
-    "text_idx": [
-     130,
-     117,
-     126,
-     129
-    ],
-    "box": [
-     8,
-     6,
-     64,
-     41
-    ],
-    "fallback": 111
-   },
-   "lines": [
-    {
-     "box": [
-      8,
-      6,
-      64,
-      24
-     ],
-     "size": 15,
-     "fit": 9,
-     "fill": 130,
-     "edge": 126,
-     "rings": [
-      117
-     ]
-    },
-    {
-     "box": [
-      8,
-      23,
-      64,
-      41
-     ],
-     "size": 15,
-     "fit": 9,
-     "fill": 130,
-     "edge": 126,
-     "rings": [
-      117
-     ]
-    }
-   ]
-  },
-  {
    "id": "panel.level.65",
    "tex": 65,
    "kind": "text",
@@ -1740,6 +1580,48 @@
      "fill": 0
     }
    ]
+  },
+  {
+   "id": "panel.face.16",
+   "tex": 16,
+   "kind": "image",
+   "source": "img/PNL1_16.png"
+  },
+  {
+   "id": "panel.face.17",
+   "tex": 17,
+   "kind": "image",
+   "source": "img/PNL1_17.png"
+  },
+  {
+   "id": "panel.face.22",
+   "tex": 22,
+   "kind": "image",
+   "source": "img/PNL1_22.png"
+  },
+  {
+   "id": "panel.face.18",
+   "tex": 18,
+   "kind": "image",
+   "source": "img/PNL1_18.png"
+  },
+  {
+   "id": "panel.face.19",
+   "tex": 19,
+   "kind": "image",
+   "source": "img/PNL1_19.png"
+  },
+  {
+   "id": "panel.hud.28",
+   "tex": 28,
+   "kind": "image",
+   "source": "img/PNL1_28.png"
+  },
+  {
+   "id": "panel.hud.29",
+   "tex": 29,
+   "kind": "image",
+   "source": "img/PNL1_29.png"
   }
  ]
 }

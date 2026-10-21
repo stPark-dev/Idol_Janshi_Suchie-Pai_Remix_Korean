@@ -282,3 +282,11 @@ def test_subtitle_build_keeps_every_other_file_in_place(tmp_path):
     assert set(after) - set(before) == {"SUB.BIN", "SUBDAT.BIN"}
     assert {k: after[k] for k in before} == before
     assert len(before) > 1000
+
+
+def test_image_layout_sources_resolve_to_existing_files():
+    _, layouts = build.load_tables(("panel",))
+    imgs = [l for l in layouts.values() if l["kind"] == "image"]
+    assert {l["tex"] for l in imgs} >= {16, 17, 18, 19, 22, 28, 29}
+    for l in imgs:
+        assert pathlib.Path(l["source"]).is_absolute() and pathlib.Path(l["source"]).is_file()

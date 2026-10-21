@@ -258,6 +258,8 @@ def load_table(name: str) -> tuple[list[dict], list[dict]]:
     lay = json.loads((ROOT / "assets" / name / "layout.json").read_text())
     for l in lay["entries"]:
         l.setdefault("font", lay["font"])
+        if l["kind"] == "image":
+            l["source"] = str(ROOT / "assets" / name / l["source"])
     for e in t["entries"]:
         e.setdefault("file", t.get("file"))
         e.setdefault("cx_entry", None)

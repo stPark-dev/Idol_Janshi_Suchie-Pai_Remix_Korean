@@ -321,7 +321,7 @@
    "terms": [
     "panel.tatsumaki"
    ],
-   "note": "패널 그림. 57번 안내와 같은 아이템",
+   "note": "패널 그림. 57번 안내와 같은 아이템 — 소유자 제공 그림(ChatGPT 작업, 2026-10-21)을 원본 팔레트로 변환",
    "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — 회오리 선택",
    "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
@@ -338,7 +338,7 @@
    "terms": [
     "item.suchie_stick"
    ],
-   "note": "패널 그림",
+   "note": "패널 그림 — 소유자 제공 그림(ChatGPT 작업, 2026-10-21)을 원본 팔레트로 변환",
    "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
@@ -352,7 +352,7 @@
    "ko": "패널\n클리어",
    "state": "distribution_eligible",
    "terms": [],
-   "note": "패널 그림",
+   "note": "패널 그림 — 소유자 제공 그림(ChatGPT 작업, 2026-10-21)을 원본 팔레트로 변환",
    "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
   },
   {
@@ -593,6 +593,66 @@
    "note": "문장 조각. 한국어 문장 '패 쌓기 레벨 [숫자] 달성!'에서는 필요 없어 비움",
    "approved_by": "프로젝트 소유자 2026-10-20 (검토 의견 전달) — '패 쌓기 레벨 □ 달성!' 문장 구조",
    "review": "최종 검수: Claude (소유자 위임, 2026-10-20)"
+  },
+  {
+   "id": "panel.face.18",
+   "file": "PNL1.BNN",
+   "tex": [
+    18
+   ],
+   "src_sha1": "1d87b4ceb57fcae2b1c24971c3ef4397b6944a97",
+   "ja": "スーチー\nアイ",
+   "ko": "스치\n아이",
+   "state": "distribution_eligible",
+   "terms": [
+    "item.suchie_eye"
+   ],
+   "note": "패널 그림. 소유자 제공 그림(ChatGPT 작업, 2026-10-21)을 원본 팔레트로 변환",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-21)"
+  },
+  {
+   "id": "panel.face.19",
+   "file": "PNL1.BNN",
+   "tex": [
+    19
+   ],
+   "src_sha1": "ceb36245193765ab178c9046823d0412b2caf795",
+   "ja": "ハイパー\nせっかん",
+   "ko": "하이퍼\n응징",
+   "state": "distribution_eligible",
+   "terms": [
+    "panel.sekkan"
+   ],
+   "note": "패널 그림. 소유자 제공 그림(ChatGPT 작업, 2026-10-21)을 원본 팔레트로 변환",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-21)"
+  },
+  {
+   "id": "panel.hud.28",
+   "file": "PNL1.BNN",
+   "tex": [
+    28
+   ],
+   "src_sha1": "6cad13c73dad7df942b467bb292ffc9193e8682f",
+   "ja": "あと\n回",
+   "ko": "남은\n회",
+   "state": "distribution_eligible",
+   "terms": [],
+   "note": "남은 횟수 표시: 게임이 가운데에 숫자를 그림(남은 3 회). 픽셀 글자 직접 그림(work/scripts/panel_import.py)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-21)"
+  },
+  {
+   "id": "panel.hud.29",
+   "file": "PNL1.BNN",
+   "tex": [
+    29
+   ],
+   "src_sha1": "677029c422c7e5ad04b78014e5608a2aadd2dc54",
+   "ja": "ポイント",
+   "ko": "포인트",
+   "state": "distribution_eligible",
+   "terms": [],
+   "note": "LEVEL 게이지 이름표. 픽셀 글자 직접 그림(work/scripts/panel_import.py)",
+   "review": "최종 검수: Claude (소유자 위임, 2026-10-21)"
   }
  ]
 }

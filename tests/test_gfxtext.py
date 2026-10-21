@@ -134,3 +134,29 @@ def test_explicit_blank_entry_only_cleans():
            "lines": [{"box": [0, 0, 24, 16], "size": 12, "fill": 1}]}
     gfxtext.apply(b, _entry(b, [0], "", blank=True), lay)
     assert (b.get(0) == 0).all()
+
+
+def _overlay(tmp_path, a):
+    from PIL import Image
+    p = tmp_path / "ov.png"
+    Image.fromarray(np.asarray(a, np.uint8), "L").save(p)
+    return str(p)
+
+
+def test_image_overlay_replaces_nonzero_pixels_and_keeps_the_rest(tmp_path):
+    b = _bank(1, w=16, h=8, fill=4)
+    ov = np.zeros((8, 16), np.uint8)
+    ov[2:4, 3:9] = 77
+    lay = {"id": "x", "kind": "image", "tex": 0, "source": _overlay(tmp_path, ov)}
+    gfxtext.apply(b, _entry(b, [0], "가"), lay)
+    out = b.get(0)
+    assert (out[2:4, 3:9] == 77).all()
+    out[2:4, 3:9] = 4
+    assert (out == 4).all()
+
+
+def test_image_overlay_must_match_texture_size(tmp_path):
+    b = _bank(1, w=16, h=8)
+    lay = {"id": "x", "kind": "image", "tex": 0, "source": _overlay(tmp_path, np.zeros((8, 24)))}
+    with pytest.raises(gfxtext.GfxTextError, match="size"):
+        gfxtext.apply(b, _entry(b, [0], "가"), lay)

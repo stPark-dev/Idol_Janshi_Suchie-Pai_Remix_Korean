@@ -4,10 +4,13 @@ Layout kinds:
   tiles - one syllable per texture ("cells": "캐릭터_선택__", '_' = blank texture), every texture
           starts from the blank texture and the glyph is drawn inside "box".
   text  - clean the source text in one texture, then draw each line of the translation ('\\n').
+  image - overlay a prepared 8-bit grayscale PNG ("source") of palette indices on one texture;
+          0 keeps the original pixel (the PNG holds only the redrawn pixels, not the original art).
 """
 import hashlib
 
 import numpy as np
+from PIL import Image
 
 from . import label
 from .bank import Bank
@@ -64,6 +67,13 @@ def apply(b: Bank, entry: dict, lay: dict, original: dict[int, np.ndarray] | Non
                                          inner=ln.get("inner"), bold=ln.get("bold", 0),
                                          shadow=ln.get("shadow"))
             b.set(t, px)
+        elif lay["kind"] == "image":
+            px = b.get(lay["tex"])
+            with Image.open(lay["source"]) as im:
+                ov = np.asarray(im.convert("L"))
+            if ov.shape != px.shape:
+                raise GfxTextError(f"{entry['id']}: overlay size {ov.shape} != texture size {px.shape}")
+            b.set(lay["tex"], np.where(ov != 0, ov, px).astype(px.dtype))
         else:
             raise GfxTextError(f"{entry['id']}: unknown layout kind {lay['kind']}")
     except label.LabelError as e:
