@@ -12,11 +12,6 @@
    "how": "플레이(엔딩까지)"
   },
   {
-   "id": "sub.intro",
-   "what": "캐릭터 선택에서 B(설명)로 나오는 쿄코의 캐릭터 소개",
-   "how": "플레이"
-  },
-  {
    "id": "sub.sinf",
    "what": "패널 매치 설명(SINF*)·규칙(ROULE)·패널 체인지(CHANGE)",
    "how": "플레이"
@@ -41,12 +36,17 @@
   {
    "id": "sub.conversation",
    "what": "대국 전 대화(시호 대화 KAIWADIR/OPSIHO/MAI 11줄): 대사에 맞춰 표시, 두 줄 줄바꿈, 대국 들어가면 지워짐",
-   "evidence": "work/lr/shots/ko5conv (Claude, libretro Beetle Saturn, 2026-10-21)"
+   "evidence": "work/lr/shots/ko5conv (Claude, libretro Beetle Saturn, 2026-10-21); 프로젝트 소유자 플레이 확인 2026-10-21 (\"대화 자막 OK\", Mednafen)"
   },
   {
    "id": "sub.charsel",
    "what": "캐릭터 선택 안내(KINIITTA) 두 줄",
    "evidence": "work/lr/shots/ko6sel (Claude, libretro Beetle Saturn, 2026-10-21)"
+  },
+  {
+   "id": "sub.intro",
+   "what": "캐릭터 선택에서 B(설명)로 나오는 쿄코의 캐릭터 소개",
+   "evidence": "프로젝트 소유자 플레이 확인 2026-10-21 (\"캐릭터 소개 OK\", Mednafen, out/ko_sub)"
   }
  ]
 }
