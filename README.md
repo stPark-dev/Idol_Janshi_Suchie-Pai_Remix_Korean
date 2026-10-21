@@ -8,7 +8,7 @@
 
 ## 현재 상태
 
-개발 중(배포판 없음). 번역 394항목은 최종 검수(Claude, 소유자 위임)를 마쳤고, 남은 화면 확인 8건([`assets/screen_checks.json`](assets/screen_checks.json))을 소유자가 플레이로 확인하면 빌드가 `distribution: true`를 냅니다.
+**v1.1 — 1차 배포판** (그림 글자 전부 + 음성 자막). 원본 디스크 이미지 대신, 가진 원본에 씌우는 BPS 패치를 배포합니다(적용 방법: zip 안 `README.txt`, 원문 [`docs/release/README.txt`](docs/release/README.txt)). 남은 플레이 확인(화면 4건, 자막 4건)이 있는 채로 소유자 결정으로 배포했습니다([`docs/voice-subtitles.md`](docs/voice-subtitles.md) 1.2).
 
 - 초기 조사 완료: 대사는 자막 없이 음성으로만 나오고, 화면의 일본어는 모두 그림 글자입니다([`docs/initial-survey.md`](docs/initial-survey.md)).
 - 한글 타이틀 로고 적용: 「아이돌작사」·「스치파이♡」(소유자 제작). 「Remix」는 원본 영문 유지. 타이틀 화면과 오프닝 로고 장면에서 확인.
@@ -49,6 +49,15 @@
 - Python 3.11 이상, [Pillow](https://pypi.org/project/Pillow/) 9.4, NumPy, SciPy, pytest (테스트용)
 - 나눔스퀘어라운드 ExtraBold (`/usr/share/fonts/truetype/nanum/NanumSquareRoundEB.ttf`, 데비안 `fonts-nanum-extra`)
 - 결과 그림의 해시를 빌드가 확인하므로, 글꼴·Pillow 버전이 다르면 빌드가 멈춥니다(데비안 12 기준)
+
+## 배포판 만들기
+
+```sh
+python3 tools/khpatch.py build --source work/disc/remix.cue --out out/v11 --subtitles korean
+python3 tools/mkrelease.py --source work/disc/remix.cue --build out/v11 --version 1.1 --accept-pending
+```
+
+`out/release/Suchie-Pai-Remix_KR_v1.1.zip` 3,745,285바이트(zip은 만든 시각이 들어가 해시가 매번 다름). 패치 2개는 쓰기 전에 원본에 다시 적용해 빌드와 같은지 확인합니다. 원본 6개 트랙 SHA-1은 Redump [disc 42447](http://redump.org/disc/42447/)과 같습니다. 한글판 BIN SHA-1 `ebcc6d64bcebfa7213f03e7122884a12beab3e16`, 한글판 트랙 1 `6719f42e0ec5b3edb3c25137fb6a52076c3d3b39`.
 
 ## 사용법
 

@@ -29,6 +29,8 @@
 - 받아쓰기로 정한 231줄은 `"status": "provisional"`(음성 확인 전). 음성으로 확인한 결정으로 표시하지 않는다: 모든 파일에 `"audio_verified": false`, 음성을 듣고 확인한 파일만 `true`로 바꾼다. provisional 줄은 배포에 들어갈 수 있지만 매니페스트(`subtitles.provisional`, `subtitles.audio_verified_lines`)에 숫자로 남는다.
 - 개별 결정: 사유리 `PNSAYURI/ARUMI`는 음성·문맥이 다른 뜻을 보이기 전까지 "클리어! 축하드립니다!". 유키 후일담(`YUKI2`)은 세일러문 패러디가 확인되면 "달을 대신해서 쯔모해 주겠어!"로 바꿀 후보(지금은 "달님 대신 쯔모해 주겠어!"). 마이 가게 이름(`MAI2` 「アンパイズ/パンパイズ」)은 발음이나 원래 표기를 확인하기 전까지 미확정.
 
+**사람 결정 (프로젝트 소유자 2026-10-21): 확인이 남은 채로 v1.1을 배포한다("일단 배포하자").** 자막 들어간 판 하나만(무자막 판 없음), 배포판 안내에는 남은 확인을 적지 않는다. 배포 당시 남은 확인: 화면 `match.icon103`·`match.haipai`·`misc.clear`·`credits`, 자막 `sub.winner`·`sub.continue`·`sub.stability`·`sub.hardware`. 확인 목록은 그대로 두고 다음 판에서 마저 확인한다. 빌드 기본값(`--subtitles none`)은 위 조건대로 그대로 두고, 배포판은 `--subtitles korean`으로 빌드해 `tools/mkrelease.py --accept-pending`으로 묶었다(개발 빌드 `--unverified`는 이 옵션으로도 못 묶음). 배포 디스크는 소유자가 플레이한 `out/ko_sub`와 바이트 단위로 같다(`ebcc6d64…`).
+
 ## 1.3 번역 지침
 
 ### 파일 형식
