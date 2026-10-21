@@ -10,9 +10,9 @@
    "speaker": "스치파이",
    "ja": "タツマキ選択気。",
    "ko": "회오리 선택!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「竜巻洗濯機」. 아이템 이름 タツマキ選択気(용어집: 회오리 선택) — 洗濯機(세탁기)와 소리가 같은 말장난"
+   "note": "받아쓰기 「竜巻洗濯機」. 아이템 이름 タツマキ選択気(용어집: 회오리 선택) — 洗濯機(세탁기)와 소리가 같은 말장난 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 1.5,
@@ -20,7 +20,7 @@
    "speaker": "스치파이",
    "ja": "牌をかき混ぜながら竜巻を起こし、",
    "ko": "패를 휘저으며 회오리를 일으키고",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 4.02,
@@ -28,9 +28,9 @@
    "speaker": "스치파이",
    "ja": "どさくさに紛れて好きな配牌を選択する華麗なる必殺技よ。",
    "ko": "그 틈을 타 원하는 배패를 고르는 화려한 필살기야.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「ハイパイ」 → 配牌"
+   "note": "받아쓰기 「ハイパイ」 → 配牌 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   }
  ]
 }

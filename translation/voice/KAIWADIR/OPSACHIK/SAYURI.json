@@ -10,7 +10,7 @@
    "speaker": "안자이 사치코",
    "ja": "よっ、何のキャンペーンだい?",
    "ko": "여, 무슨 캠페인이야?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.26,
@@ -18,7 +18,7 @@
    "speaker": "카와모토 사유리",
    "ja": "キャンペーンではありません。",
    "ko": "캠페인 아니에요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 4.68,
@@ -26,7 +26,7 @@
    "speaker": "카와모토 사유리",
    "ja": "私は正真正銘のウサギちゃんです。",
    "ko": "저는 진짜배기 토끼랍니다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.92,
@@ -34,7 +34,7 @@
    "speaker": "안자이 사치코",
    "ja": "私には正真正銘の人間に見えるけどね。",
    "ko": "내 눈엔 진짜배기 인간으로 보이는데.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 13.44,
@@ -42,7 +42,7 @@
    "speaker": "안자이 사치코",
    "ja": "ま、いっぺん病院行って診てもらうってのも手だな。",
    "ko": "뭐, 병원 가서 한번 진찰받아 보는 것도 방법이지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.52,
@@ -50,7 +50,7 @@
    "speaker": "카와모토 사유리",
    "ja": "わかりました。",
    "ko": "알겠어요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 19.36,
@@ -58,7 +58,7 @@
    "speaker": "카와모토 사유리",
    "ja": "必ずウサギちゃん証明書を手に入れて、",
    "ko": "꼭 토끼 증명서를 받아 와서",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.88,
@@ -66,7 +66,7 @@
    "speaker": "카와모토 사유리",
    "ja": "あなたをギャフンと言わせてみせます。",
    "ko": "'깨갱' 소리가 나오게 해 드릴게요.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "ギャフンと言わせる(코를 납작하게 하다, 직역: '갸훈' 소리를 내게 하다)를 다음 대사가 글자 그대로 받는 말장난 → '깨갱'으로 옮김"
   },
   {
@@ -75,7 +75,7 @@
    "speaker": "안자이 사치코",
    "ja": "どうでもいいけど言わねえよ。ギャフンなんて。",
    "ko": "아무래도 좋은데, 안 한다. '깨갱' 같은 거.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

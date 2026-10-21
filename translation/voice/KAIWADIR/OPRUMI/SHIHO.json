@@ -10,9 +10,9 @@
    "speaker": "루미",
    "ja": "はい。",
    "ko": "네.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있음, 화자 추정"
+   "note": "VAD 없는 받아쓰기에만 있음, 화자 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 0.7,
@@ -20,7 +20,7 @@
    "speaker": "시호",
    "ja": "あの、最近私のテンちゃんが元気なくて、",
    "ko": "저기, 요즘 저희 텐짱이 기운이 없고",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "テンちゃん: 시호가 기르는 말"
   },
   {
@@ -29,7 +29,7 @@
    "speaker": "시호",
    "ja": "食欲もないみたいなんです。",
    "ko": "식욕도 없는 것 같아요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 7.6,
@@ -37,7 +37,7 @@
    "speaker": "시호",
    "ja": "何か良いお薬はありませんか?",
    "ko": "뭔가 좋은 약이 없을까요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.2,
@@ -45,7 +45,7 @@
    "speaker": "루미",
    "ja": "なるほど。そこで彼のために何かしてあげたいっていうわけね。",
    "ko": "그렇구나. 그래서 그 녀석을 위해 뭔가 해 주고 싶다는 거지?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.24,
@@ -53,7 +53,7 @@
    "speaker": "루미",
    "ja": "ちょうどいいわね。あれを試してみましょうかしら。",
    "ko": "마침 잘됐네. 그걸 한번 써 볼까?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 18.56,
@@ -61,7 +61,7 @@
    "speaker": "루미",
    "ja": "あ、徹夜明けのお父さんも瞬間回復。",
    "ko": "밤샘한 아버지도 순식간에 회복!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.48,
@@ -69,9 +69,9 @@
    "speaker": "루미",
    "ja": "ルミちゃん印の超強力無限滋養強壮剤、",
    "ko": "루미표 초강력 무한 자양강장제,",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「無限需要競争剤」. 「滋養強壮剤」(자양강장제)로 고침"
+   "note": "받아쓰기 「無限需要競争剤」. 「滋養強壮剤」(자양강장제)로 고침 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 25.96,
@@ -79,7 +79,7 @@
    "speaker": "루미",
    "ja": "ドカビタンゼーット!",
    "ko": "도카비탄 제~트!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "드링크제 リポビタンD 패러디 이름"
   },
   {
@@ -88,7 +88,7 @@
    "speaker": "시호",
    "ja": "ああ、何か壮絶なネーミングですが、お願いします",
    "ko": "어머, 이름이 좀 굉장하지만… 부탁드려요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 34.08,
@@ -96,7 +96,7 @@
    "speaker": "루미",
    "ja": "いいわよ、でも一つ条件があるの",
    "ko": "좋아. 대신 조건이 하나 있어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 37.06,
@@ -104,7 +104,7 @@
    "speaker": "시호",
    "ja": "まさか、マージャンですか?",
    "ko": "설마, 마작인가요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 41.14,
@@ -112,7 +112,7 @@
    "speaker": "루미",
    "ja": "あったりー、早速始めましょうか",
    "ko": "딩동댕~! 그럼 바로 시작해 볼까?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 45.12,
@@ -120,7 +120,7 @@
    "speaker": "시호",
    "ja": "はあ、皆さんなんでこんなにマージャンが好きなのかしら",
    "ko": "하아, 다들 왜 이렇게 마작을 좋아하실까요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

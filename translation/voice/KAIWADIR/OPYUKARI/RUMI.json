@@ -10,7 +10,7 @@
    "speaker": "유카리",
    "ja": "あら、ルミちゃん、いらっしゃい。もう本物の看護婦さんになれたの?",
    "ko": "어머, 루미 왔구나. 이제 진짜 간호사는 된 거야?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 5.26,
@@ -18,7 +18,7 @@
    "speaker": "루미",
    "ja": "え?いや、実はまだなんです。",
    "ko": "네? 아뇨, 사실 아직이에요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.18,
@@ -26,7 +26,7 @@
    "speaker": "루미",
    "ja": "一応、格好だけは決めて、",
    "ko": "일단 겉모습은 갖췄고,",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.6,
@@ -34,7 +34,7 @@
    "speaker": "루미",
    "ja": "気持ちの方はすでに白衣の天使かなーなんて。",
    "ko": "마음만은 벌써 백의의 천사랄까~ 해서요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.26,
@@ -42,7 +42,7 @@
    "speaker": "유카리",
    "ja": "そうなの。でも一時はもう看護婦の夢諦めちゃったのかと思ったわ。",
    "ko": "그렇구나. 한때는 간호사 꿈을 접은 줄 알았어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.06,
@@ -50,7 +50,7 @@
    "speaker": "유카리",
    "ja": "で、麻雀の方はどうなの?上達した?",
    "ko": "그래서 마작은 어때? 실력 좀 늘었어?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 25.76,
@@ -58,7 +58,7 @@
    "speaker": "루미",
    "ja": "まあ、ぼちぼちってとこですね。",
    "ko": "뭐, 그럭저럭이요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 29.06,
@@ -66,16 +66,16 @@
    "speaker": "유카리",
    "ja": "そう、じゃあいいお相手がいるわよ。",
    "ko": "그래? 그럼 좋은 상대가 있어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 31.64,
    "end": 33.4,
    "speaker": "유카리",
    "ja": "通称アンコのマイちゃん。",
-   "ko": "통칭 안코의 마이.",
-   "status": "needs_human_review",
-   "note": "안코의 마이: 안커(暗刻) 쌓기가 특기라 붙은 별명"
+   "ko": "통칭 안커의 마이.",
+   "status": "distribution_eligible",
+   "note": "안코의 마이: 안커(暗刻) 쌓기가 특기라 붙은 별명 최종 검수: 별명은 그림 글자(캐릭터 선택·소개, translation/select.json·intro.json)의 \"안커의 마이\"에 맞춤."
   },
   {
    "start": 33.78,
@@ -83,7 +83,7 @@
    "speaker": "루미",
    "ja": "へえ、かっこいい。",
    "ko": "오, 멋있다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 35.64,
@@ -91,7 +91,7 @@
    "speaker": "루미",
    "ja": "私もそういうのつけてみよっかな。",
    "ko": "나도 그런 별명 하나 붙여 볼까.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

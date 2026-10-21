@@ -10,7 +10,7 @@
    "speaker": "에리카",
    "ja": "平和だわ。平和すぎるわ。",
    "ko": "평화롭네. 너무 평화로워.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.72,
@@ -18,9 +18,9 @@
    "speaker": "유키",
    "ja": "あのー、婦警さん、質問。お金かけて麻雀やるのっていけないんですか?",
    "ko": "저기요, 여경 언니, 질문! 돈 걸고 마작 하는 건 안 되는 거예요?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「スケンさん」→「婦警さん」"
+   "note": "받아쓰기 「スケンさん」→「婦警さん」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 9.88,
@@ -28,7 +28,7 @@
    "speaker": "에리카",
    "ja": "誰?あなた。",
    "ko": "누구야, 너?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.6,
@@ -36,7 +36,7 @@
    "speaker": "에리카",
    "ja": "まあいいわ。お答えします。",
    "ko": "뭐 됐어. 대답해 드리죠.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 14.52,
@@ -44,7 +44,7 @@
    "speaker": "에리카",
    "ja": "それは、いけないことです。",
    "ko": "그건 해서는 안 되는 일입니다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 16.52,
@@ -52,7 +52,7 @@
    "speaker": "에리카",
    "ja": "お金をかけてやんないと麻雀は上達しないなんていう人がいるけど、",
    "ko": "돈을 안 걸면 마작 실력이 안 는다는 사람도 있지만,",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.6,
@@ -60,7 +60,7 @@
    "speaker": "에리카",
    "ja": "とんでもないことです。",
    "ko": "당치도 않은 소리입니다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 22.56,
@@ -68,7 +68,7 @@
    "speaker": "유키",
    "ja": "じゃあ、どうしたら早く上達するんですか?",
    "ko": "그럼 어떻게 해야 빨리 늘어요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 25.58,
@@ -76,7 +76,7 @@
    "speaker": "에리카",
    "ja": "そうね、女の子同士でやるんだったら、ちょっとしたコツがあるんだけど",
    "ko": "글쎄, 여자애들끼리 한다면 살짝 요령이 있긴 한데",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 30.52,
@@ -84,7 +84,7 @@
    "speaker": "에리카",
    "ja": "試してみる?",
    "ko": "시험해 볼래?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 33.32,
@@ -92,9 +92,9 @@
    "speaker": "유키",
    "ja": "えー、ユキこわーい。",
    "ko": "에~ 유키 무서워~",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있음 받아쓰기: 「へー」(32.54~), VAD 없음: 「えーゆきこわーい」 — VAD 없음 쪽을 따름"
+   "note": "VAD 있음 받아쓰기: 「へー」(32.54~), VAD 없음: 「えーゆきこわーい」 — VAD 없음 쪽을 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   }
  ]
 }

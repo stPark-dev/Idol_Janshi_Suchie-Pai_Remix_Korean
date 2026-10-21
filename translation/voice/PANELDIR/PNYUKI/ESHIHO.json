@@ -10,7 +10,7 @@
    "speaker": "시호",
    "ja": "まあ、そう気を落とさずに、ちょっと運がなかっただけですよ。",
    "ko": "자, 너무 낙심하지 마세요. 조금 운이 없었을 뿐이에요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 4.86,
@@ -18,7 +18,7 @@
    "speaker": "유키",
    "ja": "だからさっきからそう言ってるじゃないの。",
    "ko": "그러니까 아까부터 그렇게 말하고 있잖아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.36,
@@ -26,7 +26,7 @@
    "speaker": "시호",
    "ja": "そ、それでは失礼いたします。",
    "ko": "그, 그럼 실례하겠습니다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

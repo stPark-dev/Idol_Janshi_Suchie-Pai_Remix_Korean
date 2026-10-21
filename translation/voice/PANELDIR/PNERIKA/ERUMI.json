@@ -10,7 +10,7 @@
    "speaker": "루미",
    "ja": "どう?名前だけじゃなくて実力もまあまあでしょ。",
    "ko": "어때? 이름뿐 아니라 실력도 꽤 괜찮지?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.3,
@@ -18,9 +18,9 @@
    "speaker": "에리카",
    "ja": "で、でも、スワンコウのルミは言い過ぎよ。",
    "ko": "그, 그래도 '스안커의 루미'는 너무 과장이야.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 スワンコウのルミ = スーアンコウ(四暗刻)のルミ. 화자 추정(에리카). 검수: 표기 결정에 따라 '그 별명' → '스안커의 루미'"
+   "note": "받아쓰기 スワンコウのルミ = スーアンコウ(四暗刻)のルミ. 화자 추정(에리카). 검수: 표기 결정에 따라 '그 별명' → '스안커의 루미' 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 8.04,
@@ -28,9 +28,9 @@
    "speaker": "루미",
    "ja": "ああ、そんなこと言うと人呼んできちゃうわよ。",
    "ko": "어머, 그런 말 하면 사람 불러온다?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "화자 추정"
+   "note": "화자 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 11.52,
@@ -38,7 +38,7 @@
    "speaker": "루미",
    "ja": "この状態ではあなたの方が変質者よね。",
    "ko": "이 상태면 네 쪽이 변태로 보일걸?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 16.78,
@@ -46,7 +46,7 @@
    "speaker": "에리카",
    "ja": "うう、負けたわ。",
    "ko": "으으, 내가 졌어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

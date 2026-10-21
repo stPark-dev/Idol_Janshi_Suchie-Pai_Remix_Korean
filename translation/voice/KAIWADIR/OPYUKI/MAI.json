@@ -10,9 +10,9 @@
    "speaker": "유키",
    "ja": "ジングルベール、ジングルベール、鈴が鳴る、ヘイ!",
    "ko": "징글벨, 징글벨, 종이 울려~ 헤이!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 'ジングルベール、ジングルベール、スーツ、カンヌル、ヘイ!'(VAD 없음에만). 일본어판 징글벨 가사 '鈴が鳴る'로 추정. 노래"
+   "note": "받아쓰기: 'ジングルベール、ジングルベール、スーツ、カンヌル、ヘイ!'(VAD 없음에만). 일본어판 징글벨 가사 '鈴が鳴る'로 추정. 노래 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 5.46,
@@ -20,7 +20,7 @@
    "speaker": "마이",
    "ja": "ク、クリスマスでもないのに賑やかね。",
    "ko": "크, 크리스마스도 아닌데 신났네.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "VAD 있음 받아쓰기는 '何してもないのに'로 잘못 들음"
   },
   {
@@ -29,7 +29,7 @@
    "speaker": "유키",
    "ja": "え?",
    "ko": "응?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.74,
@@ -37,7 +37,7 @@
    "speaker": "유키",
    "ja": "あ、あの、ユキに何かご用ですか?",
    "ko": "아, 저기, 유키한테 무슨 볼일 있으세요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 14.78,
@@ -45,7 +45,7 @@
    "speaker": "마이",
    "ja": "ふふふ、何を隠そう。",
    "ko": "후후후, 실은 말이지…",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.74,
@@ -53,7 +53,7 @@
    "speaker": "유키",
    "ja": "わかった、タレントスカウトの人ね。",
    "ko": "알았다! 연예인 스카우트하는 분이구나.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.16,
@@ -61,7 +61,7 @@
    "speaker": "유키",
    "ja": "あ、どうしよう、ユキ困っちゃう。",
    "ko": "아, 어쩌지~ 유키 곤란해~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 24.78,
@@ -69,7 +69,7 @@
    "speaker": "마이",
    "ja": "そ、そうじゃなくて。",
    "ko": "그, 그게 아니라.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 26.68,
@@ -77,7 +77,7 @@
    "speaker": "유키",
    "ja": "え?じゃあモデルのスカウト?",
    "ko": "네? 그럼 모델 스카우트?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 30.0,
@@ -85,7 +85,7 @@
    "speaker": "유키(사진가 흉내)",
    "ja": "はーい、笑って。いいね。",
    "ko": "자~ 웃어 봐. 좋아, 좋아.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "유키가 상상 속 사진가 흉내를 냄"
   },
   {
@@ -94,7 +94,7 @@
    "speaker": "유키(사진가 흉내)",
    "ja": "可愛いね。さあ、ちょっと脱いでみようか。",
    "ko": "귀엽네~ 자, 살짝 벗어 볼까?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 36.44,
@@ -102,7 +102,7 @@
    "speaker": "유키",
    "ja": "え、ユキそんな話聞いてません",
    "ko": "엣, 유키 그런 얘기 못 들었어요!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 40.2,
@@ -110,7 +110,7 @@
    "speaker": "유키",
    "ja": "いやー、なんてことになったりしてね",
    "ko": "꺄~ 이렇게 되면 어쩌지~ 헤헤.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 44.72,
@@ -118,7 +118,7 @@
    "speaker": "유키",
    "ja": "で、何のご用ですか",
    "ko": "그래서, 무슨 볼일이세요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 47.86,
@@ -126,7 +126,7 @@
    "speaker": "마이",
    "ja": "あの、麻雀勝負を挑もうと思ったんだけど",
    "ko": "저기, 마작 승부를 걸어 볼까 했는데",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 50.86,
@@ -134,7 +134,7 @@
    "speaker": "마이",
    "ja": "やっぱりやめようかなーなんて。",
    "ko": "역시 그만둘까 싶기도 하고~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 55.12,
@@ -142,7 +142,7 @@
    "speaker": "유키",
    "ja": "なんだ、そうならそうと早く言えばいいのに。",
    "ko": "뭐야, 그런 거면 빨리 말하지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 58.48,
@@ -150,7 +150,7 @@
    "speaker": "유키",
    "ja": "ユキならいつでも相手になってあげるわよ。",
    "ko": "유키는 언제든지 상대해 줄게!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 61.96,
@@ -158,7 +158,7 @@
    "speaker": "마이",
    "ja": "あんたが言わせなかったんでしょうが",
    "ko": "네가 말할 틈을 안 줬잖아!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

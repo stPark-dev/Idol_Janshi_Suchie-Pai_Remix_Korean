@@ -10,7 +10,7 @@
    "speaker": "마이",
    "ja": "いらっしゃいま…やば、警察だわ。",
    "ko": "어서 오세… 큰일이다, 경찰이야!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "「いらっしゃいま」는 VAD 없는 받아쓰기에만 있음"
   },
   {
@@ -19,7 +19,7 @@
    "speaker": "에리카",
    "ja": "この店に麻雀やってる子がいるって垂れ込みがあったんだけど。",
    "ko": "이 가게에 마작하는 애가 있다는 제보가 들어왔거든.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 7.4,
@@ -27,7 +27,7 @@
    "speaker": "마이",
    "ja": "わ、私、知りませんのことよ。",
    "ko": "저, 저는 모르옵니다요.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "「知りませんのことよ」는 일부러 이상하게 꾸민 존댓말로 시치미 떼는 말투 — 어색한 존댓말로 옮김"
   },
   {
@@ -36,7 +36,7 @@
    "speaker": "에리카",
    "ja": "ふーん。",
    "ko": "흐응.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 13.3,
@@ -44,7 +44,7 @@
    "speaker": "에리카",
    "ja": "本当のこと言わないと、このベレッタで",
    "ko": "사실대로 말 안 하면 이 베레타로",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.8,
@@ -52,7 +52,7 @@
    "speaker": "에리카",
    "ja": "あなたのかわいい脳みそを店中にぶちまけるわよ。",
    "ko": "네 귀여운 뇌를 가게 사방에 흩뿌려 주지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 19.32,
@@ -60,9 +60,9 @@
    "speaker": "마이",
    "ja": "え?すいません。つい出来心だったんです。",
    "ko": "엣? 죄송해요! 그만 충동적으로 그랬어요.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있는 줄. 받아쓰기: ついてき心だったんです (出来心로 고침)"
+   "note": "VAD 없는 받아쓰기에만 있는 줄. 받아쓰기: ついてき心だったんです (出来心로 고침) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 24.22,
@@ -70,7 +70,7 @@
    "speaker": "에리카",
    "ja": "ふん、わかればいいのよ。さあ、勝負よ。",
    "ko": "흥, 알면 됐어. 자, 승부다!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 28.2,
@@ -78,7 +78,7 @@
    "speaker": "마이",
    "ja": "え?",
    "ko": "에?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

@@ -10,7 +10,7 @@
    "speaker": "에리카",
    "ja": "どう?覚えると面白いもんでしょ。",
    "ko": "어때? 배우고 나니 재밌지?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.84,
@@ -18,7 +18,7 @@
    "speaker": "루미",
    "ja": "ねえ、この負けた方が脱ぐっていうのは本当にルールの一つなの?",
    "ko": "근데 진 쪽이 벗는다는 거, 진짜 규칙 중 하나야?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.82,
@@ -26,7 +26,7 @@
    "speaker": "에리카",
    "ja": "もちろん。さらに負けた方は勝った人の一日奴隷をする義務があるのよ。",
    "ko": "물론이지. 게다가 진 쪽은 이긴 사람의 하루 노예가 될 의무가 있어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.44,
@@ -34,7 +34,7 @@
    "speaker": "루미",
    "ja": "んなわけないでしょ、キック!",
    "ko": "그럴 리가 있냐, 발차기!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

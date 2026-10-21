@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "ああ、不運だわ。不幸だわ。悲劇だわ。",
    "ko": "아아, 운도 없지. 불행해. 비극이야.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "VAD 없음 받아쓰기에만 있음"
   },
   {
@@ -19,9 +19,9 @@
    "speaker": "시호",
    "ja": "あの、お気を確かに?",
    "ko": "저기, 정신 차리세요.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 'あの、オッキオ確かに?'"
+   "note": "받아쓰기: 'あの、オッキオ確かに?' 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 8.8,
@@ -29,7 +29,7 @@
    "speaker": "유키",
    "ja": "何その言い方。",
    "ko": "뭐예요, 그 말투.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.5,
@@ -37,9 +37,9 @@
    "speaker": "유키",
    "ja": "人を奇人扱いしないでくださる?",
    "ko": "사람을 이상한 사람 취급하지 말아 주실래요?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: '鬼人扱い'(VAD 없음) / '人置き陣扱い'(VAD 있음). '奇人'(괴짜)으로 추정, '病人'일 수도 있음"
+   "note": "받아쓰기: '鬼人扱い'(VAD 없음) / '人置き陣扱い'(VAD 있음). '奇人'(괴짜)으로 추정, '病人'일 수도 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 13.35,
@@ -47,7 +47,7 @@
    "speaker": "시호",
    "ja": "そ、そんな。でも、何があったんですか?",
    "ko": "어머, 그런 뜻이 아니라… 무슨 일이 있으셨나요?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: 시작 시각을 VAD 받아쓰기 「そ、そんな」(13.35)에 맞춤(이전 14.44)"
   },
   {
@@ -56,7 +56,7 @@
    "speaker": "시호",
    "ja": "私でよければ、ご相談に乗りますよ。",
    "ko": "저라도 괜찮으시다면 상담해 드릴게요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 19.99,
@@ -64,7 +64,7 @@
    "speaker": "유키",
    "ja": "はぁ。",
    "ko": "",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "한숨"
   },
   {
@@ -73,7 +73,7 @@
    "speaker": "유키",
    "ja": "ユキは運命の女神に見放されたのよ。",
    "ko": "유키는 운명의 여신한테 버림받았어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 24.96,
@@ -81,7 +81,7 @@
    "speaker": "유키",
    "ja": "悲劇の連続なのよ。",
    "ko": "비극의 연속이라고.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 27.92,
@@ -89,7 +89,7 @@
    "speaker": "유키",
    "ja": "起きたら9時は過ぎてるし、",
    "ko": "일어나 보니 9시는 넘었지,",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 29.74,
@@ -97,7 +97,7 @@
    "speaker": "유키",
    "ja": "バスには乗り遅れるし、",
    "ko": "버스는 놓치지,",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 32.18,
@@ -105,7 +105,7 @@
    "speaker": "유키",
    "ja": "遅刻だし、宿題は忘れるし、",
    "ko": "지각에, 숙제는 잊어버리지,",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 34.64,
@@ -113,9 +113,9 @@
    "speaker": "유키",
    "ja": "買い食いは見つかるし。",
    "ko": "군것질하다 들키지.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: '大食いは見つかるし'. 하굣길 군것질(買い食い, 교칙 위반)로 추정, '早弁'일 수도 있음"
+   "note": "받아쓰기: '大食いは見つかるし'. 하굣길 군것질(買い食い, 교칙 위반)로 추정, '早弁'일 수도 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 37.8,
@@ -123,7 +123,7 @@
    "speaker": "시호",
    "ja": "そ、それは全部ご自分が悪いのであって",
    "ko": "그, 그건 전부 본인 탓이지",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 40.62,
@@ -131,7 +131,7 @@
    "speaker": "시호",
    "ja": "運が悪いわけでは",
    "ko": "운이 나빠서가 아니라…",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 43.04,
@@ -139,7 +139,7 @@
    "speaker": "유키",
    "ja": "何ですって?",
    "ko": "뭐라고요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 44.82,
@@ -147,7 +147,7 @@
    "speaker": "유키",
    "ja": "じゃああなたとの麻雀で運試しをさせていただくわ",
    "ko": "그럼 당신과의 마작으로 운을 시험해 보겠어요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 49.62,
@@ -155,7 +155,7 @@
    "speaker": "시호",
    "ja": "あの、私とですか?",
    "ko": "저어, 저하고요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

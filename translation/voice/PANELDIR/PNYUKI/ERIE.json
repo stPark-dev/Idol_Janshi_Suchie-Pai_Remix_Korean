@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "ユキちゃん、その髪もなかなか似合ってるじゃない。",
    "ko": "유키, 그 머리도 꽤 잘 어울리잖아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.42,
@@ -18,7 +18,7 @@
    "speaker": "리에",
    "ja": "少しは大人っぽく見えるかもよ。",
    "ko": "조금은 어른스러워 보일지도.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 6.34,
@@ -26,7 +26,7 @@
    "speaker": "유키",
    "ja": "わかったわよ。週に一度くらいはロングにしてあげるわよ。",
    "ko": "알았어. 일주일에 한 번쯤은 긴 머리로 해 줄게.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.62,
@@ -34,9 +34,9 @@
    "speaker": "리에",
    "ja": "うーん、ロールパンやお団子、三つ編みなんかもいいかもね。",
    "ko": "으음, 롤빵 머리나 똥머리, 땋은 머리도 괜찮겠다.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "「ロールパン」은 머리 모양 이름으로 보고 직역"
+   "note": "「ロールパン」은 머리 모양 이름으로 보고 직역 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 16.24,
@@ -44,7 +44,7 @@
    "speaker": "유키",
    "ja": "うーん、ユキ完全に遊ばれてますわ。",
    "ko": "으음, 유키 완전히 놀림당하고 있어요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

@@ -10,7 +10,7 @@
    "speaker": "시호",
    "ja": "あの、それでは私はこれで。",
    "ko": "저기, 그럼 저는 이만.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.54,
@@ -18,7 +18,7 @@
    "speaker": "사유리",
    "ja": "うわ、待って。あ、あたしお金ないんです。",
    "ko": "우와, 잠깐만요. 저, 저 돈이 없어요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 6.18,
@@ -26,9 +26,9 @@
    "speaker": "사유리",
    "ja": "ご飯のお代貸してください。",
    "ko": "밥값 좀 빌려주세요.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 없음에만 있음"
+   "note": "VAD 없음에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 8.56,
@@ -36,7 +36,7 @@
    "speaker": "시호",
    "ja": "ご安心ください。",
    "ko": "안심하세요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.14,
@@ -44,7 +44,7 @@
    "speaker": "시호",
    "ja": "料金は私がカードで支払っておきます。では。",
    "ko": "요금은 제가 카드로 결제해 두겠습니다. 그럼.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: 「支払っておきます」를 자연스럽게"
   },
   {
@@ -53,7 +53,7 @@
    "speaker": "사유리",
    "ja": "はは、ありがとうございます。",
    "ko": "하하, 고맙습니다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

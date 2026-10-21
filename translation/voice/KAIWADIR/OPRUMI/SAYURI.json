@@ -10,9 +10,9 @@
    "speaker": "루미",
    "ja": "はーい、どうしまし…あ、はりゃー。",
    "ko": "네~, 어디가 불편하… 아, 어라라?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있음 「し、ま、し、あ。」, 없음 「はーい、どうしまし、あ、はりゃー。」"
+   "note": "VAD 있음 「し、ま、し、あ。」, 없음 「はーい、どうしまし、あ、はりゃー。」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 4.44,
@@ -20,7 +20,7 @@
    "speaker": "루미",
    "ja": "ここは神聖な病院よね。",
    "ko": "여긴 신성한 병원이잖아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 6.76,
@@ -28,7 +28,7 @@
    "speaker": "루미",
    "ja": "それじゃ、私の目の前にいるバニーガールは一体何なわけ?",
    "ko": "그럼 내 눈앞에 있는 바니걸은 대체 뭐야?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.24,
@@ -36,7 +36,7 @@
    "speaker": "루미",
    "ja": "あ、あの、今日はどうしたのかしら?",
    "ko": "저, 저기, 오늘은 무슨 일로 왔을까?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.01,
@@ -44,7 +44,7 @@
    "speaker": "사유리",
    "ja": "お願いします。私がちゃんとしたウサギちゃんだっていうことを証明してください。",
    "ko": "부탁이에요. 제가 진짜 토끼라는 걸 증명해 주세요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 22.62,
@@ -52,7 +52,7 @@
    "speaker": "루미",
    "ja": "う、ウサギさんね。",
    "ko": "토, 토끼 아가씨라…",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: 남이 사유리를 부를 때 \"토끼 아가씨\"(표기 결정). 이전: 토끼 씨"
   },
   {
@@ -61,7 +61,7 @@
    "speaker": "사유리",
    "ja": "ねえ、よく見てください。耳もちゃんとしてるし、尻尾だってついてます。",
    "ko": "자, 잘 보세요. 귀도 멀쩡하고 꼬리도 달려 있어요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 30.77,
@@ -69,9 +69,9 @@
    "speaker": "사유리",
    "ja": "どこをとってもウサギちゃんにしか見えません。",
    "ko": "어딜 봐도 토끼로밖에 안 보이죠?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있음 「どこをとってもうさぎちゃんに一度」, VAD 없음 「…にしか見えません」을 따름"
+   "note": "VAD 있음 「どこをとってもうさぎちゃんに一度」, VAD 없음 「…にしか見えません」을 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 35.32,
@@ -79,7 +79,7 @@
    "speaker": "사유리",
    "ja": "麻雀もできるし。",
    "ko": "마작도 할 줄 알고요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 37.7,
@@ -87,9 +87,9 @@
    "speaker": "루미",
    "ja": "はいはい、麻雀が打てるんなら付き合ってあげるわよ。",
    "ko": "네네, 마작 칠 줄 알면 상대해 줄게.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「打てんなら」"
+   "note": "받아쓰기 「打てんなら」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 40.82,
@@ -97,7 +97,7 @@
    "speaker": "루미",
    "ja": "さっきの話はその後でね",
    "ko": "아까 얘기는 그다음에 하자.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 42.86,
@@ -105,9 +105,9 @@
    "speaker": "사유리",
    "ja": "わーい、がんばるです",
    "ko": "와~ 열심히 할게요!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있음"
+   "note": "VAD 없는 받아쓰기에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   }
  ]
 }

@@ -10,7 +10,7 @@
    "speaker": "레이카",
    "ja": "まあ、とりあえずおめでとうと言わせてもらうよ。",
    "ko": "뭐, 일단 축하한다고는 해 두지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.86,
@@ -18,7 +18,7 @@
    "speaker": "레이카",
    "ja": "今日からあんたが最強の雀士さ。",
    "ko": "오늘부터 네가 최강의 작사야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 7.62,
@@ -26,7 +26,7 @@
    "speaker": "시호",
    "ja": "もう、私、一体何をしに来たのかわかりませんわ。",
    "ko": "어머, 저는 대체 뭘 하러 온 건지 모르겠어요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.58,
@@ -34,7 +34,7 @@
    "speaker": "스치파이",
    "ja": "志穂さん、実力はあるんですから、",
    "ko": "시호 씨, 실력은 있으니까",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.7,
@@ -42,7 +42,7 @@
    "speaker": "스치파이",
    "ja": "もう少しレベルアップに気を使ってほしかったわ。",
    "ko": "레벨 업에 조금만 더 신경 써 줬으면 했는데.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 19.0,
@@ -50,7 +50,7 @@
    "speaker": "시호",
    "ja": "え?",
    "ko": "네?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

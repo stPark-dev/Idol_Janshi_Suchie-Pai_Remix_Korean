@@ -10,7 +10,7 @@
    "speaker": "마이",
    "ja": "いらっしゃいませ。",
    "ko": "어서 오세요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 1.58,
@@ -18,7 +18,7 @@
    "speaker": "마이",
    "ja": "わあ、ちょっと素敵なお姉さまだな。",
    "ko": "와아, 꽤 멋진 언니다~",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "VAD 없는 받아쓰기에만 있는 줄(혼잣말)"
   },
   {
@@ -27,7 +27,7 @@
    "speaker": "마이",
    "ja": "あの、ご注文は何にいたしましょうか。",
    "ko": "저, 주문은 뭘로 하시겠어요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.0,
@@ -35,7 +35,7 @@
    "speaker": "리에",
    "ja": "うふ、かわいいあなたをテイクアウトで。",
    "ko": "후훗, 귀여운 너를 테이크아웃으로.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 14.5,
@@ -43,7 +43,7 @@
    "speaker": "마이",
    "ja": "そ、そんなご冗談を。",
    "ko": "노, 농담도 참.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.14,
@@ -51,7 +51,7 @@
    "speaker": "리에",
    "ja": "そうね、冗談はさておき。",
    "ko": "그래, 농담은 그렇다 치고.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 19.74,
@@ -59,7 +59,7 @@
    "speaker": "마이",
    "ja": "え、冗談?",
    "ko": "네? 농담이었어요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 23.08,
@@ -67,7 +67,7 @@
    "speaker": "리에",
    "ja": "そう、冗談。",
    "ko": "그래, 농담.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 25.36,
@@ -75,7 +75,7 @@
    "speaker": "리에",
    "ja": "あのね。",
    "ko": "있잖아.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "말하는 사람 추정(리에가 뜸 들이고 제안하는 흐름으로 봄)"
   },
   {
@@ -84,7 +84,7 @@
    "speaker": "리에",
    "ja": "麻雀、する?",
    "ko": "마작, 할래?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 29.44,
@@ -92,7 +92,7 @@
    "speaker": "마이",
    "ja": "するわよ!",
    "ko": "하고말고!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "VAD 없는 받아쓰기의 28.72 「する?」는 메아리 환각으로 보고 버림"
   }
  ]

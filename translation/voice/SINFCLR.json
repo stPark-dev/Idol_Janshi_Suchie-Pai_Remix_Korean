@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "パネルクリア。これが揃うとあっという間にステージクリアよ。",
    "ko": "패널 클리어. 이게 맞춰지면 순식간에 스테이지 클리어야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 5.26,
@@ -18,7 +18,7 @@
    "speaker": "스치파이",
    "ja": "でも残ったパネルのアイテムやポイントは手に入らないから注意してね。",
    "ko": "하지만 남은 패널의 아이템이나 포인트는 못 얻으니까 조심해.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

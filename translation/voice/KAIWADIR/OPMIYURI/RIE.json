@@ -10,7 +10,7 @@
    "speaker": "미유리",
    "ja": "お姉ちゃん、誰か探してるの?",
    "ko": "언니, 누구 찾아?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.64,
@@ -18,7 +18,7 @@
    "speaker": "리에",
    "ja": "え?うん。お友達になってくれそうな人はいないかなって。",
    "ko": "응? 응. 친구가 되어 줄 사람 없나 해서.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.36,
@@ -26,7 +26,7 @@
    "speaker": "미유리",
    "ja": "お姉ちゃんもお友達いないの?",
    "ko": "언니도 친구 없어?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.16,
@@ -34,9 +34,9 @@
    "speaker": "미유리",
    "ja": "みゆりもね、体が弱いからお友達少ないの。",
    "ko": "미유리도 몸이 약해서 친구가 별로 없어.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 三浦もね"
+   "note": "받아쓰기: 三浦もね 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 16.24,
@@ -44,7 +44,7 @@
    "speaker": "미유리",
    "ja": "でもね、ルミさんっていう看護婦さんがね、お友達になってくれたの。",
    "ko": "그래도 루미 언니라는 간호사 언니가 친구가 돼 줬어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.6,
@@ -52,7 +52,7 @@
    "speaker": "미유리",
    "ja": "とっても優しいの。痛いお注射もしないのよ。",
    "ko": "되게 착해. 아픈 주사도 안 놓는다?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 25.46,
@@ -60,7 +60,7 @@
    "speaker": "리에",
    "ja": "へえ、そのルミさんなら多分私の知ってる人よ。",
    "ko": "어머, 그 루미라면 아마 내가 아는 애일 거야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 30.32,
@@ -68,7 +68,7 @@
    "speaker": "미유리",
    "ja": "え、本当?お友達になってくれた?",
    "ko": "정말? 친구가 돼 줬어?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 34.16,
@@ -76,7 +76,7 @@
    "speaker": "리에",
    "ja": "うーん、どうかな。嫌われちゃったかもね。",
    "ko": "글쎄, 어떨까. 미움받았을지도 몰라.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 38.26,
@@ -84,7 +84,7 @@
    "speaker": "미유리",
    "ja": "へえ。じゃあ、シホさんはどうかな?",
    "ko": "흐응. 그럼 시호 언니는 어때?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 42.1,
@@ -92,7 +92,7 @@
    "speaker": "미유리",
    "ja": "麻雀っていうゲームがね、とっても強いんだって。",
    "ko": "마작이라는 게임을 엄청 잘한대.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 46.1,
@@ -100,7 +100,7 @@
    "speaker": "리에",
    "ja": "うーん、一度会ってみようかしら。",
    "ko": "흐음, 한번 만나 볼까.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 49.42,
@@ -108,7 +108,7 @@
    "speaker": "미유리",
    "ja": "きっとお友達になれるよ。",
    "ko": "분명 친구가 될 수 있을 거야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 52.58,
@@ -116,7 +116,7 @@
    "speaker": "리에",
    "ja": "みゆりちゃん、大きくなったら美人になるよ。",
    "ko": "미유리는 크면 미인이 되겠네.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 56.78,
@@ -124,7 +124,7 @@
    "speaker": "리에",
    "ja": "きっと素敵なお友達もたくさんできるよ。",
    "ko": "멋진 친구도 분명 많이 생길 거야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 59.48,
@@ -132,7 +132,7 @@
    "speaker": "미유리",
    "ja": "ほんと?",
    "ko": "정말?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 61.32,
@@ -140,7 +140,7 @@
    "speaker": "리에",
    "ja": "早く良くなってね。",
    "ko": "얼른 나으렴.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

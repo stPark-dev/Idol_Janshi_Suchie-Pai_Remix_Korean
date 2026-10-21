@@ -10,7 +10,7 @@
    "speaker": "루미",
    "ja": "ああ、来た来た。やっぱりお茶の時間にはこれよね。",
    "ko": "아, 왔다 왔다. 역시 티타임엔 이게 있어야지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.42,
@@ -18,7 +18,7 @@
    "speaker": "마이",
    "ja": "お待たせしました。ご注文のパイをお届けにあがりました。",
    "ko": "오래 기다리셨죠! 주문하신 파이 배달 왔습니다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.68,
@@ -26,7 +26,7 @@
    "speaker": "루미",
    "ja": "うっ、なんなのこのカロリーめちゃ高そうなパイは。",
    "ko": "윽, 뭐야, 이 칼로리 엄청 높아 보이는 파이는?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.9,
@@ -34,7 +34,7 @@
    "speaker": "마이",
    "ja": "さすがね。卵50個分の卵黄入り",
    "ko": "역시 보는 눈이 있네! 달걀 50개 분량의 노른자가 든",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 16.4,
@@ -42,7 +42,7 @@
    "speaker": "마이",
    "ja": "超高密度ハイパーカスタードパイ、",
    "ko": "초고밀도 하이퍼 커스터드 파이,",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 18.74,
@@ -50,7 +50,7 @@
    "speaker": "마이",
    "ja": "ダブルチーズデラックスアイスクリームのせ。",
    "ko": "더블 치즈 디럭스 아이스크림 토핑!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.64,
@@ -58,7 +58,7 @@
    "speaker": "마이",
    "ja": "これをズバリ言い当ててしまうとは。",
    "ko": "이걸 단번에 알아맞히다니.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 24.0,
@@ -66,7 +66,7 @@
    "speaker": "루미",
    "ja": "ああ、そこまでは言ってないんだけどね。",
    "ko": "아니, 거기까진 말 안 했는데.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 27.1,
@@ -74,7 +74,7 @@
    "speaker": "마이",
    "ja": "まあ、とりあえず試しにお一つ。",
    "ko": "자, 일단 하나 드셔 보세요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 29.84,
@@ -82,7 +82,7 @@
    "speaker": "루미",
    "ja": "そうね…って、食べた瞬間に3キロぐらい太りそうじゃないの",
    "ko": "그럴까… 가 아니지! 먹는 순간 3킬로는 찌겠잖아!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 33.78,
@@ -90,7 +90,7 @@
    "speaker": "마이",
    "ja": "なんなのよ一体",
    "ko": "대체 뭐야!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "화자 추정 불확실(루미일 수도) / 검수: 화자가 불확실(마이/루미)해 원문대로 누가 말해도 통하게 고침(이전: 대체 뭐가 불만이야!)"
   },
   {
@@ -99,7 +99,7 @@
    "speaker": "마이",
    "ja": "なかなかできるわね",
    "ko": "제법인데?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 37.82,
@@ -107,7 +107,7 @@
    "speaker": "마이",
    "ja": "こうなったらマージャンで勝負してもらうわ",
    "ko": "이렇게 된 이상 마작으로 승부해 줘야겠어!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 40.08,
@@ -115,7 +115,7 @@
    "speaker": "루미",
    "ja": "わかったわかった、いい子ね",
    "ko": "알았어, 알았어. 착하지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 43.24,
@@ -123,7 +123,7 @@
    "speaker": "루미",
    "ja": "いい病院紹介してあげるからそこ行ってね",
    "ko": "좋은 병원 소개해 줄 테니까 거기 가 봐.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 46.32,
@@ -131,7 +131,7 @@
    "speaker": "루미",
    "ja": "お友達いっぱいいるから",
    "ko": "친구들도 많이 있으니까.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "마이를 이상한 사람 취급하며 정신과 병원을 권하는 농담"
   },
   {
@@ -140,7 +140,7 @@
    "speaker": "마이",
    "ja": "勝負ったら勝負よ",
    "ko": "승부하자니까!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

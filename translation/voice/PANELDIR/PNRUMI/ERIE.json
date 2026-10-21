@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "はい、お仕置き終わり。",
    "ko": "자, 벌은 여기까지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 1.92,
@@ -18,9 +18,9 @@
    "speaker": "루미",
    "ja": "え、もう?",
    "ko": "에, 벌써?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 없음에만 있음"
+   "note": "VAD 없음에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 4.2,
@@ -28,7 +28,7 @@
    "speaker": "리에",
    "ja": "続きはあなたがもっと腕を上げてからね。",
    "ko": "다음은 네가 실력을 더 키운 다음에.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.0,
@@ -36,7 +36,7 @@
    "speaker": "루미",
    "ja": "私、頑張るわ。",
    "ko": "나, 열심히 할게.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

@@ -10,7 +10,7 @@
    "speaker": "루미",
    "ja": "ひょっとして、あなたって全然色気がないんじゃない?",
    "ko": "혹시 너, 색기가 전혀 없는 거 아냐?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.78,
@@ -18,9 +18,9 @@
    "speaker": "사유리",
    "ja": "えへへ、う、うーん、あーん。",
    "ko": "에헤헤, 으, 으음, 아앙~",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있음: 「ひひ、う、うーん。」(3.72~6.28)만 잡음. 이 줄과 다음 줄은 VAD 없음 받아쓰기"
+   "note": "VAD 있음: 「ひひ、う、うーん。」(3.72~6.28)만 잡음. 이 줄과 다음 줄은 VAD 없음 받아쓰기 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 7.42,
@@ -28,9 +28,9 @@
    "speaker": "사유리",
    "ja": "おやめくださーい。いやーん、そんなとこー。",
    "ko": "그만두세요~ 싫어잉, 거긴~",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 없음에만 있음"
+   "note": "VAD 없음에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 11.76,
@@ -38,7 +38,7 @@
    "speaker": "루미",
    "ja": "やっぱり。",
    "ko": "역시나.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.9,
@@ -46,9 +46,9 @@
    "speaker": "사유리",
    "ja": "か、看護婦さん、あたしどうすれば色っぽくなるんでしょう。",
    "ko": "가, 간호사님, 저 어떻게 하면 섹시해질까요?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있음은 「今回ですので」로 뭉갬. VAD 없음을 따름"
+   "note": "VAD 있음은 「今回ですので」로 뭉갬. VAD 없음을 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 17.4,
@@ -56,7 +56,7 @@
    "speaker": "루미",
    "ja": "せ、専門外ですので、バイバイ。",
    "ko": "저, 전문 분야가 아니라서. 바이바이.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.58,
@@ -64,7 +64,7 @@
    "speaker": "사유리",
    "ja": "うわー、お待ちになってー。",
    "ko": "우와~ 기다려 주세요~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

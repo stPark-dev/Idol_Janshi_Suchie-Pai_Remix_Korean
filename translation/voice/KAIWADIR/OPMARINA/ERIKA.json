@@ -10,9 +10,9 @@
    "speaker": "마리나",
    "ja": "ああ!婦警が拳銃抜いてる!",
    "ko": "아앗! 여경이 권총을 뽑았어!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 「姉が拳銃抜いてる!」/「不敬が拳銃抜いてる!」 → 「婦警」(여경)"
+   "note": "받아쓰기: 「姉が拳銃抜いてる!」/「不敬が拳銃抜いてる!」 → 「婦警」(여경) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 2.98,
@@ -20,7 +20,7 @@
    "speaker": "에리카",
    "ja": "なーに?文句あんの?逮捕するわよ!",
    "ko": "뭐~야? 불만 있어? 체포한다!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 7.06,
@@ -28,7 +28,7 @@
    "speaker": "마리나",
    "ja": "あ、そんな!文句なんか私言ってないわよ!私は本当のことを言っただけじゃないの!",
    "ko": "아, 너무해! 불만 같은 거 말 안 했어! 난 사실을 말했을 뿐이잖아!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: '그런!' 어색 → そんな!를 '너무해!'로"
   },
   {
@@ -37,7 +37,7 @@
    "speaker": "에리카",
    "ja": "なーに?私に口答えする気?",
    "ko": "뭐~야? 나한테 말대꾸할 셈이야?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 16.84,
@@ -45,7 +45,7 @@
    "speaker": "에리카",
    "ja": "いい加減にしないと射殺するわよ!",
    "ko": "적당히 안 하면 사살해 버린다?!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.02,
@@ -53,9 +53,9 @@
    "speaker": "마리나",
    "ja": "へへ、婦警さん、拳銃なんか持って、なんか事件ですか?",
    "ko": "헤헤, 여경 언니, 권총까지 들고 무슨 사건이에요?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 「ふけーさん」/「不敬さん」 → 「婦警さん」"
+   "note": "받아쓰기: 「ふけーさん」/「不敬さん」 → 「婦警さん」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 24.84,
@@ -63,7 +63,7 @@
    "speaker": "에리카",
    "ja": "私は、拳銃撃つことのできる大事件を探してるのよ!",
    "ko": "난 권총을 쏠 수 있는 대사건을 찾고 있다고!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 29.04,
@@ -71,7 +71,7 @@
    "speaker": "마리나",
    "ja": "そういえば、怪しいウサギの格好した女の人があっちの方にいましたよ。",
    "ko": "그러고 보니, 수상한 토끼 차림의 여자가 저쪽에 있었어요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 33.68,
@@ -79,7 +79,7 @@
    "speaker": "에리카",
    "ja": "本当?きっと犯罪者ね。",
    "ko": "정말? 분명 범죄자겠군.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 36.6,
@@ -87,9 +87,9 @@
    "speaker": "에리카",
    "ja": "私がこの愛銃ベレッタM84にかけて、きっと逮捕してやるわ。",
    "ko": "내 소중한 베레타 M84에 걸고 반드시 체포해 주겠어!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 「愛獣」 → 「愛銃」"
+   "note": "받아쓰기: 「愛獣」 → 「愛銃」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   }
  ]
 }

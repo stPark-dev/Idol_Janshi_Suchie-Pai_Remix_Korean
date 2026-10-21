@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "あなたは正真正銘、最強の雀士だわ。",
    "ko": "너는 명실상부 최강의 작사야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.5,
@@ -18,7 +18,7 @@
    "speaker": "마이",
    "ja": "え?",
    "ko": "어?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 5.36,
@@ -26,7 +26,7 @@
    "speaker": "스치파이",
    "ja": "もし、この勝負を通して何か得るものがあったのなら、私に聞かせてくれる?",
    "ko": "이 승부로 뭔가 얻은 게 있다면 나한테 들려줄래?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.1,
@@ -34,7 +34,7 @@
    "speaker": "마이",
    "ja": "私、なんか自信がついたみたい。",
    "ko": "나, 왠지 자신감이 생긴 것 같아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 14.62,
@@ -42,7 +42,7 @@
    "speaker": "마이",
    "ja": "今ならどんなことでもできるような気がするわ。",
    "ko": "지금이라면 뭐든 할 수 있을 것 같아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.86,
@@ -50,7 +50,7 @@
    "speaker": "마이",
    "ja": "ありがとう、スーチーパイ。",
    "ko": "고마워, 스치파이.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

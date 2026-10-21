@@ -10,9 +10,9 @@
    "speaker": "아유미",
    "ja": "なんだよ、姉ちゃん。俺とタイマン張る気か?",
    "ko": "뭐야, 언니. 나랑 맞짱 뜨자는 거냐?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: '対マンはるきか'"
+   "note": "받아쓰기: '対マンはるきか' 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 3.34,
@@ -20,7 +20,7 @@
    "speaker": "마이",
    "ja": "そうね。一対一で麻雀勝負ってのはどう?",
    "ko": "그래. 일대일로 마작 승부 어때?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 7.38,
@@ -28,7 +28,7 @@
    "speaker": "아유미",
    "ja": "はあ?麻雀ってのは四人でやるもんだぜ。",
    "ko": "하아? 마작은 넷이서 하는 거라고.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.32,
@@ -36,7 +36,7 @@
    "speaker": "마이",
    "ja": "甘い!ミルクショコラパイより甘いわね。",
    "ko": "순진하긴! 밀크 쇼콜라 파이보다 더 달달한 생각이네.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "'甘い'는 '달다'와 '물렀다/순진하다'의 이중 뜻. 파이 가게 점원 마이의 말장난"
   },
   {
@@ -45,7 +45,7 @@
    "speaker": "마이",
    "ja": "四人でやったら一対一の勝負にならないじゃない。",
    "ko": "넷이서 하면 일대일 승부가 안 되잖아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 18.02,
@@ -53,7 +53,7 @@
    "speaker": "아유미",
    "ja": "チェッ、わかったわかった。",
    "ko": "쳇, 알았어 알았어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.72,
@@ -61,7 +61,7 @@
    "speaker": "아유미",
    "ja": "おめえにぴったりの相手を教えてやるからさ。",
    "ko": "너한테 딱 맞는 상대를 알려 줄 테니까.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 23.58,
@@ -69,7 +69,7 @@
    "speaker": "아유미",
    "ja": "そいつに遊んでもらえよ、な?",
    "ko": "그 녀석이랑 놀아라, 응?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

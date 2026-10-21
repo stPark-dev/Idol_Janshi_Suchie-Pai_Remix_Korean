@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "パネルマッチ。ルールはズバリ神経衰弱。",
    "ko": "패널 매치. 규칙은 한마디로 짝 맞추기!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "神経衰弱 = 카드 짝 맞추기 놀이"
   },
   {
@@ -19,7 +19,7 @@
    "speaker": "스치파이",
    "ja": "当たればアイテムやレベルアップのためのポイントがもらえるよ。",
    "ko": "맞히면 아이템이나 레벨 업용 포인트를 받을 수 있어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

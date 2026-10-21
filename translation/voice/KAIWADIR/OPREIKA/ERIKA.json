@@ -10,7 +10,7 @@
    "speaker": "레이카",
    "ja": "次の相手はこの私さ。",
    "ko": "다음 상대는 바로 나야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.26,
@@ -18,9 +18,9 @@
    "speaker": "레이카",
    "ja": "婦人警官、西野エリカ。",
    "ko": "여경, 니시노 에리카.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「ニシのエリカ」"
+   "note": "받아쓰기 「ニシのエリカ」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 4.92,
@@ -28,9 +28,9 @@
    "speaker": "레이카",
    "ja": "いえ、ニセ警官、風牌のエリカ。",
    "ko": "아니, 가짜 경관, 풍패의 에리카.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「フーパイ」 = 風牌(フウパイ). 마작 용어 별명. 니시(西野)→니세(가짜) 말장난도 있음"
+   "note": "받아쓰기 「フーパイ」 = 風牌(フウパイ). 마작 용어 별명. 니시(西野)→니세(가짜) 말장난도 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 8.34,
@@ -38,7 +38,7 @@
    "speaker": "에리카",
    "ja": "何者!?",
    "ko": "누구냐!?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.86,
@@ -46,7 +46,7 @@
    "speaker": "레이카",
    "ja": "最強の雀士レイカ様が、あんたを叩き潰してやるよ。",
    "ko": "최강의 작사 레이카 님이 널 박살 내 주마.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

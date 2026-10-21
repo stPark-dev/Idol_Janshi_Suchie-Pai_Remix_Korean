@@ -10,7 +10,7 @@
    "speaker": "시호",
    "ja": "はじめまして。私が片桐しほです。",
    "ko": "처음 뵙겠습니다. 제가 카타기리 시호예요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.46,
@@ -18,7 +18,7 @@
    "speaker": "리에",
    "ja": "まあ、かわいい。好みだわ。",
    "ko": "어머, 귀여워라. 내 취향이야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 6.62,
@@ -26,9 +26,9 @@
    "speaker": "시호",
    "ja": "うん?",
    "ko": "네?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 「うん。」 의문의 짧은 반응으로 봄"
+   "note": "받아쓰기: 「うん。」 의문의 짧은 반응으로 봄 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 8.98,
@@ -36,7 +36,7 @@
    "speaker": "리에",
    "ja": "何にも知りませんって顔してても、私には隠しきれないわ。",
    "ko": "아무것도 모른다는 얼굴을 해도 나한텐 못 숨겨.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 14.12,
@@ -44,7 +44,7 @@
    "speaker": "시호",
    "ja": "な、何を言うんですか。私、そんな。",
    "ko": "무, 무슨 말씀이세요. 저는 그런…",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.34,
@@ -52,7 +52,7 @@
    "speaker": "리에",
    "ja": "そうやって焦るところなんかも好きよ。いいのよ。私も同じなんだから。",
    "ko": "그렇게 당황하는 모습도 좋아. 괜찮아. 나도 같은 부류니까.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "리에는 마작 이야기를 하지만 시호는 동성애 쪽으로 오해하는 엇갈림 개그. 「私も同じ」의 이중 의미를 살림"
   },
   {
@@ -61,7 +61,7 @@
    "speaker": "시호",
    "ja": "そ、そんな。",
    "ko": "그, 그런…",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 25.4,
@@ -69,7 +69,7 @@
    "speaker": "리에",
    "ja": "あなた、とっても気に入ったわ。二人で楽しみましょう。",
    "ko": "너, 정말 마음에 들어. 둘이서 즐기자.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 29.36,
@@ -77,7 +77,7 @@
    "speaker": "시호",
    "ja": "え?",
    "ko": "네?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 30.0,
@@ -85,7 +85,7 @@
    "speaker": "시호",
    "ja": "わ、わたくし!",
    "ko": "저, 저는…!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 31.38,
@@ -93,7 +93,7 @@
    "speaker": "리에",
    "ja": "さあ、どこにあるの? 雀卓。",
    "ko": "자, 어디 있어? 마작 탁자.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 34.72,
@@ -101,7 +101,7 @@
    "speaker": "시호",
    "ja": "はい?雀卓ですか?",
    "ko": "네? 마작 탁자요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 38.32,
@@ -109,9 +109,9 @@
    "speaker": "시호",
    "ja": "あ、あは!麻雀ですよね!麻雀!",
    "ko": "아, 아하! 마작 말씀이죠! 마작!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있는 받아쓰기는 「マージャン!」만 잡음. VAD 없는 쪽 문장을 씀"
+   "note": "VAD 있는 받아쓰기는 「マージャン!」만 잡음. VAD 없는 쪽 문장을 씀 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 42.22,
@@ -119,7 +119,7 @@
    "speaker": "리에",
    "ja": "うふふ、かわいい。",
    "ko": "우후후, 귀여워.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

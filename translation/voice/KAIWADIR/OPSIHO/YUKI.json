@@ -10,7 +10,7 @@
    "speaker": "시호",
    "ja": "あら、私に何か?",
    "ko": "어머, 저에게 무슨 일이죠?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.66,
@@ -18,7 +18,7 @@
    "speaker": "유키",
    "ja": "あのー、しほさんですよね。",
    "ko": "저기~ 시호 씨 맞죠?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 5.94,
@@ -26,7 +26,7 @@
    "speaker": "유키",
    "ja": "麻雀が得意だって聞いてきたんですけど、本当なんですか?",
    "ko": "마작을 잘한다고 듣고 왔는데, 정말이에요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.64,
@@ -34,7 +34,7 @@
    "speaker": "시호",
    "ja": "な、何をいきなり。私はそんな、得意というほどでは。",
    "ko": "무, 무슨 말씀을 갑자기. 저는 그렇게 잘하는 편은…",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 16.52,
@@ -42,7 +42,7 @@
    "speaker": "유키",
    "ja": "なんだ、そうなの。でもいいわ、せっかくだから勝負しましょう。",
    "ko": "뭐야, 그래요? 그래도 좋아요. 기왕 왔으니 승부해요!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.62,
@@ -50,7 +50,7 @@
    "speaker": "시호",
    "ja": "え?私まだ心の準備が。",
    "ko": "네? 저는 아직 마음의 준비가…",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

@@ -10,9 +10,9 @@
    "speaker": "리에",
    "ja": "これでわかったでしょ。今日のことは二人だけの秘密だからね。",
    "ko": "이제 알겠지? 오늘 일은 둘만의 비밀이야.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "화자 추정(리에). 에리카일 수도 있음"
+   "note": "화자 추정(리에). 에리카일 수도 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 5.44,
@@ -20,9 +20,9 @@
    "speaker": "에리카",
    "ja": "ええ、約束するわ。",
    "ko": "응, 약속할게.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "화자 추정"
+   "note": "화자 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   }
  ]
 }

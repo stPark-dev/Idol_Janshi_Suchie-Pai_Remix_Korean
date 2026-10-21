@@ -10,7 +10,7 @@
    "speaker": "마이",
    "ja": "口ほどにもないわ。",
    "ko": "큰소리친 것치곤 별거 아니네.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: 「口ほどにもない」는 큰소리에 비해 실력이 없다는 뜻. 다음 줄 대답과 이어지게"
   },
   {
@@ -19,7 +19,7 @@
    "speaker": "사유리",
    "ja": "私は麻雀うまいとか一言も言ってませんって。",
    "ko": "저는 마작 잘한다고 한마디도 안 했다니까요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

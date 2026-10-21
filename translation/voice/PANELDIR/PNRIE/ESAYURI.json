@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "おーほっほー。まだまだ修行が足りませんね。",
    "ko": "오호호호~ 아직 수행이 부족하시네요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 4.96,
@@ -18,7 +18,7 @@
    "speaker": "리에",
    "ja": "そうね。残念だけどあなたをペットにするのは諦めるわ。",
    "ko": "그렇네. 아쉽지만 너를 애완동물 삼는 건 포기할게.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 9.66,
@@ -26,9 +26,9 @@
    "speaker": "사유리",
    "ja": "えぇ、そうなんですか。",
    "ko": "에에, 그래요?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있음은 うん、そんなこと言うことはできない로 잘못 들음. VAD 없음을 따름"
+   "note": "VAD 있음은 うん、そんなこと言うことはできない로 잘못 들음. VAD 없음을 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 12.48,
@@ -36,7 +36,7 @@
    "speaker": "사유리",
    "ja": "そんなこと言わないで、私をペットにしてください。",
    "ko": "그런 말 말고 저를 애완동물로 삼아 주세요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 16.74,
@@ -44,7 +44,7 @@
    "speaker": "사유리",
    "ja": "可愛いし、言うこと聞くし、おトイレも自分でできるし。",
    "ko": "귀엽고, 말도 잘 듣고, 화장실도 혼자 갈 수 있고.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 22.12,
@@ -52,7 +52,7 @@
    "speaker": "사유리",
    "ja": "でもその代わりご飯はちゃんと食べさせてね。",
    "ko": "대신 밥은 꼬박꼬박 챙겨 줘야 해.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 25.1,
@@ -60,7 +60,7 @@
    "speaker": "리에",
    "ja": "ええ、いいわよ。",
    "ko": "응, 좋아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 27.14,
@@ -68,7 +68,7 @@
    "speaker": "리에",
    "ja": "じゃあウサギちゃん、あなたは今日から私の可愛いしもべよ。",
    "ko": "그럼 토끼 아가씨, 넌 오늘부터 내 귀여운 하인이야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 31.8,
@@ -76,7 +76,7 @@
    "speaker": "사유리",
    "ja": "はい。",
    "ko": "네.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 33.94,
@@ -84,7 +84,7 @@
    "speaker": "사유리",
    "ja": "あ、でもエッチなことしちゃダメですよ。",
    "ko": "아, 그래도 야한 짓은 안 돼요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 37.3,
@@ -92,7 +92,7 @@
    "speaker": "리에",
    "ja": "はいはい。",
    "ko": "네네.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

@@ -10,9 +10,9 @@
    "speaker": "스치파이",
    "ja": "風牌の積み込みが大得意。",
    "ko": "풍패 쌓기가 특기!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있음 「スーパイの」, VAD 없음 「風パイの」. 風牌(풍패)로 봄 — 四風(스풍)일 수도 있음"
+   "note": "VAD 있음 「スーパイの」, VAD 없음 「風パイの」. 風牌(풍패)로 봄 — 四風(스풍)일 수도 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 2.08,
@@ -20,7 +20,7 @@
    "speaker": "스치파이",
    "ja": "自由と平等を愛するガンマニアのエリカさん。",
    "ko": "자유와 평등을 사랑하는 총기 마니아 에리카 씨.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 5.28,
@@ -28,9 +28,9 @@
    "speaker": "스치파이",
    "ja": "婦警さんのコスプレで登場よ。",
    "ko": "여경 코스프레로 등장이야.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「フケイさん」/「不計算」 → 婦警さん"
+   "note": "받아쓰기 「フケイさん」/「不計算」 → 婦警さん 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   }
  ]
 }

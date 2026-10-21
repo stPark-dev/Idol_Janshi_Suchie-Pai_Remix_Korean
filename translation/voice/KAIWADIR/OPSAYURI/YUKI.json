@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "いらっしゃいませ。",
    "ko": "어서 오세요~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.12,
@@ -18,7 +18,7 @@
    "speaker": "사유리",
    "ja": "まあ、かわいいお客さんですね。誰かの紹介ですか?",
    "ko": "어머, 귀여운 손님이네요. 누구 소개로 오셨어요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.02,
@@ -26,7 +26,7 @@
    "speaker": "유키",
    "ja": "あのー、けいこさんって人から。",
    "ko": "저기, 케이코 씨라는 분이요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.88,
@@ -34,7 +34,7 @@
    "speaker": "사유리",
    "ja": "まあ、けいこの紹介なの?",
    "ko": "어머, 케이코 소개야?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 13.38,
@@ -42,7 +42,7 @@
    "speaker": "사유리",
    "ja": "じゃ、精一杯サービスしちゃいますね。ささ、奥へどうぞ。",
    "ko": "그럼 열심히 서비스해 드릴게요. 자자, 안쪽으로 오세요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 18.04,
@@ -50,9 +50,9 @@
    "speaker": "유키",
    "ja": "ま、まさか、奥へ連れ込んでユキにエッチなことさせようって気じゃ……",
    "ko": "서, 설마 안으로 끌고 가서 유키한테 야한 짓 시키려는 건...",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 雪に (이름 ユキ)"
+   "note": "받아쓰기: 雪に (이름 ユキ) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 23.46,
@@ -60,7 +60,7 @@
    "speaker": "사유리",
    "ja": "おーほっほっほっほー。",
    "ko": "오호호호호~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 25.66,
@@ -68,7 +68,7 @@
    "speaker": "사유리",
    "ja": "今さら何ぶりっこしてるんですか。",
    "ko": "이제 와서 웬 내숭이에요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 28.12,
@@ -76,7 +76,7 @@
    "speaker": "사유리",
    "ja": "二人で麻雀するのに決まってるじゃないですか。",
    "ko": "둘이서 마작 하는 거죠, 당연히!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

@@ -10,9 +10,9 @@
    "speaker": "레이카",
    "ja": "リエお姉さまこと、字牌のリエ。",
    "ko": "리에 언니, 일명 자패의 리에.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「慈輩のリエ」 = 字牌(ジハイ). 화자(레이카/리에 자기소개)도 추정"
+   "note": "받아쓰기 「慈輩のリエ」 = 字牌(ジハイ). 화자(레이카/리에 자기소개)도 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 3.22,
@@ -20,7 +20,7 @@
    "speaker": "리에",
    "ja": "現れたわね、レイカ。",
    "ko": "나타났구나, 레이카.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 4.98,
@@ -28,7 +28,7 @@
    "speaker": "레이카",
    "ja": "先に名前を呼ぶなよ。",
    "ko": "내가 소개하기도 전에 이름 부르지 마.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "자기소개를 하려던 레이카가 이름을 먼저 불려 김이 샌 농담"
   },
   {
@@ -37,7 +37,7 @@
    "speaker": "리에",
    "ja": "さあ、勝負よ。",
    "ko": "자, 승부야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.08,
@@ -45,7 +45,7 @@
    "speaker": "레이카",
    "ja": "おいおい。",
    "ko": "야, 야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

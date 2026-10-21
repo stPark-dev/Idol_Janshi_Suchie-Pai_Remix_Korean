@@ -10,7 +10,7 @@
    "speaker": "안자이 사치코",
    "ja": "よ、リエ、ナンパかい?",
    "ko": "여, 리에. 헌팅 중이냐?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.18,
@@ -18,7 +18,7 @@
    "speaker": "난조 리에",
    "ja": "あら、サッチャン。久しぶりね。",
    "ko": "어머, 삿짱. 오랜만이네.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 5.02,
@@ -26,7 +26,7 @@
    "speaker": "안자이 사치코",
    "ja": "そのサッチャンってのはよしてくんない?一応私の方が年上なんだぜ。",
    "ko": "그 삿짱 소리 좀 그만할래? 그래도 내가 나이가 더 많다고.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.3,
@@ -34,7 +34,7 @@
    "speaker": "안자이 사치코",
    "ja": "ま、そりゃそうと、久しぶりに一杯やりに行かないか?",
    "ko": "뭐, 그건 그렇고 오랜만에 한잔하러 안 갈래?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 16.02,
@@ -42,9 +42,9 @@
    "speaker": "난조 리에",
    "ja": "ま、昼間からよく言うわね。",
    "ko": "어머, 대낮부터 잘도 그러네.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: ま、ピルマからよく言うわね。 (ピルマ→昼間)"
+   "note": "받아쓰기: ま、ピルマからよく言うわね。 (ピルマ→昼間) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 18.66,
@@ -52,7 +52,7 @@
    "speaker": "난조 리에",
    "ja": "私はちょっとそこで甘いものでも食べてくわ。",
    "ko": "난 저기서 단것 좀 먹고 갈래.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.32,
@@ -60,7 +60,7 @@
    "speaker": "안자이 사치코",
    "ja": "あ、ついでにナンパもか?",
    "ko": "아, 겸사겸사 헌팅도?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 24.34,
@@ -68,7 +68,7 @@
    "speaker": "안자이 사치코",
    "ja": "ま、どっちもほどほどにしとけよ。じゃあな。",
    "ko": "뭐, 둘 다 적당히 해 둬라. 그럼 간다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

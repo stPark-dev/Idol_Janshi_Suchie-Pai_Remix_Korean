@@ -10,9 +10,9 @@
    "speaker": "레이카",
    "ja": "まだ小娘のくせして大した腕前ですね、水野佑紀。",
    "ko": "꼬맹이 주제에 제법이구나, 미즈노 유키.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「水の雪」"
+   "note": "받아쓰기 「水の雪」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 4.04,
@@ -20,7 +20,7 @@
    "speaker": "유키",
    "ja": "おばさん誰?",
    "ko": "아줌마 누구예요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 5.66,
@@ -28,9 +28,9 @@
    "speaker": "레이카",
    "ja": "私は最強の雀士、麗華。",
    "ko": "나는 최강의 작사, 레이카.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「霊華」"
+   "note": "받아쓰기 「霊華」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 8.34,
@@ -38,9 +38,9 @@
    "speaker": "레이카",
    "ja": "亀の甲より年の功ということわざの意味を存分にお教えしましょう。",
    "ko": "'늙은 말이 길을 안다'는 속담의 뜻을 톡톡히 가르쳐 주지.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「亀の子より年の子」. 원래 속담 「亀の甲より年の功」(나이 든 사람의 경험이 값지다)를 한국 속담으로 바꿈"
+   "note": "받아쓰기 「亀の子より年の子」. 원래 속담 「亀の甲より年の功」(나이 든 사람의 경험이 값지다)를 한국 속담으로 바꿈 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 14.36,
@@ -48,7 +48,7 @@
    "speaker": "유키",
    "ja": "あの、そのことわざの意味なら知ってますけど。",
    "ko": "저기, 그 속담 뜻이라면 알고 있는데요.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "레이카는 몸소 깨닫게 해 주겠다는 뜻인데 유키가 말뜻을 묻는 줄 알고 받아치는 농담"
   }
  ]

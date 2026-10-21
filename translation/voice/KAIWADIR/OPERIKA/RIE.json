@@ -10,7 +10,7 @@
    "speaker": "에리카",
    "ja": "やっぱ拳銃はベレッタよね。主役って感じするもん。",
    "ko": "역시 권총은 베레타지. 주인공 느낌이 나잖아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 4.46,
@@ -18,7 +18,7 @@
    "speaker": "에리카",
    "ja": "弾は9ミリショートだから当たっても痛くないし。",
    "ko": "탄은 9밀리 쇼트라 맞아도 안 아프고.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 7.64,
@@ -26,7 +26,7 @@
    "speaker": "리에",
    "ja": "普通死ぬわよ、当たったら。",
    "ko": "보통은 죽거든, 맞으면.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.6,
@@ -34,7 +34,7 @@
    "speaker": "에리카",
    "ja": "あら、あなた銃に興味あるの?",
    "ko": "어머, 너 총에 관심 있어?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 13.84,
@@ -42,7 +42,7 @@
    "speaker": "에리카",
    "ja": "この銃はね、イタリアのベレッタM84Fっていう銃よ。",
    "ko": "이 총은 말이야, 이탈리아제 베레타 M84F라는 총이야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 18.88,
@@ -50,7 +50,7 @@
    "speaker": "리에",
    "ja": "あら、ちょっと違うんじゃない?",
    "ko": "어머, 좀 틀린 거 아니야?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.64,
@@ -58,7 +58,7 @@
    "speaker": "리에",
    "ja": "その細身のグリップと丸型のトリガーガードはM85BBの特徴だわ。",
    "ko": "그 가는 그립이랑 둥근 방아쇠울은 M85BB의 특징인걸.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 28.78,
@@ -66,7 +66,7 @@
    "speaker": "리에",
    "ja": "まあ、その銃自体はモデルガンだけどね。",
    "ko": "뭐, 그 총 자체는 모델건이지만.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 32.56,
@@ -74,7 +74,7 @@
    "speaker": "에리카",
    "ja": "へえ、すごい。ひょっとして本物撃ったことある?",
    "ko": "우와, 대단해. 혹시 진짜 총도 쏴 봤어?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 38.16,
@@ -82,7 +82,7 @@
    "speaker": "리에",
    "ja": "ええ、ロスでね。マグナムなんか撃つと、まさに手の中が爆発したって感じで",
    "ko": "응, LA에서. 매그넘 같은 걸 쏘면 정말 손안에서 폭발한 느낌이라",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 43.96,
@@ -90,7 +90,7 @@
    "speaker": "리에",
    "ja": "衝撃が体中を突き抜けるのよ。",
    "ko": "충격이 온몸을 꿰뚫고 지나가.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 47.38,
@@ -98,9 +98,9 @@
    "speaker": "에리카",
    "ja": "ああ、しびれちゃう。なんかドキドキしてきちゃったわ。",
    "ko": "아아, 짜릿해. 왠지 가슴이 두근거리기 시작했어.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있음 받아쓰기에는 「ああ、しびれちゃう」가 빠짐(VAD 없음에서 보충)"
+   "note": "VAD 있음 받아쓰기에는 「ああ、しびれちゃう」가 빠짐(VAD 없음에서 보충) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 51.78,
@@ -108,7 +108,7 @@
    "speaker": "에리카",
    "ja": "話聞いただけでこうなんだもん。",
    "ko": "얘기만 들었는데도 이런걸.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 54.0,
@@ -116,7 +116,7 @@
    "speaker": "에리카",
    "ja": "もし本物撃ったら私どうなっちゃうんだろう。",
    "ko": "진짜 총을 쏘면 난 어떻게 돼 버릴까?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 58.46,
@@ -124,7 +124,7 @@
    "speaker": "에리카",
    "ja": "ねえ、もっとお話しして。",
    "ko": "있잖아, 얘기 더 해 줘.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 60.64,
@@ -132,7 +132,7 @@
    "speaker": "리에",
    "ja": "そうね、私に麻雀で勝てたらしてあげてもいいわ。",
    "ko": "글쎄, 나한테 마작으로 이기면 해 줄 수도 있어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 65.48,
@@ -140,7 +140,7 @@
    "speaker": "에리카",
    "ja": "あーん、意地悪。",
    "ko": "아잉, 심술쟁이.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

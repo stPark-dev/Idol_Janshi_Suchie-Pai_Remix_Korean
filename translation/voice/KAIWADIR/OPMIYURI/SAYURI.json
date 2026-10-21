@@ -10,7 +10,7 @@
    "speaker": "미유리",
    "ja": "あ、ウサギさんだ。",
    "ko": "아, 토끼다!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 1.82,
@@ -18,9 +18,9 @@
    "speaker": "사유리",
    "ja": "ぴょんぴょん。",
    "ko": "깡총깡총.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: ぴゃんぴゃん (VAD 없는 쪽에만)"
+   "note": "받아쓰기: ぴゃんぴゃん (VAD 없는 쪽에만) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 3.32,
@@ -28,9 +28,9 @@
    "speaker": "사유리",
    "ja": "はーい。いつもお腹ぺこぺこのウサギちゃんでーす。",
    "ko": "네~ 언제나 배가 고픈 토끼랍니다~",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있음"
+   "note": "VAD 없는 받아쓰기에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 8.1,
@@ -38,7 +38,7 @@
    "speaker": "미유리",
    "ja": "ねえねえ、ウサギさんってなんて鳴くの?",
    "ko": "있잖아, 토끼는 어떻게 울어?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.54,
@@ -46,7 +46,7 @@
    "speaker": "사유리",
    "ja": "ひぃっ。あ、そうですねぇ。",
    "ko": "히익. 아, 그러게요~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 16.14,
@@ -54,7 +54,7 @@
    "speaker": "사유리",
    "ja": "みーみー?",
    "ko": "미-미-?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.22,
@@ -62,7 +62,7 @@
    "speaker": "미유리",
    "ja": "は?",
    "ko": "응?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 18.06,
@@ -70,7 +70,7 @@
    "speaker": "사유리",
    "ja": "みゃーみゃー?",
    "ko": "먀-먀-?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.4,
@@ -78,7 +78,7 @@
    "speaker": "미유리",
    "ja": "それじゃ猫さんだよ。",
    "ko": "그건 고양이잖아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 22.52,
@@ -86,9 +86,9 @@
    "speaker": "미유리",
    "ja": "猫さんならみゆりもできるよ。",
    "ko": "고양이는 미유리도 할 수 있어.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 猫さんなら身売りもできるよ (身売り→みゆり)"
+   "note": "받아쓰기: 猫さんなら身売りもできるよ (身売り→みゆり) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 24.72,
@@ -96,7 +96,7 @@
    "speaker": "미유리",
    "ja": "にゃーん、にゃーん。",
    "ko": "냐옹, 냐옹.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 26.9,
@@ -104,9 +104,9 @@
    "speaker": "사유리",
    "ja": "なかなか面白いです。",
    "ko": "꽤 재밌네요.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있음. 확실치 않음(なかなか上手です일 수도)"
+   "note": "VAD 없는 받아쓰기에만 있음. 확실치 않음(なかなか上手です일 수도) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 30.26,
@@ -114,7 +114,7 @@
    "speaker": "미유리",
    "ja": "にゃにゃん。",
    "ko": "냐냥.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 31.12,
@@ -122,9 +122,9 @@
    "speaker": "미유리",
    "ja": "ピト。",
    "ko": "찰싹.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있음. 달라붙는 소리 흉내로 봄"
+   "note": "VAD 없는 받아쓰기에만 있음. 달라붙는 소리 흉내로 봄 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 31.82,
@@ -132,7 +132,7 @@
    "speaker": "미유리",
    "ja": "にゃにゃん。",
    "ko": "냐냥.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 32.98,
@@ -140,7 +140,7 @@
    "speaker": "미유리",
    "ja": "すりすり。",
    "ko": "부비부비.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 33.88,
@@ -148,7 +148,7 @@
    "speaker": "미유리",
    "ja": "大好き。",
    "ko": "좋아해.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 36.9,
@@ -156,7 +156,7 @@
    "speaker": "사유리",
    "ja": "変な猫さん。",
    "ko": "이상한 고양이네.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 38.5,
@@ -164,7 +164,7 @@
    "speaker": "사유리",
    "ja": "ねえ、みゆりちゃんは麻雀できますか?",
    "ko": "저기, 미유리는 마작 할 줄 알아요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 41.62,
@@ -172,9 +172,9 @@
    "speaker": "미유리",
    "ja": "え?みゆり、よくわかんないよ。",
    "ko": "응? 미유리는 잘 몰라.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기(VAD): 身売りよくわかんないよ"
+   "note": "받아쓰기(VAD): 身売りよくわかんないよ 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 45.52,
@@ -182,9 +182,9 @@
    "speaker": "미유리",
    "ja": "でも、シホさんなら得意だよ、きっと。",
    "ko": "그래도 시호 언니라면 분명 잘할 거야.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기(VAD 없음): 千穂さん"
+   "note": "받아쓰기(VAD 없음): 千穂さん 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   }
  ]
 }

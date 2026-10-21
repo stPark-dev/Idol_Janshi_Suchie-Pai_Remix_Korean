@@ -10,7 +10,7 @@
    "speaker": "아유미",
    "ja": "何だよ。俺に何か用か?",
    "ko": "뭐야. 나한테 볼일 있냐?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.6,
@@ -18,7 +18,7 @@
    "speaker": "에리카",
    "ja": "あなたスケバンね。",
    "ko": "너, 불량소녀지?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 4.1,
@@ -26,7 +26,7 @@
    "speaker": "아유미",
    "ja": "ちっ、ちっ、おまわりはすぐ人を外見で判断しやがる。",
    "ko": "쯧쯧, 짭새들은 툭하면 겉모습으로 사람을 판단한다니까.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.88,
@@ -34,7 +34,7 @@
    "speaker": "에리카",
    "ja": "べー、残念ね。",
    "ko": "메롱, 아쉽네.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.5,
@@ -42,7 +42,7 @@
    "speaker": "에리카",
    "ja": "その言葉、そっくりお返しするわ。",
    "ko": "그 말, 고대로 돌려주지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.84,
@@ -50,9 +50,9 @@
    "speaker": "에리카",
    "ja": "私はただの麻雀好きのコスプレ婦警さんよ。",
    "ko": "난 그냥 마작 좋아하는 코스프레 여경이야.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 'コスプレフケイさん'"
+   "note": "받아쓰기: 'コスプレフケイさん' 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 16.36,
@@ -60,7 +60,7 @@
    "speaker": "아유미",
    "ja": "はぁ?",
    "ko": "하아?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 19.3,
@@ -68,7 +68,7 @@
    "speaker": "아유미",
    "ja": "あぁ、麻雀なら",
    "ko": "아, 마작이라면",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.44,
@@ -76,7 +76,7 @@
    "speaker": "아유미",
    "ja": "そこのパイレストランのウェイトレスがハマってるみたいだからよ。",
    "ko": "저기 파이 레스토랑 웨이트리스가 푹 빠져 있는 것 같으니까.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 24.0,
@@ -84,7 +84,7 @@
    "speaker": "아유미",
    "ja": "そっちで仲良く遊んでこいよ。な?",
    "ko": "거기 가서 사이좋게 놀다 와라. 응?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 27.1,
@@ -92,7 +92,7 @@
    "speaker": "에리카",
    "ja": "はっ、ご協力に感謝します。では!",
    "ko": "넵! 협조에 감사드립니다. 그럼!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

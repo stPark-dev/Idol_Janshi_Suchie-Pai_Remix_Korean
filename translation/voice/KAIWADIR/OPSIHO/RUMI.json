@@ -10,7 +10,7 @@
    "speaker": "시호",
    "ja": "片桐志穂は私ですが、な、何か?",
    "ko": "카타기리 시호는 저입니다만, 무, 무슨 일이시죠?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 4.14,
@@ -18,7 +18,7 @@
    "speaker": "루미",
    "ja": "うーん、いかにもって感じね。",
    "ko": "음~ 딱 봐도 그런 느낌이네.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.88,
@@ -26,7 +26,7 @@
    "speaker": "루미",
    "ja": "あなた、何か病気にかかってない?",
    "ko": "너, 무슨 병에 걸린 거 아냐?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.1,
@@ -34,7 +34,7 @@
    "speaker": "루미",
    "ja": "最近体がだるいとか、階段を登ると息切れがするとか。",
    "ko": "요즘 몸이 나른하다거나, 계단 오르면 숨이 찬다거나.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 16.54,
@@ -42,7 +42,7 @@
    "speaker": "루미",
    "ja": "今、診察してあげましょうか。それとも精密検査が必要かしら?",
    "ko": "지금 진찰해 줄까? 아니면 정밀 검사가 필요하려나?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.82,
@@ -50,7 +50,7 @@
    "speaker": "루미",
    "ja": "ああ、なんなら入院する?",
    "ko": "아, 뭣하면 입원할래?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 23.62,
@@ -58,7 +58,7 @@
    "speaker": "시호",
    "ja": "な、何をおっしゃるんですか?唐突に。",
    "ko": "무, 무슨 말씀이세요? 갑자기.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 26.46,
@@ -66,7 +66,7 @@
    "speaker": "루미",
    "ja": "まあ、とりあえず麻雀で勝負してから決めましょうか。",
    "ko": "뭐, 일단 마작으로 승부하고 나서 정하자.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 31.9,
@@ -74,7 +74,7 @@
    "speaker": "시호",
    "ja": "なんか本当に頭が痛くなってきましたわ。",
    "ko": "어쩐지 정말로 머리가 아파 오네요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

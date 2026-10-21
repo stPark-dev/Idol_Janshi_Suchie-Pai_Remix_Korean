@@ -10,7 +10,7 @@
    "speaker": "레이카",
    "ja": "まあ、とりあえずおめでとうと言わせてもらうよ。",
    "ko": "뭐, 일단 축하한다고는 해 두지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.86,
@@ -18,7 +18,7 @@
    "speaker": "레이카",
    "ja": "今日からあんたが最強の雀士さ。",
    "ko": "오늘부터 네가 최강의 작사야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 6.92,
@@ -26,7 +26,7 @@
    "speaker": "사유리",
    "ja": "わーい!あたしが一番ですか?一体何がもらえるんでしょうか?",
    "ko": "와아~! 제가 1등이에요? 대체 뭘 받을 수 있을까요?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "VAD 있는 받아쓰기는 이 대사를 빼고 다음 대사와 한 구간(6.34~17.64)으로 묶음. VAD 없는 쪽 시각을 씀"
   },
   {
@@ -35,7 +35,7 @@
    "speaker": "스치파이",
    "ja": "サユリさん、あなたが手にしたのはあたしに挑戦する権利よ。",
    "ko": "사유리 씨, 네가 손에 넣은 건 나한테 도전할 권리야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 18.68,
@@ -43,7 +43,7 @@
    "speaker": "사유리",
    "ja": "なんか嫌な予感が。",
    "ko": "왠지 불길한 예감이...",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

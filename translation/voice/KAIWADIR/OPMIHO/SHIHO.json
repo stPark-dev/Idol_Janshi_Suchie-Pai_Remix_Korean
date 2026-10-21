@@ -10,7 +10,7 @@
    "speaker": "미호",
    "ja": "よっ、姉貴。何キョロキョロしてんだい。",
    "ko": "여, 언니. 뭘 그렇게 두리번거려?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.24,
@@ -18,9 +18,9 @@
    "speaker": "시호",
    "ja": "あら、美穂ちゃん。実は、てんちゃんの具合が良くないの。",
    "ko": "어머, 미호. 실은 텐짱 상태가 좋지 않답니다.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "「てんちゃん」(시호가 기르는 말 이름) 표기 확인 필요"
+   "note": "「てんちゃん」(시호가 기르는 말 이름) 표기 확인 필요 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 8.88,
@@ -28,7 +28,7 @@
    "speaker": "시호",
    "ja": "なんか食欲がないみたいで、それでお薬を探しているんだけど。",
    "ko": "입맛이 없는 것 같아서 약을 찾고 있는 중이에요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 14.14,
@@ -36,7 +36,7 @@
    "speaker": "미호",
    "ja": "てんちゃんって、姉貴の飼ってる馬だろ?",
    "ko": "텐짱이면 언니가 키우는 말이잖아?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.62,
@@ -44,7 +44,7 @@
    "speaker": "미호",
    "ja": "馬の薬なんて売ってんのかよ。",
    "ko": "말 약 같은 걸 팔기나 하냐?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.08,
@@ -52,7 +52,7 @@
    "speaker": "시호",
    "ja": "美穂ちゃん、言葉遣いが乱暴ですよ。",
    "ko": "미호, 말투가 거칠어요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 23.36,
@@ -60,7 +60,7 @@
    "speaker": "미호",
    "ja": "屋敷の外じゃん、固いこと言うなよ。",
    "ko": "저택 밖이잖아, 딱딱하게 굴지 마.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 26.8,
@@ -68,9 +68,9 @@
    "speaker": "미호",
    "ja": "そういや、さっきそこで婦警さんとすれ違ったぜ。",
    "ko": "그러고 보니 아까 저기서 여경이랑 마주쳤어.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「父兄さん」→「婦警さん」"
+   "note": "받아쓰기 「父兄さん」→「婦警さん」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 30.5,
@@ -78,7 +78,7 @@
    "speaker": "미호",
    "ja": "薬のことを聞いてみろよ。",
    "ko": "약에 대해 물어봐.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 32.02,
@@ -86,7 +86,7 @@
    "speaker": "시호",
    "ja": "ええ、そうしてみるわ。",
    "ko": "네, 그렇게 해 볼게요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 34.72,
@@ -94,7 +94,7 @@
    "speaker": "시호",
    "ja": "でも美穂ちゃん、お父様の前ではあんなにおしとやかなのに",
    "ko": "그런데 미호, 아버님 앞에서는 그렇게 얌전하면서",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 39.16,
@@ -102,7 +102,7 @@
    "speaker": "시호",
    "ja": "なんで外ではそんなに乱暴なの?",
    "ko": "왜 밖에서는 그렇게 거칠게 구는 거예요?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: '구나요' 비문 수정"
   },
   {
@@ -111,7 +111,7 @@
    "speaker": "미호",
    "ja": "アタイにゃ、姉貴がいるからさ。",
    "ko": "나한텐 언니가 있으니까.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 45.14,
@@ -119,7 +119,7 @@
    "speaker": "시호",
    "ja": "え?どういうこと?",
    "ko": "네? 그게 무슨 뜻이에요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 48.88,
@@ -127,7 +127,7 @@
    "speaker": "미호",
    "ja": "なんでもねえよ、じゃまたな。",
    "ko": "아무것도 아냐. 그럼 또 보자.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

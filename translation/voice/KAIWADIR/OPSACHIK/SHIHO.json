@@ -10,9 +10,9 @@
    "speaker": "안자이 사치코",
    "ja": "へい、彼女。道にでも迷ったのかい?",
    "ko": "헤이, 아가씨. 길이라도 잃었어?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: えい、彼女。 (へい로 봄)"
+   "note": "받아쓰기: えい、彼女。 (へい로 봄) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 3.38,
@@ -20,7 +20,7 @@
    "speaker": "카타기리 시호",
    "ja": "え?あ、あらやだ。",
    "ko": "네? 아, 어머나.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 6.56,
@@ -28,7 +28,7 @@
    "speaker": "카타기리 시호",
    "ja": "私ったら一瞬ナンパというものをされてしまったのかと思いましたわ。",
    "ko": "저도 참, 순간 헌팅이란 걸 당한 줄 알았답니다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 13.58,
@@ -36,7 +36,7 @@
    "speaker": "안자이 사치코",
    "ja": "あんた可愛いな。",
    "ko": "너 귀엽네.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 16.5,
@@ -44,7 +44,7 @@
    "speaker": "안자이 사치코",
    "ja": "この辺には悪いやつも多いから注意した方がいいぜ。",
    "ko": "이 근처엔 나쁜 놈도 많으니까 조심하는 게 좋아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.22,
@@ -52,7 +52,7 @@
    "speaker": "안자이 사치코",
    "ja": "特にそこのオフィスには近づかないこったな。",
    "ko": "특히 저기 사무실엔 가까이 가지 않는 게 좋을걸.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 25.68,
@@ -60,9 +60,9 @@
    "speaker": "안자이 사치코",
    "ja": "私のダチ公のリエってのがあんたみたいなタイプに目がなくて",
    "ko": "내 친구 리에란 녀석이 너 같은 타입에 사족을 못 써서",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 私の出し子のリエ (出し子→ダチ公)"
+   "note": "받아쓰기: 私の出し子のリエ (出し子→ダチ公) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 30.6,
@@ -70,9 +70,9 @@
    "speaker": "안자이 사치코",
    "ja": "麻雀をダシに奥へ連れ込まれでもしたら最悪のパターンさ",
    "ko": "마작을 핑계로 안쪽에 끌려가기라도 하면 최악이지.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 麻雀を出しに (出し→ダシ, 구실)"
+   "note": "받아쓰기: 麻雀を出しに (出し→ダシ, 구실) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 36.02,
@@ -80,7 +80,7 @@
    "speaker": "카타기리 시호",
    "ja": "大丈夫です。こう見えても私21の大人です。",
    "ko": "괜찮아요. 이래 봬도 저는 스물한 살 어른이에요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 40.9,
@@ -88,7 +88,7 @@
    "speaker": "카타기리 시호",
    "ja": "良識もあります。",
    "ko": "분별력도 있답니다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 42.7,
@@ -96,7 +96,7 @@
    "speaker": "카타기리 시호",
    "ja": "それに今はすぐそこの病院に行くだけです。",
    "ko": "게다가 지금은 바로 저기 병원에 가는 것뿐이에요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 46.58,
@@ -104,7 +104,7 @@
    "speaker": "카타기리 시호",
    "ja": "子供だって迷ったりしませんわ。",
    "ko": "어린애라도 길을 잃진 않을 거예요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 49.44,
@@ -112,7 +112,7 @@
    "speaker": "안자이 사치코",
    "ja": "オッケー。",
    "ko": "오케이.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 51.5,
@@ -120,7 +120,7 @@
    "speaker": "안자이 사치코",
    "ja": "じゃあ元気でな。",
    "ko": "그럼 잘 지내.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 52.64,
@@ -128,7 +128,7 @@
    "speaker": "카타기리 시호",
    "ja": "はい、お心遣いありがとうございました。",
    "ko": "네, 마음 써 주셔서 감사했습니다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

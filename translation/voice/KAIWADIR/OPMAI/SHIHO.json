@@ -10,7 +10,7 @@
    "speaker": "마이",
    "ja": "いらっしゃいませ。当店自慢のあんこ入りパイはいかがですか?",
    "ko": "어서 오세요. 저희 가게 자랑인 앙꼬 파이 어떠세요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 4.5,
@@ -18,7 +18,7 @@
    "speaker": "시호",
    "ja": "え?パイにそんなものを入れるんですか?",
    "ko": "네? 파이에 그런 걸 넣나요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.38,
@@ -26,7 +26,7 @@
    "speaker": "마이",
    "ja": "まあ、そんなものだなんて、甘くておいしいのよ。",
    "ko": "어머, 그런 거라니요. 달콤하고 맛있어요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.98,
@@ -34,7 +34,7 @@
    "speaker": "시호",
    "ja": "え?甘い?",
    "ko": "네? 달아요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.64,
@@ -42,7 +42,7 @@
    "speaker": "마이",
    "ja": "あんこって知ってますよね?",
    "ko": "앙꼬는 아시죠?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 18.8,
@@ -50,7 +50,7 @@
    "speaker": "시호",
    "ja": "え?あの、でぷっとしてて、",
    "ko": "네? 저기, 그 퉁퉁하게 생겨서",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 22.18,
@@ -58,7 +58,7 @@
    "speaker": "시호",
    "ja": "ちょうちんがついてるお魚のことでは?",
    "ko": "초롱이 달린 물고기 말씀인가요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 25.9,
@@ -66,9 +66,9 @@
    "speaker": "마이",
    "ja": "それはアンコウでしょうが!",
    "ko": "그건 아귀잖아!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: それはあんこでしょうが. 말장난: あんこ(팥소)를 アンコウ(아귀, 머리에 초롱 같은 촉수)로 알아들은 것 — 한국어로는 소리가 안 겹쳐 말장난이 사라짐"
+   "note": "받아쓰기: それはあんこでしょうが. 말장난: あんこ(팥소)를 アンコウ(아귀, 머리에 초롱 같은 촉수)로 알아들은 것 — 한국어로는 소리가 안 겹쳐 말장난이 사라짐 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 27.7,
@@ -76,7 +76,7 @@
    "speaker": "마이",
    "ja": "もういいわ、麻雀で勝負よ!",
    "ko": "됐어, 마작으로 승부야!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 31.92,
@@ -84,7 +84,7 @@
    "speaker": "시호",
    "ja": "やっぱりこうなってしまうのですね。",
    "ko": "역시 이렇게 되는 거군요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

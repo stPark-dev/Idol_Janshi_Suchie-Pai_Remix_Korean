@@ -10,7 +10,7 @@
    "speaker": "에리카",
    "ja": "ドキドキ、なんか事件の予感がするわ。",
    "ko": "두근두근, 뭔가 사건의 예감이 들어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.14,
@@ -18,7 +18,7 @@
    "speaker": "사유리",
    "ja": "もしもし、おまわりさん、あっちに怪しい人がいました。逮捕してください。",
    "ko": "저기요, 경찰관님~ 저쪽에 수상한 사람이 있었어요. 체포해 주세요.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: '경찰 아저씨'→'경찰관님': 말을 거는 상대가 여성(에리카)"
   },
   {
@@ -27,7 +27,7 @@
    "speaker": "사유리",
    "ja": "ではでは。",
    "ko": "그럼 이만~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.04,
@@ -35,7 +35,7 @@
    "speaker": "에리카",
    "ja": "ちょっと待った!",
    "ko": "잠깐!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.4,
@@ -43,7 +43,7 @@
    "speaker": "에리카",
    "ja": "どこ見回しても、あんた以外に怪しい人はいないわよ。",
    "ko": "아무리 둘러봐도 너 말고 수상한 사람은 없거든.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.68,
@@ -51,7 +51,7 @@
    "speaker": "에리카",
    "ja": "さ、職務質問よ。正直に答えなさい。",
    "ko": "자, 불심검문이다. 솔직하게 대답해.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 19.1,
@@ -59,7 +59,7 @@
    "speaker": "에리카",
    "ja": "まず、名前は?",
    "ko": "먼저, 이름은?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.52,
@@ -67,7 +67,7 @@
    "speaker": "사유리",
    "ja": "うさぎちゃんです。",
    "ko": "토끼예요~",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: 사유리 자신은 '토끼'(배치 공통 표기)"
   },
   {
@@ -76,7 +76,7 @@
    "speaker": "에리카",
    "ja": "仕事は?",
    "ko": "직업은?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 23.66,
@@ -84,7 +84,7 @@
    "speaker": "사유리",
    "ja": "食べて寝ること。",
    "ko": "먹고 자는 거요~",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: 사유리 해요체"
   },
   {
@@ -93,7 +93,7 @@
    "speaker": "에리카",
    "ja": "家族は?",
    "ko": "가족은?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 26.64,
@@ -101,7 +101,7 @@
    "speaker": "사유리",
    "ja": "ハムスター2匹。",
    "ko": "햄스터 두 마리요~",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: 사유리 해요체"
   },
   {
@@ -110,7 +110,7 @@
    "speaker": "에리카",
    "ja": "歳は?",
    "ko": "나이는?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 29.42,
@@ -118,7 +118,7 @@
    "speaker": "사유리",
    "ja": "いやーん、女の子にそんなこと言わせないでー。",
    "ko": "아잉, 여자애한테 그런 걸 묻지 마~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 32.98,
@@ -126,9 +126,9 @@
    "speaker": "에리카",
    "ja": "じゅ、住所は?",
    "ko": "주, 주소는?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「じゅうそは」→「住所は」"
+   "note": "받아쓰기 「じゅうそは」→「住所は」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 35.5,
@@ -136,7 +136,7 @@
    "speaker": "사유리",
    "ja": "だめ、ひみつ。",
    "ko": "안 돼, 비밀~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 38.38,
@@ -144,7 +144,7 @@
    "speaker": "에리카",
    "ja": "むっかー。",
    "ko": "으으, 열받아!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 40.26,
@@ -152,7 +152,7 @@
    "speaker": "사유리",
    "ja": "はいはいはい、怒らない怒らない。",
    "ko": "네네네, 화내지 마, 화내지 마~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 42.5,
@@ -160,7 +160,7 @@
    "speaker": "사유리",
    "ja": "ささ、麻雀でもやって心を落ち着けましょうねー。",
    "ko": "자자, 마작이라도 하면서 마음을 진정시켜요~",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: 원문 ましょうね, 사유리 해요체"
   }
  ]

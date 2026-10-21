@@ -9,8 +9,9 @@
    "end": 2.2,
    "speaker": "에리카",
    "ja": "さ、さすがアンコの舞ね。",
-   "ko": "역, 역시 '안코의 마이'답네.",
-   "status": "needs_human_review"
+   "ko": "역, 역시 '안커의 마이'답네.",
+   "status": "distribution_eligible",
+   "note": "최종 검수: 별명은 그림 글자(캐릭터 선택·소개, translation/select.json·intro.json)의 \"안커의 마이\"에 맞춤."
   }
  ]
 }

@@ -10,7 +10,7 @@
    "speaker": "케이코",
    "ja": "あ、さゆり。じゃなくって、うさぎちゃんなんだっけ。",
    "ko": "어, 사유리. 아니지, 토끼 아가씨라고 불러야 하나?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: 남이 부르는 うさぎちゃん = '토끼 아가씨'"
   },
   {
@@ -19,7 +19,7 @@
    "speaker": "케이코",
    "ja": "どうしたの、お店は。",
    "ko": "가게는 어쩌고?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 7.08,
@@ -27,7 +27,7 @@
    "speaker": "사유리",
    "ja": "さゆりでいいよ。今日はうちお休みなの。",
    "ko": "사유리라고 불러도 돼. 오늘 우리 가게 쉬는 날이야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.4,
@@ -35,7 +35,7 @@
    "speaker": "사유리",
    "ja": "でも、けいこんとこは定休日ないから大変よね。",
    "ko": "그래도 케이코네 가게는 정기휴일이 없어서 힘들겠다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.62,
@@ -43,7 +43,7 @@
    "speaker": "케이코",
    "ja": "まあ、私はのんびりやってるわ。でもその格好、恥ずかしくない?",
    "ko": "뭐, 난 느긋하게 하고 있어. 근데 그 차림 안 부끄러워?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.1,
@@ -51,7 +51,7 @@
    "speaker": "사유리",
    "ja": "平気よ。うさぎちゃんやってるときは、なりきっちゃってるから。",
    "ko": "괜찮아. 토끼일 땐 완전히 그 역할이 돼 버리거든.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: 사유리 자신은 '토끼'"
   },
   {
@@ -60,7 +60,7 @@
    "speaker": "케이코",
    "ja": "さゆりのなりきり癖、半端じゃないもんね。",
    "ko": "사유리는 역할에 빠지는 버릇이 장난 아니지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 29.26,
@@ -68,7 +68,7 @@
    "speaker": "케이코",
    "ja": "いっそ役者にでもなったら?",
    "ko": "차라리 배우라도 돼 보지 그래?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 31.58,
@@ -76,7 +76,7 @@
    "speaker": "사유리",
    "ja": "うーん、なれないと思うな。",
    "ko": "으음, 못 될 것 같아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 35.44,
@@ -84,7 +84,7 @@
    "speaker": "사유리",
    "ja": "なりきることと演じることって別物だと思うし。",
    "ko": "그 사람이 되는 거랑 연기하는 건 다른 거 같거든.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 41.48,
@@ -92,7 +92,7 @@
    "speaker": "사유리",
    "ja": "私ひょっとしたら自分に自信持ってないから、",
    "ko": "나 어쩌면 나 자신한테 자신이 없어서",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 44.32,
@@ -100,7 +100,7 @@
    "speaker": "사유리",
    "ja": "別の誰かになって逃避してるのかも。",
    "ko": "다른 누군가가 돼서 도망치는 건지도 몰라.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 48.06,
@@ -108,7 +108,7 @@
    "speaker": "사유리",
    "ja": "なーんちゃって。",
    "ko": "...라는 건 농담~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 50.08,
@@ -116,7 +116,7 @@
    "speaker": "케이코",
    "ja": "まあ、難しいこと言うのね。",
    "ko": "어머, 어려운 소리 하네.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 52.16,
@@ -124,7 +124,7 @@
    "speaker": "케이코",
    "ja": "じゃあ私そろそろ戻るから。",
    "ko": "그럼 난 슬슬 돌아갈게.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "화자 추정: 케이코(자기 가게로 돌아감). 사유리일 수도 있음"
   },
   {
@@ -133,7 +133,7 @@
    "speaker": "사유리",
    "ja": "そうね。",
    "ko": "그래.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 56.9,
@@ -141,7 +141,7 @@
    "speaker": "케이코",
    "ja": "あ、その辺うろうろしてると、ユキちゃんっていううちの常連に会うかもしれないわ。",
    "ko": "아, 이 근처 돌아다니다 보면 유키라는 우리 단골을 만날지도 몰라.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 62.14,
@@ -149,7 +149,7 @@
    "speaker": "케이코",
    "ja": "よろしく言っといて。",
    "ko": "안부 전해 줘.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 63.6,
@@ -157,7 +157,7 @@
    "speaker": "사유리",
    "ja": "アイアイサー。",
    "ko": "아이아이 서~!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 64.86,
@@ -165,7 +165,7 @@
    "speaker": "사유리",
    "ja": "ではでは。",
    "ko": "그럼 이만~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

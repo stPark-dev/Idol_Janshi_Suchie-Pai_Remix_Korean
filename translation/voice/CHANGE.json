@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "残ったポイントパネルをアイテムと交換するわよ。",
    "ko": "남은 포인트 패널을 아이템으로 바꿔 줄게.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.8,
@@ -18,7 +18,7 @@
    "speaker": "스치파이",
    "ja": "パネルチェンジ!",
    "ko": "패널 체인지!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

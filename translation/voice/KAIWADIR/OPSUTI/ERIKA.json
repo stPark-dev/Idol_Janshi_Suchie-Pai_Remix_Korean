@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "あなたが本当に最強かどうか、この私が試してあげるわ。",
    "ko": "네가 정말 최강인지, 이 몸이 직접 시험해 주지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 4.6,
@@ -18,7 +18,7 @@
    "speaker": "스치파이",
    "ja": "ちなみに必殺技は今まで通り使ってもいいわよ。",
    "ko": "참고로 필살기는 지금까지처럼 써도 돼.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 9.06,
@@ -26,7 +26,7 @@
    "speaker": "스치파이",
    "ja": "そのくらいのハンデはつけてあげなきゃね。",
    "ko": "그 정도 핸디캡은 줘야겠지?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.32,
@@ -34,7 +34,7 @@
    "speaker": "니시노 에리카",
    "ja": "結局イカサマして勝ってるだけなんだけど。",
    "ko": "결국 속임수로 이기는 것뿐이잖아.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.62,
@@ -42,7 +42,7 @@
    "speaker": "스치파이",
    "ja": "ん?バレなきゃイカサマじゃないわよ。",
    "ko": "응? 안 들키면 속임수가 아니지~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 19.36,
@@ -50,7 +50,7 @@
    "speaker": "니시노 에리카",
    "ja": "あんだけ派手にやっててバレないわけないでしょ?",
    "ko": "그렇게 요란하게 해 놓고 안 들킬 리가 없잖아?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 22.38,
@@ -58,7 +58,7 @@
    "speaker": "니시노 에리카",
    "ja": "麻雀すんならさっさと始めるわよ!",
    "ko": "마작 할 거면 냉큼 시작하자고!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

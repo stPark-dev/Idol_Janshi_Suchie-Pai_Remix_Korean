@@ -10,16 +10,16 @@
    "speaker": "레이카",
    "ja": "はじめまして、天野麻衣。",
    "ko": "반가워, 아마노 마이.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.02,
    "end": 4.12,
    "speaker": "레이카",
    "ja": "いえ、アンコの舞さん。",
-   "ko": "아니, 안코의 마이 씨.",
-   "status": "needs_human_review",
-   "note": "アンコ = 暗刻(안커). 안커 쌓기가 특기라 붙은 별명"
+   "ko": "아니, 안커의 마이 씨.",
+   "status": "distribution_eligible",
+   "note": "アンコ = 暗刻(안커). 안커 쌓기가 특기라 붙은 별명 최종 검수: 별명은 그림 글자(캐릭터 선택·소개, translation/select.json·intro.json)의 \"안커의 마이\"에 맞춤."
   },
   {
    "start": 4.28,
@@ -27,7 +27,7 @@
    "speaker": "마이",
    "ja": "あ、あなたがレイカね。",
    "ko": "다, 당신이 레이카구나!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 7.14,
@@ -35,7 +35,7 @@
    "speaker": "레이카",
    "ja": "さあ、遠慮はいらないわ。かかってきなさいよ。",
    "ko": "자, 사양할 것 없어. 덤벼 봐.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.87,
@@ -43,7 +43,7 @@
    "speaker": "마이",
    "ja": "じゃあ、お言葉に甘えまして、勝負よ。",
    "ko": "그럼 사양 않고… 승부다!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

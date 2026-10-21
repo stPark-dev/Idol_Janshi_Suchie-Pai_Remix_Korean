@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "撃たないで。",
    "ko": "쏘지 마!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.18,
@@ -18,7 +18,7 @@
    "speaker": "에리카",
    "ja": "言ったわね、犯罪者。",
    "ko": "그 말, 자백한 거지? 범죄자.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "원문 그대로 '말했겠다, 범죄자'. 문맥상 '쏘지 마'를 죄를 인정한 것으로 받아친 말로 해석 — 검수 필요"
   },
   {
@@ -27,7 +27,7 @@
    "speaker": "사유리",
    "ja": "命だけは。",
    "ko": "목숨만은 살려 줘!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 6.26,
@@ -35,9 +35,9 @@
    "speaker": "사유리",
    "ja": "うちにはお腹を空かせたハムスターが2匹、私の帰りを待ってるのよ。",
    "ko": "집에서 배고픈 햄스터 두 마리가 내가 돌아오길 기다린단 말야!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 私の代わりを待ってるのよ (문맥상 帰り)"
+   "note": "받아쓰기: 私の代わりを待ってるのよ (문맥상 帰り) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 11.88,
@@ -45,7 +45,7 @@
    "speaker": "에리카",
    "ja": "2匹の名前、当ててみせましょうか。ハムとスター。",
    "ko": "두 마리 이름 맞혀 볼까? 햄이랑 스터.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "말장난: ハムスター(햄스터)를 ハム(햄)와 スター(스타)로 쪼갠 이름. VAD 받아쓰기는 「ハムトスター」"
   },
   {
@@ -54,7 +54,7 @@
    "speaker": "사유리",
    "ja": "超能力者!",
    "ko": "초능력자다!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.9,
@@ -62,7 +62,7 @@
    "speaker": "에리카",
    "ja": "あなたの単純な脳みそは見切ったわ。さあ、思い残すことはない?",
    "ko": "네 단순한 뇌 구조는 다 꿰뚫어 봤어. 자, 남길 말은 없나?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 23.9,
@@ -70,7 +70,7 @@
    "speaker": "에리카",
    "ja": "フフッ",
    "ko": "",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "VAD 받아쓰기에만 있는 웃음"
   },
   {
@@ -79,7 +79,7 @@
    "speaker": "사유리",
    "ja": "せめて一度、私と麻雀勝負を。",
    "ko": "마지막으로 딱 한 번, 나랑 마작 승부를!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 28.6,
@@ -87,7 +87,7 @@
    "speaker": "에리카",
    "ja": "よろしい。一回だけよ!",
    "ko": "좋아. 딱 한 판이다!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

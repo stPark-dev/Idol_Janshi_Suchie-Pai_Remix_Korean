@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "どうやら落ち着いたようですね。",
    "ko": "이제 좀 진정된 것 같네요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.56,
@@ -18,7 +18,7 @@
    "speaker": "에리카",
    "ja": "あんたなんかに負けたんじゃ、もう全てがどうでもよく思えてくるわよ。",
    "ko": "너 같은 애한테 졌으니 이제 다 아무래도 좋아졌어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.52,
@@ -26,7 +26,7 @@
    "speaker": "사유리",
    "ja": "まあまあ、あなたの今回の予感は見事的中したわけですから、",
    "ko": "자자, 이번 예감은 멋지게 적중했으니까요,",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 13.78,
@@ -34,7 +34,7 @@
    "speaker": "사유리",
    "ja": "明日からは占い師としても生きていくことをお勧めいたします。",
    "ko": "내일부터는 점쟁이로도 살아가시길 권해 드려요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 18.84,
@@ -42,7 +42,7 @@
    "speaker": "사유리",
    "ja": "ではでは。",
    "ko": "그럼 이만~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.58,
@@ -50,7 +50,7 @@
    "speaker": "에리카",
    "ja": "い、今だけはプライドのないウサギさんが羨ましいわよ!",
    "ko": "지, 지금만큼은 자존심 없는 토끼 아가씨가 부럽다고!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: ウサギさん → 표기 결정에 따라 '토끼 아가씨'"
   }
  ]

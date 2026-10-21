@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "なーにぶりっこしてんのよ。",
    "ko": "뭘 그렇게 내숭을 떨어?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 1.86,
@@ -18,7 +18,7 @@
    "speaker": "사유리",
    "ja": "ユキちゃんの真似です。",
    "ko": "유키 흉내예요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.82,
@@ -26,7 +26,7 @@
    "speaker": "사유리",
    "ja": "あは、いやーん。困っちゃうー。",
    "ko": "아핫, 싫어잉~ 곤란해~",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 7.24,
@@ -34,9 +34,9 @@
    "speaker": "유키",
    "ja": "まあ、今日はご飯抜き。",
    "ko": "흥, 오늘은 밥 없어.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "「まあ」로 들림. 「もう」일 수도"
+   "note": "「まあ」로 들림. 「もう」일 수도 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 9.96,
@@ -44,9 +44,9 @@
    "speaker": "사유리",
    "ja": "ごめんなさーい。",
    "ko": "잘못했어요~",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 없음에만 있음"
+   "note": "VAD 없음에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   }
  ]
 }

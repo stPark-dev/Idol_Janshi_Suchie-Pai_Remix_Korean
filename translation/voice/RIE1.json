@@ -11,7 +11,7 @@
    "speaker": "스치파이",
    "ja": "あの地味でクールなリエさんですが、",
    "ko": "그 수수하고 쿨하던 리에 씨지만,",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.26,
@@ -19,7 +19,7 @@
    "speaker": "스치파이",
    "ja": "この戦いがきっかけで服装がとてつもなく派手になってしまいました。",
    "ko": "이번 싸움을 계기로 옷차림이 엄청나게 화려해져 버렸어요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

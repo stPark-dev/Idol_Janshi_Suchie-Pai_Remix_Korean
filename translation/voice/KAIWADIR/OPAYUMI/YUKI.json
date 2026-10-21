@@ -10,7 +10,7 @@
    "speaker": "아유미",
    "ja": "あ、ユキじゃねえか。",
    "ko": "어, 유키 아니냐.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 1.92,
@@ -18,7 +18,7 @@
    "speaker": "유키",
    "ja": "あら、アユミさん。",
    "ko": "어머, 아유미 씨.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.78,
@@ -26,9 +26,9 @@
    "speaker": "유키",
    "ja": "ダメですよ、寄り道なんかしちゃ。",
    "ko": "하굣길에 딴 데 새면 안 돼요.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 'しちゃう'"
+   "note": "받아쓰기: 'しちゃう' 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 6.32,
@@ -36,7 +36,7 @@
    "speaker": "아유미",
    "ja": "お前、自分を棚にあげてよく言うぜ。",
    "ko": "너, 자기는 쏙 빼놓고 잘도 말한다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.72,
@@ -44,7 +44,7 @@
    "speaker": "유키",
    "ja": "そうだ、この先にパイのお店がオープンしたのよ。",
    "ko": "맞다, 이 앞에 파이 가게가 새로 열었어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 13.6,
@@ -52,7 +52,7 @@
    "speaker": "유키",
    "ja": "ねえ、一緒に行かない?",
    "ko": "있잖아, 같이 안 갈래?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.6,
@@ -60,7 +60,7 @@
    "speaker": "아유미",
    "ja": "あのな、お前今寄り道がどうとかって言ったばかりじゃ…",
    "ko": "야, 너 방금 딴 데 새면 어쩌고 하지 않았냐…",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.1,
@@ -68,7 +68,7 @@
    "speaker": "유키",
    "ja": "もういいわ。ユキ一人で行けるもん。",
    "ko": "됐어. 유키 혼자서도 갈 수 있거든.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 23.04,
@@ -76,7 +76,7 @@
    "speaker": "아유미",
    "ja": "そうしてくれ。なんか俺疲れたから今日はまっすぐ帰るわ。",
    "ko": "그래라. 왠지 피곤하니까 오늘은 곧장 집에 간다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

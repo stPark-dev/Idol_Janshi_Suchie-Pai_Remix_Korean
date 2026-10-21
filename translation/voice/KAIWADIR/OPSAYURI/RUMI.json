@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "あら、新入りさんですか?",
    "ko": "어머, 신입이세요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 2.6,
@@ -18,7 +18,7 @@
    "speaker": "루미",
    "ja": "誰が新入りよ。麻雀好きのバニーガールってあんたね。",
    "ko": "누가 신입이야. 마작 좋아하는 바니걸이 너구나.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.16,
@@ -26,7 +26,7 @@
    "speaker": "사유리",
    "ja": "そういう言い方されると、",
    "ko": "그런 식으로 말하면요,",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.3,
@@ -34,7 +34,7 @@
    "speaker": "사유리",
    "ja": "あたしってどうしようもないイカレポンチに聞こえちゃうんですけど。",
    "ko": "제가 구제불능 나사 빠진 애처럼 들리잖아요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 14.78,
@@ -42,7 +42,7 @@
    "speaker": "루미",
    "ja": "じゃあ言い直すわ。",
    "ko": "그럼 다시 말할게.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 16.64,
@@ -50,7 +50,7 @@
    "speaker": "루미",
    "ja": "えぇ、麻雀の得意なウサギさん、私と勝負しませんか?",
    "ko": "에헴, 마작을 잘하시는 토끼 아가씨, 저와 승부하지 않으시겠어요?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: 남이 사유리를 부를 때 \"토끼 아가씨\"(표기 결정). 이전: 토끼 씨"
   },
   {
@@ -59,7 +59,7 @@
    "speaker": "사유리",
    "ja": "はい!喜んで!",
    "ko": "네! 기꺼이요!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

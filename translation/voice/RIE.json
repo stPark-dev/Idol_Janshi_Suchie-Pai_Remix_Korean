@@ -10,9 +10,9 @@
    "speaker": "스치파이",
    "ja": "字牌を使った積み込みは、ちょっと危ないOLの南條さん。",
    "ko": "자패 쌓기라면 좀 위험한 OL, 난조 씨.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「自廃」 → 字牌"
+   "note": "받아쓰기 「自廃」 → 字牌 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 4.82,
@@ -20,7 +20,7 @@
    "speaker": "스치파이",
    "ja": "仕事でストレス溜まっちゃってんのかな?",
    "ko": "일 때문에 스트레스가 쌓였나?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

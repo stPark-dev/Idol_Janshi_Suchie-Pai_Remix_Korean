@@ -10,7 +10,7 @@
    "speaker": "루미",
    "ja": "はい、今日はどうしたの?",
    "ko": "네, 오늘은 무슨 일이야?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 1.6,
@@ -18,7 +18,7 @@
    "speaker": "유키",
    "ja": "えーと、あのー、ちょっと相談がありまして。",
    "ko": "음, 저기… 상담할 게 좀 있어서요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.14,
@@ -26,7 +26,7 @@
    "speaker": "유키",
    "ja": "実は、そのー、胸を…",
    "ko": "실은, 그게… 가슴을…",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 13.12,
@@ -34,7 +34,7 @@
    "speaker": "루미",
    "ja": "はい?",
    "ko": "응?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 14.3,
@@ -42,7 +42,7 @@
    "speaker": "유키",
    "ja": "胸を大きく…",
    "ko": "가슴을 크게…",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.46,
@@ -50,7 +50,7 @@
    "speaker": "루미",
    "ja": "はぁ。あー、なるほどね。",
    "ko": "아하~ 그렇구나.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.88,
@@ -58,9 +58,9 @@
    "speaker": "루미",
    "ja": "それじゃあ早速治療に入りましょうか。そこの雀卓出してくれる?",
    "ko": "그럼 바로 치료를 시작해 볼까? 거기 마작 탁자 좀 꺼내 줄래?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 「ジャンタク」 = 雀卓"
+   "note": "받아쓰기 「ジャンタク」 = 雀卓 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 25.04,
@@ -68,7 +68,7 @@
    "speaker": "유키",
    "ja": "え?なんで麻雀なんか…",
    "ko": "네? 왜 마작 같은 걸…",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 29.24,
@@ -76,7 +76,7 @@
    "speaker": "루미",
    "ja": "いい?胸を大きくするなんて、要は女性ホルモンのコントロールの問題なのよ",
    "ko": "잘 들어. 가슴을 키우는 건 결국 여성 호르몬 조절 문제야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 33.96,
@@ -84,7 +84,7 @@
    "speaker": "루미",
    "ja": "私の調べによると、女性ホルモン促進のためには",
    "ko": "내가 조사한 바로는 여성 호르몬을 촉진하려면",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 37.56,
@@ -92,7 +92,7 @@
    "speaker": "루미",
    "ja": "麻雀による適度な緊張感を得ることが最も適しているわけなのよ、これが",
    "ko": "마작으로 적당한 긴장감을 얻는 게 제일 좋다 이거야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 42.72,
@@ -100,7 +100,7 @@
    "speaker": "유키",
    "ja": "はあ、そうなんですか",
    "ko": "아, 그런가요?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 45.72,
@@ -108,7 +108,7 @@
    "speaker": "루미",
    "ja": "それじゃあ始めるわよ",
    "ko": "그럼 시작한다!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

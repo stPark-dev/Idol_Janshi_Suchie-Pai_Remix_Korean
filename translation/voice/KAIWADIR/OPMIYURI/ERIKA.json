@@ -10,9 +10,9 @@
    "speaker": "미유리",
    "ja": "わあ、婦警さんだ。かっこいい。",
    "ko": "와아, 여경 언니다! 멋있다.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있음, 받아쓰기: わあ、不敬さんだ。かっこいい。 검수: 婦警さん(아이가 부름) = '여경 언니'"
+   "note": "VAD 없는 받아쓰기에만 있음, 받아쓰기: わあ、不敬さんだ。かっこいい。 검수: 婦警さん(아이가 부름) = '여경 언니' 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 4.27,
@@ -20,7 +20,7 @@
    "speaker": "에리카",
    "ja": "ねえ、お嬢ちゃん。この病院に偽看護婦が出入りしてたんだけど、",
    "ko": "얘, 꼬마야. 이 병원에 가짜 간호사가 드나들었다던데,",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.99,
@@ -28,7 +28,7 @@
    "speaker": "에리카",
    "ja": "怪しい人見なかったかな?",
    "ko": "수상한 사람 못 봤니?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.27,
@@ -36,7 +36,7 @@
    "speaker": "미유리",
    "ja": "看護婦さんはみんな病気の人のお世話をしてるよ。",
    "ko": "간호사 언니들은 다 아픈 사람을 돌봐 주는걸.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.57,
@@ -44,7 +44,7 @@
    "speaker": "미유리",
    "ja": "一生懸命の人に偽物も本物もないよ。",
    "ko": "열심히 하는 사람한테 가짜 진짜가 어딨어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 20.31,
@@ -52,7 +52,7 @@
    "speaker": "에리카",
    "ja": "う、うん。ごめんね。さっきのは間違い。",
    "ko": "으, 응. 미안해. 아까 그 말은 취소할게.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 24.87,
@@ -60,9 +60,9 @@
    "speaker": "에리카",
    "ja": "看護婦も婦警も偽物なんていないわよね。",
    "ko": "간호사도 여경도 가짜 같은 건 없는 거야, 그치?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 看護婦も父兄も/不敬も (婦警로 고침). 에리카 자신이 가짜 여경이라는 자기 변호"
+   "note": "받아쓰기: 看護婦も父兄も/不敬も (婦警로 고침). 에리카 자신이 가짜 여경이라는 자기 변호 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 28.75,
@@ -70,9 +70,9 @@
    "speaker": "미유리",
    "ja": "婦警さん?",
    "ko": "여경 언니?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 父兄さん?"
+   "note": "받아쓰기: 父兄さん? 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 30.05,
@@ -80,7 +80,7 @@
    "speaker": "에리카",
    "ja": "さあ、頑張んなくっちゃ!",
    "ko": "자, 힘내야지!",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "麻雀わかんない人にはチンプンカンプンかもしれませんが、",
    "ko": "마작 모르는 사람한텐 알쏭달쏭하겠지만,",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.46,
@@ -18,7 +18,7 @@
    "speaker": "스치파이",
    "ja": "基本ルールは画面の通りです。",
    "ko": "기본 규칙은 화면에 나온 대로야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 6.32,
@@ -26,7 +26,7 @@
    "speaker": "스치파이",
    "ja": "いつも遊んでいる麻雀と違うルールがあっても",
    "ko": "평소 하던 마작과 다른 규칙이 있어도",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 9.4,
@@ -34,7 +34,7 @@
    "speaker": "스치파이",
    "ja": "細かいことは言わない言わない。",
    "ko": "자잘한 건 따지기 없기~.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

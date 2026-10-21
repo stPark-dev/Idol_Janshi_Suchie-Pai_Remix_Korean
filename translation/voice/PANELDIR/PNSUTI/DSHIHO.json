@@ -10,9 +10,9 @@
    "speaker": "스치파이",
    "ja": "あ、調子に乗んないでよ、もう。",
    "ko": "앗, 까불지 마, 정말.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있음: 「…もう。」, VAD 없음: 「…ムーン。」 — 「もう」를 따름"
+   "note": "VAD 있음: 「…もう。」, VAD 없음: 「…ムーン。」 — 「もう」를 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   }
  ]
 }

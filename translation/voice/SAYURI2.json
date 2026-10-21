@@ -11,7 +11,7 @@
    "speaker": "사유리",
    "ja": "みんながんばれー!",
    "ko": "모두 힘내~!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "VAD 없는 받아쓰기에만 있음"
   },
   {
@@ -20,7 +20,7 @@
    "speaker": "스치파이",
    "ja": "なんだかな?",
    "ko": "이건 뭐랄까...",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "말한 사람 불확실(내레이션으로 봄)"
   }
  ]

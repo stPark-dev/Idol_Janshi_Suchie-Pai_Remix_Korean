@@ -10,7 +10,7 @@
    "speaker": "시호",
    "ja": "あら、何かご用でしょうか。私、パイは注文していませんけど。",
    "ko": "어머, 무슨 일이신가요? 저, 파이는 주문하지 않았는데요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 6.67,
@@ -18,7 +18,7 @@
    "speaker": "마이",
    "ja": "あなた、麻雀できる?",
    "ko": "너, 마작 할 줄 알아?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 9.62,
@@ -26,7 +26,7 @@
    "speaker": "시호",
    "ja": "え?あ、あの、できるというほどでは、",
    "ko": "네? 저, 저기, 할 줄 안다고 할 정도는…",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 13.33,
@@ -34,9 +34,9 @@
    "speaker": "시호",
    "ja": "お父様の見よう見まねで。",
    "ko": "아버지 어깨너머로 배운 거라서요.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기: 「お父様の身を見真似で」 → 「見よう見まね」로 봄 / 검수: 자기 아버지를 \"아버님\"이라 하면 어색해 \"아버지\"로"
+   "note": "받아쓰기: 「お父様の身を見真似で」 → 「見よう見まね」로 봄 / 검수: 자기 아버지를 \"아버님\"이라 하면 어색해 \"아버지\"로 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 15.67,
@@ -44,7 +44,7 @@
    "speaker": "마이",
    "ja": "できるのね。決まったわ。私と勝負しましょう。",
    "ko": "할 줄 아는구나. 결정됐어! 나랑 승부하자.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 19.49,
@@ -52,7 +52,7 @@
    "speaker": "시호",
    "ja": "え?",
    "ko": "네?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

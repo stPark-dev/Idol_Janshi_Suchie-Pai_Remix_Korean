@@ -10,7 +10,7 @@
    "speaker": "레이카",
    "ja": "麻雀好きのバニーガール、ウサギちゃんこと河本小百合。",
    "ko": "마작 좋아하는 바니걸, 토끼 아가씨, 본명 카와모토 사유리.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "다른 인물은 본명 다음에 마작 별명으로 불리는데 사유리만 별명 다음에 본명으로 불림 → 다음 대사"
   },
   {
@@ -19,7 +19,7 @@
    "speaker": "사유리",
    "ja": "なんか私だけ本名で呼ばれてるような気がするわ。",
    "ko": "왠지 나만 본명으로 불린 것 같은데?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.36,
@@ -27,7 +27,7 @@
    "speaker": "레이카",
    "ja": "最強の雀士レイカ様があなたの力を試してあげるわ。",
    "ko": "최강의 작사 레이카 님이 네 실력을 시험해 주지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

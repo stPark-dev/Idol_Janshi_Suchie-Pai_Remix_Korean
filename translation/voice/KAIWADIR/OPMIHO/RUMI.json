@@ -10,9 +10,9 @@
    "speaker": "미호",
    "ja": "アタイの顔に何かついてるかい?",
    "ko": "내 얼굴에 뭐 묻었냐?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있음 받아쓰기는 환각(「アイドル雀士スーチーパイ…」)뿐이라 이 파일은 전부 VAD 없음 받아쓰기를 따름"
+   "note": "VAD 있음 받아쓰기는 환각(「アイドル雀士スーチーパイ…」)뿐이라 이 파일은 전부 VAD 없음 받아쓰기를 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 2.0,
@@ -20,7 +20,7 @@
    "speaker": "루미",
    "ja": "え?いや、あなた女の子よね。",
    "ko": "어? 아니, 너 여자애 맞지?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 7.0,
@@ -28,7 +28,7 @@
    "speaker": "미호",
    "ja": "なんだよ、藪から棒に。",
    "ko": "뭐야, 뜬금없이.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 9.38,
@@ -36,7 +36,7 @@
    "speaker": "루미",
    "ja": "しかも、元気そうね。",
    "ko": "게다가 건강해 보이네.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.44,
@@ -44,7 +44,7 @@
    "speaker": "미호",
    "ja": "アタイは元気さ。",
    "ko": "난 쌩쌩하지.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.0,
@@ -52,7 +52,7 @@
    "speaker": "미호",
    "ja": "でも、姉貴はちょっと体が弱いかな。",
    "ko": "근데 우리 언니는 몸이 좀 약한 편이려나.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.98,
@@ -60,7 +60,7 @@
    "speaker": "루미",
    "ja": "え?ほんと?どこにいるの?名前を教えて。",
    "ko": "어? 정말? 어디 있어? 이름 좀 알려 줘.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.46,
@@ -68,7 +68,7 @@
    "speaker": "미호",
    "ja": "いいけど、ところであんた誰さ。",
    "ko": "알려 줄 순 있는데, 근데 너 누구야?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 24.44,
@@ -76,7 +76,7 @@
    "speaker": "루미",
    "ja": "あ、私はただの通りすがりの白衣の天使よ。",
    "ko": "아, 난 그냥 지나가던 백의의 천사야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "あなたは正真正銘、最強の雀士だわ。",
    "ko": "너는 명실상부 최강의 작사야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.68,
@@ -18,7 +18,7 @@
    "speaker": "시호",
    "ja": "え?",
    "ko": "네?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 5.02,
@@ -26,7 +26,7 @@
    "speaker": "스치파이",
    "ja": "もし、この勝負を通して何か得るものがあったのなら、私に聞かせてくれる?",
    "ko": "이 승부로 뭔가 얻은 게 있다면 나한테 들려줄래?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 11.12,
@@ -34,7 +34,7 @@
    "speaker": "시호",
    "ja": "ありがとうございます、スーチーパイさん。",
    "ko": "감사합니다, 스치파이 님.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 13.86,
@@ -42,7 +42,7 @@
    "speaker": "시호",
    "ja": "おかげで私、少しだけ麻雀が好きになりました。",
    "ko": "덕분에 저, 마작이 조금 좋아졌어요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

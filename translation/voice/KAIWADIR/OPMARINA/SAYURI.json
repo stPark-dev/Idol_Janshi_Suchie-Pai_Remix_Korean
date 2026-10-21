@@ -10,7 +10,7 @@
    "speaker": "마리나",
    "ja": "あんた、街中をそんな格好で、結構勇気あるわね。",
    "ko": "너, 길거리를 그런 차림으로 다니다니 꽤 용감하다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 4.38,
@@ -18,7 +18,7 @@
    "speaker": "사유리",
    "ja": "あたし、この格好が一番落ち着くんです。",
    "ko": "저는 이 차림이 제일 편하거든요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 8.58,
@@ -26,7 +26,7 @@
    "speaker": "마리나",
    "ja": "へえ。",
    "ko": "헤에.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.42,
@@ -34,7 +34,7 @@
    "speaker": "마리나",
    "ja": "あ、そうだ。あんた、今用事ある?ちょっと紹介したい人がいるの。",
    "ko": "아, 맞다. 너 지금 바빠? 소개해 주고 싶은 사람이 있어.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 14.84,
@@ -42,7 +42,7 @@
    "speaker": "사유리",
    "ja": "はあ、暇ですけど。",
    "ko": "하아, 한가하긴 한데요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 17.14,
@@ -50,7 +50,7 @@
    "speaker": "마리나",
    "ja": "リエお姉さまって言ってね、とってもあたしに優しくしてくれる人よ。",
    "ko": "리에 언니라고, 나한테 엄청 잘해 주는 사람이야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 22.78,
@@ -58,7 +58,7 @@
    "speaker": "마리나",
    "ja": "きっとお姉さまもあなたのこと気に入ると思うわ。",
    "ko": "언니도 분명 널 마음에 들어 할 거야.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

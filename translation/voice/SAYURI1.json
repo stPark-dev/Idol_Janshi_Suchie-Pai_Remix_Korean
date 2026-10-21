@@ -11,7 +11,7 @@
    "speaker": "스치파이",
    "ja": "すっかりウサギちゃんを極めてしまったさゆりちゃん。",
    "ko": "토끼 아가씨의 길을 완전히 통달한 사유리.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "검수: ウサギちゃん 표기 통일(토끼 아가씨)"
   },
   {
@@ -20,7 +20,7 @@
    "speaker": "스치파이",
    "ja": "実は今レースクイーンになっちゃってます。",
    "ko": "사실 지금은 레이싱 모델이 됐답니다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

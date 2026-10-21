@@ -10,9 +10,9 @@
    "speaker": "유키",
    "ja": "ユキの胸だって可愛いのよ。お見せできなくて残念だわ。",
    "ko": "유키 가슴도 귀엽거든. 보여 줄 수 없어서 아쉽네.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "VAD 있음: マリーの胸 / VAD 없음: 雪の胸 → ユキ"
+   "note": "VAD 있음: マリーの胸 / VAD 없음: 雪の胸 → ユキ 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   },
   {
    "start": 5.56,
@@ -20,7 +20,7 @@
    "speaker": "마이",
    "ja": "まあ、そうすねないで。",
    "ko": "에이, 그렇게 삐치지 마.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 7.9,
@@ -28,7 +28,7 @@
    "speaker": "마이",
    "ja": "でも、やっぱ麻雀の強さは外見じゃわからないわね。",
    "ko": "그래도 역시 마작 실력은 겉보기론 모르겠네.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 12.5,
@@ -36,7 +36,7 @@
    "speaker": "유키",
    "ja": "他にも強い子がいるってこと?",
    "ko": "다른 데도 센 애가 있다는 거야?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 15.32,
@@ -44,7 +44,7 @@
    "speaker": "마이",
    "ja": "マリナって子が知ってるはずよ。探してみれば。",
    "ko": "마리나라는 애가 알 거야. 찾아봐.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }

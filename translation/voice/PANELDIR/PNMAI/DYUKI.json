@@ -10,9 +10,9 @@
    "speaker": "마이",
    "ja": "ね?",
    "ko": "응?",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "asr_uncertain": true,
-   "note": "받아쓰기 ね? (VAD 없음만, 0.18초). 짧은 감탄사로 둠"
+   "note": "받아쓰기 ね? (VAD 없음만, 0.18초). 짧은 감탄사로 둠 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
   }
  ]
 }

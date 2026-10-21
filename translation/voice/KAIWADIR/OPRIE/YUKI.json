@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "あら、どうしたの?もっと奥へいらっしゃい。",
    "ko": "어머, 왜 그러니? 더 안쪽으로 들어오렴.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 3.28,
@@ -18,7 +18,7 @@
    "speaker": "유키",
    "ja": "ゆ、ゆ、ゆ、ユキと麻雀勝負をしてください。",
    "ko": "유, 유, 유, 유키랑 마작 승부해 주세요!",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "VAD 있는 받아쓰기는 「ゆ、ゆ。」만 잡음 — VAD 없는 쪽을 따름"
   },
   {
@@ -27,7 +27,7 @@
    "speaker": "리에",
    "ja": "誰に聞いたの?",
    "ko": "누구한테 들었니?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 10.55,
@@ -35,7 +35,7 @@
    "speaker": "유키",
    "ja": "へ、へ、変なオジンくさいお姉さんから。",
    "ko": "이, 이, 이상한 아저씨 같은 언니한테요.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "オジンくさい = 아저씨 티가 나는(나이 든 남자 같은)"
   },
   {
@@ -44,7 +44,7 @@
    "speaker": "리에",
    "ja": "あは、さっちゃんね。",
    "ko": "아하, 삿짱이구나.",
-   "status": "needs_human_review",
+   "status": "distribution_eligible",
    "note": "さっちゃん = 안자이 사치코로 추정(애칭)"
   },
   {
@@ -53,7 +53,7 @@
    "speaker": "리에",
    "ja": "私のことはいろいろ聞いたでしょ?それでも来たの?",
    "ko": "내 얘기 이것저것 들었지? 그런데도 온 거야?",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 21.7,
@@ -61,7 +61,7 @@
    "speaker": "유키",
    "ja": "ど、どんなおばさんだか顔を見てやろうと思って。",
    "ko": "어, 어떤 아줌마인지 얼굴 좀 보려고요.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 27.28,
@@ -69,7 +69,7 @@
    "speaker": "리에",
    "ja": "こんなおばさんよ。",
    "ko": "이런 아줌마란다.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   },
   {
    "start": 29.47,
@@ -77,7 +77,7 @@
    "speaker": "리에",
    "ja": "じゃあ早速始めましょう。",
    "ko": "그럼 바로 시작하자.",
-   "status": "needs_human_review"
+   "status": "distribution_eligible"
   }
  ]
 }
