@@ -300,3 +300,26 @@ def test_load_voice_docs_keys_by_disc_path(tmp_path):
     (tmp_path / "BAD.json").write_text(json.dumps(_doc("KAIWADIR/OPSIHO/MAI.AIF")), encoding="utf-8")
     with pytest.raises(S.SubtitleError, match="file"):
         S.load_voice_docs(tmp_path)
+
+
+def test_provisional_lines_may_ship_but_are_counted_and_never_audio_verified():
+    scenes = {"groups": [{"id": "opsiho", "dir": "KAIWADIR/OPSIHO", "voices": ["MAI.AIF"]}]}
+    doc = {"voice": "KAIWADIR/OPSIHO/MAI.AIF", "audio_verified": False, "lines": [
+        {"start": 0.5, "end": 1.5, "ja": "x", "ko": "가", "status": "distribution_eligible"},
+        {"start": 2.0, "end": 3.0, "ja": "y", "ko": "나", "status": "provisional", "asr_uncertain": True}]}
+    _, _, info = S.build_data(scenes, {"KAIWADIR/OPSIHO/MAI.AIF": doc}, label.DEFAULT_FONT, _fake_lookup)
+    assert info["distribution"] is True
+    assert info["provisional"] == 1 and info["audio_verified_lines"] == 0
+    doc["lines"][0]["status"] = "needs_human_review"
+    _, _, info = S.build_data(scenes, {"KAIWADIR/OPSIHO/MAI.AIF": doc}, label.DEFAULT_FONT, _fake_lookup)
+    assert info["distribution"] is False
+
+
+def test_audio_verified_is_counted_only_where_a_file_says_so():
+    scenes = {"groups": [{"id": "opsiho", "dir": "KAIWADIR/OPSIHO", "voices": ["MAI.AIF", "RIE.AIF"]}]}
+    a = {"voice": "KAIWADIR/OPSIHO/MAI.AIF", "audio_verified": True,
+         "lines": [{"start": 0.5, "end": 1.5, "ja": "x", "ko": "가", "status": "distribution_eligible"}]}
+    b = {"voice": "KAIWADIR/OPSIHO/RIE.AIF",
+         "lines": [{"start": 0.5, "end": 1.5, "ja": "x", "ko": "나", "status": "distribution_eligible"}]}
+    _, _, info = S.build_data(scenes, {a["voice"]: a, b["voice"]: b}, label.DEFAULT_FONT, _fake_lookup)
+    assert info["audio_verified_lines"] == 1

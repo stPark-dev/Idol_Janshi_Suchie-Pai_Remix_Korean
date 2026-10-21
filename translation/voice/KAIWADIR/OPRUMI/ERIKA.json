@@ -3,6 +3,7 @@
  "scene": "대국 전 대화 — 에리카(플레이어) vs 루미, 병원",
  "duration": 36.5,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.85,
@@ -26,9 +27,9 @@
    "speaker": "루미",
    "ja": "ギク。",
    "ko": "뜨끔.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기는 「聞く。」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 없는 받아쓰기는 「聞く。」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 8.95,
@@ -44,9 +45,9 @@
    "speaker": "루미",
    "ja": "ギクギク。",
    "ko": "뜨끔뜨끔.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기는 「聞く聞く。」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 없는 받아쓰기는 「聞く聞く。」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 15.73,

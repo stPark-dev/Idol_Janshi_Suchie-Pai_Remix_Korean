@@ -195,6 +195,19 @@ def test_distribution_requires_eligible_texts_and_no_pending_screen_checks():
     assert build.distribution_ready([{"state": "needs_human_review"}], {"pending": []}) is False
 
 
+def test_subtitles_need_their_own_checks_before_distribution():
+    ok = {"distribution": True}
+    assert build.subtitles_ready(None, {"pending": [{"id": "x"}]}) is True        # no subtitles on the disc
+    assert build.subtitles_ready(ok, {"pending": []}) is True
+    assert build.subtitles_ready(ok, {"pending": [{"id": "panel"}]}) is False
+    assert build.subtitles_ready({"distribution": False}, {"pending": []}) is False
+
+
+def test_subtitles_stay_opt_in_by_default():
+    import inspect
+    assert inspect.signature(build.build).parameters["subtitles"].default == "none"
+
+
 def _subtitle_build(tmp_path, ko="안녕하세요."):
     from remix import subtitles as S
     voices = tmp_path / "voice"
@@ -238,6 +251,7 @@ def test_subtitle_build_changes_the_loader_calls_and_adds_two_files(tmp_path):
         src.lookup("KAIWADIR/OPSIHO/MAI.AIF").lba + 150, src.lookup("KAIWADIR/OPSIHO/RIE.AIF").lba + 150)
     assert m["subtitles"]["lines"] == 1 and m["subtitles"]["distribution"] is False
     assert m["distribution"] is False
+    assert isinstance(m["subtitle_checks_pending"], list)
 
 
 def _all_files(disc, lba=None, size=None, prefix=""):

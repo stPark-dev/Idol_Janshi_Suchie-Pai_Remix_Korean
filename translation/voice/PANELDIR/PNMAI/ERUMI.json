@@ -3,6 +3,7 @@
  "scene": "패널 매치 끝난 뒤 대화 — 마이(상대) vs 루미(플레이어)",
  "duration": 9.89,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -10,9 +11,9 @@
    "speaker": "루미",
    "ja": "なかなかいい筋してるけど、詰めが甘いみたいね。",
    "ko": "꽤 소질은 있는데 마무리가 무르네.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 爪が甘い → 詰めが甘い 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 爪が甘い → 詰めが甘い 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 3.88,
@@ -20,9 +21,9 @@
    "speaker": "루미",
    "ja": "一回、糖尿病の検診を受けたほうがいいわ。",
    "ko": "당뇨병 검진 한번 받아 보는 게 좋겠어.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "甘い(무르다/달다) 말장난을 이어 당뇨병 검진 농담 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "甘い(무르다/달다) 말장난을 이어 당뇨병 검진 농담 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 6.98,

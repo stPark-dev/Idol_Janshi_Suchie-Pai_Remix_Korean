@@ -3,6 +3,7 @@
  "scene": "에필로그 — 루미의 그 후",
  "duration": 4.83,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "note": "PANELDIR/DDGOOD/RUMI1.AIF와 바이트까지 같은 녹음 — 같은 번역을 그대로 씀",
  "lines": [
   {

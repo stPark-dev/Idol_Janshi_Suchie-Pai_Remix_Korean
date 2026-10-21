@@ -3,6 +3,7 @@
  "scene": "병원 — 유키(플레이어)와 미유리",
  "duration": 36.08,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -90,9 +91,9 @@
    "speaker": "유키",
    "ja": "ゆ、ユキちゃん用事思い出しちゃった。",
    "ko": "유, 유키 볼일이 생각났어.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있음. 받아쓰기: 幼稚思い出しちゃった 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 없는 받아쓰기에만 있음. 받아쓰기: 幼稚思い出しちゃった 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 34.0,
@@ -100,9 +101,9 @@
    "speaker": "유키",
    "ja": "じゃ、じゃ、お大事にね。",
    "ko": "그, 그럼 몸조리 잘해!",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 없는 받아쓰기에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   }
  ]
 }

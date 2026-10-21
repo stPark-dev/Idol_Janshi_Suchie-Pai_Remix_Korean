@@ -3,6 +3,7 @@
  "scene": "대국 전 대화 — 마이(플레이어) vs 케이코",
  "duration": 35.43,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -10,9 +11,9 @@
    "speaker": "케이코",
    "ja": "あら、マイちゃんお久しぶり。最近どうしてる?",
    "ko": "어머, 마이, 오랜만이야. 요즘 어떻게 지내?",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기: 麻雀ちゃんお久しぶり (문맥상 マイちゃん) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기: 麻雀ちゃんお久しぶり (문맥상 マイちゃん) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 3.92,
@@ -20,9 +21,9 @@
    "speaker": "케이코",
    "ja": "彼氏でも見つかった?",
    "ko": "남자친구라도 생겼어?",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기: からしでも見つかった? (문맥상 彼氏) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기: からしでも見つかった? (문맥상 彼氏) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 5.46,

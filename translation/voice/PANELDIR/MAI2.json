@@ -3,6 +3,7 @@
  "scene": "컨티뉴 화면 — 마이 (계속했을 때)",
  "duration": 1.44,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,

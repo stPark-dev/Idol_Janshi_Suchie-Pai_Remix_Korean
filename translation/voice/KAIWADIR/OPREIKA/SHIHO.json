@@ -3,6 +3,7 @@
  "scene": "최종 보스 레이카 등장 — 시호(플레이어) vs 레이카",
  "duration": 32.93,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -10,9 +11,9 @@
    "speaker": "레이카",
    "ja": "よーくここがわかりましたね。片桐志穂。",
    "ko": "용케 여길 찾아왔구나, 카타기리 시호.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 「片桐四穂」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 「片桐四穂」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 4.16,
@@ -20,9 +21,9 @@
    "speaker": "레이카",
    "ja": "私が最強の雀士、麗華様よ。",
    "ko": "내가 최강의 작사, 레이카 님이다.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 「霊華様」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 「霊華様」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 6.94,

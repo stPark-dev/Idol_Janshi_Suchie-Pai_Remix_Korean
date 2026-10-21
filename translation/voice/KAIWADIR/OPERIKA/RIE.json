@@ -3,6 +3,7 @@
  "scene": "대국 전 대화 — 리에(플레이어) vs 에리카",
  "duration": 68.68,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -98,9 +99,9 @@
    "speaker": "에리카",
    "ja": "ああ、しびれちゃう。なんかドキドキしてきちゃったわ。",
    "ko": "아아, 짜릿해. 왠지 가슴이 두근거리기 시작했어.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 있음 받아쓰기에는 「ああ、しびれちゃう」가 빠짐(VAD 없음에서 보충) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 있음 받아쓰기에는 「ああ、しびれちゃう」가 빠짐(VAD 없음에서 보충) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 51.78,

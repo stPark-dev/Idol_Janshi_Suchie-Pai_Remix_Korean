@@ -3,6 +3,7 @@
  "scene": "캐릭터 선택 — 쿄코의 소개: 유키",
  "duration": 4.74,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,

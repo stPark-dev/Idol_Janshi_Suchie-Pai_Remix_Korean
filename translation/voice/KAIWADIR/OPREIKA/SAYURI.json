@@ -3,6 +3,7 @@
  "scene": "최종 보스 레이카 등장 — 사유리(플레이어) vs 레이카",
  "duration": 12.07,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,

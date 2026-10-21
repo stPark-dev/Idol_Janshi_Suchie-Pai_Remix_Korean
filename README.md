@@ -20,6 +20,8 @@
 - 스태프 롤 131줄(BADGRAPH·GOODEND 두 파일), 클리어·읽는 중 화면(화면 확인 전).
 - 대국 화면 103항목(역 이름, 명령 버튼, 이름 칸, 리치 띠, 東場 표지, 점수 단위, 큰 입체 한자 등).
 
+- 음성 자막(v1.1, 개발 중): 464개 음성 1,681줄 번역·최종 검수 완료(받아쓰기로 정한 231줄은 음성 확인 전 `provisional`). 지금은 `--subtitles korean`으로만 넣고 기본 빌드는 v1.0과 같습니다. 남은 핵심 자막 확인([`assets/subtitle_checks.json`](assets/subtitle_checks.json))과 화면 확인 8건이 끝나면 v1.1에서 기본으로 켭니다([`docs/voice-subtitles.md`](docs/voice-subtitles.md) 1.2).
+
 계획(사람 결정 2026-10-16): v1.0 = 그림 글자 전부(메뉴, 대국 화면, 역 이름, 규칙 표, 프로필 카드, 패널 매치, 오프닝 소개, 스태프 롤), v1.1 = 음성 자막.
 
 ## 지원 원본
@@ -31,6 +33,7 @@
 | 파일 | 내용 |
 |---|---|
 | [`translation/glossary.json`](translation/glossary.json) | 용어·표기 결정(2편 승인 용어를 이어받음) |
+| [`translation/voice/`](translation/voice), [`assets/subtitle/scenes.json`](assets/subtitle/scenes.json) | 음성 자막(음성 하나에 파일 하나, 디스크 경로대로)과 폴더별 그룹 |
 | [`translation/credits.json`](translation/credits.json), [`assets/credits/layout.json`](assets/credits/layout.json) | 스태프 롤 131줄(이어 붙인 좌표·종류·원문·번역) |
 | [`translation/misc.json`](translation/misc.json) | 클리어·읽는 중 화면 |
 | [`translation/intro.json`](translation/intro.json), [`assets/intro/layout.json`](assets/intro/layout.json) | 오프닝 캐릭터 소개(TITL_CG #108·#109) 40항목 |

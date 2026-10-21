@@ -3,6 +3,7 @@
  "scene": "우승 후 — 레이카의 축하와 스치파이 등장 (유키, 도전 분기)",
  "duration": 17.46,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -35,9 +36,9 @@
    "speaker": "스치파이",
    "ja": "ユキちゃん、プリンセスは二人もいらないわよ。",
    "ko": "유키, 프린세스는 둘씩이나 필요 없어.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 「結城ちゃん」 → ユキちゃん 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 「結城ちゃん」 → ユキちゃん 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 16.22,
@@ -45,9 +46,9 @@
    "speaker": "유키",
    "ja": "誰、おばさん?",
    "ko": "아줌마는 누구야?",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 있는 받아쓰기 「だいれいおばさん」, VAD 없는 쪽 「だれ、おばさん」을 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 있는 받아쓰기 「だいれいおばさん」, VAD 없는 쪽 「だれ、おばさん」을 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   }
  ]
 }

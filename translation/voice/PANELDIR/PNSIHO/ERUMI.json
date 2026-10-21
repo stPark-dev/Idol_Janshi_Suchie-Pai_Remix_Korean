@@ -3,6 +3,7 @@
  "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 루미(플레이어) vs 시호",
  "duration": 16.21,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -26,9 +27,9 @@
    "speaker": "루미",
    "ja": "徹マンは健康に良くないからダメよ。",
    "ko": "밤샘 마작은 건강에 안 좋으니까 안 돼.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 「鉄丸は」 → 문맥상 「徹マン(밤샘 마작)は」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 「鉄丸は」 → 문맥상 「徹マン(밤샘 마작)は」 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 10.56,

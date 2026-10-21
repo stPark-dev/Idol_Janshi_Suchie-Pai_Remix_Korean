@@ -3,6 +3,7 @@
  "scene": "대국 전 대화 — 에리카(플레이어) vs 유키. 유키가 혼자 연인 역할까지 연기하는 망상극",
  "duration": 53.17,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,

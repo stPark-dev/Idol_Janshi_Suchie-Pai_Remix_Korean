@@ -3,6 +3,7 @@
  "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 마이(플레이어) vs 시호",
  "duration": 15.33,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,

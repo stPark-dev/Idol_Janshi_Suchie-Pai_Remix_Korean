@@ -3,6 +3,7 @@
  "scene": "패널 매치 끝난 뒤 대화 — 마이(상대) vs 유키(플레이어)",
  "duration": 18.44,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.78,
@@ -10,9 +11,9 @@
    "speaker": "유키",
    "ja": "ユキの胸だって可愛いのよ。お見せできなくて残念だわ。",
    "ko": "유키 가슴도 귀엽거든. 보여 줄 수 없어서 아쉽네.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 있음: マリーの胸 / VAD 없음: 雪の胸 → ユキ 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 있음: マリーの胸 / VAD 없음: 雪の胸 → ユキ 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 5.56,

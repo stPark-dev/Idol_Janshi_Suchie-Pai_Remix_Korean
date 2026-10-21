@@ -3,6 +3,7 @@
  "scene": "패널 매치 설명 — 하이퍼 응징",
  "duration": 10.12,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -10,9 +11,9 @@
    "speaker": "스치파이",
    "ja": "ハイパーせっかん。",
    "ko": "하이퍼 응징!",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있음(「ハイパー石棺」) → せっかん(折檻) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 없는 받아쓰기에만 있음(「ハイパー石棺」) → せっかん(折檻) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 1.4,
@@ -20,9 +21,9 @@
    "speaker": "스치파이",
    "ja": "相手にロンされてしまったいけない捨て牌に愛の一撃を食らわせて",
    "ko": "상대에게 론 당한 나쁜 버림패에 사랑의 일격을 먹여서",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 「アイの一撃」 → 愛の一撃으로 봄 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 「アイの一撃」 → 愛の一撃으로 봄 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 5.9,

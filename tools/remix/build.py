@@ -324,6 +324,12 @@ def distribution_ready(texts: list[dict], checks: dict) -> bool:
     return bool(texts) and all(t["state"] == "distribution_eligible" for t in texts) and not checks.get("pending")
 
 
+def subtitles_ready(sub_info: dict | None, checks: dict) -> bool:
+    """No subtitles on the disc, or every subtitle line reviewed and no critical subtitle check pending
+    (assets/subtitle_checks.json)."""
+    return sub_info is None or (sub_info["distribution"] and not checks.get("pending"))
+
+
 def credits_file(path: str, original: bytes) -> bytes:
     """Redraw the staff roll pages of one file (translation/credits.json, assets/credits/layout.json)."""
     if hashlib.sha1(original).hexdigest() != ORIGINAL_SHA1.get(path):
@@ -418,6 +424,7 @@ def title_cg(original: bytes, title: str, opening: str, unverified: bool = False
 
 SUBTITLE_CODE = ROOT / "assets" / "subtitle" / "SUB.BIN"       # tools/subtitle/build.sh
 SUBTITLE_SCENES = ROOT / "assets" / "subtitle" / "scenes.json"
+SUBTITLE_CHECKS = ROOT / "assets" / "subtitle_checks.json"
 VOICE_DIR = ROOT / "translation" / "voice"
 
 
@@ -514,12 +521,15 @@ def build(source: Path, out: Path, title: str = "korean", opening: str = "korean
         "distribution_note": "",
     }
     checks = json.loads((ROOT / "assets" / "screen_checks.json").read_text())
+    sub_checks = json.loads(SUBTITLE_CHECKS.read_text()) if sub_info is not None else {"pending": []}
     ready = (not unverified and graphics == "korean" and title == "korean" and opening == "korean"
-             and distribution_ready(texts, checks) and (sub_info is None or sub_info["distribution"]))
+             and distribution_ready(texts, checks) and subtitles_ready(sub_info, sub_checks))
     manifest["distribution"] = ready
     manifest["screen_checks_pending"] = [c["id"] for c in checks.get("pending", [])]
+    if sub_info is not None:
+        manifest["subtitle_checks_pending"] = [c["id"] for c in sub_checks.get("pending", [])]
     manifest["distribution_note"] = "ready" if ready else (
         "development build" if unverified or "original" in (graphics, title, opening)
-        else "waiting for review or in-game checks (assets/screen_checks.json)")
+        else "waiting for review or in-game checks (assets/screen_checks.json, assets/subtitle_checks.json)")
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n")
     return manifest

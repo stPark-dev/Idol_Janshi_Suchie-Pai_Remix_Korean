@@ -3,6 +3,7 @@
  "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 유키(플레이어) vs 사유리",
  "duration": 12.03,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -34,9 +35,9 @@
    "speaker": "유키",
    "ja": "まあ、今日はご飯抜き。",
    "ko": "흥, 오늘은 밥 없어.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "「まあ」로 들림. 「もう」일 수도 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "「まあ」로 들림. 「もう」일 수도 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 9.96,
@@ -44,9 +45,9 @@
    "speaker": "사유리",
    "ja": "ごめんなさーい。",
    "ko": "잘못했어요~",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 없음에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 없음에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   }
  ]
 }

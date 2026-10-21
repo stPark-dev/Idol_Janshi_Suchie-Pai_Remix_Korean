@@ -3,6 +3,7 @@
  "scene": "대국 전 대화 — 시호(플레이어) vs 루미, 말 텐짱의 약을 구하러 병원에",
  "duration": 50.11,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -10,9 +11,9 @@
    "speaker": "루미",
    "ja": "はい。",
    "ko": "네.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있음, 화자 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 없는 받아쓰기에만 있음, 화자 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 0.7,
@@ -69,9 +70,9 @@
    "speaker": "루미",
    "ja": "ルミちゃん印の超強力無限滋養強壮剤、",
    "ko": "루미표 초강력 무한 자양강장제,",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 「無限需要競争剤」. 「滋養強壮剤」(자양강장제)로 고침 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 「無限需要競争剤」. 「滋養強壮剤」(자양강장제)로 고침 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 25.96,

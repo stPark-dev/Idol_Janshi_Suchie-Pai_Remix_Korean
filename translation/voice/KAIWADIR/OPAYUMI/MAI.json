@@ -3,6 +3,7 @@
  "scene": "아유미와의 대화 — 마이(플레이어) vs 아유미",
  "duration": 25.73,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -10,9 +11,9 @@
    "speaker": "아유미",
    "ja": "なんだよ、姉ちゃん。俺とタイマン張る気か?",
    "ko": "뭐야, 언니. 나랑 맞짱 뜨자는 거냐?",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기: '対マンはるきか' 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기: '対マンはるきか' 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 3.34,

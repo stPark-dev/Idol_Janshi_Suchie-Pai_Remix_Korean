@@ -569,6 +569,7 @@ def build_data(scenes: dict, docs: dict, font_path: str, lba_of) -> tuple[bytes,
     the disc when at least one of its voices has a translated line; voices without a translation
     stay in the group with no cues."""
     groups, info_groups, statuses, seen_dirs = [], [], {}, set()
+    audio_verified = 0
     paths = {}
     for g in scenes["groups"]:
         if g["dir"] in seen_dirs:
@@ -590,12 +591,17 @@ def build_data(scenes: dict, docs: dict, font_path: str, lba_of) -> tuple[bytes,
         for ln in lines:
             st = ln.get("status", "needs_review")
             statuses[st] = statuses.get(st, 0) + 1
+        audio_verified += sum(1 for _, d in voices if d.get("audio_verified") is True
+                              for ln in d["lines"] if ln.get("ko"))
         data = build_group(len(groups), voices, font_path)
         groups.append((lba_of(g["dir"], True) + FAD_OFFSET, data))
         info_groups.append({"id": g["id"], "dir": g["dir"], "voices": len(voices), "lines": len(lines),
                             "bytes": len(data)})
     index, subdat = build_index(groups)
+    # "provisional": decided from the transcripts without hearing the voice; may ship, stays counted
+    # until someone verifies the audio (docs/voice-subtitles.md 1.2)
     info = {"groups": info_groups, "lines": sum(statuses.values()), "status": statuses,
-            "distribution": bool(statuses) and set(statuses) <= {"distribution_eligible"},
+            "provisional": statuses.get("provisional", 0), "audio_verified_lines": audio_verified,
+            "distribution": bool(statuses) and set(statuses) <= {"distribution_eligible", "provisional"},
             "index_bytes": len(index), "subdat_bytes": len(subdat)}
     return index, subdat, info

@@ -3,6 +3,7 @@
  "scene": "병원 — 리에(플레이어)와 미유리",
  "duration": 62.83,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -34,9 +35,9 @@
    "speaker": "미유리",
    "ja": "みゆりもね、体が弱いからお友達少ないの。",
    "ko": "미유리도 몸이 약해서 친구가 별로 없어.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기: 三浦もね 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기: 三浦もね 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 16.24,

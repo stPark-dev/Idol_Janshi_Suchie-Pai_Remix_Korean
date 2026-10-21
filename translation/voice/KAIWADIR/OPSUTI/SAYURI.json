@@ -3,6 +3,7 @@
  "scene": "최종전 전 대화 — 사유리(플레이어) vs 스치파이",
  "duration": 19.88,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,

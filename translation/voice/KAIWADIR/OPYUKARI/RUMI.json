@@ -3,6 +3,7 @@
  "scene": "바 — 루미(플레이어)와 유카리 마담",
  "duration": 38.08,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,

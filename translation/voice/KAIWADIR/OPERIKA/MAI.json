@@ -3,6 +3,7 @@
  "scene": "대국 전 대화 — 마이(플레이어) vs 에리카",
  "duration": 39.2,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -59,9 +60,9 @@
    "speaker": "마이",
    "ja": "私がアンコの舞よ。",
    "ko": "내가 안커의 마이야!",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 있음 받아쓰기: 「舞よ。」(21.74~), VAD 없음: 「私があんこの舞よ。」(23.74~) — VAD 없음 쪽을 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄. 최종 검수: 별명은 그림 글자(캐릭터 선택·소개, translation/select.json·intro.json)의 \"안커의 마이\"에 맞춤."
+   "note": "VAD 있음 받아쓰기: 「舞よ。」(21.74~), VAD 없음: 「私があんこの舞よ。」(23.74~) — VAD 없음 쪽을 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님. 최종 검수: 별명은 그림 글자(캐릭터 선택·소개, translation/select.json·intro.json)의 \"안커의 마이\"에 맞춤."
   },
   {
    "start": 26.4,

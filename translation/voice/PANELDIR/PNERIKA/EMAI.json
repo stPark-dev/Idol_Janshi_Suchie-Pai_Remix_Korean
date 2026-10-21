@@ -3,6 +3,7 @@
  "scene": "패널 매치 끝난 뒤 대화 — 에리카(상대) vs 마이(플레이어)",
  "duration": 17.51,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -10,9 +11,9 @@
    "speaker": "마이",
    "ja": "そう?これが美少女雀士、舞ちゃんの実力よ。",
    "ko": "어때? 이게 미소녀 작사 마이의 실력이야.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 麻雀ちゃん. 문맥상 舞ちゃん으로 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 麻雀ちゃん. 문맥상 舞ちゃん으로 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 4.3,
@@ -36,9 +37,9 @@
    "speaker": "마이",
    "ja": "心配ご無用よ。返り討ちよ。",
    "ko": "걱정 마셔. 되받아쳐 줄 테니까.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 心配ごめんよ → 心配ご無用よ 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 心配ごめんよ → 心配ご無用よ 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   }
  ]
 }

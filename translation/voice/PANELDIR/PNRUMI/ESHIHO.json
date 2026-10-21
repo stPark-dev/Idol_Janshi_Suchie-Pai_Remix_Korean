@@ -3,6 +3,7 @@
  "scene": "패널 매치 끝난 뒤 대화 — 루미(상대) vs 시호(플레이어)",
  "duration": 49.46,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -18,9 +19,9 @@
    "speaker": "루미",
    "ja": "ま、約束だしね。",
    "ko": "뭐, 약속이니까.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 もう約束だしね 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 もう約束だしね 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 6.9,
@@ -53,9 +54,9 @@
    "speaker": "시호",
    "ja": "あんなにおとなしくて言うことを聞いてくれるテンちゃんが暴れるわけがありませんわ。",
    "ko": "그렇게 얌전하고 말 잘 듣는 텐짱이 날뛸 리가 없어요.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 てんちゃん — 이름 표기 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 てんちゃん — 이름 표기 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 22.76,

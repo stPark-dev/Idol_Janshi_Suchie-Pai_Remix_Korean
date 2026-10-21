@@ -3,6 +3,7 @@
  "scene": "우승 후 — 레이카의 축하와 스치파이 등장 (리에, 패널 매치 부족 분기)",
  "duration": 22.06,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,

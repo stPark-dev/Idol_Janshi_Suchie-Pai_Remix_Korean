@@ -3,6 +3,7 @@
  "scene": "패널 매치 탈의 A단계 — 루미(상대) vs 에리카(플레이어)",
  "duration": 3.99,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,

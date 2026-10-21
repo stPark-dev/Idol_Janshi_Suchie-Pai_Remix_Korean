@@ -3,6 +3,7 @@
  "scene": "패널 매치 끝난 뒤 대화 — 루미(상대) vs 유키(플레이어)",
  "duration": 31.25,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -10,9 +11,9 @@
    "speaker": "유키",
    "ja": "うううう、ユキの胸もこのくらいあればな。",
    "ko": "으으으, 유키 가슴도 이만큼 있으면 좋겠다.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 없음에만 있음. 받아쓰기 雪の胸 → ユキ 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 없음에만 있음. 받아쓰기 雪の胸 → ユキ 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 4.14,
@@ -20,9 +21,9 @@
    "speaker": "유키",
    "ja": "試合に勝って勝負に負けたというのはこういうことなのね。",
    "ko": "시합에 이기고 승부에 졌다는 게 이런 거구나.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 없음에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 없음에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 8.34,
@@ -30,9 +31,9 @@
    "speaker": "루미",
    "ja": "あら、なんか悪いことしちゃったかしら?",
    "ko": "어머, 내가 뭐 잘못했나?",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 있음: 良いことしちゃったかしら? / VAD 없음: 悪いこと — 문맥상 悪いこと 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 있음: 良いことしちゃったかしら? / VAD 없음: 悪いこと — 문맥상 悪いこと 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 12.26,
@@ -81,9 +82,9 @@
    "speaker": "루미",
    "ja": "それか。",
    "ko": "아니면…",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 それか (두 벌 모두). 끝이 잘린 말로 보이며 화자·뜻 불확실 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 それか (두 벌 모두). 끝이 잘린 말로 보이며 화자·뜻 불확실 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   }
  ]
 }

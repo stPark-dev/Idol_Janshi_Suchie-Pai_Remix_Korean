@@ -1,0 +1,52 @@
+{
+ "_about": "v1.1 음성 자막을 기본으로 켜기 전에 끝내야 할 확인(사람 결정, 프로젝트 소유자 2026-10-21: 8개 화면 확인과 핵심 자막 확인이 끝나면 기본값으로 켬). pending이 비어야 자막 넣은 빌드가 배포 가능. 받아쓰기로 정한 provisional 줄의 음성 확인은 여기 들지 않고 줄마다 status로 따로 남는다(docs/voice-subtitles.md 1.2).",
+ "pending": [
+  {
+   "id": "sub.panel",
+   "what": "패널 매치 탈의 장면(A~D)과 끝난 뒤 대화(E)에 자막이 제자리에 나오고 그림을 가리지 않음",
+   "how": "플레이"
+  },
+  {
+   "id": "sub.winner",
+   "what": "우승 장면(WINNER)과 후일담(DDGOOD), GOODEND 인사",
+   "how": "플레이(엔딩까지)"
+  },
+  {
+   "id": "sub.intro",
+   "what": "캐릭터 선택에서 B(설명)로 나오는 쿄코의 캐릭터 소개",
+   "how": "플레이"
+  },
+  {
+   "id": "sub.sinf",
+   "what": "패널 매치 설명(SINF*)·규칙(ROULE)·패널 체인지(CHANGE)",
+   "how": "플레이"
+  },
+  {
+   "id": "sub.continue",
+   "what": "컨티뉴 화면 인물 대사",
+   "how": "플레이(패배)"
+  },
+  {
+   "id": "sub.stability",
+   "what": "자막 디스크로 처음부터 끝까지 멈춤·리셋 없이 진행(연결 코드 자리 0x060A7840이 다른 데서 불리지 않음 포함)",
+   "how": "플레이"
+  },
+  {
+   "id": "sub.hardware",
+   "what": "실기 또는 사용자가 쓰는 에뮬레이터에서 자막 표시·대사와의 시각",
+   "how": "플레이"
+  }
+ ],
+ "done": [
+  {
+   "id": "sub.conversation",
+   "what": "대국 전 대화(시호 대화 KAIWADIR/OPSIHO/MAI 11줄): 대사에 맞춰 표시, 두 줄 줄바꿈, 대국 들어가면 지워짐",
+   "evidence": "work/lr/shots/ko5conv (Claude, libretro Beetle Saturn, 2026-10-21)"
+  },
+  {
+   "id": "sub.charsel",
+   "what": "캐릭터 선택 안내(KINIITTA) 두 줄",
+   "evidence": "work/lr/shots/ko6sel (Claude, libretro Beetle Saturn, 2026-10-21)"
+  }
+ ]
+}

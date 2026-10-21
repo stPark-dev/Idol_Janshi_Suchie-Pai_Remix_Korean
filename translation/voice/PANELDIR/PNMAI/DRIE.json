@@ -3,6 +3,7 @@
  "scene": "패널 매치 탈의 D단계 — 마이(상대) vs 리에(플레이어)",
  "duration": 1.16,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -10,9 +11,9 @@
    "speaker": "마이",
    "ja": "いやーん!",
    "ko": "싫어잉~!",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기 イエーイ! (VAD 없음만). 탈의 장면이라 いやーん으로 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기 イエーイ! (VAD 없음만). 탈의 장면이라 いやーん으로 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   }
  ]
 }

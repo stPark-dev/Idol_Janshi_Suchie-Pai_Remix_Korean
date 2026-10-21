@@ -3,6 +3,7 @@
  "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 루미(플레이어) vs 사유리",
  "duration": 23.03,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -18,9 +19,9 @@
    "speaker": "사유리",
    "ja": "えへへ、う、うーん、あーん。",
    "ko": "에헤헤, 으, 으음, 아앙~",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 있음: 「ひひ、う、うーん。」(3.72~6.28)만 잡음. 이 줄과 다음 줄은 VAD 없음 받아쓰기 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 있음: 「ひひ、う、うーん。」(3.72~6.28)만 잡음. 이 줄과 다음 줄은 VAD 없음 받아쓰기 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 7.42,
@@ -28,9 +29,9 @@
    "speaker": "사유리",
    "ja": "おやめくださーい。いやーん、そんなとこー。",
    "ko": "그만두세요~ 싫어잉, 거긴~",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 없음에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 없음에만 있음 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 11.76,
@@ -46,9 +47,9 @@
    "speaker": "사유리",
    "ja": "か、看護婦さん、あたしどうすれば色っぽくなるんでしょう。",
    "ko": "가, 간호사님, 저 어떻게 하면 섹시해질까요?",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "VAD 있음은 「今回ですので」로 뭉갬. VAD 없음을 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "VAD 있음은 「今回ですので」로 뭉갬. VAD 없음을 따름 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 17.4,

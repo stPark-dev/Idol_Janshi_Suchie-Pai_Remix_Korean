@@ -3,6 +3,7 @@
  "scene": "대국 전 대화 — 에리카(플레이어) vs 사유리",
  "duration": 31.16,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -35,9 +36,9 @@
    "speaker": "사유리",
    "ja": "うちにはお腹を空かせたハムスターが2匹、私の帰りを待ってるのよ。",
    "ko": "집에서 배고픈 햄스터 두 마리가 내가 돌아오길 기다린단 말야!",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기: 私の代わりを待ってるのよ (문맥상 帰り) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기: 私の代わりを待ってるのよ (문맥상 帰り) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 11.88,

@@ -3,6 +3,7 @@
  "scene": "대국 전 대화 — 사유리(플레이어) vs 유키",
  "duration": 56.56,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -92,9 +93,9 @@
    "speaker": "유키",
    "ja": "うーん、じゃあ全部で250個ね。",
    "ko": "음~ 그럼 전부 250개네.",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기: '250個の' 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기: '250個の' 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 34.12,
@@ -151,9 +152,9 @@
    "speaker": "사유리",
    "ja": "ユキちゃん、つれないなー。",
    "ko": "유키, 매정하네~",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기: '勇気強いだなー'(VAD 없음) / '勇気しいらないと'(VAD 있음). 'ユキちゃんつれないなー'로 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기: '勇気強いだなー'(VAD 없음) / '勇気しいらないと'(VAD 있음). 'ユキちゃんつれないなー'로 추정 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 49.6,

@@ -3,6 +3,7 @@
  "scene": "대국 전 대화 — 마이(플레이어) vs 리에, 리에의 사무실",
  "duration": 22.29,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
@@ -26,9 +27,9 @@
    "speaker": "마이",
    "ja": "しかも配達じゃなくて、あなたに一対一の麻雀勝負を挑みに来たのよ。",
    "ko": "게다가 배달이 아니라, 당신한테 일대일 마작 승부를 걸러 왔어!",
-   "status": "distribution_eligible",
+   "status": "provisional",
    "asr_uncertain": true,
-   "note": "받아쓰기: しかもハイタスじゃなくて (配達로 고침) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — 일본어를 들을 수 있는 사람이 다시 보면 좋은 줄."
+   "note": "받아쓰기: しかもハイタスじゃなくて (配達로 고침) 최종 검수: 음성을 직접 듣지 못해 받아쓰기 두 벌과 문맥으로 정함 — provisional(음성 확인 전). 음성으로 확인한 결정이 아님."
   },
   {
    "start": 10.36,

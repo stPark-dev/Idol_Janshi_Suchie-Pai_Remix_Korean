@@ -3,6 +3,7 @@
  "scene": "마리나와의 대화 — 시호(플레이어). 다음 상대 마이를 알려 줌",
  "duration": 24.89,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,

@@ -3,6 +3,7 @@
  "scene": "병원 — 시호(플레이어)와 미유리",
  "duration": 38.96,
  "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "audio_verified": false,
  "lines": [
   {
    "start": 0.0,
