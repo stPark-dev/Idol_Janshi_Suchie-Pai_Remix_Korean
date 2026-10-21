@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/BSAYURI.AIF",
+ "scene": "패널 매치 탈의 B단계 — 사유리(플레이어) vs 스치파이",
+ "duration": 2.65,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.38,
+   "speaker": "스치파이",
+   "ja": "私のコスチュームの中、見せてあげるわ。",
+   "ko": "내 코스튬 속, 보여 줄게.",
+   "status": "needs_review"
+  }
+ ]
+}

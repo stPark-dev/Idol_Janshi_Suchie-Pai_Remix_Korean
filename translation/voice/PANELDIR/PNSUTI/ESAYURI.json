@@ -1,0 +1,56 @@
+{
+ "voice": "PANELDIR/PNSUTI/ESAYURI.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 사유리(플레이어) vs 스치파이",
+ "duration": 20.81,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.28,
+   "speaker": "스치파이",
+   "ja": "あなたは正真正銘、最強の雀士だわ。",
+   "ko": "너는 명실상부 최강의 작사야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.54,
+   "end": 4.58,
+   "speaker": "사유리",
+   "ja": "ふむふむ。",
+   "ko": "흠흠.",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.18,
+   "end": 10.16,
+   "speaker": "스치파이",
+   "ja": "もし、この勝負を通して何か得るものがあったのなら、私に聞かせてくれる?",
+   "ko": "이 승부로 뭔가 얻은 게 있다면 나한테 들려줄래?",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.88,
+   "end": 15.02,
+   "speaker": "사유리",
+   "ja": "うさぎさん、やっていて、思ったことが一つだけあります。",
+   "ko": "토끼 일을 하면서 생각한 게 딱 하나 있어요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.18,
+   "end": 16.54,
+   "speaker": "사유리",
+   "ja": "それは、",
+   "ko": "그건…",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.06,
+   "end": 20.02,
+   "speaker": "사유리",
+   "ja": "いつもろくな目にあっていません。",
+   "ko": "늘 험한 꼴만 당한다는 거예요.",
+   "status": "needs_review"
+  }
+ ]
+}

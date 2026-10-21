@@ -1,0 +1,42 @@
+{
+ "voice": "PANELDIR/PNRUMI/ERIE.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 루미(상대) vs 리에(플레이어)",
+ "duration": 9.43,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.8,
+   "speaker": "리에",
+   "ja": "はい、お仕置き終わり。",
+   "ko": "자, 벌은 여기까지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.92,
+   "end": 3.2,
+   "speaker": "루미",
+   "ja": "え、もう?",
+   "ko": "에, 벌써?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없음에만 있음"
+  },
+  {
+   "start": 4.2,
+   "end": 6.72,
+   "speaker": "리에",
+   "ja": "続きはあなたがもっと腕を上げてからね。",
+   "ko": "다음은 네가 실력을 더 키운 다음에.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.0,
+   "end": 9.18,
+   "speaker": "루미",
+   "ja": "私、頑張るわ。",
+   "ko": "나, 열심히 할게.",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "voice": "WATASHI.AIF",
+ "scene": "미사키 쿄코의 자기소개",
+ "duration": 19.83,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.56,
+   "speaker": "스치파이",
+   "ja": "私、御崎恭子。趣味は麻雀。",
+   "ko": "나, 미사키 쿄코. 취미는 마작.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.04,
+   "end": 6.64,
+   "speaker": "스치파이",
+   "ja": "え?ちょっと変?そっかな。",
+   "ko": "어? 좀 이상해? 그런가?",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.28,
+   "end": 11.36,
+   "speaker": "스치파이",
+   "ja": "でも、こんなに面白いゲーム、他にはないでしょ?",
+   "ko": "그래도 이렇게 재밌는 게임은 또 없잖아?",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.06,
+   "end": 17.58,
+   "speaker": "스치파이",
+   "ja": "私ね、この面白さをみんなにわかってもらうために、いろいろと努力をしてるのよ。",
+   "ko": "난 말이야, 이 재미를 모두에게 알리려고 이것저것 노력하고 있어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.42,
+   "end": 19.7,
+   "speaker": "스치파이",
+   "ja": "だって私は…",
+   "ko": "왜냐하면 나는...",
+   "status": "needs_review"
+  }
+ ]
+}

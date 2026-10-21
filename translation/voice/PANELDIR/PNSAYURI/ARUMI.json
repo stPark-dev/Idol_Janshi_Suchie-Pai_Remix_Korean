@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNSAYURI/ARUMI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 루미(플레이어) vs 사유리",
+ "duration": 3.53,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.22,
+   "speaker": "사유리",
+   "ja": "クリア!おめでとうございます!",
+   "ko": "클리어! 축하드려요!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없음에만 있음. 진다는 장면에 「クリア」라 어색하나 그대로 둠 — 음성 확인 필요"
+  }
+ ]
+}

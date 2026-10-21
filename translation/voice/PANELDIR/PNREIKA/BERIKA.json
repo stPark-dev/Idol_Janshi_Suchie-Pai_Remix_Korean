@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNREIKA/BERIKA.AIF",
+ "scene": "패널 매치 탈의 B단계 — 레이카(상대) vs 에리카(플레이어)",
+ "duration": 1.95,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.64,
+   "speaker": "레이카",
+   "ja": "お前ら、よく見とけよ。",
+   "ko": "너희들, 똑똑히 봐 둬라.",
+   "status": "needs_review"
+  }
+ ]
+}

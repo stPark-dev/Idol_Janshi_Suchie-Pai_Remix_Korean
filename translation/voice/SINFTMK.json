@@ -1,0 +1,36 @@
+{
+ "voice": "SINFTMK.AIF",
+ "scene": "패널 매치 설명 — 회오리 선택",
+ "duration": 8.87,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.5,
+   "speaker": "스치파이",
+   "ja": "タツマキ選択気。",
+   "ko": "회오리 선택!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「竜巻洗濯機」. 아이템 이름 タツマキ選択気(용어집: 회오리 선택) — 洗濯機(세탁기)와 소리가 같은 말장난"
+  },
+  {
+   "start": 1.5,
+   "end": 3.96,
+   "speaker": "스치파이",
+   "ja": "牌をかき混ぜながら竜巻を起こし、",
+   "ko": "패를 휘저으며 회오리를 일으키고",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.02,
+   "end": 8.66,
+   "speaker": "스치파이",
+   "ja": "どさくさに紛れて好きな配牌を選択する華麗なる必殺技よ。",
+   "ko": "그 틈을 타 원하는 배패를 고르는 화려한 필살기야.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「ハイパイ」 → 配牌"
+  }
+ ]
+}

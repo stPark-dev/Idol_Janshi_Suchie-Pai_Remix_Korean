@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSIHO/DRIE.AIF",
+ "scene": "패널 매치 탈의 D단계 — 리에(플레이어) vs 시호",
+ "duration": 1.58,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.4,
+   "speaker": "시호",
+   "ja": "あ、お姉さま。",
+   "ko": "아, 언니…",
+   "status": "needs_review"
+  }
+ ]
+}

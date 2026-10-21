@@ -1,0 +1,41 @@
+{
+ "voice": "KAIWADIR/OPREIKA/RUMI.AIF",
+ "scene": "최종 보스 레이카 등장 — 루미(플레이어) vs 레이카",
+ "duration": 13.7,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.0,
+   "speaker": "레이카",
+   "ja": "白衣の天使、佐々木留美。",
+   "ko": "백의의 천사, 사사키 루미.",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.4,
+   "end": 6.06,
+   "speaker": "레이카",
+   "ja": "いいえ、偽看護婦、チャンタのルミさん。",
+   "ko": "아니, 가짜 간호사, 찬타의 루미 씨.",
+   "status": "needs_review",
+   "note": "チャンタ: 마작 역 이름 별명"
+  },
+  {
+   "start": 6.68,
+   "end": 10.72,
+   "speaker": "루미",
+   "ja": "あ、あなたは、もしや、最強の雀士レイカ。",
+   "ko": "다, 당신은 설마… 최강의 작사 레이카!",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.96,
+   "end": 13.52,
+   "speaker": "레이카",
+   "ja": "あなたの実力、試させてもらうわ。",
+   "ko": "네 실력, 시험해 보겠어.",
+   "status": "needs_review"
+  }
+ ]
+}

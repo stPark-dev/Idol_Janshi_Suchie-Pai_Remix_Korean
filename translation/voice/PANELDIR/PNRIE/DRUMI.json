@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRIE/DRUMI.AIF",
+ "scene": "패널 매치 탈의 D단계 — 리에(상대) vs 루미(플레이어)",
+ "duration": 2.23,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.04,
+   "speaker": "리에",
+   "ja": "あら、困った人ね。",
+   "ko": "어머, 곤란한 사람이네.",
+   "status": "needs_review"
+  }
+ ]
+}

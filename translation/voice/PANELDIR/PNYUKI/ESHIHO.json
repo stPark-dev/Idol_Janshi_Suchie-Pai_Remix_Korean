@@ -1,0 +1,32 @@
+{
+ "voice": "PANELDIR/PNYUKI/ESHIHO.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 시호(플레이어) vs 유키",
+ "duration": 10.77,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.62,
+   "speaker": "시호",
+   "ja": "まあ、そう気を落とさずに、ちょっと運がなかっただけですよ。",
+   "ko": "자, 너무 낙심하지 마세요. 조금 운이 없었을 뿐이에요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.86,
+   "end": 7.46,
+   "speaker": "유키",
+   "ja": "だからさっきからそう言ってるじゃないの。",
+   "ko": "그러니까 아까부터 그렇게 말하고 있잖아.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.36,
+   "end": 10.4,
+   "speaker": "시호",
+   "ja": "そ、それでは失礼いたします。",
+   "ko": "그, 그럼 실례하겠습니다.",
+   "status": "needs_review"
+  }
+ ]
+}

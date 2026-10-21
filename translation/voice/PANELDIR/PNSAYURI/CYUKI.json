@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSAYURI/CYUKI.AIF",
+ "scene": "패널 매치 탈의 C단계 — 유키(플레이어) vs 사유리",
+ "duration": 0.88,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.54,
+   "speaker": "사유리",
+   "ja": "アッハッハッハッ!",
+   "ko": "아하하하!",
+   "status": "needs_review"
+  }
+ ]
+}

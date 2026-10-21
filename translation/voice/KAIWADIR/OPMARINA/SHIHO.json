@@ -1,0 +1,64 @@
+{
+ "voice": "KAIWADIR/OPMARINA/SHIHO.AIF",
+ "scene": "마리나와의 대화 — 시호(플레이어). 다음 상대 마이를 알려 줌",
+ "duration": 24.89,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.52,
+   "speaker": "마리나",
+   "ja": "あら、しほちゃん、元気してる?",
+   "ko": "어머, 시호, 잘 지내?",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.86,
+   "end": 5.96,
+   "speaker": "시호",
+   "ja": "マリナさんはいつも元気そうですわね。",
+   "ko": "마리나 씨는 늘 기운이 넘치시네요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.06,
+   "end": 9.16,
+   "speaker": "마리나",
+   "ja": "もちろん。私はいつも元気よ。",
+   "ko": "물론이지. 난 언제나 기운 넘쳐.",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.38,
+   "end": 12.36,
+   "speaker": "마리나",
+   "ja": "だって元気じゃないと遊べないんだもん。",
+   "ko": "기운이 없으면 못 놀잖아.",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.7,
+   "end": 15.9,
+   "speaker": "시호",
+   "ja": "私は最近あまり食欲がなくて。",
+   "ko": "저는 요즘 입맛이 별로 없어서요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.16,
+   "end": 20.16,
+   "speaker": "마리나",
+   "ja": "へえ、それならさ、この先にあるレストランに行ってみたら?",
+   "ko": "헤에, 그럼 말이야, 이 앞에 있는 레스토랑에 가 보면 어때?",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.28,
+   "end": 24.62,
+   "speaker": "마리나",
+   "ja": "あそこのパイってとっても美味しいから、きっとしほちゃんも気に入ると思うよ。",
+   "ko": "거기 파이가 엄청 맛있거든. 시호도 분명 마음에 들 거야.",
+   "status": "needs_review"
+  }
+ ]
+}

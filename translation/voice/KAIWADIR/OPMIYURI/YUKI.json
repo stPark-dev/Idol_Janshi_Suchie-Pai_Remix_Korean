@@ -1,0 +1,108 @@
+{
+ "voice": "KAIWADIR/OPMIYURI/YUKI.AIF",
+ "scene": "병원 — 유키(플레이어)와 미유리",
+ "duration": 36.08,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.18,
+   "speaker": "미유리",
+   "ja": "ねえねえ、お姉ちゃん何年生?",
+   "ko": "있잖아, 언니는 몇 학년이야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.54,
+   "end": 5.16,
+   "speaker": "유키",
+   "ja": "え?お姉ちゃんってユキのこと?",
+   "ko": "응? 언니가 유키 말이야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.54,
+   "end": 8.54,
+   "speaker": "유키",
+   "ja": "うん。こ、高校2年生だけど。",
+   "ko": "응. 고, 고등학교 2학년인데.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.8,
+   "end": 11.78,
+   "speaker": "미유리",
+   "ja": "わあ、じゃあもう大人だね。",
+   "ko": "와아, 그럼 이제 어른이네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.16,
+   "end": 15.42,
+   "speaker": "유키",
+   "ja": "え?やあねえ、まだ少女よ、少女。",
+   "ko": "뭐? 얘는~ 아직 소녀야, 소녀.",
+   "status": "needs_review"
+  },
+  {
+   "start": 15.5,
+   "end": 20.36,
+   "speaker": "미유리",
+   "ja": "ねえ、みゆりが高校生になったら、お姉ちゃんいくつかな?",
+   "ko": "미유리가 고등학생이 되면 언니는 몇 살일까?",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.74,
+   "end": 23.54,
+   "speaker": "유키",
+   "ja": "げ、そ、そうねえ。",
+   "ko": "헉, 그, 그러게.",
+   "status": "needs_review"
+  },
+  {
+   "start": 23.98,
+   "end": 26.44,
+   "speaker": "유키",
+   "ja": "うーん、ユキちゃんわかんない。",
+   "ko": "으음, 유키는 모르겠는데.",
+   "status": "needs_review"
+  },
+  {
+   "start": 26.8,
+   "end": 28.62,
+   "speaker": "미유리",
+   "ja": "もうお母さんになってるかな?",
+   "ko": "벌써 엄마가 됐으려나?",
+   "status": "needs_review"
+  },
+  {
+   "start": 28.96,
+   "end": 29.48,
+   "speaker": "유키",
+   "ja": "はあ?",
+   "ko": "뭐어?",
+   "status": "needs_review"
+  },
+  {
+   "start": 31.9,
+   "end": 33.9,
+   "speaker": "유키",
+   "ja": "ゆ、ユキちゃん用事思い出しちゃった。",
+   "ko": "유, 유키 볼일이 생각났어.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없는 받아쓰기에만 있음. 받아쓰기: 幼稚思い出しちゃった"
+  },
+  {
+   "start": 34.0,
+   "end": 35.84,
+   "speaker": "유키",
+   "ja": "じゃ、じゃ、お大事にね。",
+   "ko": "그, 그럼 몸조리 잘해!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없는 받아쓰기에만 있음"
+  }
+ ]
+}

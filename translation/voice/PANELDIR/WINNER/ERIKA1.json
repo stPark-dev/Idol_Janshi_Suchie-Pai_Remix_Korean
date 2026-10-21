@@ -1,0 +1,58 @@
+{
+ "voice": "PANELDIR/WINNER/ERIKA1.AIF",
+ "scene": "우승 후 — 레이카의 축하와 스치파이 등장 (에리카, 레벨 부족 분기)",
+ "duration": 19.27,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.24,
+   "speaker": "레이카",
+   "ja": "まあ、とりあえずおめでとうと言わせてもらうよ。",
+   "ko": "뭐, 일단 축하한다고는 해 두지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.86,
+   "end": 6.04,
+   "speaker": "레이카",
+   "ja": "今日からあんたが最強の雀士さ。",
+   "ko": "오늘부터 네가 최강의 작사야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.9,
+   "end": 10.7,
+   "speaker": "에리카",
+   "ja": "そうね。なんとかあたしが勝ち残ったみたいね。",
+   "ko": "흥, 어쨌든 내가 끝까지 살아남은 모양이네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.58,
+   "end": 13.86,
+   "speaker": "스치파이",
+   "ja": "安心するのは早いわ、エリカさん。",
+   "ko": "안심하긴 일러, 에리카 씨.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.34,
+   "end": 17.84,
+   "speaker": "스치파이",
+   "ja": "勝敗に気を取られてレベルアップを怠ったみたいね。",
+   "ko": "승패에 정신 팔려서 레벨 업을 게을리한 모양이네.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「レベルアップをおこだったみたいね」 → 怠った로 봄"
+  },
+  {
+   "start": 18.48,
+   "end": 19.06,
+   "speaker": "에리카",
+   "ja": "何者?",
+   "ko": "누구야?",
+   "status": "needs_review"
+  }
+ ]
+}

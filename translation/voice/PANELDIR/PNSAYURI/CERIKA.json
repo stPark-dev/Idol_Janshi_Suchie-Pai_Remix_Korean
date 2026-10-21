@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSAYURI/CERIKA.AIF",
+ "scene": "패널 매치 탈의 C단계 — 에리카(플레이어) vs 사유리",
+ "duration": 1.9,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.88,
+   "speaker": "사유리",
+   "ja": "見逃してください。",
+   "ko": "봐주세요.",
+   "status": "needs_review"
+  }
+ ]
+}

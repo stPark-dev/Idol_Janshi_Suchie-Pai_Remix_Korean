@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNERIKA/BRUMI.AIF",
+ "scene": "패널 매치 탈의 B단계 — 에리카(상대) vs 루미(플레이어)",
+ "duration": 2.88,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.78,
+   "end": 2.58,
+   "speaker": "에리카",
+   "ja": "誰にも見せたことないのに。",
+   "ko": "아무한테도 보여 준 적 없는데.",
+   "status": "needs_review"
+  }
+ ]
+}

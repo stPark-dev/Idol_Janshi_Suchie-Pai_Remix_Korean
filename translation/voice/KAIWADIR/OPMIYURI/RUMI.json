@@ -1,0 +1,108 @@
+{
+ "voice": "KAIWADIR/OPMIYURI/RUMI.AIF",
+ "scene": "병원 — 루미(플레이어)와 미유리",
+ "duration": 46.3,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.54,
+   "speaker": "미유리",
+   "ja": "あ、ルミさん、こんにちは。",
+   "ko": "아, 루미 언니, 안녕!",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.44,
+   "end": 5.22,
+   "speaker": "루미",
+   "ja": "こんにちは。今日は具合いいようね。",
+   "ko": "안녕. 오늘은 컨디션 좋아 보이네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.2,
+   "end": 9.08,
+   "speaker": "미유리",
+   "ja": "うん。みゆり、もうこのままお家に帰れるかな。",
+   "ko": "응. 미유리, 이대로 집에 갈 수 있을까?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: ミューリー"
+  },
+  {
+   "start": 10.56,
+   "end": 12.7,
+   "speaker": "루미",
+   "ja": "それは先生が決めることだから。",
+   "ko": "그건 선생님이 정하실 일이라서.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.22,
+   "end": 17.66,
+   "speaker": "미유리",
+   "ja": "みゆりね、看護婦さんの中ではルミさん一番好きだよ。",
+   "ko": "미유리는 간호사 언니들 중에 루미 언니가 제일 좋아.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: ミューリーね、看護師さんの中では"
+  },
+  {
+   "start": 18.24,
+   "end": 21.0,
+   "speaker": "미유리",
+   "ja": "だって痛いお注射もしないし、",
+   "ko": "왜냐면 아픈 주사도 안 놓고,",
+   "status": "needs_review"
+  },
+  {
+   "start": 21.1,
+   "end": 25.76,
+   "speaker": "미유리",
+   "ja": "苦いお薬も飲ませないし、いつもみゆりと遊んでくれるもん。",
+   "ko": "쓴 약도 안 먹이고, 맨날 미유리랑 놀아 주는걸.",
+   "status": "needs_review"
+  },
+  {
+   "start": 25.76,
+   "end": 31.2,
+   "speaker": "루미",
+   "ja": "ダメよ。お注射もお薬も、みゆりちゃんのためにすることなんだから。",
+   "ko": "안 돼. 주사도 약도 다 미유리를 위해서 하는 거야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 31.76,
+   "end": 34.96,
+   "speaker": "루미",
+   "ja": "他の看護婦さんの言うこともちゃんと聞かなきゃね。",
+   "ko": "다른 간호사 언니들 말도 잘 들어야 해.",
+   "status": "needs_review"
+  },
+  {
+   "start": 34.96,
+   "end": 39.4,
+   "speaker": "미유리",
+   "ja": "うん、みゆりいい子にしてるから、また遊びに来てね。",
+   "ko": "응, 미유리 착하게 있을 테니까 또 놀러 와.",
+   "status": "needs_review"
+  },
+  {
+   "start": 39.52,
+   "end": 41.1,
+   "speaker": "루미",
+   "ja": "もちろんよ。",
+   "ko": "물론이지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 41.16,
+   "end": 45.6,
+   "speaker": "루미",
+   "ja": "みゆりちゃんの病気はきっと私が治してあげるからね。",
+   "ko": "미유리 병은 꼭 내가 낫게 해 줄게.",
+   "status": "needs_review"
+  }
+ ]
+}

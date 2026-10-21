@@ -1,0 +1,44 @@
+{
+ "voice": "PANELDIR/PNERIKA/EMAI.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 에리카(상대) vs 마이(플레이어)",
+ "duration": 17.51,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.54,
+   "speaker": "마이",
+   "ja": "そう?これが美少女雀士、舞ちゃんの実力よ。",
+   "ko": "어때? 이게 미소녀 작사 마이의 실력이야.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 麻雀ちゃん. 문맥상 舞ちゃん으로 추정"
+  },
+  {
+   "start": 4.3,
+   "end": 8.96,
+   "speaker": "에리카",
+   "ja": "わかったわよ。でも、きっとあなたの運もここまでね。",
+   "ko": "알았어. 하지만 네 운도 분명 여기까지야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.86,
+   "end": 14.44,
+   "speaker": "에리카",
+   "ja": "これだけ派手に動き回れば、あの最強の雀士があなたに勝負を挑んでくるわ。",
+   "ko": "이렇게 요란하게 돌아다니면 그 최강의 작사가 너한테 승부를 걸어올 거야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.92,
+   "end": 17.2,
+   "speaker": "마이",
+   "ja": "心配ご無用よ。返り討ちよ。",
+   "ko": "걱정 마셔. 되받아쳐 줄 테니까.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 心配ごめんよ → 心配ご無用よ"
+  }
+ ]
+}

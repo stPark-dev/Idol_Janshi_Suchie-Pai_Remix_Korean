@@ -1,0 +1,52 @@
+{
+ "voice": "PANELDIR/PNSAYURI/EYUKI.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 유키(플레이어) vs 사유리",
+ "duration": 12.03,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.5,
+   "speaker": "유키",
+   "ja": "なーにぶりっこしてんのよ。",
+   "ko": "뭘 그렇게 내숭을 떨어?",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.86,
+   "end": 3.36,
+   "speaker": "사유리",
+   "ja": "ユキちゃんの真似です。",
+   "ko": "유키 흉내예요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.82,
+   "end": 6.82,
+   "speaker": "사유리",
+   "ja": "あは、いやーん。困っちゃうー。",
+   "ko": "아핫, 싫어잉~ 곤란해~",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.24,
+   "end": 9.4,
+   "speaker": "유키",
+   "ja": "まあ、今日はご飯抜き。",
+   "ko": "흥, 오늘은 밥 없어.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "「まあ」로 들림. 「もう」일 수도"
+  },
+  {
+   "start": 9.96,
+   "end": 11.64,
+   "speaker": "사유리",
+   "ja": "ごめんなさーい。",
+   "ko": "잘못했어요~",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없음에만 있음"
+  }
+ ]
+}

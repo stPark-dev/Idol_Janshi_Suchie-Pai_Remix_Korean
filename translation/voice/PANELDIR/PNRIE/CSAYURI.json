@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRIE/CSAYURI.AIF",
+ "scene": "패널 매치 탈의 C단계 — 리에(상대) vs 사유리(플레이어)",
+ "duration": 3.2,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.1,
+   "speaker": "리에",
+   "ja": "どう、うさぎちゃん。私の体は。",
+   "ko": "어때, 토끼 아가씨? 내 몸은.",
+   "status": "needs_review"
+  }
+ ]
+}

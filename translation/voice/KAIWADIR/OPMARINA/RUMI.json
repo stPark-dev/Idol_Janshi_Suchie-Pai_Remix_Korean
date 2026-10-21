@@ -1,0 +1,59 @@
+{
+ "voice": "KAIWADIR/OPMARINA/RUMI.AIF",
+ "scene": "마리나와의 대화 — 루미(플레이어)",
+ "duration": 23.87,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.84,
+   "speaker": "마리나",
+   "ja": "なーに、あなた。街中で白衣なんか着ちゃって、ほとんど病気よねー。",
+   "ko": "뭐~야, 너. 길거리에서 흰 가운이나 입고, 거의 병이네~",
+   "status": "needs_review",
+   "note": "「ほとんど病気」는 '제정신 아니다'라는 속어. 이어지는 루미의 '중병' 맞받아치기와 연결"
+  },
+  {
+   "start": 5.64,
+   "end": 8.02,
+   "speaker": "루미",
+   "ja": "私よりもあなたの方が重病みたいだわ。",
+   "ko": "나보다 네 쪽이 중병인 것 같은데.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: 「中病」 → 「重病」"
+  },
+  {
+   "start": 8.44,
+   "end": 10.82,
+   "speaker": "루미",
+   "ja": "よーし、診察してあげる。",
+   "ko": "좋~아, 진찰해 줄게.",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.04,
+   "end": 13.66,
+   "speaker": "마리나",
+   "ja": "ああ、あたし病気なんかじゃないもん。",
+   "ko": "아앗, 나 병 같은 거 안 걸렸다구.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.74,
+   "end": 17.86,
+   "speaker": "루미",
+   "ja": "遠慮なんかしなくていいから、あたしがきっと治してあげる。",
+   "ko": "사양할 것 없어. 내가 꼭 고쳐 줄게.",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.04,
+   "end": 23.14,
+   "speaker": "마리나",
+   "ja": "い、いやー!おまわりさん助けてー!この人、へーん!",
+   "ko": "시, 싫어~! 경찰 아저씨 살려 줘~! 이 사람 이상해~!",
+   "status": "needs_review"
+  }
+ ]
+}

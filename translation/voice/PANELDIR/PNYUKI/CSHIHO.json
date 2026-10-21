@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNYUKI/CSHIHO.AIF",
+ "scene": "패널 매치 탈의 C단계 — 시호(플레이어) vs 유키",
+ "duration": 2.74,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.46,
+   "speaker": "유키",
+   "ja": "ユキの体、好きなだけ見ていいよ。",
+   "ko": "유키 몸, 실컷 봐도 돼.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「雪の体」 → 「ユキの体」"
+  }
+ ]
+}

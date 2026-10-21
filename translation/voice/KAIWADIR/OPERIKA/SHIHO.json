@@ -1,0 +1,98 @@
+{
+ "voice": "KAIWADIR/OPERIKA/SHIHO.AIF",
+ "scene": "대국 전 대화 — 시호(플레이어) vs 에리카",
+ "duration": 30.28,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.26,
+   "speaker": "에리카",
+   "ja": "なになに?事件?殺人?強盗?",
+   "ko": "뭐야 뭐야? 사건? 살인? 강도?",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.44,
+   "end": 5.82,
+   "speaker": "시호",
+   "ja": "あの、道を尋ねたいんですけど。",
+   "ko": "저, 길을 좀 여쭤보고 싶은데요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.22,
+   "end": 7.26,
+   "speaker": "에리카",
+   "ja": "あちゃー。",
+   "ko": "아이고.",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.9,
+   "end": 10.24,
+   "speaker": "에리카",
+   "ja": "そんなのその辺の交番行って聞いてよ、もう。",
+   "ko": "그런 건 근처 파출소 가서 물어봐, 참.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「その辺の交番員って聞いてよ」→「交番行って」"
+  },
+  {
+   "start": 10.98,
+   "end": 12.38,
+   "speaker": "에리카",
+   "ja": "あー、退屈だわ。",
+   "ko": "아~ 지루해.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.42,
+   "end": 16.84,
+   "speaker": "시호",
+   "ja": "それでしたら、その、交番への道を。",
+   "ko": "그러시다면, 그, 파출소 가는 길을…",
+   "status": "needs_review"
+  },
+  {
+   "start": 17.2,
+   "end": 20.04,
+   "speaker": "에리카",
+   "ja": "あなた、私に喧嘩売ってんのね?",
+   "ko": "너, 나한테 싸움 거는 거지?",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.8,
+   "end": 23.26,
+   "speaker": "에리카",
+   "ja": "いいわ。さ、銃を抜きなさい。",
+   "ko": "좋아. 자, 총을 뽑아!",
+   "status": "needs_review"
+  },
+  {
+   "start": 23.44,
+   "end": 25.68,
+   "speaker": "시호",
+   "ja": "あ、私、銃なんか持ってません。",
+   "ko": "어머, 저는 총 같은 건 없는데요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 26.56,
+   "end": 28.88,
+   "speaker": "에리카",
+   "ja": "じゃあ、麻雀で決着つけるしかないわ。",
+   "ko": "그럼 마작으로 결판을 낼 수밖에 없겠네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 28.88,
+   "end": 30.06,
+   "speaker": "에리카",
+   "ja": "勝負よ!",
+   "ko": "승부다!",
+   "status": "needs_review"
+  }
+ ]
+}

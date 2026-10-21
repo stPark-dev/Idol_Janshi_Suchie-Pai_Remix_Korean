@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/ARIE.AIF",
+ "scene": "패널 매치 탈의 A단계 — 리에(플레이어) vs 스치파이",
+ "duration": 3.07,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.56,
+   "speaker": "스치파이",
+   "ja": "待ってよ、主役が負けるなんてあり?",
+   "ko": "잠깐, 주인공이 지는 게 말이 돼?",
+   "status": "needs_review"
+  }
+ ]
+}

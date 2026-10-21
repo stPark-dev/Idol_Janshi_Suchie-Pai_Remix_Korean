@@ -1,0 +1,104 @@
+{
+ "voice": "KAIWADIR/OPMIHO/RIE.AIF",
+ "scene": "대국 전 대화 — 리에(플레이어) vs 미호",
+ "duration": 38.41,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.44,
+   "speaker": "미호",
+   "ja": "おい、あんた、アタイになんか用かい?",
+   "ko": "어이, 너. 나한테 무슨 볼일 있냐?",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.32,
+   "end": 6.0,
+   "speaker": "리에",
+   "ja": "え?ああ、私の知ってる子にちょっと似てたもんだから、",
+   "ko": "응? 아아, 내가 아는 애랑 좀 닮아서",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.06,
+   "end": 8.76,
+   "speaker": "리에",
+   "ja": "つい見つめちゃったわ。",
+   "ko": "나도 모르게 쳐다봤네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.16,
+   "end": 11.4,
+   "speaker": "미호",
+   "ja": "ひょっとして姉貴の知り合いか?",
+   "ko": "혹시 우리 언니 아는 사람이야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.88,
+   "end": 13.68,
+   "speaker": "미호",
+   "ja": "片桐志穂って言うんだけどよ。",
+   "ko": "카타기리 시호라고 하는데.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.84,
+   "end": 16.54,
+   "speaker": "리에",
+   "ja": "あら、あなた志穂さんの妹さん?",
+   "ko": "어머, 네가 시호 씨 동생이니?",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.78,
+   "end": 19.86,
+   "speaker": "리에",
+   "ja": "あ、どうりで。あなたも麻雀するの?",
+   "ko": "아, 어쩐지. 너도 마작 하니?",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.16,
+   "end": 22.9,
+   "speaker": "미호",
+   "ja": "アタイは全然ダメさ。",
+   "ko": "난 영 꽝이야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 23.52,
+   "end": 27.24,
+   "speaker": "미호",
+   "ja": "でもアタイと同じクラスに姉貴よりすっごい子がいるぜ。",
+   "ko": "근데 우리 반에 언니보다 훨씬 센 애가 있어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 27.24,
+   "end": 30.74,
+   "speaker": "리에",
+   "ja": "え?同じクラス?そんな若い子が?",
+   "ko": "어? 같은 반? 그렇게 어린 애가?",
+   "status": "needs_review"
+  },
+  {
+   "start": 31.8,
+   "end": 34.22,
+   "speaker": "리에",
+   "ja": "うーん、興味あるわ。",
+   "ko": "으음, 흥미가 생기는걸.",
+   "status": "needs_review"
+  },
+  {
+   "start": 34.84,
+   "end": 38.16,
+   "speaker": "리에",
+   "ja": "ねえ、その子のことお姉さんに教えてくれない?",
+   "ko": "있잖아, 그 애에 대해 언니한테 알려 주지 않을래?",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "voice": "PANELDIR/MAI2.AIF",
+ "scene": "컨티뉴 화면 — 마이 (계속했을 때)",
+ "duration": 1.44,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.14,
+   "speaker": "마이",
+   "ja": "やっぱそうこなくっちゃ。",
+   "ko": "역시 그래야지!",
+   "status": "needs_review",
+   "note": "VAD 없는 받아쓰기에만 있음"
+  }
+ ]
+}

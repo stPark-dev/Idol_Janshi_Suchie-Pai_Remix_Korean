@@ -1,0 +1,25 @@
+{
+ "voice": "RIE1.AIF",
+ "scene": "에필로그 — 리에의 그 후",
+ "duration": 7.29,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "note": "PANELDIR/DDGOOD/RIE1.AIF와 바이트까지 같은 녹음 — 같은 번역을 그대로 씀",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.2,
+   "speaker": "스치파이",
+   "ja": "あの地味でクールなリエさんですが、",
+   "ko": "그 수수하고 쿨하던 리에 씨지만,",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.26,
+   "end": 7.02,
+   "speaker": "스치파이",
+   "ja": "この戦いがきっかけで服装がとてつもなく派手になってしまいました。",
+   "ko": "이번 싸움을 계기로 옷차림이 엄청나게 화려해져 버렸어요.",
+   "status": "needs_review"
+  }
+ ]
+}

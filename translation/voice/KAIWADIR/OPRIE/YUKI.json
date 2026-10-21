@@ -1,0 +1,83 @@
+{
+ "voice": "KAIWADIR/OPRIE/YUKI.AIF",
+ "scene": "대국 전 대화 — 유키(플레이어) vs 리에",
+ "duration": 31.16,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.0,
+   "speaker": "리에",
+   "ja": "あら、どうしたの?もっと奥へいらっしゃい。",
+   "ko": "어머, 왜 그러니? 더 안쪽으로 들어오렴.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.28,
+   "end": 8.28,
+   "speaker": "유키",
+   "ja": "ゆ、ゆ、ゆ、ユキと麻雀勝負をしてください。",
+   "ko": "유, 유, 유, 유키랑 마작 승부해 주세요!",
+   "status": "needs_review",
+   "note": "VAD 있는 받아쓰기는 「ゆ、ゆ。」만 잡음 — VAD 없는 쪽을 따름"
+  },
+  {
+   "start": 8.8,
+   "end": 10.03,
+   "speaker": "리에",
+   "ja": "誰に聞いたの?",
+   "ko": "누구한테 들었니?",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.55,
+   "end": 14.29,
+   "speaker": "유키",
+   "ja": "へ、へ、変なオジンくさいお姉さんから。",
+   "ko": "이, 이, 이상한 아저씨 같은 언니한테요.",
+   "status": "needs_review",
+   "note": "オジンくさい = 아저씨 티가 나는(나이 든 남자 같은)"
+  },
+  {
+   "start": 14.75,
+   "end": 16.6,
+   "speaker": "리에",
+   "ja": "あは、さっちゃんね。",
+   "ko": "아하, 삿짱이구나.",
+   "status": "needs_review",
+   "note": "さっちゃん = 안자이 사치코로 추정(애칭)"
+  },
+  {
+   "start": 17.72,
+   "end": 21.21,
+   "speaker": "리에",
+   "ja": "私のことはいろいろ聞いたでしょ?それでも来たの?",
+   "ko": "내 얘기 이것저것 들었지? 그런데도 온 거야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 21.7,
+   "end": 26.23,
+   "speaker": "유키",
+   "ja": "ど、どんなおばさんだか顔を見てやろうと思って。",
+   "ko": "어, 어떤 아줌마인지 얼굴 좀 보려고요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 27.28,
+   "end": 28.58,
+   "speaker": "리에",
+   "ja": "こんなおばさんよ。",
+   "ko": "이런 아줌마란다.",
+   "status": "needs_review"
+  },
+  {
+   "start": 29.47,
+   "end": 30.91,
+   "speaker": "리에",
+   "ja": "じゃあ早速始めましょう。",
+   "ko": "그럼 바로 시작하자.",
+   "status": "needs_review"
+  }
+ ]
+}

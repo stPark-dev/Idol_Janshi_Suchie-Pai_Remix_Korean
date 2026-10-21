@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNERIKA/BMAI.AIF",
+ "scene": "패널 매치 탈의 B단계 — 에리카(상대) vs 마이(플레이어)",
+ "duration": 3.2,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.64,
+   "speaker": "에리카",
+   "ja": "ああ、ついにこの時が来てしまったわ。",
+   "ko": "아아, 마침내 이때가 와 버렸어.",
+   "status": "needs_review"
+  }
+ ]
+}

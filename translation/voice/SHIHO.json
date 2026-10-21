@@ -1,0 +1,28 @@
+{
+ "voice": "SHIHO.AIF",
+ "scene": "캐릭터 선택 — 쿄코의 소개: 시호",
+ "duration": 8.78,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.8,
+   "speaker": "스치파이",
+   "ja": "とろい、かわいい、おとなしい、三拍子そろった生粋のお嬢様、",
+   "ko": "굼뜨고 귀엽고 얌전한, 삼박자를 갖춘 타고난 아가씨",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「きついの」 → 生粋(きっすい)の로 봄"
+  },
+  {
+   "start": 4.9,
+   "end": 8.56,
+   "speaker": "스치파이",
+   "ja": "志穂さんは、ドラの絡んだ配牌がお気に入りよ。",
+   "ko": "시호 씨는 도라가 얽힌 배패를 좋아해.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「ハイパイ」 → 配牌(배패)"
+  }
+ ]
+}

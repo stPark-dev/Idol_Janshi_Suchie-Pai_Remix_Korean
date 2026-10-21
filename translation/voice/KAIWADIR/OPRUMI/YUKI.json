@@ -1,0 +1,114 @@
+{
+ "voice": "KAIWADIR/OPRUMI/YUKI.AIF",
+ "scene": "대국 전 대화 — 유키(플레이어) vs 루미, 병원 상담",
+ "duration": 47.46,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.32,
+   "speaker": "루미",
+   "ja": "はい、今日はどうしたの?",
+   "ko": "네, 오늘은 무슨 일이야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.6,
+   "end": 7.0,
+   "speaker": "유키",
+   "ja": "えーと、あのー、ちょっと相談がありまして。",
+   "ko": "음, 저기… 상담할 게 좀 있어서요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.14,
+   "end": 12.48,
+   "speaker": "유키",
+   "ja": "実は、そのー、胸を…",
+   "ko": "실은, 그게… 가슴을…",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.12,
+   "end": 14.2,
+   "speaker": "루미",
+   "ja": "はい?",
+   "ko": "응?",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.3,
+   "end": 17.46,
+   "speaker": "유키",
+   "ja": "胸を大きく…",
+   "ko": "가슴을 크게…",
+   "status": "needs_review"
+  },
+  {
+   "start": 17.46,
+   "end": 20.6,
+   "speaker": "루미",
+   "ja": "はぁ。あー、なるほどね。",
+   "ko": "아하~ 그렇구나.",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.88,
+   "end": 24.62,
+   "speaker": "루미",
+   "ja": "それじゃあ早速治療に入りましょうか。そこの雀卓出してくれる?",
+   "ko": "그럼 바로 치료를 시작해 볼까? 거기 마작 탁자 좀 꺼내 줄래?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「ジャンタク」 = 雀卓"
+  },
+  {
+   "start": 25.04,
+   "end": 27.78,
+   "speaker": "유키",
+   "ja": "え?なんで麻雀なんか…",
+   "ko": "네? 왜 마작 같은 걸…",
+   "status": "needs_review"
+  },
+  {
+   "start": 29.24,
+   "end": 33.96,
+   "speaker": "루미",
+   "ja": "いい?胸を大きくするなんて、要は女性ホルモンのコントロールの問題なのよ",
+   "ko": "잘 들어. 가슴을 키우는 건 결국 여성 호르몬 조절 문제야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 33.96,
+   "end": 37.56,
+   "speaker": "루미",
+   "ja": "私の調べによると、女性ホルモン促進のためには",
+   "ko": "내가 조사한 바로는 여성 호르몬을 촉진하려면",
+   "status": "needs_review"
+  },
+  {
+   "start": 37.56,
+   "end": 42.14,
+   "speaker": "루미",
+   "ja": "麻雀による適度な緊張感を得ることが最も適しているわけなのよ、これが",
+   "ko": "마작으로 적당한 긴장감을 얻는 게 제일 좋다 이거야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 42.72,
+   "end": 45.04,
+   "speaker": "유키",
+   "ja": "はあ、そうなんですか",
+   "ko": "아, 그런가요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 45.72,
+   "end": 47.28,
+   "speaker": "루미",
+   "ja": "それじゃあ始めるわよ",
+   "ko": "그럼 시작한다!",
+   "status": "needs_review"
+  }
+ ]
+}

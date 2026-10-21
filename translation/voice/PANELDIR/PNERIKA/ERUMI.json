@@ -1,0 +1,52 @@
+{
+ "voice": "PANELDIR/PNERIKA/ERUMI.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 에리카(상대) vs 루미(플레이어)",
+ "duration": 17.79,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.2,
+   "speaker": "루미",
+   "ja": "どう?名前だけじゃなくて実力もまあまあでしょ。",
+   "ko": "어때? 이름뿐 아니라 실력도 꽤 괜찮지?",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.3,
+   "end": 7.4,
+   "speaker": "에리카",
+   "ja": "で、でも、スワンコウのルミは言い過ぎよ。",
+   "ko": "그, 그래도 그 별명은 좀 지나치잖아.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 スワンコウのルミ — 루미의 별명으로 보이나 무슨 말인지 알아듣지 못해 '그 별명'으로 옮김. 화자도 추정(에리카)"
+  },
+  {
+   "start": 8.04,
+   "end": 10.7,
+   "speaker": "루미",
+   "ja": "ああ、そんなこと言うと人呼んできちゃうわよ。",
+   "ko": "어머, 그런 말 하면 사람 불러온다?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "화자 추정"
+  },
+  {
+   "start": 11.52,
+   "end": 15.0,
+   "speaker": "루미",
+   "ja": "この状態ではあなたの方が変質者よね。",
+   "ko": "이 상태면 네 쪽이 변태로 보일걸?",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.78,
+   "end": 17.54,
+   "speaker": "에리카",
+   "ja": "うう、負けたわ。",
+   "ko": "으으, 졌다.",
+   "status": "needs_review"
+  }
+ ]
+}

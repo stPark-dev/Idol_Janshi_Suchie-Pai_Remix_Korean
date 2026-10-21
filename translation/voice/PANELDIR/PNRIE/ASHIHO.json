@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRIE/ASHIHO.AIF",
+ "scene": "패널 매치 탈의 A단계 — 리에(상대) vs 시호(플레이어)",
+ "duration": 3.16,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.94,
+   "speaker": "리에",
+   "ja": "ああ、あなたには勝ちたかったのに。",
+   "ko": "아아, 너한테는 이기고 싶었는데.",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNMAI/DYUKI.AIF",
+ "scene": "패널 매치 탈의 D단계 — 마이(상대) vs 유키(플레이어)",
+ "duration": 0.37,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.18,
+   "speaker": "마이",
+   "ja": "ね?",
+   "ko": "응?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 ね? (VAD 없음만, 0.18초). 짧은 감탄사로 둠"
+  }
+ ]
+}

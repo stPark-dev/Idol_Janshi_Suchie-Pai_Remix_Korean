@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/SHIHO.AIF",
+ "scene": "컨티뉴 화면 — 시호 (계속하라고 함)",
+ "duration": 2.88,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.36,
+   "speaker": "시호",
+   "ja": "あの、最後まで頑張ってください。",
+   "ko": "저기, 끝까지 힘내 주세요.",
+   "status": "needs_review"
+  }
+ ]
+}

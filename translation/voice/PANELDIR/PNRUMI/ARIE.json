@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRUMI/ARIE.AIF",
+ "scene": "패널 매치 탈의 A단계 — 루미(상대) vs 리에(플레이어)",
+ "duration": 3.02,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.7,
+   "speaker": "루미",
+   "ja": "待っててください。今脱ぎますから。",
+   "ko": "기다려 주세요. 지금 벗을 테니까요.",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNYUKI/DSHIHO.AIF",
+ "scene": "패널 매치 탈의 D단계 — 시호(플레이어) vs 유키",
+ "duration": 2.37,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.9,
+   "speaker": "유키",
+   "ja": "あ、やだ、ど、どうしよう。",
+   "ko": "앗, 싫어, 어, 어떡해.",
+   "status": "needs_review"
+  }
+ ]
+}

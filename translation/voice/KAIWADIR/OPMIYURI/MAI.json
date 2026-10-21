@@ -1,0 +1,136 @@
+{
+ "voice": "KAIWADIR/OPMIYURI/MAI.AIF",
+ "scene": "병원 — 마이(플레이어)와 미유리",
+ "duration": 55.5,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.18,
+   "speaker": "미유리",
+   "ja": "あ、お姉ちゃん、待って。",
+   "ko": "아, 언니, 기다려!",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.64,
+   "end": 2.0,
+   "speaker": "마이",
+   "ja": "え?",
+   "ko": "응?",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.4,
+   "end": 8.9,
+   "speaker": "미유리",
+   "ja": "お姉ちゃんってとってもいい匂いがする。",
+   "ko": "언니한테서 되게 좋은 냄새 나.",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.5,
+   "end": 12.96,
+   "speaker": "미유리",
+   "ja": "アーモンドみたいな、とっても甘い匂い。",
+   "ko": "아몬드 같은, 되게 달콤한 냄새.",
+   "status": "needs_review"
+  },
+  {
+   "start": 15.62,
+   "end": 17.38,
+   "speaker": "마이",
+   "ja": "ああ、パイの匂いよ、きっと。",
+   "ko": "아, 분명 파이 냄새일 거야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.04,
+   "end": 21.42,
+   "speaker": "미유리",
+   "ja": "美味しそうな匂いだね。お姉ちゃんが作ってるの?",
+   "ko": "맛있겠다. 언니가 만드는 거야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 22.54,
+   "end": 23.9,
+   "speaker": "마이",
+   "ja": "うん、全部じゃないけどね。",
+   "ko": "응, 전부는 아니지만.",
+   "status": "needs_review"
+  },
+  {
+   "start": 24.56,
+   "end": 27.48,
+   "speaker": "마이",
+   "ja": "お姉ちゃん、自分のお店を持つのが夢なんだ。",
+   "ko": "언니는 말이지, 내 가게를 갖는 게 꿈이야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 29.4,
+   "end": 32.72,
+   "speaker": "마이",
+   "ja": "そうだ、明日、お姉ちゃんが焼いたパイを持ってきてあげるよ。",
+   "ko": "그래, 내일 언니가 구운 파이 갖다줄게.",
+   "status": "needs_review"
+  },
+  {
+   "start": 32.72,
+   "end": 34.6,
+   "speaker": "미유리",
+   "ja": "え?本当?",
+   "ko": "정말?",
+   "status": "needs_review"
+  },
+  {
+   "start": 34.74,
+   "end": 38.2,
+   "speaker": "미유리",
+   "ja": "でも…でもみゆりきっと食べられないよ。",
+   "ko": "그치만… 그치만 미유리는 못 먹을 거야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 38.62,
+   "end": 40.7,
+   "speaker": "미유리",
+   "ja": "お医者さんがダメって言うもん。",
+   "ko": "의사 선생님이 안 된대.",
+   "status": "needs_review"
+  },
+  {
+   "start": 41.98,
+   "end": 45.5,
+   "speaker": "미유리",
+   "ja": "でもお姉ちゃんがお店作ったら絶対に教えてね。",
+   "ko": "그래도 언니가 가게 차리면 꼭 알려 줘.",
+   "status": "needs_review"
+  },
+  {
+   "start": 45.56,
+   "end": 49.95,
+   "speaker": "미유리",
+   "ja": "みゆり絶対に良くなってお姉ちゃんのパイ食べに行くから。",
+   "ko": "미유리, 꼭 나아서 언니 파이 먹으러 갈 거야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 50.08,
+   "end": 53.25,
+   "speaker": "마이",
+   "ja": "うん、約束する。きっと教えるから。",
+   "ko": "응, 약속할게. 꼭 알려 줄게.",
+   "status": "needs_review"
+  },
+  {
+   "start": 53.34,
+   "end": 55.3,
+   "speaker": "마이",
+   "ja": "絶対お店作るから。",
+   "ko": "가게 꼭 차릴 테니까.",
+   "status": "needs_review"
+  }
+ ]
+}

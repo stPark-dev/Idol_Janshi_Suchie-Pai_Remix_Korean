@@ -1,0 +1,84 @@
+{
+ "voice": "KAIWADIR/OPMAI/ERIKA.AIF",
+ "scene": "대국 전 대화 — 에리카(플레이어) vs 마이, 마이의 파이 가게",
+ "duration": 28.84,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.76,
+   "speaker": "마이",
+   "ja": "いらっしゃいま…やば、警察だわ。",
+   "ko": "어서 오세… 큰일이다, 경찰이야!",
+   "status": "needs_review",
+   "note": "「いらっしゃいま」는 VAD 없는 받아쓰기에만 있음"
+  },
+  {
+   "start": 3.66,
+   "end": 6.96,
+   "speaker": "에리카",
+   "ja": "この店に麻雀やってる子がいるって垂れ込みがあったんだけど。",
+   "ko": "이 가게에 마작하는 애가 있다는 제보가 들어왔거든.",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.4,
+   "end": 10.28,
+   "speaker": "마이",
+   "ja": "わ、私、知りませんのことよ。",
+   "ko": "저, 저는 모르옵니다요.",
+   "status": "needs_review",
+   "note": "「知りませんのことよ」는 일부러 이상하게 꾸민 존댓말로 시치미 떼는 말투 — 어색한 존댓말로 옮김"
+  },
+  {
+   "start": 11.22,
+   "end": 12.9,
+   "speaker": "에리카",
+   "ja": "ふーん。",
+   "ko": "흐응.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.3,
+   "end": 15.75,
+   "speaker": "에리카",
+   "ja": "本当のこと言わないと、このベレッタで",
+   "ko": "사실대로 말 안 하면 이 베레타로",
+   "status": "needs_review"
+  },
+  {
+   "start": 15.8,
+   "end": 18.92,
+   "speaker": "에리카",
+   "ja": "あなたのかわいい脳みそを店中にぶちまけるわよ。",
+   "ko": "네 귀여운 뇌를 가게 사방에 흩뿌려 주지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 19.32,
+   "end": 22.82,
+   "speaker": "마이",
+   "ja": "え?すいません。つい出来心だったんです。",
+   "ko": "엣? 죄송해요! 그만 충동적으로 그랬어요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없는 받아쓰기에만 있는 줄. 받아쓰기: ついてき心だったんです (出来心로 고침)"
+  },
+  {
+   "start": 24.22,
+   "end": 27.92,
+   "speaker": "에리카",
+   "ja": "ふん、わかればいいのよ。さあ、勝負よ。",
+   "ko": "흥, 알면 됐어. 자, 승부다!",
+   "status": "needs_review"
+  },
+  {
+   "start": 28.2,
+   "end": 28.8,
+   "speaker": "마이",
+   "ja": "え?",
+   "ko": "에?",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "voice": "PANELDIR/PNSIHO/ERIE.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 리에(플레이어) vs 시호",
+ "duration": 15.65,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.78,
+   "end": 4.04,
+   "speaker": "리에",
+   "ja": "お姉さまだなんて可愛かったわよ。",
+   "ko": "언니라고 부르다니 귀여웠어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.34,
+   "end": 8.14,
+   "speaker": "시호",
+   "ja": "だって、あの、ご迷惑ですか?",
+   "ko": "그치만, 저기… 폐가 되나요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.58,
+   "end": 13.02,
+   "speaker": "리에",
+   "ja": "いいのよ。言ったでしょ?あなたみたいな子好みだって。",
+   "ko": "괜찮아. 말했잖아? 너 같은 애가 취향이라고.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.24,
+   "end": 15.22,
+   "speaker": "시호",
+   "ja": "お姉さまったら。",
+   "ko": "언니도 참.",
+   "status": "needs_review"
+  }
+ ]
+}

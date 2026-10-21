@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/BERIKA.AIF",
+ "scene": "패널 매치 탈의 B단계 — 에리카(플레이어) vs 스치파이",
+ "duration": 3.62,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.26,
+   "speaker": "스치파이",
+   "ja": "もう、何のために変身したんだかわかんないわよ。",
+   "ko": "정말, 뭐 하러 변신했는지 모르겠잖아.",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "voice": "KAIWADIR/OPRIE/ERIKA.AIF",
+ "scene": "대국 전 대화 — 에리카(플레이어) vs 리에",
+ "duration": 32.97,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.4,
+   "speaker": "리에",
+   "ja": "あら、あなた本物の婦警さん?",
+   "ko": "어머, 너 진짜 여경이니?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: あなた本物の父兄さん? (婦警さん으로 고침)"
+  },
+  {
+   "start": 2.54,
+   "end": 5.46,
+   "speaker": "리에",
+   "ja": "その制服って古いタイプなんじゃない?",
+   "ko": "그 제복, 옛날 거 아니야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.78,
+   "end": 9.4,
+   "speaker": "에리카",
+   "ja": "あちゃー、人が気にしてることをよくも。",
+   "ko": "아차~ 남이 신경 쓰는 걸 감히!",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.02,
+   "end": 13.58,
+   "speaker": "에리카",
+   "ja": "これは事件ね。名誉毀損で射殺しちゃおうかしら。",
+   "ko": "이건 사건이야. 명예훼손으로 사살해 버릴까?",
+   "status": "needs_review"
+  },
+  {
+   "start": 15.2,
+   "end": 17.4,
+   "speaker": "리에",
+   "ja": "その銃も本物じゃないわね。",
+   "ko": "그 총도 진짜가 아니네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 17.8,
+   "end": 20.98,
+   "speaker": "리에",
+   "ja": "おもちゃの銃では私を言いなりにはできないわよ。",
+   "ko": "장난감 총으로는 날 마음대로 못 해.",
+   "status": "needs_review"
+  },
+  {
+   "start": 22.24,
+   "end": 23.8,
+   "speaker": "에리카",
+   "ja": "なるほど、そういうこと。",
+   "ko": "흐응, 그렇다 이거지.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: なる、そういうこと (なるほど로 봄). 말하는 사람도 추정"
+  },
+  {
+   "start": 24.62,
+   "end": 29.0,
+   "speaker": "에리카",
+   "ja": "じゃあ麻雀でならどう?私の実力試してみる?",
+   "ko": "그럼 마작이라면 어때? 내 실력 시험해 볼래?",
+   "status": "needs_review"
+  },
+  {
+   "start": 29.02,
+   "end": 32.8,
+   "speaker": "리에",
+   "ja": "そうね、そっちの方は本物だといいんだけど。",
+   "ko": "글쎄, 그쪽은 진짜면 좋겠는데.",
+   "status": "needs_review"
+  }
+ ]
+}

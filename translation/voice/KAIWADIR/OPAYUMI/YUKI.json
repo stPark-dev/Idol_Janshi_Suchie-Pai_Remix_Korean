@@ -1,0 +1,82 @@
+{
+ "voice": "KAIWADIR/OPAYUMI/YUKI.AIF",
+ "scene": "아유미와의 대화 — 유키(플레이어) vs 아유미",
+ "duration": 27.68,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.44,
+   "speaker": "아유미",
+   "ja": "あ、ユキじゃねえか。",
+   "ko": "어, 유키 아니냐.",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.92,
+   "end": 3.08,
+   "speaker": "유키",
+   "ja": "あら、アユミさん。",
+   "ko": "어머, 아유미 씨.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.78,
+   "end": 5.98,
+   "speaker": "유키",
+   "ja": "ダメですよ、寄り道なんかしちゃ。",
+   "ko": "하굣길에 딴 데 새면 안 돼요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: 'しちゃう'"
+  },
+  {
+   "start": 6.32,
+   "end": 9.32,
+   "speaker": "아유미",
+   "ja": "お前、自分を棚にあげてよく言うぜ。",
+   "ko": "너, 자기는 쏙 빼놓고 잘도 말한다.",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.72,
+   "end": 13.28,
+   "speaker": "유키",
+   "ja": "そうだ、この先にパイのお店がオープンしたのよ。",
+   "ko": "맞다, 이 앞에 파이 가게가 새로 열었어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.6,
+   "end": 14.92,
+   "speaker": "유키",
+   "ja": "ねえ、一緒に行かない?",
+   "ko": "있잖아, 같이 안 갈래?",
+   "status": "needs_review"
+  },
+  {
+   "start": 15.6,
+   "end": 19.98,
+   "speaker": "아유미",
+   "ja": "あのな、お前今寄り道がどうとかって言ったばかりじゃ…",
+   "ko": "야, 너 방금 딴 데 새면 어쩌고 하지 않았냐…",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.1,
+   "end": 22.6,
+   "speaker": "유키",
+   "ja": "もういいわ。ユキ一人で行けるもん。",
+   "ko": "됐어. 유키 혼자서도 갈 수 있거든.",
+   "status": "needs_review"
+  },
+  {
+   "start": 23.04,
+   "end": 27.24,
+   "speaker": "아유미",
+   "ja": "そうしてくれ。なんか俺疲れたから今日はまっすぐ帰るわ。",
+   "ko": "그래라. 왠지 피곤하니까 오늘은 곧장 집에 간다.",
+   "status": "needs_review"
+  }
+ ]
+}

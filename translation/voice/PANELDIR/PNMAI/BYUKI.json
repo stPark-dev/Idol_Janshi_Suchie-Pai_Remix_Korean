@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNMAI/BYUKI.AIF",
+ "scene": "패널 매치 탈의 B단계 — 마이(상대) vs 유키(플레이어)",
+ "duration": 2.51,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.16,
+   "speaker": "마이",
+   "ja": "でも、スタイルなら負けてないわ。",
+   "ko": "그래도 몸매는 안 졌어.",
+   "status": "needs_review"
+  }
+ ]
+}

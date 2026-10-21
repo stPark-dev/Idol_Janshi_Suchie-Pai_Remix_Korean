@@ -1,0 +1,40 @@
+{
+ "voice": "PANELDIR/PNMAI/ESAYURI.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 마이(상대) vs 사유리(플레이어)",
+ "duration": 14.16,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 6.0,
+   "speaker": "사유리",
+   "ja": "あはははは。その格好では後を追っては来れませんですね。",
+   "ko": "아하하하. 그 차림으로는 쫓아오지 못하겠네요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.6,
+   "end": 8.54,
+   "speaker": "마이",
+   "ja": "え?あ、お勘定。",
+   "ko": "어? 아, 계산은?",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.72,
+   "end": 10.7,
+   "speaker": "사유리",
+   "ja": "ではでは、ごちそうさま。",
+   "ko": "그럼 이만, 잘 먹었습니다~",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.98,
+   "end": 12.98,
+   "speaker": "마이",
+   "ja": "ああ、待ちなさいって。",
+   "ko": "아, 기다리라니까!",
+   "status": "needs_review"
+  }
+ ]
+}

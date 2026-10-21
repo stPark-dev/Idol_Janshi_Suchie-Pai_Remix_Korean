@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNMAI/BRUMI.AIF",
+ "scene": "패널 매치 탈의 B단계 — 마이(상대) vs 루미(플레이어)",
+ "duration": 1.44,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.86,
+   "speaker": "마이",
+   "ja": "仕方ないか。",
+   "ko": "어쩔 수 없지.",
+   "status": "needs_review"
+  }
+ ]
+}

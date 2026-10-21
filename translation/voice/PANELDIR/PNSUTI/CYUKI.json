@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/CYUKI.AIF",
+ "scene": "패널 매치 탈의 C단계 — 유키(플레이어) vs 스치파이",
+ "duration": 3.95,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.56,
+   "speaker": "스치파이",
+   "ja": "ひょっとして、今私、とんでもないことしてるんじゃない?",
+   "ko": "혹시 나 지금 엄청난 짓을 하고 있는 거 아냐?",
+   "status": "needs_review"
+  }
+ ]
+}

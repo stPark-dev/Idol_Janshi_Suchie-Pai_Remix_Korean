@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRIE/CSHIHO.AIF",
+ "scene": "패널 매치 탈의 C단계 — 리에(상대) vs 시호(플레이어)",
+ "duration": 2.88,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.6,
+   "speaker": "리에",
+   "ja": "私がこんなことをするなんて信じられる?",
+   "ko": "내가 이런 짓을 하다니, 믿어지니?",
+   "status": "needs_review"
+  }
+ ]
+}

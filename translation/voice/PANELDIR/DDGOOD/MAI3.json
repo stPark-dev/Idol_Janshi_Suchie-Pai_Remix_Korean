@@ -1,0 +1,8 @@
+{
+ "voice": "PANELDIR/DDGOOD/MAI3.AIF",
+ "scene": "에필로그 — 마이 마지막 인사 (빈 파일: 음성 없음)",
+ "duration": 0.0,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [],
+ "note": "54바이트 빈 파일(음성 없음), 받아쓰기 없음"
+}

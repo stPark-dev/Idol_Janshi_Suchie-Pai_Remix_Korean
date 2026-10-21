@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNSAYURI/BRIE.AIF",
+ "scene": "패널 매치 탈의 B단계 — 리에(플레이어) vs 사유리",
+ "duration": 2.6,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.08,
+   "speaker": "사유리",
+   "ja": "ウサギちゃん、絶体絶命です。",
+   "ko": "토끼 양, 절체절명이에요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「絶対絶命」 → 「絶体絶命」 표기만 고침"
+  }
+ ]
+}

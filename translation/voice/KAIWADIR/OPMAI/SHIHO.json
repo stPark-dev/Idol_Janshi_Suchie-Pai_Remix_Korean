@@ -1,0 +1,90 @@
+{
+ "voice": "KAIWADIR/OPMAI/SHIHO.AIF",
+ "scene": "대국 전 대화 — 시호(플레이어) vs 마이, 마이의 파이 가게",
+ "duration": 34.74,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.64,
+   "speaker": "마이",
+   "ja": "いらっしゃいませ。当店自慢のあんこ入りパイはいかがですか?",
+   "ko": "어서 오세요. 저희 가게 자랑인 앙꼬 파이 어떠세요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.5,
+   "end": 7.92,
+   "speaker": "시호",
+   "ja": "え?パイにそんなものを入れるんですか?",
+   "ko": "네? 파이에 그런 걸 넣나요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.38,
+   "end": 12.28,
+   "speaker": "마이",
+   "ja": "まあ、そんなものだなんて、甘くておいしいのよ。",
+   "ko": "어머, 그런 거라니요. 달콤하고 맛있어요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.98,
+   "end": 14.88,
+   "speaker": "시호",
+   "ja": "え?甘い?",
+   "ko": "네? 달아요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 15.64,
+   "end": 17.58,
+   "speaker": "마이",
+   "ja": "あんこって知ってますよね?",
+   "ko": "앙꼬는 아시죠?",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.8,
+   "end": 22.1,
+   "speaker": "시호",
+   "ja": "え?あの、でぷっとしてて、",
+   "ko": "네? 저기, 그 퉁퉁하게 생겨서",
+   "status": "needs_review"
+  },
+  {
+   "start": 22.18,
+   "end": 24.94,
+   "speaker": "시호",
+   "ja": "ちょうちんがついてるお魚のことでは?",
+   "ko": "초롱이 달린 물고기 말씀인가요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 25.9,
+   "end": 27.6,
+   "speaker": "마이",
+   "ja": "それはアンコウでしょうが!",
+   "ko": "그건 아귀잖아!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: それはあんこでしょうが. 말장난: あんこ(팥소)를 アンコウ(아귀, 머리에 초롱 같은 촉수)로 알아들은 것 — 한국어로는 소리가 안 겹쳐 말장난이 사라짐"
+  },
+  {
+   "start": 27.7,
+   "end": 30.6,
+   "speaker": "마이",
+   "ja": "もういいわ、麻雀で勝負よ!",
+   "ko": "됐어, 마작으로 승부야!",
+   "status": "needs_review"
+  },
+  {
+   "start": 31.92,
+   "end": 34.28,
+   "speaker": "시호",
+   "ja": "やっぱりこうなってしまうのですね。",
+   "ko": "역시 이렇게 되는 거군요.",
+   "status": "needs_review"
+  }
+ ]
+}

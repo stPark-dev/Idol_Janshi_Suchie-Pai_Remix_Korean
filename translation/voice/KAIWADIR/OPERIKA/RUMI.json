@@ -1,0 +1,100 @@
+{
+ "voice": "KAIWADIR/OPERIKA/RUMI.AIF",
+ "scene": "대국 전 대화 — 루미(플레이어) vs 에리카",
+ "duration": 33.76,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.06,
+   "speaker": "에리카",
+   "ja": "待ちなさい、変質者!",
+   "ko": "거기 서, 변태!",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.48,
+   "end": 4.9,
+   "speaker": "루미",
+   "ja": "白衣の天使捕まえて、変質者はないでしょうが。",
+   "ko": "백의의 천사를 붙잡고 변태가 뭐야, 변태가!",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.18,
+   "end": 8.5,
+   "speaker": "에리카",
+   "ja": "あ、あなたの顔、どっかで見たことあるわ。",
+   "ko": "앗, 네 얼굴 어디서 본 적 있어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.8,
+   "end": 10.24,
+   "speaker": "에리카",
+   "ja": "確か名前は…",
+   "ko": "분명 이름이…",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.94,
+   "end": 11.86,
+   "speaker": "에리카",
+   "ja": "アンコの舞!",
+   "ko": "안코의 마이!",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.16,
+   "end": 16.78,
+   "speaker": "루미",
+   "ja": "だー、違うわよ。よりによってあんなのと間違えないでよ。",
+   "ko": "으악, 아니거든! 하필이면 그런 애랑 헷갈리지 마!",
+   "status": "needs_review"
+  },
+  {
+   "start": 17.16,
+   "end": 20.94,
+   "speaker": "루미",
+   "ja": "私の通り名は、白衣の雀士、スーアンコウのルミよ。",
+   "ko": "내 별명은 백의의 작사, 스안커의 루미야!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「スーアン公」→「スーアンコウ」(四暗刻). 역만 스안커를 별명에 붙여 허세를 부린 것"
+  },
+  {
+   "start": 21.92,
+   "end": 26.42,
+   "speaker": "에리카",
+   "ja": "チャンタのルミでしょうが。勝手に名前だけレベルアップさせんじゃないわよ。",
+   "ko": "찬타의 루미잖아! 멋대로 이름만 레벨 업시키지 마!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「ちゃんたのルミ」→「チャンタのルミ」. 말장난: 원래 별명은 소박한 역 찬타인데 역만 스안커로 바꿔 부름"
+  },
+  {
+   "start": 26.72,
+   "end": 28.7,
+   "speaker": "루미",
+   "ja": "あー、知ってて間違えたわね。",
+   "ko": "아, 알면서 일부러 틀렸구나!",
+   "status": "needs_review"
+  },
+  {
+   "start": 29.42,
+   "end": 32.62,
+   "speaker": "루미",
+   "ja": "よーし、私の真の実力見せてあげるわ。",
+   "ko": "좋아, 내 진짜 실력을 보여 주지!",
+   "status": "needs_review"
+  },
+  {
+   "start": 32.62,
+   "end": 33.58,
+   "speaker": "루미",
+   "ja": "勝負よ!",
+   "ko": "승부다!",
+   "status": "needs_review"
+  }
+ ]
+}

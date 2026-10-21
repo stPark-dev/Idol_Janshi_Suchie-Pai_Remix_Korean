@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNERIKA/ASHIHO.AIF",
+ "scene": "패널 매치 탈의 A단계 — 에리카(상대) vs 시호(플레이어)",
+ "duration": 2.41,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.04,
+   "speaker": "에리카",
+   "ja": "やだ、負けちゃったわ。",
+   "ko": "어머, 져 버렸네.",
+   "status": "needs_review"
+  }
+ ]
+}

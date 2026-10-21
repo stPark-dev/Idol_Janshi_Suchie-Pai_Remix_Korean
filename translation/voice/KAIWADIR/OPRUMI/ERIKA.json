@@ -1,0 +1,100 @@
+{
+ "voice": "KAIWADIR/OPRUMI/ERIKA.AIF",
+ "scene": "대국 전 대화 — 에리카(플레이어) vs 루미, 병원",
+ "duration": 36.5,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.85,
+   "end": 2.79,
+   "speaker": "에리카",
+   "ja": "ちょっと、なんなのあんた。",
+   "ko": "잠깐, 넌 뭐야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.29,
+   "end": 7.39,
+   "speaker": "에리카",
+   "ja": "この病院内に偽看護婦が紛れてるって噂聞いてない?",
+   "ko": "이 병원에 가짜 간호사가 숨어 있다는 소문 못 들었어?",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.67,
+   "end": 8.9,
+   "speaker": "루미",
+   "ja": "ギク。",
+   "ko": "뜨끔.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없는 받아쓰기는 「聞く。」"
+  },
+  {
+   "start": 8.95,
+   "end": 13.97,
+   "speaker": "에리카",
+   "ja": "なんでも患者を引っ張り込んでは麻雀の相手をさせてるらしいんだけど。",
+   "ko": "환자를 끌어들여서 마작 상대를 시킨다던데.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.47,
+   "end": 15.6,
+   "speaker": "루미",
+   "ja": "ギクギク。",
+   "ko": "뜨끔뜨끔.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없는 받아쓰기는 「聞く聞く。」"
+  },
+  {
+   "start": 15.73,
+   "end": 20.81,
+   "speaker": "에리카",
+   "ja": "ん?どうかしたの?まさかあなたがその…",
+   "ko": "응? 왜 그래? 설마 네가 그…",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.81,
+   "end": 26.53,
+   "speaker": "루미",
+   "ja": "ち、違いますよ。私、麻雀なんて全然できないし。",
+   "ko": "아, 아니에요. 전 마작 같은 거 전혀 못 하는걸요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 28.21,
+   "end": 29.57,
+   "speaker": "에리카",
+   "ja": "麻雀できないの?",
+   "ko": "마작을 못 한다고?",
+   "status": "needs_review"
+  },
+  {
+   "start": 30.25,
+   "end": 32.13,
+   "speaker": "에리카",
+   "ja": "はぁ、そりゃ気の毒ね",
+   "ko": "하아, 그거 참 안됐네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 32.99,
+   "end": 34.61,
+   "speaker": "에리카",
+   "ja": "よし、あたしが教えてあげるわ",
+   "ko": "좋아, 내가 가르쳐 주지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 34.61,
+   "end": 36.13,
+   "speaker": "루미",
+   "ja": "え、マジ?",
+   "ko": "어, 진짜?",
+   "status": "needs_review"
+  }
+ ]
+}

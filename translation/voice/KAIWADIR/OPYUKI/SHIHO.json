@@ -1,0 +1,160 @@
+{
+ "voice": "KAIWADIR/OPYUKI/SHIHO.AIF",
+ "scene": "대국 전 대화 — 시호(플레이어) vs 유키",
+ "duration": 52.29,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.64,
+   "speaker": "유키",
+   "ja": "ああ、不運だわ。不幸だわ。悲劇だわ。",
+   "ko": "아아, 운도 없지. 불행해. 비극이야.",
+   "status": "needs_review",
+   "note": "VAD 없음 받아쓰기에만 있음"
+  },
+  {
+   "start": 6.8,
+   "end": 8.44,
+   "speaker": "시호",
+   "ja": "あの、お気を確かに?",
+   "ko": "저기, 정신 차리세요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: 'あの、オッキオ確かに?'"
+  },
+  {
+   "start": 8.8,
+   "end": 10.02,
+   "speaker": "유키",
+   "ja": "何その言い方。",
+   "ko": "뭐예요, 그 말투.",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.5,
+   "end": 12.48,
+   "speaker": "유키",
+   "ja": "人を奇人扱いしないでくださる?",
+   "ko": "사람을 이상한 사람 취급하지 말아 주실래요?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: '鬼人扱い'(VAD 없음) / '人置き陣扱い'(VAD 있음). '奇人'(괴짜)으로 추정, '病人'일 수도 있음"
+  },
+  {
+   "start": 14.44,
+   "end": 16.7,
+   "speaker": "시호",
+   "ja": "そ、そんな。でも、何があったんですか?",
+   "ko": "어머, 그런 뜻이 아니라… 무슨 일이 있으셨나요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 17.08,
+   "end": 19.58,
+   "speaker": "시호",
+   "ja": "私でよければ、ご相談に乗りますよ。",
+   "ko": "저라도 괜찮으시다면 상담해 드릴게요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 19.99,
+   "end": 20.6,
+   "speaker": "유키",
+   "ja": "はぁ。",
+   "ko": "",
+   "status": "needs_review",
+   "note": "한숨"
+  },
+  {
+   "start": 21.28,
+   "end": 24.1,
+   "speaker": "유키",
+   "ja": "ユキは運命の女神に見放されたのよ。",
+   "ko": "유키는 운명의 여신한테 버림받았어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 24.96,
+   "end": 26.62,
+   "speaker": "유키",
+   "ja": "悲劇の連続なのよ。",
+   "ko": "비극의 연속이라고.",
+   "status": "needs_review"
+  },
+  {
+   "start": 27.92,
+   "end": 29.74,
+   "speaker": "유키",
+   "ja": "起きたら9時は過ぎてるし、",
+   "ko": "일어나 보니 9시는 넘었지,",
+   "status": "needs_review"
+  },
+  {
+   "start": 29.74,
+   "end": 31.74,
+   "speaker": "유키",
+   "ja": "バスには乗り遅れるし、",
+   "ko": "버스는 놓치지,",
+   "status": "needs_review"
+  },
+  {
+   "start": 32.18,
+   "end": 34.64,
+   "speaker": "유키",
+   "ja": "遅刻だし、宿題は忘れるし、",
+   "ko": "지각에, 숙제는 잊어버리지,",
+   "status": "needs_review"
+  },
+  {
+   "start": 34.64,
+   "end": 36.3,
+   "speaker": "유키",
+   "ja": "買い食いは見つかるし。",
+   "ko": "군것질하다 들키지.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: '大食いは見つかるし'. 하굣길 군것질(買い食い, 교칙 위반)로 추정, '早弁'일 수도 있음"
+  },
+  {
+   "start": 37.8,
+   "end": 40.62,
+   "speaker": "시호",
+   "ja": "そ、それは全部ご自分が悪いのであって",
+   "ko": "그, 그건 전부 본인 탓이지",
+   "status": "needs_review"
+  },
+  {
+   "start": 40.62,
+   "end": 42.46,
+   "speaker": "시호",
+   "ja": "運が悪いわけでは",
+   "ko": "운이 나빠서가 아니라…",
+   "status": "needs_review"
+  },
+  {
+   "start": 43.04,
+   "end": 44.6,
+   "speaker": "유키",
+   "ja": "何ですって?",
+   "ko": "뭐라고요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 44.82,
+   "end": 48.08,
+   "speaker": "유키",
+   "ja": "じゃああなたとの麻雀で運試しをさせていただくわ",
+   "ko": "그럼 당신과의 마작으로 운을 시험해 보겠어요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 49.62,
+   "end": 51.64,
+   "speaker": "시호",
+   "ja": "あの、私とですか?",
+   "ko": "저어, 저하고요?",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "voice": "KAIWADIR/OPAYUMI/SAYURI.AIF",
+ "scene": "아유미와의 대화 — 사유리(플레이어) vs 아유미",
+ "duration": 42.72,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.44,
+   "speaker": "아유미",
+   "ja": "おい、そこのバニーガール。",
+   "ko": "어이, 거기 바니걸.",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.92,
+   "end": 5.4,
+   "speaker": "사유리",
+   "ja": "ひえっ、わ、わ、わ、私のことですか。",
+   "ko": "히익, 저, 저, 저, 저 말인가요?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 첫머리: 'へい'(VAD 있음) / 'えい'(VAD 없음). 놀란 소리로 추정"
+  },
+  {
+   "start": 6.12,
+   "end": 9.14,
+   "speaker": "아유미",
+   "ja": "おめえ以外にいねえよ、そんな格好してるやつは。",
+   "ko": "너 말고 누가 있냐, 그런 차림 한 녀석이.",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.84,
+   "end": 11.42,
+   "speaker": "아유미",
+   "ja": "ところでよ、さっきそこに。",
+   "ko": "그건 그렇고, 아까 저기에…",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.52,
+   "end": 15.76,
+   "speaker": "사유리",
+   "ja": "ひえっ、ごめんなさい、ごめんなさい、許してくださいです。",
+   "ko": "히익, 잘못했어요, 잘못했어요, 용서해 주세요!",
+   "status": "needs_review",
+   "note": "VAD 없음 받아쓰기에만 있음"
+  },
+  {
+   "start": 16.3,
+   "end": 18.6,
+   "speaker": "사유리",
+   "ja": "言うこと聞くから、ぶたないで。",
+   "ko": "시키는 대로 할 테니까 때리지 마세요.",
+   "status": "needs_review",
+   "note": "VAD 없음 받아쓰기에만 있음"
+  },
+  {
+   "start": 19.74,
+   "end": 21.3,
+   "speaker": "아유미",
+   "ja": "ぶってねえだろうが。",
+   "ko": "안 때렸잖아!",
+   "status": "needs_review"
+  },
+  {
+   "start": 21.92,
+   "end": 23.62,
+   "speaker": "사유리",
+   "ja": "はう、怒ってる。",
+   "ko": "히잉, 화났다…",
+   "status": "needs_review",
+   "note": "받아쓰기: 'はあ、怒ってる'(VAD 없음에만)"
+  },
+  {
+   "start": 24.4,
+   "end": 25.64,
+   "speaker": "아유미",
+   "ja": "怒ってねえって、ほら。",
+   "ko": "화 안 났다니까, 봐.",
+   "status": "needs_review"
+  },
+  {
+   "start": 26.1,
+   "end": 28.78,
+   "speaker": "아유미",
+   "ja": "それよかさ、さっきそっちにおまわりがいたからよ。",
+   "ko": "그것보다, 아까 저쪽에 순경이 있었거든.",
+   "status": "needs_review"
+  },
+  {
+   "start": 28.78,
+   "end": 30.96,
+   "speaker": "아유미",
+   "ja": "そんな格好で街ん中歩いてると",
+   "ko": "그런 차림으로 시내를 돌아다니면",
+   "status": "needs_review",
+   "note": "VAD 없음 받아쓰기는 앞에 '今日'가 붙음"
+  },
+  {
+   "start": 30.96,
+   "end": 34.02,
+   "speaker": "아유미",
+   "ja": "補導されちまうぜって言いたかったんだけどね",
+   "ko": "선도 단속에 걸린다고 말해 주려던 건데.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: '歩道されちまうぜ'. 補導 = 비행 청소년 선도"
+  },
+  {
+   "start": 34.02,
+   "end": 35.82,
+   "speaker": "사유리",
+   "ja": "おまわりさん、助けてー!",
+   "ko": "순경 아저씨, 살려 주세요~!",
+   "status": "needs_review"
+  },
+  {
+   "start": 36.32,
+   "end": 38.08,
+   "speaker": "아유미",
+   "ja": "あ、だからそっちへ行くとだな",
+   "ko": "아, 그러니까 그쪽으로 가면…",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: 'あーだからそっちへ行くと旦那'"
+  },
+  {
+   "start": 38.08,
+   "end": 39.5,
+   "speaker": "아유미",
+   "ja": "あっ、くっそー",
+   "ko": "아, 젠장!",
+   "status": "needs_review"
+  },
+  {
+   "start": 40.28,
+   "end": 42.3,
+   "speaker": "아유미",
+   "ja": "俺ってそんなに怖いかよー",
+   "ko": "내가 그렇게 무섭냐고~",
+   "status": "needs_review"
+  }
+ ]
+}

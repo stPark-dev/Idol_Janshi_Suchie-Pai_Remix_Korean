@@ -1,0 +1,82 @@
+{
+ "voice": "PANELDIR/PNRUMI/EMAI.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 루미(상대) vs 마이(플레이어)",
+ "duration": 26.24,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.36,
+   "speaker": "마이",
+   "ja": "さっきはよくも人をバカにしてくれたわね。",
+   "ko": "아까는 잘도 사람을 바보 취급했겠다.",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.92,
+   "end": 4.88,
+   "speaker": "마이",
+   "ja": "お礼にこのパイを置いていくわよ。",
+   "ko": "답례로 이 파이를 두고 갈게.",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.04,
+   "end": 6.98,
+   "speaker": "루미",
+   "ja": "お礼なんかいらないわよ。",
+   "ko": "답례 같은 거 필요 없어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.72,
+   "end": 11.36,
+   "speaker": "루미",
+   "ja": "でもま、ただならまあ味見ぐらいはしてあげましょう。",
+   "ko": "뭐, 공짜라면 맛 정도는 봐 주지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.88,
+   "end": 13.7,
+   "speaker": "마이",
+   "ja": "ふふふ、甘いわ。",
+   "ko": "후후후, 순진하긴.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.28,
+   "end": 15.96,
+   "speaker": "마이",
+   "ja": "それを一度食したら、",
+   "ko": "그걸 한 번 먹었다간,",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.52,
+   "end": 20.06,
+   "speaker": "마이",
+   "ja": "美味しい、食べたい、でも太る、食べられない、",
+   "ko": "맛있어, 먹고 싶어, 하지만 살쪄, 못 먹어,",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 太く → 太る"
+  },
+  {
+   "start": 20.8,
+   "end": 22.42,
+   "speaker": "마이",
+   "ja": "の無限地獄よ。",
+   "ko": "의 무한 지옥이야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 22.82,
+   "end": 25.3,
+   "speaker": "마이",
+   "ja": "あははははは。",
+   "ko": "아하하하하하.",
+   "status": "needs_review"
+  }
+ ]
+}

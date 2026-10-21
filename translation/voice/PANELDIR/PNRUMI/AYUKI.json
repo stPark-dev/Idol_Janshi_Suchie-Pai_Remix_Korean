@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRUMI/AYUKI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 루미(상대) vs 유키(플레이어)",
+ "duration": 4.27,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.05,
+   "speaker": "루미",
+   "ja": "ああ、治療する方の私が負けちゃうなんて。",
+   "ko": "아아, 치료하는 쪽인 내가 지다니.",
+   "status": "needs_review"
+  }
+ ]
+}

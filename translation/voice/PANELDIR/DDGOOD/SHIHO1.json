@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/DDGOOD/SHIHO1.AIF",
+ "scene": "에필로그 — 시호의 그 후",
+ "duration": 3.85,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.6,
+   "speaker": "스치파이",
+   "ja": "私に勝った今でも、志穂さんはやっぱりマイペースです。",
+   "ko": "나를 이긴 지금도 시호 씨는 역시 마이페이스예요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「四方さん」 → 志穂さん"
+  }
+ ]
+}

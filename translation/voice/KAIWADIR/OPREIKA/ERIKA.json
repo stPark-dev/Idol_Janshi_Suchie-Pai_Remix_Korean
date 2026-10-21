@@ -1,0 +1,52 @@
+{
+ "voice": "KAIWADIR/OPREIKA/ERIKA.AIF",
+ "scene": "최종 보스 레이카 등장 — 에리카(플레이어) vs 레이카",
+ "duration": 14.77,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.9,
+   "speaker": "레이카",
+   "ja": "次の相手はこの私さ。",
+   "ko": "다음 상대는 바로 나야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.26,
+   "end": 4.6,
+   "speaker": "레이카",
+   "ja": "婦人警官、西野エリカ。",
+   "ko": "여경, 니시노 에리카.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「ニシのエリカ」"
+  },
+  {
+   "start": 4.92,
+   "end": 8.06,
+   "speaker": "레이카",
+   "ja": "いえ、ニセ警官、風牌のエリカ。",
+   "ko": "아니, 가짜 경관, 풍패의 에리카.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「フーパイ」 = 風牌(フウパイ). 마작 용어 별명. 니시(西野)→니세(가짜) 말장난도 있음"
+  },
+  {
+   "start": 8.34,
+   "end": 9.36,
+   "speaker": "에리카",
+   "ja": "何者!?",
+   "ko": "누구냐!?",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.86,
+   "end": 14.56,
+   "speaker": "레이카",
+   "ja": "最強の雀士レイカ様が、あんたを叩き潰してやるよ。",
+   "ko": "최강의 작사 레이카 님이 널 박살 내 주마.",
+   "status": "needs_review"
+  }
+ ]
+}

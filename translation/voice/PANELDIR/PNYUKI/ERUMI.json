@@ -1,0 +1,32 @@
+{
+ "voice": "PANELDIR/PNYUKI/ERUMI.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 루미(플레이어) vs 유키",
+ "duration": 10.87,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.26,
+   "speaker": "루미",
+   "ja": "あんたの場合、若いっつうより幼いって感じよね。",
+   "ko": "넌 젊다기보다는 어리다는 느낌이야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.26,
+   "end": 7.76,
+   "speaker": "루미",
+   "ja": "やっぱ女は花も恥じらう二十歳が旬よ。",
+   "ko": "역시 여자는 꽃다운 스무 살이 한창이지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.78,
+   "end": 10.7,
+   "speaker": "유키",
+   "ja": "来年二十一のくせに。",
+   "ko": "내년이면 스물하나면서.",
+   "status": "needs_review"
+  }
+ ]
+}

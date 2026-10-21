@@ -1,0 +1,91 @@
+{
+ "voice": "KAIWADIR/OPMAI/YUKI.AIF",
+ "scene": "대국 전 대화 — 유키(플레이어) vs 마이, 마이의 파이 가게",
+ "duration": 32.65,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.1,
+   "speaker": "마이",
+   "ja": "いらっしゃいませー!",
+   "ko": "어서 오세요~!",
+   "status": "needs_review",
+   "note": "앞부분(0~10초)은 VAD 없는 받아쓰기에만 있음"
+  },
+  {
+   "start": 1.22,
+   "end": 5.44,
+   "speaker": "유키",
+   "ja": "わー、かわいい制服。ユキも着てみたいなー。",
+   "ko": "와~ 귀여운 제복. 유키도 입어 보고 싶다~",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.62,
+   "end": 10.06,
+   "speaker": "마이",
+   "ja": "え?でも、この服はスタイル良くないと似合わないわよ。",
+   "ko": "응? 근데 이 옷은 몸매가 좋아야 어울리는데.",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.44,
+   "end": 13.78,
+   "speaker": "유키",
+   "ja": "まあ、どうせユキは胸がないわよ。",
+   "ko": "흥, 어차피 유키는 가슴 없다 뭐.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.52,
+   "end": 19.0,
+   "speaker": "유키",
+   "ja": "でもね、控えめな胸が好きだっていう男の人もいるんですからね。",
+   "ko": "그래도 아담한 가슴을 좋아하는 남자도 있다고요!",
+   "status": "needs_review"
+  },
+  {
+   "start": 19.26,
+   "end": 21.26,
+   "speaker": "마이",
+   "ja": "あはは、ごめんごめん。",
+   "ko": "아하하, 미안 미안.",
+   "status": "needs_review"
+  },
+  {
+   "start": 21.5,
+   "end": 25.3,
+   "speaker": "마이",
+   "ja": "でも、あなたも高校生くらいになればスタイル抜群の…",
+   "ko": "그래도 너도 고등학생쯤 되면 몸매가 끝내주는…",
+   "status": "needs_review"
+  },
+  {
+   "start": 25.34,
+   "end": 28.04,
+   "speaker": "유키",
+   "ja": "ううん、ユキちゃん高2だもん!",
+   "ko": "아니거든, 유키는 고2란 말이야!",
+   "status": "needs_review"
+  },
+  {
+   "start": 28.1,
+   "end": 28.9,
+   "speaker": "마이",
+   "ja": "えぇ?",
+   "ko": "에엥?",
+   "status": "needs_review"
+  },
+  {
+   "start": 29.44,
+   "end": 31.98,
+   "speaker": "유키",
+   "ja": "もう怒ったわ。麻雀で勝負よ。",
+   "ko": "이제 화났어! 마작으로 승부야!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: もう凝ったわ / マーちゃんで勝負よ (怒った·麻雀으로 고침)"
+  }
+ ]
+}

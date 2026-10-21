@@ -1,0 +1,24 @@
+{
+ "voice": "CHANGE.AIF",
+ "scene": "패널 매치 — 패널 체인지",
+ "duration": 6.04,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.14,
+   "speaker": "스치파이",
+   "ja": "残ったポイントパネルをアイテムと交換するわよ。",
+   "ko": "남은 포인트 패널을 아이템으로 바꿔 줄게.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.8,
+   "end": 5.02,
+   "speaker": "스치파이",
+   "ja": "パネルチェンジ!",
+   "ko": "패널 체인지!",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "voice": "KAIWADIR/OPSAYURI/RIE.AIF",
+ "scene": "대국 전 대화 — 리에(플레이어) vs 사유리",
+ "duration": 46.35,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.92,
+   "speaker": "사유리",
+   "ja": "いらっしゃいませ。",
+   "ko": "어서 오세요~",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.96,
+   "end": 4.36,
+   "speaker": "사유리",
+   "ja": "はりゃ、お姉さんお一人ですか?",
+   "ko": "어라, 언니 혼자 오셨어요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.0,
+   "end": 9.1,
+   "speaker": "리에",
+   "ja": "そうよ、うさぎちゃん。二人っきりの方が楽しめるでしょ。",
+   "ko": "그래, 토끼 아가씨. 단둘이 있는 게 더 즐겁잖아?",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.34,
+   "end": 14.76,
+   "speaker": "사유리",
+   "ja": "あの、ここは健全なお店ですから、エッチなことしちゃダメよ。",
+   "ko": "저기, 여긴 건전한 가게라서 야한 짓 하면 안 돼요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.74,
+   "end": 20.52,
+   "speaker": "리에",
+   "ja": "私がうさぎちゃんとしたいのは、もっと楽しいことよ。",
+   "ko": "내가 토끼 아가씨랑 하고 싶은 건 더 즐거운 거야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.86,
+   "end": 22.98,
+   "speaker": "리에",
+   "ja": "そう、大人のゲーム。",
+   "ko": "그래, 어른들의 게임.",
+   "status": "needs_review"
+  },
+  {
+   "start": 23.38,
+   "end": 26.2,
+   "speaker": "리에",
+   "ja": "本当は四人で卓を囲んでやるもんなんだけど、",
+   "ko": "원래는 넷이서 탁자에 둘러앉아 하는 건데,",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: 宅を囲んで (문맥상 卓)"
+  },
+  {
+   "start": 26.68,
+   "end": 29.6,
+   "speaker": "리에",
+   "ja": "まあこの場合、二人でも十分よね。",
+   "ko": "뭐, 이번엔 둘이서도 충분하지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 30.32,
+   "end": 31.0,
+   "speaker": "리에",
+   "ja": "わかる?",
+   "ko": "알겠어?",
+   "status": "needs_review"
+  },
+  {
+   "start": 31.34,
+   "end": 34.3,
+   "speaker": "사유리",
+   "ja": "あの、それってひょっとして……卓球?",
+   "ko": "저기, 그거 혹시... 탁구?",
+   "status": "needs_review",
+   "note": "卓(탁자)을 둘러싼다 → 卓球(탁구)로 착각하는 개그. 한국어도 '탁'으로 이어지게 옮김"
+  },
+  {
+   "start": 34.64,
+   "end": 39.3,
+   "speaker": "리에",
+   "ja": "う、うさぎちゃん、もうちょっと脳みそ使いましょうね。",
+   "ko": "토, 토끼 아가씨, 머리 좀 더 굴려 보자?",
+   "status": "needs_review"
+  },
+  {
+   "start": 39.98,
+   "end": 43.18,
+   "speaker": "리에",
+   "ja": "なんでバニーガールがこんなとこで卓球やんのよ。",
+   "ko": "바니걸이 이런 데서 왜 탁구를 치겠니.",
+   "status": "needs_review"
+  },
+  {
+   "start": 43.18,
+   "end": 46.16,
+   "speaker": "리에",
+   "ja": "答えは麻雀よ、麻雀。",
+   "ko": "정답은 마작이야, 마작.",
+   "status": "needs_review"
+  }
+ ]
+}

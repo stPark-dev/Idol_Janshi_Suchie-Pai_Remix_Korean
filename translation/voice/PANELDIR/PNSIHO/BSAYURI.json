@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSIHO/BSAYURI.AIF",
+ "scene": "패널 매치 탈의 B단계 — 사유리(플레이어) vs 시호",
+ "duration": 2.97,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.26,
+   "speaker": "시호",
+   "ja": "ああ、これ以上はダメですってば。",
+   "ko": "아아, 더는 안 된다니까요.",
+   "status": "needs_review"
+  }
+ ]
+}

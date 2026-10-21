@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/CRIE.AIF",
+ "scene": "패널 매치 탈의 C단계 — 리에(플레이어) vs 스치파이",
+ "duration": 3.44,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.18,
+   "speaker": "스치파이",
+   "ja": "ごめんね。これ以上はお見せすることができないの。",
+   "ko": "미안해. 더 이상은 보여 드릴 수 없어.",
+   "status": "needs_review"
+  }
+ ]
+}

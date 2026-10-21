@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/BRIE.AIF",
+ "scene": "패널 매치 탈의 B단계 — 리에(플레이어) vs 스치파이",
+ "duration": 5.57,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.88,
+   "end": 5.38,
+   "speaker": "스치파이",
+   "ja": "でも私はアイドル雀士よ。あなたの期待を裏切るわけにはいかないのよ。",
+   "ko": "그래도 난 아이돌 작사야. 네 기대를 저버릴 순 없지.",
+   "status": "needs_review"
+  }
+ ]
+}

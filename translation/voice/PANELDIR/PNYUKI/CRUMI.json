@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNYUKI/CRUMI.AIF",
+ "scene": "패널 매치 탈의 C단계 — 루미(플레이어) vs 유키",
+ "duration": 3.44,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.06,
+   "speaker": "유키",
+   "ja": "ああ、女の子にこんなことさせるなんて。",
+   "ko": "아아, 여자애한테 이런 걸 시키다니.",
+   "status": "needs_review"
+  }
+ ]
+}

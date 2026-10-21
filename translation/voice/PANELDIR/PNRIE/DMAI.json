@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNRIE/DMAI.AIF",
+ "scene": "패널 매치 탈의 D단계 — 리에(상대) vs 마이(플레이어)",
+ "duration": 1.02,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.66,
+   "speaker": "리에",
+   "ja": "完敗ね。",
+   "ko": "완패네.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 乾杯ね → 完敗ね"
+  }
+ ]
+}

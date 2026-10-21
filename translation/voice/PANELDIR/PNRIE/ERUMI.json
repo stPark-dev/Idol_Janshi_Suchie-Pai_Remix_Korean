@@ -1,0 +1,50 @@
+{
+ "voice": "PANELDIR/PNRIE/ERUMI.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 리에(상대) vs 루미(플레이어)",
+ "duration": 16.9,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.9,
+   "speaker": "루미",
+   "ja": "負けてないけど、本当のことを言うわ。",
+   "ko": "지진 않았지만 사실대로 말할게.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 그대로 負けてないけど. 문맥상 어색함(다른 말일 수 있음)"
+  },
+  {
+   "start": 3.04,
+   "end": 7.12,
+   "speaker": "루미",
+   "ja": "私は本物の看護婦じゃないの。それに…",
+   "ko": "난 진짜 간호사가 아니야. 게다가…",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.12,
+   "end": 9.12,
+   "speaker": "리에",
+   "ja": "え?まだ秘密があるの?",
+   "ko": "어? 아직 비밀이 있어?",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.46,
+   "end": 13.1,
+   "speaker": "루미",
+   "ja": "バナナを食べないと死ぬっていうのも嘘なの。",
+   "ko": "바나나를 안 먹으면 죽는다는 것도 거짓말이야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.98,
+   "end": 16.52,
+   "speaker": "리에",
+   "ja": "そんなことまでいちいち言わないでもいいわ。",
+   "ko": "그런 것까지 일일이 말 안 해도 돼.",
+   "status": "needs_review"
+  }
+ ]
+}

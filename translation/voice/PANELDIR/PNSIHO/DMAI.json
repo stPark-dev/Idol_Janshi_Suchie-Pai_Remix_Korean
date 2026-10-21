@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSIHO/DMAI.AIF",
+ "scene": "패널 매치 탈의 D단계 — 마이(플레이어) vs 시호",
+ "duration": 1.95,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.5,
+   "speaker": "시호",
+   "ja": "そんなに見つめないでください。",
+   "ko": "그렇게 빤히 보지 마세요.",
+   "status": "needs_review"
+  }
+ ]
+}

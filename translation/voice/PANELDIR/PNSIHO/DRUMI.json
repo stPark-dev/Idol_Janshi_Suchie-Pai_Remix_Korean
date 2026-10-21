@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNSIHO/DRUMI.AIF",
+ "scene": "패널 매치 탈의 D단계 — 루미(플레이어) vs 시호",
+ "duration": 2.23,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.94,
+   "speaker": "시호",
+   "ja": "もう服を着てもよろしいですか?",
+   "ko": "이제 옷을 입어도 될까요?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 있음: 「この服を着てもよろしいですか?」, VAD 없음: 「もう服を…」 — 뒤쪽을 따름"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "voice": "KAIWADIR/OPREIKA/MAI.AIF",
+ "scene": "최종 보스 레이카 등장 — 마이(플레이어) vs 레이카",
+ "duration": 16.07,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.9,
+   "speaker": "레이카",
+   "ja": "はじめまして、天野麻衣。",
+   "ko": "반가워, 아마노 마이.",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.02,
+   "end": 4.12,
+   "speaker": "레이카",
+   "ja": "いえ、アンコの舞さん。",
+   "ko": "아니, 안코의 마이 씨.",
+   "status": "needs_review",
+   "note": "アンコ = 暗刻(안커). 안커 쌓기가 특기라 붙은 별명"
+  },
+  {
+   "start": 4.28,
+   "end": 6.3,
+   "speaker": "마이",
+   "ja": "あ、あなたがレイカね。",
+   "ko": "다, 당신이 레이카구나!",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.14,
+   "end": 9.98,
+   "speaker": "레이카",
+   "ja": "さあ、遠慮はいらないわ。かかってきなさいよ。",
+   "ko": "자, 사양할 것 없어. 덤벼 봐.",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.87,
+   "end": 15.89,
+   "speaker": "마이",
+   "ja": "じゃあ、お言葉に甘えまして、勝負よ。",
+   "ko": "그럼 사양 않고… 승부다!",
+   "status": "needs_review"
+  }
+ ]
+}

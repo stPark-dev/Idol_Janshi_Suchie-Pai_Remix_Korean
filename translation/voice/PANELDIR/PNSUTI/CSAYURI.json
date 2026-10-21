@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/CSAYURI.AIF",
+ "scene": "패널 매치 탈의 C단계 — 사유리(플레이어) vs 스치파이",
+ "duration": 3.85,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.64,
+   "speaker": "스치파이",
+   "ja": "今日のことは秘密にしてね。お願いよ。",
+   "ko": "오늘 일은 비밀로 해 줘. 부탁이야.",
+   "status": "needs_review"
+  }
+ ]
+}

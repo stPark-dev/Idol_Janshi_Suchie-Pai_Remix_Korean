@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNREIKA/CRUMI.AIF",
+ "scene": "패널 매치 탈의 C단계 — 레이카(상대) vs 루미(플레이어)",
+ "duration": 1.76,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.4,
+   "speaker": "레이카",
+   "ja": "結構恥ずかしいもんだね。",
+   "ko": "꽤 부끄러운 거구나.",
+   "status": "needs_review"
+  }
+ ]
+}

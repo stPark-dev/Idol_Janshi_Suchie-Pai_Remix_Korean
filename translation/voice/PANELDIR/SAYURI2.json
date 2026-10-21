@@ -1,0 +1,17 @@
+{
+ "voice": "PANELDIR/SAYURI2.AIF",
+ "scene": "컨티뉴 화면 — 사유리 (계속했을 때)",
+ "duration": 1.02,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.76,
+   "speaker": "사유리",
+   "ja": "セーフ!",
+   "ko": "세이프!",
+   "status": "needs_review",
+   "note": "VAD 없는 받아쓰기에만 있음"
+  }
+ ]
+}

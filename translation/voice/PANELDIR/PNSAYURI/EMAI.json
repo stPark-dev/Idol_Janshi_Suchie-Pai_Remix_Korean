@@ -1,0 +1,24 @@
+{
+ "voice": "PANELDIR/PNSAYURI/EMAI.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 마이(플레이어) vs 사유리",
+ "duration": 6.41,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.06,
+   "speaker": "마이",
+   "ja": "口ほどにもないわ。",
+   "ko": "말만 번지르르했네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.88,
+   "end": 5.62,
+   "speaker": "사유리",
+   "ja": "私は麻雀うまいとか一言も言ってませんって。",
+   "ko": "저는 마작 잘한다고 한마디도 안 했다니까요.",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNREIKA/CERIKA.AIF",
+ "scene": "패널 매치 탈의 C단계 — 레이카(상대) vs 에리카(플레이어)",
+ "duration": 1.86,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.64,
+   "speaker": "레이카",
+   "ja": "脱ぐときゃこのくらいやるもんだよ。",
+   "ko": "벗을 땐 이 정도는 해야지.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 縫うときゃ → 脱ぐときゃ"
+  }
+ ]
+}

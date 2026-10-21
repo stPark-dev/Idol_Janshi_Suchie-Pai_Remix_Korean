@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNRIE/CRUMI.AIF",
+ "scene": "패널 매치 탈의 C단계 — 리에(상대) vs 루미(플레이어)",
+ "duration": 1.58,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.2,
+   "speaker": "리에",
+   "ja": "とんだ誤算だったわ。",
+   "ko": "이건 큰 오산이었어.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 トンダゴさんだったわ → とんだ誤算"
+  }
+ ]
+}

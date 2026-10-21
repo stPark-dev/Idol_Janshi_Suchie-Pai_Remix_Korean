@@ -1,0 +1,17 @@
+{
+ "voice": "PANELDIR/YUKI.AIF",
+ "scene": "컨티뉴 화면 — 유키 (계속하라고 함)",
+ "duration": 2.83,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.14,
+   "speaker": "유키",
+   "ja": "はぁ、神様助けて。",
+   "ko": "하아, 하느님 살려 줘.",
+   "status": "needs_review",
+   "note": "VAD 없는 받아쓰기에만 있음"
+  }
+ ]
+}

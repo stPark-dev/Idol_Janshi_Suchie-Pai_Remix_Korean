@@ -1,0 +1,36 @@
+{
+ "voice": "ERIKA.AIF",
+ "scene": "캐릭터 선택 — 쿄코의 소개: 에리카",
+ "duration": 7.48,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.72,
+   "speaker": "스치파이",
+   "ja": "風牌の積み込みが大得意。",
+   "ko": "풍패 쌓기가 특기!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 있음 「スーパイの」, VAD 없음 「風パイの」. 風牌(풍패)로 봄 — 四風(스풍)일 수도 있음"
+  },
+  {
+   "start": 2.08,
+   "end": 4.8,
+   "speaker": "스치파이",
+   "ja": "自由と平等を愛するガンマニアのエリカさん。",
+   "ko": "자유와 평등을 사랑하는 총기 마니아 에리카 씨.",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.28,
+   "end": 7.26,
+   "speaker": "스치파이",
+   "ja": "婦警さんのコスプレで登場よ。",
+   "ko": "여경 코스프레로 등장이야.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「フケイさん」/「不計算」 → 婦警さん"
+  }
+ ]
+}

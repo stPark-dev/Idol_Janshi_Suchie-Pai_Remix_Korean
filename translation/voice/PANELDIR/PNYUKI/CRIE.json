@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNYUKI/CRIE.AIF",
+ "scene": "패널 매치 탈의 C단계 — 리에(플레이어) vs 유키",
+ "duration": 3.07,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.78,
+   "speaker": "유키",
+   "ja": "どう?ユキのこういうとこが見たかったんでしょ?",
+   "ko": "어때? 유키의 이런 모습이 보고 싶었지?",
+   "status": "needs_review"
+  }
+ ]
+}

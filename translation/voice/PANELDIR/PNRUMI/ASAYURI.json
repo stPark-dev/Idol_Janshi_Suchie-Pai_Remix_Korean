@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRUMI/ASAYURI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 루미(상대) vs 사유리(플레이어)",
+ "duration": 4.04,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.54,
+   "speaker": "루미",
+   "ja": "な、なんでウサギさんに負けちゃうわけ?",
+   "ko": "왜, 왜 토끼한테 지는 건데?",
+   "status": "needs_review"
+  }
+ ]
+}

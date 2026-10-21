@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/RUMI.AIF",
+ "scene": "컨티뉴 화면 — 루미 (계속하라고 함)",
+ "duration": 3.02,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.4,
+   "speaker": "루미",
+   "ja": "ねぇ、もっと遊びましょうよ。",
+   "ko": "저기, 더 놀자~.",
+   "status": "needs_review"
+  }
+ ]
+}

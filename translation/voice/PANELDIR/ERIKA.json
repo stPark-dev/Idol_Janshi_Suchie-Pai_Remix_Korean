@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/ERIKA.AIF",
+ "scene": "컨티뉴 화면 — 에리카 (계속하라고 함)",
+ "duration": 2.04,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.6,
+   "speaker": "에리카",
+   "ja": "途中で投げ出すなんて最低よ!",
+   "ko": "중간에 내던지다니 최악이야!",
+   "status": "needs_review"
+  }
+ ]
+}

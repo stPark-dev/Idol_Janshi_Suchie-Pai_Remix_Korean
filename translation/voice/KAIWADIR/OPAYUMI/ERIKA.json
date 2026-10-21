@@ -1,0 +1,98 @@
+{
+ "voice": "KAIWADIR/OPAYUMI/ERIKA.AIF",
+ "scene": "아유미와의 대화 — 에리카(플레이어) vs 아유미. 아유미가 마이에게 떠넘김",
+ "duration": 30.0,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.18,
+   "speaker": "아유미",
+   "ja": "何だよ。俺に何か用か?",
+   "ko": "뭐야. 나한테 볼일 있냐?",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.6,
+   "end": 3.8,
+   "speaker": "에리카",
+   "ja": "あなたスケバンね。",
+   "ko": "너, 불량소녀지?",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.1,
+   "end": 8.7,
+   "speaker": "아유미",
+   "ja": "ちっ、ちっ、おまわりはすぐ人を外見で判断しやがる。",
+   "ko": "쯧쯧, 짭새들은 툭하면 겉모습으로 사람을 판단한다니까.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.88,
+   "end": 10.22,
+   "speaker": "에리카",
+   "ja": "べー、残念ね。",
+   "ko": "메롱, 아쉽네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.5,
+   "end": 12.4,
+   "speaker": "에리카",
+   "ja": "その言葉、そっくりお返しするわ。",
+   "ko": "그 말, 고대로 돌려주지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.84,
+   "end": 15.72,
+   "speaker": "에리카",
+   "ja": "私はただの麻雀好きのコスプレ婦警さんよ。",
+   "ko": "난 그냥 마작 좋아하는 코스프레 여경이야.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: 'コスプレフケイさん'"
+  },
+  {
+   "start": 16.36,
+   "end": 17.4,
+   "speaker": "아유미",
+   "ja": "はぁ?",
+   "ko": "하아?",
+   "status": "needs_review"
+  },
+  {
+   "start": 19.3,
+   "end": 20.44,
+   "speaker": "아유미",
+   "ja": "あぁ、麻雀なら",
+   "ko": "아, 마작이라면",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.44,
+   "end": 23.48,
+   "speaker": "아유미",
+   "ja": "そこのパイレストランのウェイトレスがハマってるみたいだからよ。",
+   "ko": "저기 파이 레스토랑 웨이트리스가 푹 빠져 있는 것 같으니까.",
+   "status": "needs_review"
+  },
+  {
+   "start": 24.0,
+   "end": 26.6,
+   "speaker": "아유미",
+   "ja": "そっちで仲良く遊んでこいよ。な?",
+   "ko": "거기 가서 사이좋게 놀다 와라. 응?",
+   "status": "needs_review"
+  },
+  {
+   "start": 27.1,
+   "end": 29.82,
+   "speaker": "에리카",
+   "ja": "はっ、ご協力に感謝します。では!",
+   "ko": "넵! 협조에 감사드립니다. 그럼!",
+   "status": "needs_review"
+  }
+ ]
+}

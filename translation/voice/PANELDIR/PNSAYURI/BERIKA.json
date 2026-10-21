@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSAYURI/BERIKA.AIF",
+ "scene": "패널 매치 탈의 B단계 — 에리카(플레이어) vs 사유리",
+ "duration": 2.32,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.4,
+   "end": 1.94,
+   "speaker": "사유리",
+   "ja": "ということは…",
+   "ko": "그 말은 즉…",
+   "status": "needs_review"
+  }
+ ]
+}

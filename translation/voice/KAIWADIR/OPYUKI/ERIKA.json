@@ -1,0 +1,155 @@
+{
+ "voice": "KAIWADIR/OPYUKI/ERIKA.AIF",
+ "scene": "대국 전 대화 — 에리카(플레이어) vs 유키. 유키가 혼자 연인 역할까지 연기하는 망상극",
+ "duration": 53.17,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.74,
+   "speaker": "유키(상상 속 연인 흉내)",
+   "ja": "ユキ、お前変わったぜ。",
+   "ko": "유키, 너 변했어.",
+   "status": "needs_review",
+   "note": "유키의 1인극: 상상 속 남자 연인의 대사를 유키가 낮은 목소리로 흉내 냄(뒤에서 에리카가 '혼자 연극'이라고 지적)"
+  },
+  {
+   "start": 2.7,
+   "end": 4.1,
+   "speaker": "유키",
+   "ja": "え?どういうことですか?",
+   "ko": "네? 무슨 뜻이에요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.46,
+   "end": 6.5,
+   "speaker": "유키(상상 속 연인 흉내)",
+   "ja": "なんだよ、俺に言わせる気かよ。",
+   "ko": "뭐야, 그걸 꼭 내 입으로 말하게 할 거야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.38,
+   "end": 8.5,
+   "speaker": "유키",
+   "ja": "お願い、言ってください。",
+   "ko": "부탁이에요, 말해 주세요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.76,
+   "end": 12.86,
+   "speaker": "유키",
+   "ja": "あなたのためならユキはどんな女の子にもなってみせます。だから。",
+   "ko": "당신을 위해서라면 유키는 어떤 여자라도 될게요. 그러니까…",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.2,
+   "end": 17.6,
+   "speaker": "유키(상상 속 연인 흉내)",
+   "ja": "いや、なんていうかお前、綺麗になったんじゃないか?",
+   "ko": "아니, 뭐랄까… 너 예뻐진 거 아니야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.18,
+   "end": 19.2,
+   "speaker": "유키",
+   "ja": "え?",
+   "ko": "네?",
+   "status": "needs_review"
+  },
+  {
+   "start": 19.54,
+   "end": 22.5,
+   "speaker": "유키(상상 속 연인 흉내)",
+   "ja": "愛してるぜユキ。もう離さないよ。",
+   "ko": "사랑해, 유키. 이제 놓지 않을 거야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 23.18,
+   "end": 24.9,
+   "speaker": "유키",
+   "ja": "え?そんな…",
+   "ko": "어머, 그런…",
+   "status": "needs_review"
+  },
+  {
+   "start": 24.9,
+   "end": 28.06,
+   "speaker": "유키",
+   "ja": "いやーん、なんちゃって。",
+   "ko": "꺄~ 이렇게 된다면~ 헤헤.",
+   "status": "needs_review",
+   "note": "VAD 없음 받아쓰기에만 있음(VAD 있음은 'え?そんな。'까지). なんちゃって = 망상을 끝내며 '…라든가, 헤헤'"
+  },
+  {
+   "start": 30.64,
+   "end": 32.14,
+   "speaker": "에리카",
+   "ja": "ちょっと、あなた大丈夫?",
+   "ko": "저기, 너 괜찮아?",
+   "status": "needs_review"
+  },
+  {
+   "start": 33.3,
+   "end": 35.76,
+   "speaker": "유키",
+   "ja": "え? い、いつから覗いてたの?",
+   "ko": "엣? 어, 언제부터 엿본 거야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 36.26,
+   "end": 37.68,
+   "speaker": "에리카",
+   "ja": "なーに言ってんの!",
+   "ko": "무슨 소리야!",
+   "status": "needs_review"
+  },
+  {
+   "start": 37.98,
+   "end": 40.16,
+   "speaker": "에리카",
+   "ja": "あんたが勝手に独り芝居やってたんでしょ?",
+   "ko": "네가 멋대로 1인극을 하고 있었잖아?",
+   "status": "needs_review"
+  },
+  {
+   "start": 41.02,
+   "end": 42.86,
+   "speaker": "에리카",
+   "ja": "ちょっとは人の目を考えなさいよ",
+   "ko": "남들 보는 눈 좀 생각하라고.",
+   "status": "needs_review"
+  },
+  {
+   "start": 43.64,
+   "end": 47.2,
+   "speaker": "유키",
+   "ja": "うーん、ユキもうお嫁に行けなーい",
+   "ko": "으앙~ 유키 이제 시집 못 가~!",
+   "status": "needs_review"
+  },
+  {
+   "start": 48.06,
+   "end": 50.32,
+   "speaker": "유키",
+   "ja": "うーん、もう怒ったわ",
+   "ko": "으~ 정말 화났어!",
+   "status": "needs_review",
+   "note": "VAD 있음 받아쓰기는 'うーん、もうか'에서 끊김"
+  },
+  {
+   "start": 50.32,
+   "end": 52.88,
+   "speaker": "유키",
+   "ja": "こうなったらあなたと麻雀で勝負よ",
+   "ko": "이렇게 된 이상 너랑 마작으로 승부야!",
+   "status": "needs_review"
+  }
+ ]
+}

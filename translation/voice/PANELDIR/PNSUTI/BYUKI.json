@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/BYUKI.AIF",
+ "scene": "패널 매치 탈의 B단계 — 유키(플레이어) vs 스치파이",
+ "duration": 5.71,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 5.28,
+   "speaker": "스치파이",
+   "ja": "え、私も脱ぐの?私スーチーパイよ。主役なのよ。",
+   "ko": "어, 나도 벗어? 난 스치파이야. 주인공이라고.",
+   "status": "needs_review"
+  }
+ ]
+}

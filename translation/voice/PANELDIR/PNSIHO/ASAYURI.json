@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSIHO/ASAYURI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 사유리(플레이어) vs 시호",
+ "duration": 2.88,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.56,
+   "speaker": "시호",
+   "ja": "そんな、私自信なくて。",
+   "ko": "그런… 저, 자신이 없는데요.",
+   "status": "needs_review"
+  }
+ ]
+}

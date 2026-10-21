@@ -1,0 +1,50 @@
+{
+ "voice": "PANELDIR/PNSUTI/ERIE.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 리에(플레이어) vs 스치파이",
+ "duration": 20.9,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.28,
+   "speaker": "스치파이",
+   "ja": "あなたは正真正銘、最強の雀士だわ。",
+   "ko": "너는 명실상부 최강의 작사야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.9,
+   "end": 5.66,
+   "speaker": "리에",
+   "ja": "悪いわね。",
+   "ko": "미안하게 됐네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.52,
+   "end": 11.5,
+   "speaker": "스치파이",
+   "ja": "もし、この勝負を通して何か得るものがあったのなら、私に聞かせてくれる?",
+   "ko": "이 승부로 뭔가 얻은 게 있다면 나한테 들려줄래?",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.16,
+   "end": 14.86,
+   "speaker": "리에",
+   "ja": "私気づいたことが一つあるわ。",
+   "ko": "나, 깨달은 게 하나 있어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.86,
+   "end": 20.66,
+   "speaker": "리에",
+   "ja": "今までいろんな子と戦ってきたけど、なんか私が一番地味な格好なのよ。",
+   "ko": "지금까지 여러 애랑 싸웠는데, 왠지 내 차림이 제일 수수하더라.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「いろんなこと」 → 문맥상 「いろんな子と」"
+  }
+ ]
+}

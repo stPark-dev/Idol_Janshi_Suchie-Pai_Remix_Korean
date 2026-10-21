@@ -1,0 +1,26 @@
+{
+ "voice": "RUMI.AIF",
+ "scene": "캐릭터 선택 — 쿄코의 소개: 루미",
+ "duration": 7.29,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.51,
+   "speaker": "스치파이",
+   "ja": "チャンタをやらせりゃあ日本一!",
+   "ko": "찬타를 시키면 일본 최고!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 있음 「あんたを」, VAD 없음 「ちゃんたを」 → チャンタ(찬타)로 봄"
+  },
+  {
+   "start": 2.73,
+   "end": 7.13,
+   "speaker": "스치파이",
+   "ja": "の留美さんは看護婦に憧れる二十歳の乙女。",
+   "ko": "그런 루미 씨는 간호사를 꿈꾸는 스무 살 아가씨.",
+   "status": "needs_review"
+  }
+ ]
+}

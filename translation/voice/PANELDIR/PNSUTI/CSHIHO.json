@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/CSHIHO.AIF",
+ "scene": "패널 매치 탈의 C단계 — 시호(플레이어) vs 스치파이",
+ "duration": 3.53,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.1,
+   "speaker": "스치파이",
+   "ja": "こ、これだけすれば文句ないでしょ、もう。",
+   "ko": "이, 이만큼 했으면 불만 없지? 정말.",
+   "status": "needs_review"
+  }
+ ]
+}

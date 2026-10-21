@@ -1,0 +1,48 @@
+{
+ "voice": "PANELDIR/PNERIKA/ESHIHO.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 에리카(상대) vs 시호(플레이어)",
+ "duration": 17.0,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.04,
+   "speaker": "시호",
+   "ja": "あの、お願いがあるんですが。",
+   "ko": "저, 부탁이 있는데요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.42,
+   "end": 6.1,
+   "speaker": "에리카",
+   "ja": "なに?私にもっと恥ずかしいことさせる気?",
+   "ko": "뭐? 나한테 더 창피한 짓 시킬 생각이야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.5,
+   "end": 9.74,
+   "speaker": "시호",
+   "ja": "いいえ、病院へはどう行ったらいいのかを。",
+   "ko": "아니요, 병원에는 어떻게 가면 되는지를…",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.3,
+   "end": 15.5,
+   "speaker": "에리카",
+   "ja": "あなた、それ本気で言ってんの?ここまっすぐ行ったら病院じゃないの。",
+   "ko": "너 그거 진심이야? 여기서 쭉 가면 병원이잖아.",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.2,
+   "end": 16.74,
+   "speaker": "시호",
+   "ja": "あら。",
+   "ko": "어머.",
+   "status": "needs_review"
+  }
+ ]
+}

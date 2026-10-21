@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNMAI/AERIKA.AIF",
+ "scene": "패널 매치 탈의 A단계 — 마이(상대) vs 에리카(플레이어)",
+ "duration": 3.48,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.5,
+   "speaker": "마이",
+   "ja": "ああ、どうしよう。負けちゃった。",
+   "ko": "아아, 어떡해. 져 버렸어.",
+   "status": "needs_review"
+  }
+ ]
+}

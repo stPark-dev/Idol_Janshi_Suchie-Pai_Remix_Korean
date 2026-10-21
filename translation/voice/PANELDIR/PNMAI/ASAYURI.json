@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNMAI/ASAYURI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 마이(상대) vs 사유리(플레이어)",
+ "duration": 2.79,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.18,
+   "speaker": "마이",
+   "ja": "うっそー!負けちゃったわー!",
+   "ko": "말도 안 돼~! 져 버렸어~!",
+   "status": "needs_review"
+  }
+ ]
+}

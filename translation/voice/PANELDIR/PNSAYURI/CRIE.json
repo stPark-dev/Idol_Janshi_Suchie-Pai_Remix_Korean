@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSAYURI/CRIE.AIF",
+ "scene": "패널 매치 탈의 C단계 — 리에(플레이어) vs 사유리",
+ "duration": 2.69,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.64,
+   "end": 1.76,
+   "speaker": "사유리",
+   "ja": "恥ずかしいです。",
+   "ko": "부끄러워요.",
+   "status": "needs_review"
+  }
+ ]
+}

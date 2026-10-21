@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNREIKA/ARUMI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 레이카(상대) vs 루미(플레이어)",
+ "duration": 3.2,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.9,
+   "speaker": "레이카",
+   "ja": "あはははは、やってくれますわ。",
+   "ko": "아하하하, 제법이군요.",
+   "status": "needs_review"
+  }
+ ]
+}

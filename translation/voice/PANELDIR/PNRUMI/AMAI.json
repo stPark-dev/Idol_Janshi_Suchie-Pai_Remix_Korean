@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRUMI/AMAI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 루미(상대) vs 마이(플레이어)",
+ "duration": 1.95,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.54,
+   "speaker": "루미",
+   "ja": "いやー、負けちゃったー。",
+   "ko": "아이고, 져 버렸네~.",
+   "status": "needs_review"
+  }
+ ]
+}

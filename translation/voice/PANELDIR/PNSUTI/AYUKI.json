@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/AYUKI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 유키(플레이어) vs 스치파이",
+ "duration": 2.93,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.56,
+   "speaker": "스치파이",
+   "ja": "あははは、こりゃあたしの負けだわ。",
+   "ko": "아하하, 이건 내가 졌네.",
+   "status": "needs_review"
+  }
+ ]
+}

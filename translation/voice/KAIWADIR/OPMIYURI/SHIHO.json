@@ -1,0 +1,97 @@
+{
+ "voice": "KAIWADIR/OPMIYURI/SHIHO.AIF",
+ "scene": "병원 — 시호(플레이어)와 미유리",
+ "duration": 38.96,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.24,
+   "speaker": "미유리",
+   "ja": "シホさん、何キョロキョロしてんの?",
+   "ko": "시호 언니, 뭘 두리번거려?",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.52,
+   "end": 4.5,
+   "speaker": "시호",
+   "ja": "あ、みゆりちゃん。",
+   "ko": "어머, 미유리.",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.02,
+   "end": 7.52,
+   "speaker": "시호",
+   "ja": "まあ、かわいいペンギンさんですね。",
+   "ko": "어머나, 귀여운 펭귄이네요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.48,
+   "end": 10.28,
+   "speaker": "미유리",
+   "ja": "うん、みゆりのお友達。",
+   "ko": "응, 미유리 친구야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.3,
+   "end": 14.48,
+   "speaker": "미유리",
+   "ja": "そういえばね、さっきウサギさんがいたんだよ。",
+   "ko": "그러고 보니까 아까 토끼가 있었어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.88,
+   "end": 18.92,
+   "speaker": "시호",
+   "ja": "うーん、病院って不思議なところですね。",
+   "ko": "음, 병원은 신기한 곳이네요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 19.6,
+   "end": 23.44,
+   "speaker": "시호",
+   "ja": "ウサギさんはいるわ、お医者様は見つからないわと。",
+   "ko": "토끼는 있고, 의사 선생님은 안 보이고.",
+   "status": "needs_review"
+  },
+  {
+   "start": 23.8,
+   "end": 27.48,
+   "speaker": "미유리",
+   "ja": "え?お医者さんは多分別のビルだよ。",
+   "ko": "응? 의사 선생님은 아마 다른 건물에 있을걸.",
+   "status": "needs_review"
+  },
+  {
+   "start": 28.3,
+   "end": 30.95,
+   "speaker": "미유리",
+   "ja": "あ、そうだ、ウサギさんがいた方だから、",
+   "ko": "아, 맞다. 토끼가 있던 쪽이니까,",
+   "status": "needs_review"
+  },
+  {
+   "start": 31.08,
+   "end": 32.98,
+   "speaker": "미유리",
+   "ja": "ウサギさんに聞くといいよ。",
+   "ko": "토끼한테 물어봐.",
+   "status": "needs_review"
+  },
+  {
+   "start": 34.52,
+   "end": 38.72,
+   "speaker": "시호",
+   "ja": "ありがとう。でもなんだか不思議の国に迷い込みそうな予感ですわ。",
+   "ko": "고마워요. 그런데 왠지 이상한 나라에 길을 잃을 것 같은 예감이네요.",
+   "status": "needs_review",
+   "note": "토끼를 따라가는 앨리스(이상한 나라의 앨리스) 패러디"
+  }
+ ]
+}

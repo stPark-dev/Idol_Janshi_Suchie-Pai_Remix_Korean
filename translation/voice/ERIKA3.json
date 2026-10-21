@@ -1,0 +1,17 @@
+{
+ "voice": "ERIKA3.AIF",
+ "scene": "에필로그 — 에리카 마지막 인사",
+ "duration": 5.15,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "note": "PANELDIR/DDGOOD/ERIKA3.AIF와 바이트까지 같은 녹음 — 같은 번역을 그대로 씀",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.9,
+   "speaker": "에리카",
+   "ja": "エリカよ。黙ってたけど、私、お料理が得意なのよ。",
+   "ko": "에리카야. 말 안 했는데, 나 요리 잘하거든.",
+   "status": "needs_review"
+  }
+ ]
+}

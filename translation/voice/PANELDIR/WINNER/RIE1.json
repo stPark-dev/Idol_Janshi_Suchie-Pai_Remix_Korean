@@ -1,0 +1,56 @@
+{
+ "voice": "PANELDIR/WINNER/RIE1.AIF",
+ "scene": "우승 후 — 레이카의 축하와 스치파이 등장 (리에, 패널 매치 부족 분기)",
+ "duration": 22.06,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.22,
+   "speaker": "레이카",
+   "ja": "まあ、とりあえずおめでとうと言わせてもらうよ。",
+   "ko": "뭐, 일단 축하한다고는 해 두지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.84,
+   "end": 6.04,
+   "speaker": "레이카",
+   "ja": "今日からあんたが最強の雀士さ。",
+   "ko": "오늘부터 네가 최강의 작사야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.82,
+   "end": 11.72,
+   "speaker": "리에",
+   "ja": "私は自由が好きなの。こんなところであなたの後を継ぐ気なんてないわ。",
+   "ko": "난 자유로운 게 좋거든. 이런 데서 네 뒤를 이을 생각은 없어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.66,
+   "end": 14.76,
+   "speaker": "스치파이",
+   "ja": "さすがにリエさんは強いわ。",
+   "ko": "역시 리에 씨는 강하네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 15.02,
+   "end": 20.68,
+   "speaker": "스치파이",
+   "ja": "ああ、だけど麻雀の方に気を取られすぎてパネルマッチを甘く見てたようですね。",
+   "ko": "하지만 마작에만 너무 신경 써서 패널 매치를 얕본 모양이야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 21.24,
+   "end": 21.56,
+   "speaker": "리에",
+   "ja": "まあ。",
+   "ko": "어머.",
+   "status": "needs_review"
+  }
+ ]
+}

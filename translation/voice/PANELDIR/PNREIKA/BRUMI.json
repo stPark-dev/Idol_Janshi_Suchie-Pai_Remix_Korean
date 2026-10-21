@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNREIKA/BRUMI.AIF",
+ "scene": "패널 매치 탈의 B단계 — 레이카(상대) vs 루미(플레이어)",
+ "duration": 2.23,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.08,
+   "speaker": "레이카",
+   "ja": "え?私も脱ぐの?",
+   "ko": "응? 나도 벗는 거야?",
+   "status": "needs_review"
+  }
+ ]
+}

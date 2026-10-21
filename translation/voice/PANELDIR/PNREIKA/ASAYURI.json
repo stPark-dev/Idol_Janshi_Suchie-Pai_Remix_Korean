@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNREIKA/ASAYURI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 레이카(상대) vs 사유리(플레이어)",
+ "duration": 1.9,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.6,
+   "speaker": "레이카",
+   "ja": "まさかあんたに負けるとはね。",
+   "ko": "설마 너한테 질 줄이야.",
+   "status": "needs_review"
+  }
+ ]
+}

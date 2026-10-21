@@ -1,0 +1,74 @@
+{
+ "voice": "PANELDIR/PNSIHO/ESAYURI.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 사유리(플레이어) vs 시호",
+ "duration": 22.15,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.14,
+   "speaker": "사유리",
+   "ja": "うわー、綺麗です。",
+   "ko": "우와~ 예뻐요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 있음은 12.7초 앞을 놓침. 0~12초는 VAD 없음 받아쓰기만 있음"
+  },
+  {
+   "start": 2.98,
+   "end": 6.24,
+   "speaker": "사유리",
+   "ja": "私と一緒にウサギちゃんペアになりませんか?",
+   "ko": "저랑 같이 토끼 콤비 안 하실래요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.32,
+   "end": 8.92,
+   "speaker": "사유리",
+   "ja": "二人でウサギちゃんを極めましょう。",
+   "ko": "둘이서 토끼의 길을 갈고닦아요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.74,
+   "end": 12.26,
+   "speaker": "시호",
+   "ja": "わ、私は遠慮しておきます。",
+   "ko": "저, 저는 사양하겠습니다.",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.62,
+   "end": 13.84,
+   "speaker": "사유리",
+   "ja": "わかりました。",
+   "ko": "알겠어요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.74,
+   "end": 16.36,
+   "speaker": "사유리",
+   "ja": "猫さんならいいんですね。",
+   "ko": "고양이라면 괜찮은 거죠?",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.62,
+   "end": 18.22,
+   "speaker": "시호",
+   "ja": "お断りいたします。",
+   "ko": "거절하겠습니다.",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.8,
+   "end": 21.32,
+   "speaker": "사유리",
+   "ja": "ありゃー、残念です。",
+   "ko": "어머나~ 아쉬워요.",
+   "status": "needs_review"
+  }
+ ]
+}

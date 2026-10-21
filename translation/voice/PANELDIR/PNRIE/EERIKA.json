@@ -1,0 +1,28 @@
+{
+ "voice": "PANELDIR/PNRIE/EERIKA.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 리에(상대) vs 에리카(플레이어)",
+ "duration": 7.01,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.52,
+   "speaker": "리에",
+   "ja": "これでわかったでしょ。今日のことは二人だけの秘密だからね。",
+   "ko": "이제 알겠지? 오늘 일은 둘만의 비밀이야.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "화자 추정(리에). 에리카일 수도 있음"
+  },
+  {
+   "start": 5.44,
+   "end": 6.84,
+   "speaker": "에리카",
+   "ja": "ええ、約束するわ。",
+   "ko": "응, 약속할게.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "화자 추정"
+  }
+ ]
+}

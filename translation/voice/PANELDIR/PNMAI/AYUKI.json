@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNMAI/AYUKI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 마이(상대) vs 유키(플레이어)",
+ "duration": 4.55,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.58,
+   "speaker": "마이",
+   "ja": "ガーン!まさかこの子に負けるなんて!",
+   "ko": "쿵! 설마 이 애한테 지다니!",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRIE/AERIKA.AIF",
+ "scene": "패널 매치 탈의 A단계 — 리에(상대) vs 에리카(플레이어)",
+ "duration": 2.6,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.38,
+   "speaker": "리에",
+   "ja": "どうやら麻雀の腕は本物みたいね。",
+   "ko": "보아하니 마작 실력은 진짜인가 봐.",
+   "status": "needs_review"
+  }
+ ]
+}

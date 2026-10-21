@@ -1,0 +1,34 @@
+{
+ "voice": "PANELDIR/PNMAI/ERIE.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 마이(상대) vs 리에(플레이어)",
+ "duration": 13.0,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.0,
+   "speaker": "리에",
+   "ja": "うふふ、やっぱりあなた可愛いわよ。",
+   "ko": "우후후, 역시 너 귀여워.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.34,
+   "end": 8.44,
+   "speaker": "마이",
+   "ja": "え、本当ですか?あの、テイクアウトします?",
+   "ko": "어, 정말요? 저기, 포장해 가실래요?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 있음은 そうします? 뿐. VAD 없음을 따름"
+  },
+  {
+   "start": 9.74,
+   "end": 12.76,
+   "speaker": "리에",
+   "ja": "そうね。また今度にしておくわ。",
+   "ko": "글쎄. 다음 기회로 미룰게.",
+   "status": "needs_review"
+  }
+ ]
+}

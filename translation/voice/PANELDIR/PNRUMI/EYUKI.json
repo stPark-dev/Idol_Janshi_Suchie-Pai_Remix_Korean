@@ -1,0 +1,88 @@
+{
+ "voice": "PANELDIR/PNRUMI/EYUKI.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 루미(상대) vs 유키(플레이어)",
+ "duration": 31.25,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.4,
+   "speaker": "유키",
+   "ja": "うううう、ユキの胸もこのくらいあればな。",
+   "ko": "으으으, 유키 가슴도 이만큼 있으면 좋겠다.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없음에만 있음. 받아쓰기 雪の胸 → ユキ"
+  },
+  {
+   "start": 4.14,
+   "end": 8.08,
+   "speaker": "유키",
+   "ja": "試合に勝って勝負に負けたというのはこういうことなのね。",
+   "ko": "시합에 이기고 승부에 졌다는 게 이런 거구나.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없음에만 있음"
+  },
+  {
+   "start": 8.34,
+   "end": 11.4,
+   "speaker": "루미",
+   "ja": "あら、なんか悪いことしちゃったかしら?",
+   "ko": "어머, 내가 뭐 잘못했나?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 있음: 良いことしちゃったかしら? / VAD 없음: 悪いこと — 문맥상 悪いこと"
+  },
+  {
+   "start": 12.26,
+   "end": 14.74,
+   "speaker": "루미",
+   "ja": "そうだ、もう一ついい方法があったわ。",
+   "ko": "맞다, 좋은 방법이 하나 더 있어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 15.0,
+   "end": 15.98,
+   "speaker": "유키",
+   "ja": "え、なになに?",
+   "ko": "응, 뭔데 뭔데?",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.14,
+   "end": 19.2,
+   "speaker": "루미",
+   "ja": "いや、簡単なことなんだけど、",
+   "ko": "아니, 간단한 건데,",
+   "status": "needs_review"
+  },
+  {
+   "start": 19.38,
+   "end": 22.44,
+   "speaker": "루미",
+   "ja": "要は揉んでもらえばいいのよね。",
+   "ko": "요컨대 누가 주물러 주면 되는 거야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 22.94,
+   "end": 28.62,
+   "speaker": "유키",
+   "ja": "え、やだ、ユキそんな恥ずかしいこと、もう信じらんない。",
+   "ko": "에, 싫어, 유키 그런 부끄러운 거, 정말 못 믿겠어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 30.0,
+   "end": 30.72,
+   "speaker": "루미",
+   "ja": "それか。",
+   "ko": "아니면…",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 それか (두 벌 모두). 끝이 잘린 말로 보이며 화자·뜻 불확실"
+  }
+ ]
+}

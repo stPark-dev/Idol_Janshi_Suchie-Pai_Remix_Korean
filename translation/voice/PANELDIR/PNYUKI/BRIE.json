@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNYUKI/BRIE.AIF",
+ "scene": "패널 매치 탈의 B단계 — 리에(플레이어) vs 유키",
+ "duration": 4.13,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.74,
+   "end": 3.78,
+   "speaker": "유키",
+   "ja": "ユキ、人前でリボン取ったことないのに。",
+   "ko": "유키, 남들 앞에서 리본 푼 적 없는데.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 있음: 「雪一枚。」, VAD 없음: 「雪一枚でリボン取ったことないのに。」 → 「ユキ、人前で」로 추정"
+  }
+ ]
+}

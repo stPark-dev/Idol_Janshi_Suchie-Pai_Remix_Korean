@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRIE/AYUKI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 리에(상대) vs 유키(플레이어)",
+ "duration": 2.32,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.06,
+   "speaker": "리에",
+   "ja": "参ったわ、私の負けね。",
+   "ko": "두 손 들었어. 내가 졌네.",
+   "status": "needs_review"
+  }
+ ]
+}

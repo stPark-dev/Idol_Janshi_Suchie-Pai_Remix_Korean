@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/CRUMI.AIF",
+ "scene": "패널 매치 탈의 C단계 — 루미(플레이어) vs 스치파이",
+ "duration": 3.25,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.72,
+   "speaker": "스치파이",
+   "ja": "やっぱ、見られるのって恥ずかしいよ。",
+   "ko": "역시 누가 보는 건 부끄러워.",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "voice": "KAIWADIR/OPSUTI/RUMI.AIF",
+ "scene": "최종전 전 대화 — 루미(플레이어) vs 스치파이",
+ "duration": 17.83,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.82,
+   "speaker": "스치파이",
+   "ja": "あなたが本当に最強かどうか、この私が試してあげるわ。",
+   "ko": "네가 정말 최강인지, 이 몸이 직접 시험해 주지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.58,
+   "end": 8.38,
+   "speaker": "스치파이",
+   "ja": "ちなみに必殺技は今まで通り使ってもいいわよ。",
+   "ko": "참고로 필살기는 지금까지처럼 써도 돼.",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.04,
+   "end": 11.38,
+   "speaker": "스치파이",
+   "ja": "そのくらいのハンデはつけてあげなきゃね。",
+   "ko": "그 정도 핸디캡은 줘야겠지?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: そのくらいの範ではつけてあげなきゃね。 (範では→ハンデは)"
+  },
+  {
+   "start": 12.42,
+   "end": 13.86,
+   "speaker": "사사키 루미",
+   "ja": "それはご親切に。",
+   "ko": "그것참 친절하시네요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.66,
+   "end": 17.56,
+   "speaker": "사사키 루미",
+   "ja": "でも私だってここまで来て負けるつもりはありませんよ。",
+   "ko": "하지만 저도 여기까지 와서 질 생각은 없어요.",
+   "status": "needs_review"
+  }
+ ]
+}

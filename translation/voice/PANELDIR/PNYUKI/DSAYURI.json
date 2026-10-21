@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNYUKI/DSAYURI.AIF",
+ "scene": "패널 매치 탈의 D단계 — 사유리(플레이어) vs 유키",
+ "duration": 1.63,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.96,
+   "speaker": "유키",
+   "ja": "もう許して。",
+   "ko": "이제 봐줘.",
+   "status": "needs_review"
+  }
+ ]
+}

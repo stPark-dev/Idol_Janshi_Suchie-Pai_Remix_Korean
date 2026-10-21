@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNERIKA/CYUKI.AIF",
+ "scene": "패널 매치 탈의 C단계 — 에리카(상대) vs 유키(플레이어)",
+ "duration": 2.0,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.56,
+   "speaker": "에리카",
+   "ja": "はい、こういう目に遭うのよ。",
+   "ko": "자, 이런 꼴을 당하는 거야.",
+   "status": "needs_review"
+  }
+ ]
+}

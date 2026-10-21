@@ -1,0 +1,58 @@
+{
+ "voice": "KAIWADIR/OPSIHO/MAI.AIF",
+ "scene": "대국 전 대화 — 마이(플레이어) vs 시호",
+ "duration": 20.39,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.69,
+   "end": 5.99,
+   "speaker": "시호",
+   "ja": "あら、何かご用でしょうか。私、パイは注文していませんけど。",
+   "ko": "어머, 무슨 일이신가요? 저, 파이는 주문하지 않았는데요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.67,
+   "end": 8.67,
+   "speaker": "마이",
+   "ja": "あなた、麻雀できる?",
+   "ko": "너, 마작 할 줄 알아?",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.62,
+   "end": 13.2,
+   "speaker": "시호",
+   "ja": "え?あ、あの、できるというほどでは、",
+   "ko": "네? 저, 저기, 할 줄 안다고 할 정도는…",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.33,
+   "end": 15.51,
+   "speaker": "시호",
+   "ja": "お父様の見よう見まねで。",
+   "ko": "아버님 어깨너머로 배운 거라서요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: 「お父様の身を見真似で」 → 「見よう見まね」로 봄"
+  },
+  {
+   "start": 15.67,
+   "end": 19.05,
+   "speaker": "마이",
+   "ja": "できるのね。決まったわ。私と勝負しましょう。",
+   "ko": "할 줄 아는구나. 결정됐어! 나랑 승부하자.",
+   "status": "needs_review"
+  },
+  {
+   "start": 19.49,
+   "end": 19.87,
+   "speaker": "시호",
+   "ja": "え?",
+   "ko": "네?",
+   "status": "needs_review"
+  }
+ ]
+}

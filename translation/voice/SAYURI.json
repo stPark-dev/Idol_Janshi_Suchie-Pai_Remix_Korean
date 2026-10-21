@@ -1,0 +1,18 @@
+{
+ "voice": "SAYURI.AIF",
+ "scene": "캐릭터 선택 — 쿄코의 소개: 사유리",
+ "duration": 4.74,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.44,
+   "speaker": "스치파이",
+   "ja": "ハラペコウサギことさゆりちゃんは、イーペーコーを駆使するバニーガール。",
+   "ko": "일명 '배고픈 토끼' 사유리는 이페코를 구사하는 바니걸.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「いいペコ」 → イーペーコー(一盃口, 이페코). 원문은 ハラペコ/イーペーコー 말장난"
+  }
+ ]
+}

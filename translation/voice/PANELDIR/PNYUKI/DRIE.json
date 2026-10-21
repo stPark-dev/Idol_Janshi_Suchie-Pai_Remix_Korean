@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNYUKI/DRIE.AIF",
+ "scene": "패널 매치 탈의 D단계 — 리에(플레이어) vs 유키",
+ "duration": 2.09,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.78,
+   "speaker": "유키",
+   "ja": "あはーん!やだやだやだー!",
+   "ko": "아앙! 싫어 싫어 싫어~!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「あはーい!」 → 「あはーん」으로 추정"
+  }
+ ]
+}

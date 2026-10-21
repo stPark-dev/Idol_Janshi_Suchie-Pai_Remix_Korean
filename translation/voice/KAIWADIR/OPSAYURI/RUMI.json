@@ -1,0 +1,64 @@
+{
+ "voice": "KAIWADIR/OPSAYURI/RUMI.AIF",
+ "scene": "대국 전 대화 — 루미(플레이어) vs 사유리",
+ "duration": 24.94,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.12,
+   "speaker": "사유리",
+   "ja": "あら、新入りさんですか?",
+   "ko": "어머, 신입이세요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.6,
+   "end": 7.74,
+   "speaker": "루미",
+   "ja": "誰が新入りよ。麻雀好きのバニーガールってあんたね。",
+   "ko": "누가 신입이야. 마작 좋아하는 바니걸이 너구나.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.16,
+   "end": 9.96,
+   "speaker": "사유리",
+   "ja": "そういう言い方されると、",
+   "ko": "그런 식으로 말하면요,",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.3,
+   "end": 14.38,
+   "speaker": "사유리",
+   "ja": "あたしってどうしようもないイカレポンチに聞こえちゃうんですけど。",
+   "ko": "제가 구제불능 나사 빠진 애처럼 들리잖아요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.78,
+   "end": 16.02,
+   "speaker": "루미",
+   "ja": "じゃあ言い直すわ。",
+   "ko": "그럼 다시 말할게.",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.64,
+   "end": 22.48,
+   "speaker": "루미",
+   "ja": "えぇ、麻雀の得意なウサギさん、私と勝負しませんか?",
+   "ko": "에헴, 마작을 잘하시는 토끼 씨, 저와 승부하지 않으시겠어요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 22.78,
+   "end": 24.32,
+   "speaker": "사유리",
+   "ja": "はい!喜んで!",
+   "ko": "네! 기꺼이요!",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "voice": "KAIWADIR/OPKEIKO/ERIKA.AIF",
+ "scene": "대국 전 대화 — 에리카(플레이어) vs 케이코",
+ "duration": 23.03,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.64,
+   "speaker": "케이코",
+   "ja": "いらっしゃいませ。",
+   "ko": "어서 오세요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.14,
+   "end": 3.48,
+   "speaker": "에리카",
+   "ja": "ねえ、あなた麻雀強いでしょ。",
+   "ko": "어이, 너 마작 세지?",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.94,
+   "end": 7.02,
+   "speaker": "케이코",
+   "ja": "残念でした。ルールもよく知らないわ。",
+   "ko": "아쉽게 됐네. 난 규칙도 잘 몰라.",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.74,
+   "end": 9.48,
+   "speaker": "에리카",
+   "ja": "はあ、がっかり。",
+   "ko": "하아, 김새네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.92,
+   "end": 12.32,
+   "speaker": "케이코",
+   "ja": "代わりにとびっきり強い子を知ってるわよ。",
+   "ko": "대신 끝내주게 센 애를 알고 있지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.0,
+   "end": 16.2,
+   "speaker": "케이코",
+   "ja": "でも自分から勝負を挑んでくるようなタイプじゃないし、",
+   "ko": "근데 먼저 승부를 걸어오는 타입은 아니라서,",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.52,
+   "end": 18.7,
+   "speaker": "케이코",
+   "ja": "相手をしてくれるかどうか。",
+   "ko": "상대해 줄지는 모르겠네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.9,
+   "end": 22.76,
+   "speaker": "에리카",
+   "ja": "ねえねえ、悪いけどその子のこと詳しく教えてくれる?",
+   "ko": "이봐, 미안한데 그 애 얘기 자세히 좀 해 줄래?",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "voice": "RIE.AIF",
+ "scene": "캐릭터 선택 — 쿄코의 소개: 리에",
+ "duration": 7.15,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.02,
+   "speaker": "스치파이",
+   "ja": "字牌を使った積み込みは、ちょっと危ないOLの南條さん。",
+   "ko": "자패 쌓기라면 좀 위험한 OL, 난조 씨.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「自廃」 → 字牌"
+  },
+  {
+   "start": 4.82,
+   "end": 6.84,
+   "speaker": "스치파이",
+   "ja": "仕事でストレス溜まっちゃってんのかな?",
+   "ko": "일 때문에 스트레스가 쌓였나?",
+   "status": "needs_review"
+  }
+ ]
+}

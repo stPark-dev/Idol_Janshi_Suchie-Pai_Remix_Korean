@@ -1,0 +1,99 @@
+{
+ "voice": "KAIWADIR/OPMAI/RIE.AIF",
+ "scene": "대국 전 대화 — 리에(플레이어) vs 마이, 마이의 파이 가게",
+ "duration": 30.7,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.3,
+   "speaker": "마이",
+   "ja": "いらっしゃいませ。",
+   "ko": "어서 오세요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.58,
+   "end": 5.34,
+   "speaker": "마이",
+   "ja": "わあ、ちょっと素敵なお姉さまだな。",
+   "ko": "와아, 꽤 멋진 언니다~",
+   "status": "needs_review",
+   "note": "VAD 없는 받아쓰기에만 있는 줄(혼잣말)"
+  },
+  {
+   "start": 7.86,
+   "end": 10.64,
+   "speaker": "마이",
+   "ja": "あの、ご注文は何にいたしましょうか。",
+   "ko": "저, 주문은 뭘로 하시겠어요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.0,
+   "end": 14.16,
+   "speaker": "리에",
+   "ja": "うふ、かわいいあなたをテイクアウトで。",
+   "ko": "후훗, 귀여운 너를 테이크아웃으로.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.5,
+   "end": 16.76,
+   "speaker": "마이",
+   "ja": "そ、そんなご冗談を。",
+   "ko": "노, 농담도 참.",
+   "status": "needs_review"
+  },
+  {
+   "start": 17.14,
+   "end": 19.56,
+   "speaker": "리에",
+   "ja": "そうね、冗談はさておき。",
+   "ko": "그래, 농담은 그렇다 치고.",
+   "status": "needs_review"
+  },
+  {
+   "start": 19.74,
+   "end": 21.82,
+   "speaker": "마이",
+   "ja": "え、冗談?",
+   "ko": "네? 농담이었어요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 23.08,
+   "end": 24.58,
+   "speaker": "리에",
+   "ja": "そう、冗談。",
+   "ko": "그래, 농담.",
+   "status": "needs_review"
+  },
+  {
+   "start": 25.36,
+   "end": 26.24,
+   "speaker": "리에",
+   "ja": "あのね。",
+   "ko": "있잖아.",
+   "status": "needs_review",
+   "note": "말하는 사람 추정(리에가 뜸 들이고 제안하는 흐름으로 봄)"
+  },
+  {
+   "start": 27.24,
+   "end": 28.72,
+   "speaker": "리에",
+   "ja": "麻雀、する?",
+   "ko": "마작, 할래?",
+   "status": "needs_review"
+  },
+  {
+   "start": 29.44,
+   "end": 30.4,
+   "speaker": "마이",
+   "ja": "するわよ!",
+   "ko": "하고말고!",
+   "status": "needs_review",
+   "note": "VAD 없는 받아쓰기의 28.72 「する?」는 메아리 환각으로 보고 버림"
+  }
+ ]
+}

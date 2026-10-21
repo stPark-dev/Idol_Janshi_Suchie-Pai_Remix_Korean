@@ -1,0 +1,24 @@
+{
+ "voice": "PANELDIR/DDGOOD/SAYURI1.AIF",
+ "scene": "에필로그 — 사유리의 그 후",
+ "duration": 6.32,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.84,
+   "speaker": "스치파이",
+   "ja": "すっかりウサギちゃんを極めてしまったさゆりちゃん。",
+   "ko": "토끼를 완전히 통달해 버린 사유리.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.44,
+   "end": 6.1,
+   "speaker": "스치파이",
+   "ja": "実は今レースクイーンになっちゃってます。",
+   "ko": "사실 지금은 레이싱 모델이 됐답니다.",
+   "status": "needs_review"
+  }
+ ]
+}

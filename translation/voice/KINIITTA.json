@@ -1,0 +1,24 @@
+{
+ "voice": "KINIITTA.AIF",
+ "scene": "캐릭터 선택 — 안내",
+ "duration": 6.13,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.58,
+   "speaker": "스치파이",
+   "ja": "気に入った女の子を選んでね。",
+   "ko": "마음에 드는 여자애를 골라 줘.",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.08,
+   "end": 5.88,
+   "speaker": "스치파이",
+   "ja": "みんなそれぞれ得意な技を持ってるから参考にしてね。",
+   "ko": "다들 저마다 특기가 있으니까 참고해.",
+   "status": "needs_review"
+  }
+ ]
+}

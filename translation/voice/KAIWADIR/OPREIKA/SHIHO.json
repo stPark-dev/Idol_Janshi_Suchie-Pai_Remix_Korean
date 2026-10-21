@@ -1,0 +1,84 @@
+{
+ "voice": "KAIWADIR/OPREIKA/SHIHO.AIF",
+ "scene": "최종 보스 레이카 등장 — 시호(플레이어) vs 레이카",
+ "duration": 32.93,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.3,
+   "speaker": "레이카",
+   "ja": "よーくここがわかりましたね。片桐志穂。",
+   "ko": "용케 여길 찾아왔구나, 카타기리 시호.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「片桐四穂」"
+  },
+  {
+   "start": 4.16,
+   "end": 6.58,
+   "speaker": "레이카",
+   "ja": "私が最強の雀士、麗華様よ。",
+   "ko": "내가 최강의 작사, 레이카 님이다.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「霊華様」"
+  },
+  {
+   "start": 6.94,
+   "end": 10.0,
+   "speaker": "시호",
+   "ja": "はぁ、なんでこうなるのかしら。",
+   "ko": "하아, 어째서 이렇게 되는 걸까요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.3,
+   "end": 12.1,
+   "speaker": "레이카",
+   "ja": "お前の噂は聞いているよ。",
+   "ko": "네 소문은 들었다.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.02,
+   "end": 17.22,
+   "speaker": "레이카",
+   "ja": "なんでも、町中の雀士に勝負を挑んで回ってるそうじゃないか。",
+   "ko": "온 동네 작사들한테 승부를 걸고 다닌다며?",
+   "status": "needs_review"
+  },
+  {
+   "start": 17.4,
+   "end": 19.16,
+   "speaker": "시호",
+   "ja": "そ、それは誤解です。",
+   "ko": "그, 그건 오해예요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 19.7,
+   "end": 24.38,
+   "speaker": "레이카",
+   "ja": "ほほほほほほほ。望み通り私が相手になってあげるわ。",
+   "ko": "오호호호호! 소원대로 내가 상대해 주지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 25.76,
+   "end": 29.74,
+   "speaker": "시호",
+   "ja": "あの、お馬のお薬を探してここまで来たんですけど。",
+   "ko": "저기, 말 약을 찾다가 여기까지 온 건데요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 30.72,
+   "end": 32.28,
+   "speaker": "레이카",
+   "ja": "さあ始めるよ",
+   "ko": "자, 시작한다!",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "voice": "PANELDIR/WINNER/RIE2.AIF",
+ "scene": "우승 후 — 스치파이 「이번엔 여기서 끝」 (리에)",
+ "duration": 10.08,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.24,
+   "speaker": "스치파이",
+   "ja": "今回はこれで終わりだけど、",
+   "ko": "이번엔 여기서 끝이지만,",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.34,
+   "end": 7.52,
+   "speaker": "스치파이",
+   "ja": "あなたが真の雀士に成長したときには、私が相手になってあげるわ。",
+   "ko": "네가 진정한 작사로 성장하면 그때는 내가 상대해 줄게.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.36,
+   "end": 9.32,
+   "speaker": "리에",
+   "ja": "やられたわ。",
+   "ko": "당했네.",
+   "status": "needs_review"
+  }
+ ]
+}

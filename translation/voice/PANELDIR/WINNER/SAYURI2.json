@@ -1,0 +1,34 @@
+{
+ "voice": "PANELDIR/WINNER/SAYURI2.AIF",
+ "scene": "우승 후 — 스치파이 「이번엔 여기서 끝」 (사유리)",
+ "duration": 11.33,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.24,
+   "speaker": "스치파이",
+   "ja": "今回はこれで終わりだけど、",
+   "ko": "이번엔 여기서 끝이지만,",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.34,
+   "end": 7.5,
+   "speaker": "스치파이",
+   "ja": "あなたが真の雀士に成長したときには、私が相手になってあげるわ。",
+   "ko": "네가 진정한 작사로 성장하면 그때는 내가 상대해 줄게.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.78,
+   "end": 10.42,
+   "speaker": "사유리",
+   "ja": "って、信じらんない!",
+   "ko": "뭐야, 말도 안 돼!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없는 받아쓰기에만 있음(「って、信じらんない!」)"
+  }
+ ]
+}

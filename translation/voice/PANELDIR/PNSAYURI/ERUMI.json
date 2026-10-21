@@ -1,0 +1,70 @@
+{
+ "voice": "PANELDIR/PNSAYURI/ERUMI.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 루미(플레이어) vs 사유리",
+ "duration": 23.03,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.32,
+   "speaker": "루미",
+   "ja": "ひょっとして、あなたって全然色気がないんじゃない?",
+   "ko": "혹시 너, 색기가 전혀 없는 거 아냐?",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.78,
+   "end": 7.42,
+   "speaker": "사유리",
+   "ja": "えへへ、う、うーん、あーん。",
+   "ko": "에헤헤, 으, 으음, 아앙~",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 있음: 「ひひ、う、うーん。」(3.72~6.28)만 잡음. 이 줄과 다음 줄은 VAD 없음 받아쓰기"
+  },
+  {
+   "start": 7.42,
+   "end": 10.88,
+   "speaker": "사유리",
+   "ja": "おやめくださーい。いやーん、そんなとこー。",
+   "ko": "그만두세요~ 싫어잉, 거긴~",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없음에만 있음"
+  },
+  {
+   "start": 11.76,
+   "end": 12.82,
+   "speaker": "루미",
+   "ja": "やっぱり。",
+   "ko": "역시나.",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.9,
+   "end": 17.08,
+   "speaker": "사유리",
+   "ja": "か、看護婦さん、あたしどうすれば色っぽくなるんでしょう。",
+   "ko": "가, 간호사님, 저 어떻게 하면 섹시해질까요?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 있음은 「今回ですので」로 뭉갬. VAD 없음을 따름"
+  },
+  {
+   "start": 17.4,
+   "end": 20.18,
+   "speaker": "루미",
+   "ja": "せ、専門外ですので、バイバイ。",
+   "ko": "저, 전문 분야가 아니라서. 바이바이.",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.58,
+   "end": 22.5,
+   "speaker": "사유리",
+   "ja": "うわー、お待ちになってー。",
+   "ko": "우와~ 기다려 주세요~",
+   "status": "needs_review"
+  }
+ ]
+}

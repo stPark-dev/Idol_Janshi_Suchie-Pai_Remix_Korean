@@ -1,0 +1,36 @@
+{
+ "voice": "YUKI2.AIF",
+ "scene": "에필로그 — 유키의 그 후 (2) — 미소녀 작사 스치유키",
+ "duration": 10.03,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "note": "PANELDIR/DDGOOD/YUKI2.AIF와 바이트까지 같은 녹음 — 같은 번역을 그대로 씀",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.84,
+   "speaker": "유키",
+   "ja": "愛と正義の体操服美少女雀士、スーチーユキちゃん。",
+   "ko": "사랑과 정의의 체육복 미소녀 작사, 스치유키!",
+   "status": "needs_review",
+   "note": "「愛と正義のセーラー服美少女戦士」(세일러문) 패러디"
+  },
+  {
+   "start": 4.42,
+   "end": 6.36,
+   "speaker": "유키",
+   "ja": "月で積もって白天よ。",
+   "ko": "달님 대신 쯔모해 주겠어!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 VAD 있음 「月で積もって吐く」, VAD 없음 「月で積もって白天よ」. 세일러문 「月にかわっておしおきよ」를 마작(ツモ)으로 비튼 대사로 보이나 정확한 말 불명. 듣고 확인 필요"
+  },
+  {
+   "start": 6.9,
+   "end": 9.78,
+   "speaker": "스치파이",
+   "ja": "はぁ、この子だけは苦手です。",
+   "ko": "하아, 이 애만큼은 정말 버거워요.",
+   "status": "needs_review"
+  }
+ ]
+}

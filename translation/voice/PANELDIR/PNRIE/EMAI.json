@@ -1,0 +1,40 @@
+{
+ "voice": "PANELDIR/PNRIE/EMAI.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 리에(상대) vs 마이(플레이어)",
+ "duration": 13.56,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.62,
+   "speaker": "마이",
+   "ja": "私は今、とにかく雀士としての道を極めてみたいの。",
+   "ko": "난 지금 어쨌든 작사의 길을 끝까지 가 보고 싶어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.06,
+   "end": 7.38,
+   "speaker": "리에",
+   "ja": "そう。だったら次の相手はエリカね。",
+   "ko": "그래. 그럼 다음 상대는 에리카네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.96,
+   "end": 10.38,
+   "speaker": "리에",
+   "ja": "多分病院のあたりをうろうろしてるはずよ。",
+   "ko": "아마 병원 근처를 어슬렁거리고 있을 거야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.84,
+   "end": 13.36,
+   "speaker": "리에",
+   "ja": "じゃあ、健闘を祈ってるわ。",
+   "ko": "그럼 건투를 빌게.",
+   "status": "needs_review"
+  }
+ ]
+}

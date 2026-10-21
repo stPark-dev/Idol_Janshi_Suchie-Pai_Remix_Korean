@@ -1,0 +1,51 @@
+{
+ "voice": "KAIWADIR/OPREIKA/RIE.AIF",
+ "scene": "최종 보스 레이카 등장 — 리에(플레이어) vs 레이카",
+ "duration": 8.73,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.6,
+   "speaker": "레이카",
+   "ja": "リエお姉さまこと、字牌のリエ。",
+   "ko": "리에 언니, 일명 자패의 리에.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「慈輩のリエ」 = 字牌(ジハイ). 화자(레이카/리에 자기소개)도 추정"
+  },
+  {
+   "start": 3.22,
+   "end": 4.72,
+   "speaker": "리에",
+   "ja": "現れたわね、レイカ。",
+   "ko": "나타났구나, 레이카.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.98,
+   "end": 6.48,
+   "speaker": "레이카",
+   "ja": "先に名前を呼ぶなよ。",
+   "ko": "내가 소개하기도 전에 이름 부르지 마.",
+   "status": "needs_review",
+   "note": "자기소개를 하려던 레이카가 이름을 먼저 불려 김이 샌 농담"
+  },
+  {
+   "start": 6.74,
+   "end": 7.68,
+   "speaker": "리에",
+   "ja": "さあ、勝負よ。",
+   "ko": "자, 승부야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.08,
+   "end": 8.73,
+   "speaker": "레이카",
+   "ja": "おいおい。",
+   "ko": "야, 야.",
+   "status": "needs_review"
+  }
+ ]
+}

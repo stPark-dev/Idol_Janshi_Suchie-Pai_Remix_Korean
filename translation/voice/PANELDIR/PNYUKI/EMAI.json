@@ -1,0 +1,48 @@
+{
+ "voice": "PANELDIR/PNYUKI/EMAI.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 마이(플레이어) vs 유키",
+ "duration": 12.59,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.46,
+   "speaker": "마이",
+   "ja": "ユキちゃん。",
+   "ko": "유키.",
+   "status": "needs_review"
+  },
+  {
+   "start": 0.64,
+   "end": 1.24,
+   "speaker": "유키",
+   "ja": "なに?",
+   "ko": "왜?",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.0,
+   "end": 6.14,
+   "speaker": "마이",
+   "ja": "ユキちゃん、自分の体の中でどこが一番気に入ってる?",
+   "ko": "유키, 네 몸에서 어디가 제일 마음에 들어?",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.88,
+   "end": 8.78,
+   "speaker": "유키",
+   "ja": "うーん、性格かな。",
+   "ko": "으음, 성격일까?",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.4,
+   "end": 12.22,
+   "speaker": "마이",
+   "ja": "あ、あんたその性格直しなさいって!",
+   "ko": "너, 너 그 성격부터 고치라니까!",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNMAI/DSHIHO.AIF",
+ "scene": "패널 매치 탈의 D단계 — 마이(상대) vs 시호(플레이어)",
+ "duration": 2.32,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.74,
+   "speaker": "마이",
+   "ja": "もう恥ずかしいよー。",
+   "ko": "정말 부끄러워~.",
+   "status": "needs_review"
+  }
+ ]
+}

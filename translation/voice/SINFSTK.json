@@ -1,0 +1,46 @@
+{
+ "voice": "SINFSTK.AIF",
+ "scene": "패널 매치 설명 — 스치스틱",
+ "duration": 11.01,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.6,
+   "speaker": "스치파이",
+   "ja": "必殺スーチースティック。",
+   "ko": "필살 스치스틱!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「数値スティック」 → スーチースティック"
+  },
+  {
+   "start": 1.6,
+   "end": 4.5,
+   "speaker": "스치파이",
+   "ja": "リーチをかければフリテンだろうが5枚目だろうが",
+   "ko": "리치를 걸면 후리텐이든 5장째든",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「振り点」 → フリテン"
+  },
+  {
+   "start": 4.5,
+   "end": 6.84,
+   "speaker": "스치파이",
+   "ja": "一発で当たり牌をツモってこれるわ。",
+   "ko": "일발로 화료패를 쯔모해 올 수 있어.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「積もって」 → ツモって"
+  },
+  {
+   "start": 7.4,
+   "end": 10.78,
+   "speaker": "스치파이",
+   "ja": "物理学者も裸足で逃げ出す奇跡の必殺技よ。",
+   "ko": "물리학자도 맨발로 도망칠 기적의 필살기야.",
+   "status": "needs_review"
+  }
+ ]
+}

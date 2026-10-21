@@ -1,0 +1,56 @@
+{
+ "voice": "PANELDIR/PNERIKA/ESAYURI.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 에리카(상대) vs 사유리(플레이어)",
+ "duration": 25.22,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.12,
+   "speaker": "사유리",
+   "ja": "どうやら落ち着いたようですね。",
+   "ko": "이제 좀 진정된 것 같네요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.56,
+   "end": 8.3,
+   "speaker": "에리카",
+   "ja": "あんたなんかに負けたんじゃ、もう全てがどうでもよく思えてくるわよ。",
+   "ko": "너 같은 애한테 졌으니 이제 다 아무래도 좋아졌어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.52,
+   "end": 13.28,
+   "speaker": "사유리",
+   "ja": "まあまあ、あなたの今回の予感は見事的中したわけですから、",
+   "ko": "자자, 이번 예감은 멋지게 적중했으니까요,",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.78,
+   "end": 18.16,
+   "speaker": "사유리",
+   "ja": "明日からは占い師としても生きていくことをお勧めいたします。",
+   "ko": "내일부터는 점쟁이로도 살아가시길 권해 드려요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.84,
+   "end": 19.44,
+   "speaker": "사유리",
+   "ja": "ではでは。",
+   "ko": "그럼 이만~",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.58,
+   "end": 24.82,
+   "speaker": "에리카",
+   "ja": "い、今だけはプライドのないウサギさんが羨ましいわよ!",
+   "ko": "지, 지금만큼은 자존심 없는 토끼가 부럽다고!",
+   "status": "needs_review"
+  }
+ ]
+}

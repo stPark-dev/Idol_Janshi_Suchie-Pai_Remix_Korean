@@ -1,0 +1,16 @@
+{
+ "voice": "YUKI.AIF",
+ "scene": "캐릭터 선택 — 쿄코의 소개: 유키",
+ "duration": 4.74,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.46,
+   "speaker": "스치파이",
+   "ja": "キャピキャピ女子高生。ユキちゃんの武器は若さと一通積み込みよ。",
+   "ko": "발랄한 여고생 유키의 무기는 젊음과 일기통관 쌓기야.",
+   "status": "needs_review"
+  }
+ ]
+}

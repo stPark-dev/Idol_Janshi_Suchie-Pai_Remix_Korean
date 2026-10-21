@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNYUKI/CERIKA.AIF",
+ "scene": "패널 매치 탈의 C단계 — 에리카(플레이어) vs 유키",
+ "duration": 2.55,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.3,
+   "speaker": "유키",
+   "ja": "どう?ユキの裸かわいいでしょ?",
+   "ko": "어때? 유키 알몸 귀엽지?",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "voice": "PANELDIR/PNSIHO/EERIKA.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 에리카(플레이어) vs 시호",
+ "duration": 16.07,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.48,
+   "speaker": "에리카",
+   "ja": "さすがね。なかなか手強かったわ。",
+   "ko": "역시 대단하네. 꽤 만만치 않았어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.92,
+   "end": 7.52,
+   "speaker": "시호",
+   "ja": "私の完敗です。本当にお強いんですね。",
+   "ko": "제 완패예요. 정말 강하시네요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「私の乾杯です」 → 문맥상 「完敗」"
+  },
+  {
+   "start": 8.02,
+   "end": 11.9,
+   "speaker": "에리카",
+   "ja": "はあ、やっぱいい勝負の後は気分もいいわね。",
+   "ko": "하아, 역시 좋은 승부 뒤엔 기분도 좋네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.4,
+   "end": 13.82,
+   "speaker": "에리카",
+   "ja": "じゃ、次行こうかな。",
+   "ko": "그럼, 다음으로 가 볼까.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.14,
+   "end": 15.74,
+   "speaker": "시호",
+   "ja": "はい、お気をつけて。",
+   "ko": "네, 조심해서 가세요.",
+   "status": "needs_review"
+  }
+ ]
+}

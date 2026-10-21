@@ -1,0 +1,32 @@
+{
+ "voice": "SINFPNT.AIF",
+ "scene": "패널 매치 설명 — 포인트 패널",
+ "duration": 11.28,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.3,
+   "speaker": "스치파이",
+   "ja": "ポイントパネル。",
+   "ko": "포인트 패널.",
+   "status": "needs_review"
+  },
+  {
+   "start": 1.3,
+   "end": 6.8,
+   "speaker": "스치파이",
+   "ja": "ポイントを集めるとみんなの積み込み技がレベルアップしてさらに凶悪になっていくわ。",
+   "ko": "포인트를 모으면 모두의 패 쌓기 기술이 레벨 업해서 더 흉악해져.",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.48,
+   "end": 11.06,
+   "speaker": "스치파이",
+   "ja": "プラス1とプラス3の2種類があるから間違えないでね。",
+   "ko": "+1과 +3 두 종류가 있으니까 헷갈리지 마.",
+   "status": "needs_review"
+  }
+ ]
+}

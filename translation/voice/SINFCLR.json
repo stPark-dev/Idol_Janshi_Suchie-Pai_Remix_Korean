@@ -1,0 +1,24 @@
+{
+ "voice": "SINFCLR.AIF",
+ "scene": "패널 매치 설명 — 패널 클리어",
+ "duration": 9.43,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.3,
+   "speaker": "스치파이",
+   "ja": "パネルクリア。これが揃うとあっという間にステージクリアよ。",
+   "ko": "패널 클리어. 이게 맞춰지면 순식간에 스테이지 클리어야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.26,
+   "end": 9.22,
+   "speaker": "스치파이",
+   "ja": "でも残ったパネルのアイテムやポイントは手に入らないから注意してね。",
+   "ko": "하지만 남은 패널의 아이템이나 포인트는 못 얻으니까 조심해.",
+   "status": "needs_review"
+  }
+ ]
+}

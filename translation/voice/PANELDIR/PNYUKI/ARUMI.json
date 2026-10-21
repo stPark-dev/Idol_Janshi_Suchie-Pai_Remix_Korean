@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNYUKI/ARUMI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 루미(플레이어) vs 유키",
+ "duration": 2.74,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.14,
+   "speaker": "유키",
+   "ja": "はぁ、神様助けて。",
+   "ko": "하아, 하느님 살려 줘.",
+   "status": "needs_review"
+  }
+ ]
+}

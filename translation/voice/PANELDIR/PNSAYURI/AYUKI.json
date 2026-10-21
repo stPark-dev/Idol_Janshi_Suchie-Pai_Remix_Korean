@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNSAYURI/AYUKI.AIF",
+ "scene": "패널 매치 탈의 A단계 — 유키(플레이어) vs 사유리",
+ "duration": 3.07,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.48,
+   "speaker": "사유리",
+   "ja": "ユキちゃんずるーい。",
+   "ko": "유키, 치사해요~",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없음: 「で、雪ちゃんずるーい。」 — 이름 표기를 고침"
+  }
+ ]
+}

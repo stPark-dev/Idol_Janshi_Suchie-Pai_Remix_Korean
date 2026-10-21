@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/DDGOOD/MAI1.AIF",
+ "scene": "에필로그 — 마이의 그 후",
+ "duration": 5.67,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 5.46,
+   "speaker": "스치파이",
+   "ja": "で、その後の舞ちゃんなんですが、どうやら念願の自分のお店が持てたみたいです。",
+   "ko": "그래서 그 뒤의 마이는요, 꿈에 그리던 자기 가게를 차린 모양이에요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「その後の麻雀なんですが、どうやら伝言の自分のお店」 → 舞ちゃん, 念願"
+  }
+ ]
+}

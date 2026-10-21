@@ -1,0 +1,42 @@
+{
+ "voice": "PANELDIR/PNSAYURI/ERIE.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 리에(플레이어) vs 사유리",
+ "duration": 14.12,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.82,
+   "speaker": "리에",
+   "ja": "かわいかったわよ、うさぎちゃん。今度は卓球で決着つけましょうね。",
+   "ko": "귀여웠어, 토끼 아가씨. 다음엔 탁구로 결판내자.",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.0,
+   "end": 8.52,
+   "speaker": "사유리",
+   "ja": "えー!卓球も得意なんですか?",
+   "ko": "네에?! 탁구도 잘하세요?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「シー!」 → 놀란 소리로 추정"
+  },
+  {
+   "start": 8.52,
+   "end": 11.94,
+   "speaker": "사유리",
+   "ja": "あなた一体何の会社に勤めてるんですか?",
+   "ko": "당신 대체 무슨 회사에 다니는 거예요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.7,
+   "end": 13.58,
+   "speaker": "리에",
+   "ja": "秘密。",
+   "ko": "비밀.",
+   "status": "needs_review"
+  }
+ ]
+}

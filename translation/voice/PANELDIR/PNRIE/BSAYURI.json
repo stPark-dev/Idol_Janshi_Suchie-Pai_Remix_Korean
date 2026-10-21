@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRIE/BSAYURI.AIF",
+ "scene": "패널 매치 탈의 B단계 — 리에(상대) vs 사유리(플레이어)",
+ "duration": 2.65,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.32,
+   "speaker": "리에",
+   "ja": "わかってるわよ。脱げばいいんでしょ?",
+   "ko": "알고 있어. 벗으면 되잖아?",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "voice": "KAIWADIR/OPERIKA/MAI.AIF",
+ "scene": "대국 전 대화 — 마이(플레이어) vs 에리카",
+ "duration": 39.2,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.68,
+   "speaker": "에리카",
+   "ja": "ちょっと聞きたいんだけど、アンコの舞っていう雀士について何か知らない?",
+   "ko": "저기, 뭐 좀 물어볼게. 안코의 마이라는 작사에 대해 뭐 아는 거 없어?",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.02,
+   "end": 9.1,
+   "speaker": "마이",
+   "ja": "ええ、知ってるわよ。かわいくって、清楚で可憐で、",
+   "ko": "응, 알지. 귀엽고, 청순하고 가련하고,",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.18,
+   "end": 12.26,
+   "speaker": "마이",
+   "ja": "男の子に大人気の美少女雀士でしょ。",
+   "ko": "남자애들한테 인기 만점인 미소녀 작사잖아.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.3,
+   "end": 15.82,
+   "speaker": "에리카",
+   "ja": "うーん。で、居場所は?",
+   "ko": "흐음. 그래서, 어디 있는데?",
+   "status": "needs_review"
+  },
+  {
+   "start": 17.0,
+   "end": 18.9,
+   "speaker": "마이",
+   "ja": "あなたの目の前よ。",
+   "ko": "네 눈앞에 있잖아.",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.1,
+   "end": 21.16,
+   "speaker": "에리카",
+   "ja": "え?どこ?",
+   "ko": "응? 어디?",
+   "status": "needs_review"
+  },
+  {
+   "start": 23.74,
+   "end": 25.98,
+   "speaker": "마이",
+   "ja": "私がアンコの舞よ。",
+   "ko": "내가 안코의 마이야!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 있음 받아쓰기: 「舞よ。」(21.74~), VAD 없음: 「私があんこの舞よ。」(23.74~) — VAD 없음 쪽을 따름"
+  },
+  {
+   "start": 26.4,
+   "end": 30.18,
+   "speaker": "에리카",
+   "ja": "どこどこ?清楚で可憐な美少女雀士ってどこ?",
+   "ko": "어디어디? 청순하고 가련한 미소녀 작사가 어디 있는데?",
+   "status": "needs_review"
+  },
+  {
+   "start": 30.9,
+   "end": 32.84,
+   "speaker": "마이",
+   "ja": "ここにいるって言ってんでしょ。",
+   "ko": "여기 있다고 했잖아!",
+   "status": "needs_review"
+  },
+  {
+   "start": 33.5,
+   "end": 35.08,
+   "speaker": "마이",
+   "ja": "さあ、勝負行くわよ。",
+   "ko": "자, 승부다!",
+   "status": "needs_review"
+  },
+  {
+   "start": 35.1,
+   "end": 38.76,
+   "speaker": "에리카",
+   "ja": "わからないわ。一体どこにいるのかしら。",
+   "ko": "모르겠네. 대체 어디 있는 걸까?",
+   "status": "needs_review"
+  }
+ ]
+}

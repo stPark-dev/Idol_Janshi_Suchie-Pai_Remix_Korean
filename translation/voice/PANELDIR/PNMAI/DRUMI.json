@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNMAI/DRUMI.AIF",
+ "scene": "패널 매치 탈의 D단계 — 마이(상대) vs 루미(플레이어)",
+ "duration": 0.88,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.44,
+   "speaker": "마이",
+   "ja": "おー。",
+   "ko": "오오…",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 おー。 (VAD 없음만, 0.44초). 짧은 감탄사로 둠"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "voice": "KAIWADIR/OPSUTI/YUKI.AIF",
+ "scene": "최종전 전 대화 — 유키(플레이어) vs 스치파이",
+ "duration": 26.15,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.82,
+   "speaker": "스치파이",
+   "ja": "あなたが本当に最強かどうか、この私が試してあげるわ。",
+   "ko": "네가 정말 최강인지, 이 몸이 직접 시험해 주지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.54,
+   "end": 8.36,
+   "speaker": "스치파이",
+   "ja": "ちなみに必殺技は今まで通り使ってもいいわよ。",
+   "ko": "참고로 필살기는 지금까지처럼 써도 돼.",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.02,
+   "end": 11.4,
+   "speaker": "스치파이",
+   "ja": "そのくらいのハンデはつけてあげなきゃね。",
+   "ko": "그 정도 핸디캡은 줘야겠지?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: そのくらいの範ではつけてあげなきゃね。 (範では→ハンデは)"
+  },
+  {
+   "start": 11.9,
+   "end": 13.6,
+   "speaker": "미즈노 유키",
+   "ja": "何偉そうに言ってんのよ。",
+   "ko": "뭘 잘난 척하고 있어?",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.0,
+   "end": 17.18,
+   "speaker": "미즈노 유키",
+   "ja": "必殺技とか言っちゃって、ただのイカサマじゃないの。",
+   "ko": "필살기라고 해 봤자 그냥 속임수잖아.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: ただのイカ様じゃないの (イカ様→イカサマ)"
+  },
+  {
+   "start": 17.8,
+   "end": 20.24,
+   "speaker": "미즈노 유키",
+   "ja": "やーい、イカサマ雀士スーチーパイ。",
+   "ko": "얼레리~ 사기꾼 작사 스치파이~",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: イカ様じゃんしスーチーパイ (イカサマ雀士로 봄)"
+  },
+  {
+   "start": 20.6,
+   "end": 23.8,
+   "speaker": "스치파이",
+   "ja": "どうやらユキちゃんにはお仕置きが必要みたいね。",
+   "ko": "아무래도 유키한텐 벌이 필요한 것 같네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 24.4,
+   "end": 25.86,
+   "speaker": "스치파이",
+   "ja": "さあ、勝負よ。",
+   "ko": "자, 승부다!",
+   "status": "needs_review"
+  }
+ ]
+}

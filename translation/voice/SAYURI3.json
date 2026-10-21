@@ -1,0 +1,18 @@
+{
+ "voice": "SAYURI3.AIF",
+ "scene": "에필로그 — 사유리 마지막 인사",
+ "duration": 3.07,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "note": "PANELDIR/DDGOOD/SAYURI3.AIF와 바이트까지 같은 녹음 — 같은 번역을 그대로 씀",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.18,
+   "speaker": "사유리",
+   "ja": "さゆりちゃんです。ご飯まだ?",
+   "ko": "사유리랍니다~ 밥은 아직이야?",
+   "status": "needs_review",
+   "note": "VAD 없는 받아쓰기에만 있음"
+  }
+ ]
+}

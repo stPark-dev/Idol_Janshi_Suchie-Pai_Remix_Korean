@@ -1,0 +1,24 @@
+{
+ "voice": "PANELDIR/DDGOOD/ERIKA1.AIF",
+ "scene": "에필로그 — 에리카의 그 후",
+ "duration": 6.59,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.92,
+   "speaker": "스치파이",
+   "ja": "というわけで、エリカさんは本当の婦人警官になってしまいました。",
+   "ko": "그리하여 에리카 씨는 진짜 여자 경찰관이 되어 버렸어요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.6,
+   "end": 6.36,
+   "speaker": "스치파이",
+   "ja": "しかも本場アメリカで。",
+   "ko": "그것도 본고장 미국에서요.",
+   "status": "needs_review"
+  }
+ ]
+}

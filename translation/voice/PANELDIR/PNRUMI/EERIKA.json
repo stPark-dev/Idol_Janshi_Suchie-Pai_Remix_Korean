@@ -1,0 +1,40 @@
+{
+ "voice": "PANELDIR/PNRUMI/EERIKA.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 루미(상대) vs 에리카(플레이어)",
+ "duration": 18.39,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.6,
+   "speaker": "에리카",
+   "ja": "どう?覚えると面白いもんでしょ。",
+   "ko": "어때? 배우고 나니 재밌지?",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.84,
+   "end": 8.56,
+   "speaker": "루미",
+   "ja": "ねえ、この負けた方が脱ぐっていうのは本当にルールの一つなの?",
+   "ko": "근데 진 쪽이 벗는다는 거, 진짜 규칙 중 하나야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.82,
+   "end": 14.54,
+   "speaker": "에리카",
+   "ja": "もちろん。さらに負けた方は勝った人の一日奴隷をする義務があるのよ。",
+   "ko": "물론이지. 게다가 진 쪽은 이긴 사람의 하루 노예가 될 의무가 있어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 15.44,
+   "end": 17.78,
+   "speaker": "루미",
+   "ja": "んなわけないでしょ、キック!",
+   "ko": "그럴 리가 있냐, 발차기!",
+   "status": "needs_review"
+  }
+ ]
+}

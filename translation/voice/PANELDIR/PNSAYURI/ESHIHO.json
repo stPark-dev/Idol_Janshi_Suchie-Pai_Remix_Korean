@@ -1,0 +1,58 @@
+{
+ "voice": "PANELDIR/PNSAYURI/ESHIHO.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 시호(플레이어) vs 사유리",
+ "duration": 17.69,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.3,
+   "speaker": "시호",
+   "ja": "あの、それでは私はこれで。",
+   "ko": "저기, 그럼 저는 이만.",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.54,
+   "end": 6.18,
+   "speaker": "사유리",
+   "ja": "うわ、待って。あ、あたしお金ないんです。",
+   "ko": "우와, 잠깐만요. 저, 저 돈이 없어요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.18,
+   "end": 8.08,
+   "speaker": "사유리",
+   "ja": "ご飯のお代貸してください。",
+   "ko": "밥값 좀 빌려주세요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없음에만 있음"
+  },
+  {
+   "start": 8.56,
+   "end": 10.14,
+   "speaker": "시호",
+   "ja": "ご安心ください。",
+   "ko": "안심하세요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.14,
+   "end": 14.16,
+   "speaker": "시호",
+   "ja": "料金は私がカードで支払っておきます。では。",
+   "ko": "요금은 제가 카드로 내 두겠습니다. 그럼.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.54,
+   "end": 16.38,
+   "speaker": "사유리",
+   "ja": "はは、ありがとうございます。",
+   "ko": "하하, 고맙습니다.",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "voice": "PANELDIR/DDGOOD/YUKI3.AIF",
+ "scene": "에필로그 — 유키 마지막 인사",
+ "duration": 3.02,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.74,
+   "speaker": "유키",
+   "ja": "水野佑紀です。大好きよ。",
+   "ko": "미즈노 유키예요. 정말 좋아해!",
+   "status": "needs_review",
+   "note": "받아쓰기 「水野由紀」 → 佑紀"
+  }
+ ]
+}

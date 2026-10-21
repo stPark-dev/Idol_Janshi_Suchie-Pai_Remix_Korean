@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/DDGOOD/RUMI1.AIF",
+ "scene": "에필로그 — 루미의 그 후",
+ "duration": 4.83,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.6,
+   "speaker": "스치파이",
+   "ja": "偽看護婦だったルミさん。実は今は本当の看護婦さんです。",
+   "ko": "가짜 간호사였던 루미 씨. 사실 지금은 진짜 간호사랍니다.",
+   "status": "needs_review"
+  }
+ ]
+}

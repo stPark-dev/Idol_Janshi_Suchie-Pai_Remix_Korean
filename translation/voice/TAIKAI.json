@@ -1,0 +1,16 @@
+{
+ "voice": "TAIKAI.AIF",
+ "scene": "대회 시작 인사",
+ "duration": 2.37,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.2,
+   "speaker": "스치파이",
+   "ja": "スーチーパイ麻雀大会へようこそ。",
+   "ko": "스치파이 마작대회에 어서 와!",
+   "status": "needs_review"
+  }
+ ]
+}

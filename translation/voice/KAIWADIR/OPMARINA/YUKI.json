@@ -1,0 +1,64 @@
+{
+ "voice": "KAIWADIR/OPMARINA/YUKI.AIF",
+ "scene": "마리나와의 대화 — 유키(플레이어). 다음 상대 시호를 알려 줌",
+ "duration": 15.84,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.72,
+   "speaker": "마리나",
+   "ja": "お嬢ちゃん、どうしたの?",
+   "ko": "꼬마 아가씨, 무슨 일이야?",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.32,
+   "end": 3.4,
+   "speaker": "유키",
+   "ja": "あの、お姉さん。",
+   "ko": "저기, 언니.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.78,
+   "end": 6.5,
+   "speaker": "유키",
+   "ja": "ユキね、シホさんって人を探してるの。",
+   "ko": "유키는요, 시호 씨라는 사람을 찾고 있어요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.5,
+   "end": 9.4,
+   "speaker": "마리나",
+   "ja": "うん、シホちゃんを探してんだ。",
+   "ko": "응, 시호를 찾고 있구나.",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.84,
+   "end": 11.12,
+   "speaker": "유키",
+   "ja": "お姉さん知ってるの?",
+   "ko": "언니 알아요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.6,
+   "end": 12.5,
+   "speaker": "마리나",
+   "ja": "少しだけね。",
+   "ko": "조금은.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.12,
+   "end": 15.56,
+   "speaker": "마리나",
+   "ja": "シホちゃんなら、さっきあそこで会ったわよ。",
+   "ko": "시호라면 아까 저기서 만났어.",
+   "status": "needs_review"
+  }
+ ]
+}

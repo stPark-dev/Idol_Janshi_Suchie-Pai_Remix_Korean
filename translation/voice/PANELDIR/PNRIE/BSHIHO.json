@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNRIE/BSHIHO.AIF",
+ "scene": "패널 매치 탈의 B단계 — 리에(상대) vs 시호(플레이어)",
+ "duration": 2.37,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.12,
+   "speaker": "리에",
+   "ja": "あなたが照れると、かえって恥ずかしいわ。",
+   "ko": "네가 쑥스러워하니까 오히려 내가 부끄럽네.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 あなたが照れるとかって恥ずかしいわ → 照れると、かえって로 추정"
+  }
+ ]
+}

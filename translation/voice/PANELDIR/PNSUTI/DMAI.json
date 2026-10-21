@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSUTI/DMAI.AIF",
+ "scene": "패널 매치 탈의 D단계 — 마이(플레이어) vs 스치파이",
+ "duration": 2.65,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.26,
+   "speaker": "스치파이",
+   "ja": "あ、こら、どこ見てんのよ。",
+   "ko": "앗, 얘, 어딜 보는 거야!",
+   "status": "needs_review"
+  }
+ ]
+}

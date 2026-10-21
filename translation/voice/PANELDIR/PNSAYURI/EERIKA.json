@@ -1,0 +1,52 @@
+{
+ "voice": "PANELDIR/PNSAYURI/EERIKA.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 에리카(플레이어) vs 사유리",
+ "duration": 19.97,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.76,
+   "speaker": "에리카",
+   "ja": "さあ、もう思い残すことはないわよね。",
+   "ko": "자, 이제 미련은 없겠지?",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.98,
+   "end": 4.64,
+   "speaker": "사유리",
+   "ja": "いえいえ、いっぱいあります。",
+   "ko": "아뇨아뇨, 잔뜩 있어요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없음에만 있음"
+  },
+  {
+   "start": 6.18,
+   "end": 8.4,
+   "speaker": "에리카",
+   "ja": "罪を憎んでウサギ憎まず。",
+   "ko": "죄는 미워하되 토끼는 미워하지 말라.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "「罪を憎んで人を憎まず」 패러디"
+  },
+  {
+   "start": 9.38,
+   "end": 13.2,
+   "speaker": "에리카",
+   "ja": "麻雀に勝って気分がいいから、今日のところは見逃してあげるわ。",
+   "ko": "마작에 이겨서 기분 좋으니까 오늘은 봐줄게.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.94,
+   "end": 19.7,
+   "speaker": "사유리",
+   "ja": "それはありがたいんですけど、一体私は何の罪に問われてるんですか。",
+   "ko": "그건 고맙지만요, 대체 제가 무슨 죄를 지었다는 거예요?",
+   "status": "needs_review"
+  }
+ ]
+}

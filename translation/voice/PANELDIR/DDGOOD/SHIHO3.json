@@ -1,0 +1,17 @@
+{
+ "voice": "PANELDIR/DDGOOD/SHIHO3.AIF",
+ "scene": "에필로그 — 시호 마지막 인사",
+ "duration": 4.32,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.92,
+   "speaker": "시호",
+   "ja": "志穂です。私のこと忘れないでくださいね。",
+   "ko": "시호예요. 저를 잊지 말아 주세요.",
+   "status": "needs_review",
+   "note": "VAD 없는 받아쓰기에만 있음"
+  }
+ ]
+}

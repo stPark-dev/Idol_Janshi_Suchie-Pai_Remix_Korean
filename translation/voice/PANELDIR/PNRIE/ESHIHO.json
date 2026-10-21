@@ -1,0 +1,50 @@
+{
+ "voice": "PANELDIR/PNRIE/ESHIHO.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 리에(상대) vs 시호(플레이어)",
+ "duration": 21.41,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.96,
+   "speaker": "시호",
+   "ja": "な、なんとか最悪のパターンは免れたようですわ。",
+   "ko": "겨, 겨우 최악의 사태는 면한 것 같아요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 間逃れた → 免れた"
+  },
+  {
+   "start": 4.56,
+   "end": 7.7,
+   "speaker": "리에",
+   "ja": "はあ、今回は私の負けね。",
+   "ko": "하아, 이번엔 내가 졌네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.38,
+   "end": 13.02,
+   "speaker": "리에",
+   "ja": "でもこの次会うときは、あなたが私の前に肌を晒す番よ。",
+   "ko": "하지만 다음에 만날 땐 네가 내 앞에서 맨살을 드러낼 차례야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.74,
+   "end": 17.08,
+   "speaker": "리에",
+   "ja": "それまでせいぜい女を磨いておいてね。",
+   "ko": "그때까지 여자로서 열심히 가꿔 둬.",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.14,
+   "end": 21.06,
+   "speaker": "시호",
+   "ja": "で、でも先が思いやられますわ。",
+   "ko": "그, 그래도 앞날이 걱정이에요.",
+   "status": "needs_review"
+  }
+ ]
+}

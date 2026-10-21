@@ -1,0 +1,126 @@
+{
+ "voice": "KAIWADIR/OPRUMI/SHIHO.AIF",
+ "scene": "대국 전 대화 — 시호(플레이어) vs 루미, 말 텐짱의 약을 구하러 병원에",
+ "duration": 50.11,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.66,
+   "speaker": "루미",
+   "ja": "はい。",
+   "ko": "네.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 없는 받아쓰기에만 있음, 화자 추정"
+  },
+  {
+   "start": 0.7,
+   "end": 4.6,
+   "speaker": "시호",
+   "ja": "あの、最近私のテンちゃんが元気なくて、",
+   "ko": "저기, 요즘 저희 텐짱이 기운이 없고",
+   "status": "needs_review",
+   "note": "テンちゃん: 시호가 기르는 말"
+  },
+  {
+   "start": 4.86,
+   "end": 6.9,
+   "speaker": "시호",
+   "ja": "食欲もないみたいなんです。",
+   "ko": "식욕도 없는 것 같아요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.6,
+   "end": 9.68,
+   "speaker": "시호",
+   "ja": "何か良いお薬はありませんか?",
+   "ko": "뭔가 좋은 약이 없을까요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.2,
+   "end": 14.9,
+   "speaker": "루미",
+   "ja": "なるほど。そこで彼のために何かしてあげたいっていうわけね。",
+   "ko": "그렇구나. 그래서 그 녀석을 위해 뭔가 해 주고 싶다는 거지?",
+   "status": "needs_review"
+  },
+  {
+   "start": 15.24,
+   "end": 18.14,
+   "speaker": "루미",
+   "ja": "ちょうどいいわね。あれを試してみましょうかしら。",
+   "ko": "마침 잘됐네. 그걸 한번 써 볼까?",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.56,
+   "end": 21.3,
+   "speaker": "루미",
+   "ja": "あ、徹夜明けのお父さんも瞬間回復。",
+   "ko": "밤샘한 아버지도 순식간에 회복!",
+   "status": "needs_review"
+  },
+  {
+   "start": 21.48,
+   "end": 25.7,
+   "speaker": "루미",
+   "ja": "ルミちゃん印の超強力無限滋養強壮剤、",
+   "ko": "루미표 초강력 무한 자양강장제,",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「無限需要競争剤」. 「滋養強壮剤」(자양강장제)로 고침"
+  },
+  {
+   "start": 25.96,
+   "end": 28.12,
+   "speaker": "루미",
+   "ja": "ドカビタンゼーット!",
+   "ko": "도카비탄 제~트!",
+   "status": "needs_review",
+   "note": "드링크제 リポビタンD 패러디 이름"
+  },
+  {
+   "start": 29.5,
+   "end": 33.3,
+   "speaker": "시호",
+   "ja": "ああ、何か壮絶なネーミングですが、お願いします",
+   "ko": "어머, 이름이 좀 굉장하지만… 부탁드려요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 34.08,
+   "end": 37.06,
+   "speaker": "루미",
+   "ja": "いいわよ、でも一つ条件があるの",
+   "ko": "좋아. 대신 조건이 하나 있어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 37.06,
+   "end": 40.56,
+   "speaker": "시호",
+   "ja": "まさか、マージャンですか?",
+   "ko": "설마, 마작인가요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 41.14,
+   "end": 44.58,
+   "speaker": "루미",
+   "ja": "あったりー、早速始めましょうか",
+   "ko": "딩동댕~! 그럼 바로 시작해 볼까?",
+   "status": "needs_review"
+  },
+  {
+   "start": 45.12,
+   "end": 49.76,
+   "speaker": "시호",
+   "ja": "はあ、皆さんなんでこんなにマージャンが好きなのかしら",
+   "ko": "하아, 다들 왜 이렇게 마작을 좋아하실까요.",
+   "status": "needs_review"
+  }
+ ]
+}

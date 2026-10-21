@@ -1,0 +1,40 @@
+{
+ "voice": "ROULE.AIF",
+ "scene": "마작 규칙 화면 — 쿄코의 설명",
+ "duration": 11.61,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.42,
+   "speaker": "스치파이",
+   "ja": "麻雀わかんない人にはチンプンカンプンかもしれませんが、",
+   "ko": "마작 모르는 사람한텐 알쏭달쏭하겠지만,",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.46,
+   "end": 5.62,
+   "speaker": "스치파이",
+   "ja": "基本ルールは画面の通りです。",
+   "ko": "기본 규칙은 화면에 나온 대로야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.32,
+   "end": 9.22,
+   "speaker": "스치파이",
+   "ja": "いつも遊んでいる麻雀と違うルールがあっても",
+   "ko": "평소 하던 마작과 다른 규칙이 있어도",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.4,
+   "end": 11.44,
+   "speaker": "스치파이",
+   "ja": "細かいことは言わない言わない。",
+   "ko": "자잘한 건 따지기 없기~.",
+   "status": "needs_review"
+  }
+ ]
+}

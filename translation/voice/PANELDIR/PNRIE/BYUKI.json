@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNRIE/BYUKI.AIF",
+ "scene": "패널 매치 탈의 B단계 — 리에(상대) vs 유키(플레이어)",
+ "duration": 4.64,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 4.54,
+   "speaker": "리에",
+   "ja": "でも、あなたになら私の胸見せてあげる。",
+   "ko": "그래도 너라면 내 가슴 보여 줄게.",
+   "status": "needs_review"
+  }
+ ]
+}

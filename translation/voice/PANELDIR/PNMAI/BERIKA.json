@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNMAI/BERIKA.AIF",
+ "scene": "패널 매치 탈의 B단계 — 마이(상대) vs 에리카(플레이어)",
+ "duration": 2.41,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.82,
+   "speaker": "마이",
+   "ja": "もう、覚悟を決めるわ。",
+   "ko": "에잇, 각오할게.",
+   "status": "needs_review"
+  }
+ ]
+}

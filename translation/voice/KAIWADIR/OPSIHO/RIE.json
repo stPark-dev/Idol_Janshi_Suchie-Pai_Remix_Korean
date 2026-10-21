@@ -1,0 +1,125 @@
+{
+ "voice": "KAIWADIR/OPSIHO/RIE.AIF",
+ "scene": "대국 전 대화 — 리에(플레이어) vs 시호",
+ "duration": 44.81,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.9,
+   "speaker": "시호",
+   "ja": "はじめまして。私が片桐しほです。",
+   "ko": "처음 뵙겠습니다. 제가 카타기리 시호예요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.46,
+   "end": 5.82,
+   "speaker": "리에",
+   "ja": "まあ、かわいい。好みだわ。",
+   "ko": "어머, 귀여워라. 내 취향이야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 6.62,
+   "end": 7.02,
+   "speaker": "시호",
+   "ja": "うん?",
+   "ko": "네?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기: 「うん。」 의문의 짧은 반응으로 봄"
+  },
+  {
+   "start": 8.98,
+   "end": 13.2,
+   "speaker": "리에",
+   "ja": "何にも知りませんって顔してても、私には隠しきれないわ。",
+   "ko": "아무것도 모른다는 얼굴을 해도 나한텐 못 숨겨.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.12,
+   "end": 17.06,
+   "speaker": "시호",
+   "ja": "な、何を言うんですか。私、そんな。",
+   "ko": "무, 무슨 말씀이세요. 저는 그런…",
+   "status": "needs_review"
+  },
+  {
+   "start": 17.34,
+   "end": 22.8,
+   "speaker": "리에",
+   "ja": "そうやって焦るところなんかも好きよ。いいのよ。私も同じなんだから。",
+   "ko": "그렇게 당황하는 모습도 좋아. 괜찮아. 나도 같은 부류니까.",
+   "status": "needs_review",
+   "note": "리에는 마작 이야기를 하지만 시호는 동성애 쪽으로 오해하는 엇갈림 개그. 「私も同じ」의 이중 의미를 살림"
+  },
+  {
+   "start": 23.84,
+   "end": 24.64,
+   "speaker": "시호",
+   "ja": "そ、そんな。",
+   "ko": "그, 그런…",
+   "status": "needs_review"
+  },
+  {
+   "start": 25.4,
+   "end": 29.1,
+   "speaker": "리에",
+   "ja": "あなた、とっても気に入ったわ。二人で楽しみましょう。",
+   "ko": "너, 정말 마음에 들어. 둘이서 즐기자.",
+   "status": "needs_review"
+  },
+  {
+   "start": 29.36,
+   "end": 29.5,
+   "speaker": "시호",
+   "ja": "え?",
+   "ko": "네?",
+   "status": "needs_review"
+  },
+  {
+   "start": 30.0,
+   "end": 31.14,
+   "speaker": "시호",
+   "ja": "わ、わたくし!",
+   "ko": "저, 저는…!",
+   "status": "needs_review"
+  },
+  {
+   "start": 31.38,
+   "end": 33.56,
+   "speaker": "리에",
+   "ja": "さあ、どこにあるの? 雀卓。",
+   "ko": "자, 어디 있어? 마작 탁자.",
+   "status": "needs_review"
+  },
+  {
+   "start": 34.72,
+   "end": 37.14,
+   "speaker": "시호",
+   "ja": "はい?雀卓ですか?",
+   "ko": "네? 마작 탁자요?",
+   "status": "needs_review"
+  },
+  {
+   "start": 38.32,
+   "end": 42.06,
+   "speaker": "시호",
+   "ja": "あ、あは!麻雀ですよね!麻雀!",
+   "ko": "아, 아하! 마작 말씀이죠! 마작!",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "VAD 있는 받아쓰기는 「マージャン!」만 잡음. VAD 없는 쪽 문장을 씀"
+  },
+  {
+   "start": 42.22,
+   "end": 44.5,
+   "speaker": "리에",
+   "ja": "うふふ、かわいい。",
+   "ko": "우후후, 귀여워.",
+   "status": "needs_review"
+  }
+ ]
+}

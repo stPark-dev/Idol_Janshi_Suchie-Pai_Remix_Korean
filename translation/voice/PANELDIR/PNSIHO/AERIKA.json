@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSIHO/AERIKA.AIF",
+ "scene": "패널 매치 탈의 A단계 — 에리카(플레이어) vs 시호",
+ "duration": 2.18,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.84,
+   "speaker": "시호",
+   "ja": "本当にこれもルールなんですか?",
+   "ko": "정말 이것도 규칙인가요?",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/DDGOOD/RIE3.AIF",
+ "scene": "에필로그 — 리에 마지막 인사",
+ "duration": 3.02,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.7,
+   "speaker": "리에",
+   "ja": "リエですけど、誰か趣味の合う人いない?",
+   "ko": "리에인데, 누구 취미 맞는 사람 없어?",
+   "status": "needs_review"
+  }
+ ]
+}

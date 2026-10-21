@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSIHO/BERIKA.AIF",
+ "scene": "패널 매치 탈의 B단계 — 에리카(플레이어) vs 시호",
+ "duration": 2.32,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.84,
+   "speaker": "시호",
+   "ja": "なんか不安になってきました。",
+   "ko": "어쩐지 불안해지기 시작했어요.",
+   "status": "needs_review"
+  }
+ ]
+}

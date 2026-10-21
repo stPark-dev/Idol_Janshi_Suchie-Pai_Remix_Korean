@@ -1,0 +1,64 @@
+{
+ "voice": "KAIWADIR/OPSUTI/SAYURI.AIF",
+ "scene": "최종전 전 대화 — 사유리(플레이어) vs 스치파이",
+ "duration": 19.88,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.82,
+   "speaker": "스치파이",
+   "ja": "あなたが本当に最強かどうか、この私が試してあげるわ。",
+   "ko": "네가 정말 최강인지, 이 몸이 직접 시험해 주지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.56,
+   "end": 8.38,
+   "speaker": "스치파이",
+   "ja": "ちなみに必殺技は今まで通り使ってもいいわよ。",
+   "ko": "참고로 필살기는 지금까지처럼 써도 돼.",
+   "status": "needs_review"
+  },
+  {
+   "start": 9.04,
+   "end": 11.4,
+   "speaker": "스치파이",
+   "ja": "そのくらいのハンデはつけてあげなきゃね。",
+   "ko": "그 정도 핸디캡은 줘야겠지?",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.82,
+   "end": 13.76,
+   "speaker": "카와모토 사유리",
+   "ja": "あなたが大ボスですね。",
+   "ko": "당신이 끝판 대장이군요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.42,
+   "end": 15.8,
+   "speaker": "스치파이",
+   "ja": "私はヒロインなの。",
+   "ko": "난 히로인이라고.",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.02,
+   "end": 17.3,
+   "speaker": "스치파이",
+   "ja": "間違わないでくれる?",
+   "ko": "헷갈리지 말아 줄래?",
+   "status": "needs_review"
+  },
+  {
+   "start": 18.22,
+   "end": 19.66,
+   "speaker": "스치파이",
+   "ja": "じゃあ、麻雀開始よ。",
+   "ko": "그럼 마작 시작이야.",
+   "status": "needs_review"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/SHIHO2.AIF",
+ "scene": "컨티뉴 화면 — 시호 (계속했을 때)",
+ "duration": 1.39,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.96,
+   "speaker": "시호",
+   "ja": "さすがですわ。",
+   "ko": "역시 대단하세요.",
+   "status": "needs_review"
+  }
+ ]
+}

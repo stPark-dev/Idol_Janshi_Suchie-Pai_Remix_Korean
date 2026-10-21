@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSIHO/CMAI.AIF",
+ "scene": "패널 매치 탈의 C단계 — 마이(플레이어) vs 시호",
+ "duration": 4.18,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.84,
+   "speaker": "시호",
+   "ja": "でも、この開放感が癖になりそうで怖いんです。",
+   "ko": "그래도 이 해방감에 맛을 들일 것 같아 무서워요.",
+   "status": "needs_review"
+  }
+ ]
+}

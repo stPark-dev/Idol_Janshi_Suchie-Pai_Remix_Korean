@@ -1,0 +1,52 @@
+{
+ "voice": "RUMI2.AIF",
+ "scene": "에필로그 — 루미의 그 후 (2) — 미유리와",
+ "duration": 13.42,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "note": "PANELDIR/DDGOOD/RUMI2.AIF와 바이트까지 같은 녹음 — 같은 번역을 그대로 씀",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.88,
+   "speaker": "루미",
+   "ja": "うん、すっかり良くなってるわ。",
+   "ko": "응, 완전히 좋아졌네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 2.36,
+   "end": 4.62,
+   "speaker": "미유리",
+   "ja": "ミユリ、お腹すいちゃったよ。",
+   "ko": "미유리, 배고파졌어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 5.78,
+   "end": 6.86,
+   "speaker": "스치파이",
+   "ja": "病は気から。",
+   "ko": "병은 마음먹기 나름.",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.64,
+   "end": 12.6,
+   "speaker": "스치파이",
+   "ja": "明るいルミさんが看護婦さんなら、きっと病気も裸足で逃げ出してしまいます。",
+   "ko": "밝은 루미 씨가 간호사라면 병도 분명 줄행랑을 칠 거예요.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「はかるいルミさん…病気も果たして逃げ出して」 → 明るい, 裸足で(裸足で逃げ出す: 혼비백산 도망치다)"
+  },
+  {
+   "start": 12.86,
+   "end": 13.18,
+   "speaker": "스치파이",
+   "ja": "はい。",
+   "ko": "네.",
+   "status": "needs_review",
+   "note": "말한 사람 불확실(내레이션 끝맺음으로 봄)"
+  }
+ ]
+}

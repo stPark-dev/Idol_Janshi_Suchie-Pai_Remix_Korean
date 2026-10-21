@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNMAI/DSAYURI.AIF",
+ "scene": "패널 매치 탈의 D단계 — 마이(상대) vs 사유리(플레이어)",
+ "duration": 0.79,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.48,
+   "speaker": "마이",
+   "ja": "聞いてる?",
+   "ko": "듣고 있어?",
+   "status": "needs_review"
+  }
+ ]
+}

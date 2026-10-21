@@ -1,0 +1,18 @@
+{
+ "voice": "PANELDIR/PNREIKA/BRIE.AIF",
+ "scene": "패널 매치 탈의 B단계 — 레이카(상대) vs 리에(플레이어)",
+ "duration": 1.44,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 1.16,
+   "speaker": "레이카",
+   "ja": "潔く脱いでやるわ。",
+   "ko": "깨끗하게 벗어 주지.",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 いしゃぎよく → 潔く"
+  }
+ ]
+}

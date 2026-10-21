@@ -1,0 +1,162 @@
+{
+ "voice": "KAIWADIR/OPERIKA/SAYURI.AIF",
+ "scene": "대국 전 대화 — 사유리(플레이어) vs 에리카",
+ "duration": 46.67,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 2.64,
+   "speaker": "에리카",
+   "ja": "ドキドキ、なんか事件の予感がするわ。",
+   "ko": "두근두근, 뭔가 사건의 예감이 들어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.14,
+   "end": 8.02,
+   "speaker": "사유리",
+   "ja": "もしもし、おまわりさん、あっちに怪しい人がいました。逮捕してください。",
+   "ko": "저기요, 경찰 아저씨~ 저쪽에 수상한 사람이 있었어요. 체포해 주세요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.68,
+   "end": 9.28,
+   "speaker": "사유리",
+   "ja": "ではでは。",
+   "ko": "그럼 이만~",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.04,
+   "end": 10.84,
+   "speaker": "에리카",
+   "ja": "ちょっと待った!",
+   "ko": "잠깐!",
+   "status": "needs_review"
+  },
+  {
+   "start": 11.4,
+   "end": 14.78,
+   "speaker": "에리카",
+   "ja": "どこ見回しても、あんた以外に怪しい人はいないわよ。",
+   "ko": "아무리 둘러봐도 너 말고 수상한 사람은 없거든.",
+   "status": "needs_review"
+  },
+  {
+   "start": 15.68,
+   "end": 18.6,
+   "speaker": "에리카",
+   "ja": "さ、職務質問よ。正直に答えなさい。",
+   "ko": "자, 불심검문이다. 솔직하게 대답해.",
+   "status": "needs_review"
+  },
+  {
+   "start": 19.1,
+   "end": 20.1,
+   "speaker": "에리카",
+   "ja": "まず、名前は?",
+   "ko": "먼저, 이름은?",
+   "status": "needs_review"
+  },
+  {
+   "start": 20.52,
+   "end": 21.5,
+   "speaker": "사유리",
+   "ja": "うさぎちゃんです。",
+   "ko": "토끼짱이에요~",
+   "status": "needs_review"
+  },
+  {
+   "start": 22.72,
+   "end": 23.44,
+   "speaker": "에리카",
+   "ja": "仕事は?",
+   "ko": "직업은?",
+   "status": "needs_review"
+  },
+  {
+   "start": 23.66,
+   "end": 24.78,
+   "speaker": "사유리",
+   "ja": "食べて寝ること。",
+   "ko": "먹고 자는 거~",
+   "status": "needs_review"
+  },
+  {
+   "start": 25.36,
+   "end": 26.3,
+   "speaker": "에리카",
+   "ja": "家族は?",
+   "ko": "가족은?",
+   "status": "needs_review"
+  },
+  {
+   "start": 26.64,
+   "end": 28.04,
+   "speaker": "사유리",
+   "ja": "ハムスター2匹。",
+   "ko": "햄스터 두 마리~",
+   "status": "needs_review"
+  },
+  {
+   "start": 28.88,
+   "end": 29.42,
+   "speaker": "에리카",
+   "ja": "歳は?",
+   "ko": "나이는?",
+   "status": "needs_review"
+  },
+  {
+   "start": 29.42,
+   "end": 32.9,
+   "speaker": "사유리",
+   "ja": "いやーん、女の子にそんなこと言わせないでー。",
+   "ko": "아잉, 여자애한테 그런 걸 묻지 마~",
+   "status": "needs_review"
+  },
+  {
+   "start": 32.98,
+   "end": 35.5,
+   "speaker": "에리카",
+   "ja": "じゅ、住所は?",
+   "ko": "주, 주소는?",
+   "status": "needs_review",
+   "asr_uncertain": true,
+   "note": "받아쓰기 「じゅうそは」→「住所は」"
+  },
+  {
+   "start": 35.5,
+   "end": 38.32,
+   "speaker": "사유리",
+   "ja": "だめ、ひみつ。",
+   "ko": "안 돼, 비밀~",
+   "status": "needs_review"
+  },
+  {
+   "start": 38.38,
+   "end": 39.5,
+   "speaker": "에리카",
+   "ja": "むっかー。",
+   "ko": "으으, 열받아!",
+   "status": "needs_review"
+  },
+  {
+   "start": 40.26,
+   "end": 42.49,
+   "speaker": "사유리",
+   "ja": "はいはいはい、怒らない怒らない。",
+   "ko": "네네네, 화내지 마, 화내지 마~",
+   "status": "needs_review"
+  },
+  {
+   "start": 42.5,
+   "end": 46.35,
+   "speaker": "사유리",
+   "ja": "ささ、麻雀でもやって心を落ち着けましょうねー。",
+   "ko": "자자, 마작이라도 하면서 마음을 진정시키자~",
+   "status": "needs_review"
+  }
+ ]
+}

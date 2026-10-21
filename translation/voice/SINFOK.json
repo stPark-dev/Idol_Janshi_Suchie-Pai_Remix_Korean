@@ -1,0 +1,17 @@
+{
+ "voice": "SINFOK.AIF",
+ "scene": "패널 매치 설명 — 확인",
+ "duration": 1.07,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.62,
+   "speaker": "스치파이",
+   "ja": "オッケー!",
+   "ko": "오케이!",
+   "status": "needs_review",
+   "note": "VAD 없는 받아쓰기에만 있음"
+  }
+ ]
+}

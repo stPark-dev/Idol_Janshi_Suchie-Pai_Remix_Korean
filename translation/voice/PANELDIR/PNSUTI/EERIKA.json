@@ -1,0 +1,48 @@
+{
+ "voice": "PANELDIR/PNSUTI/EERIKA.AIF",
+ "scene": "패널 매치 마지막 단계(E) — 대국 후 대화, 에리카(플레이어) vs 스치파이",
+ "duration": 19.23,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.28,
+   "speaker": "스치파이",
+   "ja": "あなたは正真正銘、最強の雀士だわ。",
+   "ko": "너는 명실상부 최강의 작사야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.54,
+   "end": 6.16,
+   "speaker": "에리카",
+   "ja": "すっごい!信じらんないわ!",
+   "ko": "굉장해! 믿기지가 않아!",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.28,
+   "end": 12.26,
+   "speaker": "스치파이",
+   "ja": "もし、この勝負を通して何か得るものがあったのなら、私に聞かせてくれる?",
+   "ko": "이 승부로 뭔가 얻은 게 있다면 나한테 들려줄래?",
+   "status": "needs_review"
+  },
+  {
+   "start": 13.14,
+   "end": 15.08,
+   "speaker": "에리카",
+   "ja": "これでしばらくは平和になるわ。",
+   "ko": "이걸로 당분간은 평화롭겠군.",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.64,
+   "end": 18.74,
+   "speaker": "에리카",
+   "ja": "でも、もっと大事件はないの?",
+   "ko": "그런데 더 큰 사건은 없나?",
+   "status": "needs_review"
+  }
+ ]
+}

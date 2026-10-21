@@ -1,0 +1,64 @@
+{
+ "voice": "KAIWADIR/OPMARINA/SAYURI.AIF",
+ "scene": "마리나와의 대화 — 사유리(플레이어). 다음 상대 리에를 소개함",
+ "duration": 26.01,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.96,
+   "speaker": "마리나",
+   "ja": "あんた、街中をそんな格好で、結構勇気あるわね。",
+   "ko": "너, 길거리를 그런 차림으로 다니다니 꽤 용감하다.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.38,
+   "end": 8.0,
+   "speaker": "사유리",
+   "ja": "あたし、この格好が一番落ち着くんです。",
+   "ko": "저는 이 차림이 제일 편하거든요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 8.58,
+   "end": 10.3,
+   "speaker": "마리나",
+   "ja": "へえ。",
+   "ko": "헤에.",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.42,
+   "end": 14.46,
+   "speaker": "마리나",
+   "ja": "あ、そうだ。あんた、今用事ある?ちょっと紹介したい人がいるの。",
+   "ko": "아, 맞다. 너 지금 바빠? 소개해 주고 싶은 사람이 있어.",
+   "status": "needs_review"
+  },
+  {
+   "start": 14.84,
+   "end": 16.82,
+   "speaker": "사유리",
+   "ja": "はあ、暇ですけど。",
+   "ko": "하아, 한가하긴 한데요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 17.14,
+   "end": 21.88,
+   "speaker": "마리나",
+   "ja": "リエお姉さまって言ってね、とってもあたしに優しくしてくれる人よ。",
+   "ko": "리에 언니라고, 나한테 엄청 잘해 주는 사람이야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 22.78,
+   "end": 25.74,
+   "speaker": "마리나",
+   "ja": "きっとお姉さまもあなたのこと気に入ると思うわ。",
+   "ko": "언니도 분명 널 마음에 들어 할 거야.",
+   "status": "needs_review"
+  }
+ ]
+}

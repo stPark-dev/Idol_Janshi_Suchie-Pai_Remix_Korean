@@ -1,0 +1,16 @@
+{
+ "voice": "PANELDIR/PNSIHO/DSAYURI.AIF",
+ "scene": "패널 매치 탈의 D단계 — 사유리(플레이어) vs 시호",
+ "duration": 0.84,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 0.62,
+   "speaker": "시호",
+   "ja": "恥ずかしい。",
+   "ko": "부끄러워요…",
+   "status": "needs_review"
+  }
+ ]
+}

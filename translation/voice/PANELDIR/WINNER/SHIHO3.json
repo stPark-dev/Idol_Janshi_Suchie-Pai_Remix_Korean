@@ -1,0 +1,48 @@
+{
+ "voice": "PANELDIR/WINNER/SHIHO3.AIF",
+ "scene": "우승 후 — 레이카의 축하와 스치파이 등장 (시호, 도전 분기)",
+ "duration": 16.72,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.24,
+   "speaker": "레이카",
+   "ja": "まあ、とりあえずおめでとうと言わせてもらうよ。",
+   "ko": "뭐, 일단 축하한다고는 해 두지.",
+   "status": "needs_review"
+  },
+  {
+   "start": 3.86,
+   "end": 6.06,
+   "speaker": "레이카",
+   "ja": "今日からあんたが最強の雀士さ。",
+   "ko": "오늘부터 네가 최강의 작사야.",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.68,
+   "end": 11.64,
+   "speaker": "시호",
+   "ja": "もう、私、一体何をしに来たのかわかりませんわ。",
+   "ko": "어머, 저는 대체 뭘 하러 온 건지 모르겠어요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 12.68,
+   "end": 15.66,
+   "speaker": "스치파이",
+   "ja": "だったら、あたしの挑戦を受けてくれるかしら?",
+   "ko": "그럼 내 도전을 받아 주겠어?",
+   "status": "needs_review"
+  },
+  {
+   "start": 16.16,
+   "end": 16.48,
+   "speaker": "시호",
+   "ja": "え?",
+   "ko": "네?",
+   "status": "needs_review"
+  }
+ ]
+}

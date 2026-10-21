@@ -1,0 +1,40 @@
+{
+ "voice": "PANELDIR/PNMAI/EERIKA.AIF",
+ "scene": "패널 매치 끝난 뒤 대화 — 마이(상대) vs 에리카(플레이어)",
+ "duration": 14.77,
+ "source": "faster-whisper large-v3 받아쓰기 두 벌(VAD 있음/없음) + 번역 초안",
+ "lines": [
+  {
+   "start": 0.0,
+   "end": 3.42,
+   "speaker": "에리카",
+   "ja": "これに懲りて、もうお店の客と麻雀するのはやめるのよ。",
+   "ko": "이번 일로 정신 차리고 가게 손님이랑 마작은 그만둬.",
+   "status": "needs_review"
+  },
+  {
+   "start": 4.1,
+   "end": 6.3,
+   "speaker": "마이",
+   "ja": "わかりました。言う通りにします。",
+   "ko": "알겠어요. 시키는 대로 할게요.",
+   "status": "needs_review"
+  },
+  {
+   "start": 7.08,
+   "end": 10.02,
+   "speaker": "에리카",
+   "ja": "うん。いいことした後は気分がいいわ。",
+   "ko": "응. 좋은 일을 하고 나니 기분이 좋네.",
+   "status": "needs_review"
+  },
+  {
+   "start": 10.98,
+   "end": 14.56,
+   "speaker": "에리카",
+   "ja": "ところで、あの偽看護婦はちゃんと改心したのかしら?",
+   "ko": "그런데 그 가짜 간호사는 제대로 반성했으려나?",
+   "status": "needs_review"
+  }
+ ]
+}
