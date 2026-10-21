@@ -10,7 +10,7 @@
    "speaker": "루미",
    "ja": "なんとか勝てたわね。次も頑張らなくっちゃ。",
    "ko": "겨우 이겼네. 다음에도 힘내야지.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 4.04,
@@ -18,7 +18,7 @@
    "speaker": "루미",
    "ja": "あなたも麻雀のやりすぎには注意してね。",
    "ko": "너도 마작 너무 많이 하지 않게 조심해.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.02,
@@ -26,7 +26,7 @@
    "speaker": "루미",
    "ja": "徹マンは健康に良くないからダメよ。",
    "ko": "밤샘 마작은 건강에 안 좋으니까 안 돼.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 「鉄丸は」 → 문맥상 「徹マン(밤샘 마작)は」"
   },
@@ -36,7 +36,7 @@
    "speaker": "시호",
    "ja": "私、そんなことはいたしません。",
    "ko": "저는 그런 짓은 하지 않습니다.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.8,
@@ -44,7 +44,7 @@
    "speaker": "루미",
    "ja": "冗談よ。じゃ、そろそろ行くわね。",
    "ko": "농담이야. 그럼, 슬슬 가 볼게.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

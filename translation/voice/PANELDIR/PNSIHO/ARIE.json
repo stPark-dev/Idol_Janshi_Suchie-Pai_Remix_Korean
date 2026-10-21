@@ -10,7 +10,7 @@
    "speaker": "시호",
    "ja": "え?脱ぐんですか?",
    "ko": "네? 벗는 건가요?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있음: 「どの軍ですか?」, VAD 없음: 「え?脱ぐんですか?」 — 뒤쪽을 따름"
   }

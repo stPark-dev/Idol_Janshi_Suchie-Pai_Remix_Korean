@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "あなたが照れると、かえって恥ずかしいわ。",
    "ko": "네가 쑥스러워하니까 오히려 내가 부끄럽네.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 あなたが照れるとかって恥ずかしいわ → 照れると、かえって로 추정"
   }

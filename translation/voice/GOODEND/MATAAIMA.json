@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "アハハハ、じゃあ、また会いましょう。",
    "ko": "아하하, 그럼 또 만나요!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "「アハハハ」는 VAD 없는 받아쓰기에만 있음"
   }
  ]

@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "あ、調子に乗んないでよ、もう。",
    "ko": "앗, 까불지 마, 정말.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있음: 「…もう。」, VAD 없음: 「…ムーン。」 — 「もう」를 따름"
   }

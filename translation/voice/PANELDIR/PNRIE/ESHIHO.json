@@ -10,7 +10,7 @@
    "speaker": "시호",
    "ja": "な、なんとか最悪のパターンは免れたようですわ。",
    "ko": "겨, 겨우 최악의 사태는 면한 것 같아요.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 間逃れた → 免れた"
   },
@@ -20,7 +20,7 @@
    "speaker": "리에",
    "ja": "はあ、今回は私の負けね。",
    "ko": "하아, 이번엔 내가 졌네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 8.38,
@@ -28,7 +28,7 @@
    "speaker": "리에",
    "ja": "でもこの次会うときは、あなたが私の前に肌を晒す番よ。",
    "ko": "하지만 다음에 만날 땐 네가 내 앞에서 맨살을 드러낼 차례야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 13.74,
@@ -36,7 +36,7 @@
    "speaker": "리에",
    "ja": "それまでせいぜい女を磨いておいてね。",
    "ko": "그때까지 여자로서 열심히 가꿔 둬.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 18.14,
@@ -44,7 +44,7 @@
    "speaker": "시호",
    "ja": "で、でも先が思いやられますわ。",
    "ko": "그, 그래도 앞날이 걱정이에요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

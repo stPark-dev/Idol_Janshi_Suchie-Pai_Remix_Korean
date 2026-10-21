@@ -10,7 +10,7 @@
    "speaker": "레이카",
    "ja": "まあ、とりあえずおめでとうと言わせてもらうよ。",
    "ko": "뭐, 일단 축하한다고는 해 두지.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.86,
@@ -18,7 +18,7 @@
    "speaker": "레이카",
    "ja": "今日からあんたが最強の雀士さ。",
    "ko": "오늘부터 네가 최강의 작사야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.82,
@@ -26,7 +26,7 @@
    "speaker": "루미",
    "ja": "これってハッピーエンドなのよ。ね。",
    "ko": "이걸로 해피엔드인 거지? 그치?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 11.26,
@@ -34,7 +34,7 @@
    "speaker": "스치파이",
    "ja": "ルミさん、あなたにとってのハッピーエンドはまだ先になりそうだわ。",
    "ko": "루미 씨, 너의 해피엔드는 아직 멀었을 것 같네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 16.94,
@@ -42,7 +42,7 @@
    "speaker": "루미",
    "ja": "え?",
    "ko": "어?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

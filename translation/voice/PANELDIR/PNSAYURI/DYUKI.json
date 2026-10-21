@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "アイドル雀士スーパー。",
    "ko": "아이돌 작사 슈퍼…",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 없음에만 있음: 「アイドル雀士スーパー。」 뜻이 불분명(「スーチーパイ」나 「すっぽんぽん」 말장난일 수 있음) — 음성 확인 필요"
   }

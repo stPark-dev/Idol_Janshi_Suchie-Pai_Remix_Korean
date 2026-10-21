@@ -10,7 +10,7 @@
    "speaker": "레이카",
    "ja": "まあ、とりあえずおめでとうと言わせてもらうよ。",
    "ko": "뭐, 일단 축하한다고는 해 두지.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.86,
@@ -18,7 +18,7 @@
    "speaker": "레이카",
    "ja": "今日からあんたが最強の雀士さ。",
    "ko": "오늘부터 네가 최강의 작사야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.76,
@@ -26,7 +26,7 @@
    "speaker": "유키",
    "ja": "うふふ、麻雀界に可憐なニュープリンセス誕生っていうわけね。",
    "ko": "우후후, 마작계에 가련한 뉴 프린세스가 탄생했다는 거지?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "VAD 있는 받아쓰기에는 빠짐(다음 대사와 한 구간으로 묶임), VAD 없는 쪽으로 넣음"
   },
   {
@@ -35,7 +35,7 @@
    "speaker": "스치파이",
    "ja": "まだ浮かれるのは早いわよ、ユキちゃん。",
    "ko": "아직 들뜨긴 일러, 유키.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 15.74,
@@ -43,7 +43,7 @@
    "speaker": "스치파이",
    "ja": "確かにレイカに勝ったけど、あなたの積み込み技はまだまだ未熟だわ。",
    "ko": "레이카는 이겼지만 네 패 쌓기 기술은 아직 한참 미숙해.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 「確かにレイカにわかったけど」 → 勝った로 봄"
   },
@@ -53,7 +53,7 @@
    "speaker": "유키",
    "ja": "誰、おばさん?",
    "ko": "아줌마는 누구야?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

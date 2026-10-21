@@ -10,7 +10,7 @@
    "speaker": "에리카",
    "ja": "これに懲りて、もうお店の客と麻雀するのはやめるのよ。",
    "ko": "이번 일로 정신 차리고 가게 손님이랑 마작은 그만둬.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 4.1,
@@ -18,7 +18,7 @@
    "speaker": "마이",
    "ja": "わかりました。言う通りにします。",
    "ko": "알겠어요. 시키는 대로 할게요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.08,
@@ -26,7 +26,7 @@
    "speaker": "에리카",
    "ja": "うん。いいことした後は気分がいいわ。",
    "ko": "응. 좋은 일을 하고 나니 기분이 좋네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 10.98,
@@ -34,7 +34,7 @@
    "speaker": "에리카",
    "ja": "ところで、あの偽看護婦はちゃんと改心したのかしら?",
    "ko": "그런데 그 가짜 간호사는 제대로 반성했으려나?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

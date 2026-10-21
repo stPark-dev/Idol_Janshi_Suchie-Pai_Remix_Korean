@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "さあ、ユキちゃん。一緒に中華に行きましょう。",
    "ko": "자, 유키. 같이 중국집에 가요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 4.14,
@@ -18,7 +18,7 @@
    "speaker": "유키",
    "ja": "寝ぼけないでよ。こんな格好で行けるわけないじゃないの。",
    "ko": "잠꼬대하지 마. 이런 꼴로 갈 수 있을 리가 없잖아.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 8.08,
@@ -26,7 +26,7 @@
    "speaker": "사유리",
    "ja": "ガーン。この作戦は失敗でした。",
    "ko": "쿠궁. 이 작전은 실패였어요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

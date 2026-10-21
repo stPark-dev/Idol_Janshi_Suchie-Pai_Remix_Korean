@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "さあ、ウサギさん証明書をください。",
    "ko": "자, 토끼 증명서를 주세요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 2.86,
@@ -18,7 +18,7 @@
    "speaker": "루미",
    "ja": "それなんだけどさ、やっぱそういうのは動物病院じゃないと無理だわ。",
    "ko": "그게 말이야, 역시 그런 건 동물병원 아니면 무리야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 8.84,
@@ -26,7 +26,7 @@
    "speaker": "사유리",
    "ja": "え、動物病院?",
    "ko": "네? 동물병원?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 11.52,
@@ -34,7 +34,7 @@
    "speaker": "루미",
    "ja": "でも、あんたウサギさんでしょ?",
    "ko": "그치만 너 토끼잖아?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 14.34,
@@ -42,7 +42,7 @@
    "speaker": "루미",
    "ja": "下手したら解剖されちゃうかもしれないし、",
    "ko": "자칫하면 해부당할지도 모르고,",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 17.12,
@@ -50,7 +50,7 @@
    "speaker": "루미",
    "ja": "ああ、三味線にされちゃうかもしれないわね。",
    "ko": "아, 샤미센 가죽이 될지도 모르겠네.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "三味線(샤미센): 고양이 등 동물 가죽을 씌우는 일본 현악기"
   },
@@ -60,7 +60,7 @@
    "speaker": "사유리",
    "ja": "え、か、解剖に三味線…",
    "ko": "네, 해, 해부에 샤미센…",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 23.72,
@@ -68,7 +68,7 @@
    "speaker": "사유리",
    "ja": "あ、あ、あたし、あたし、あたし、失礼します。",
    "ko": "저, 저, 저는, 저는… 실례하겠습니다!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "끝의 失礼します는 VAD 없음에만 있음"
   }

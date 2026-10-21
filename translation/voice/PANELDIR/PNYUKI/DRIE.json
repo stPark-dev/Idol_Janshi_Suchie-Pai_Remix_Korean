@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "あはーん!やだやだやだー!",
    "ko": "아앙! 싫어 싫어 싫어~!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 「あはーい!」 → 「あはーん」으로 추정"
   }

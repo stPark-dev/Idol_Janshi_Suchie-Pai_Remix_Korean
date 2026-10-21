@@ -9,8 +9,9 @@
    "end": 2.24,
    "speaker": "유키",
    "ja": "やだ、体が震えちゃうよ。",
-   "ko": "싫다, 몸이 떨려.",
-   "status": "needs_review"
+   "ko": "싫어, 몸이 떨려.",
+   "status": "needs_human_review",
+   "note": "검수: 「やだ」를 \"싫다\"→\"싫어\""
   }
  ]
 }

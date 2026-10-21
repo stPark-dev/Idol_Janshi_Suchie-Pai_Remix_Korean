@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "あなたが本当に最強かどうか、この私が試してあげるわ。",
    "ko": "네가 정말 최강인지, 이 몸이 직접 시험해 주지.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 4.56,
@@ -18,7 +18,7 @@
    "speaker": "스치파이",
    "ja": "ちなみに必殺技は今まで通り使ってもいいわよ。",
    "ko": "참고로 필살기는 지금까지처럼 써도 돼.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 9.04,
@@ -26,7 +26,7 @@
    "speaker": "스치파이",
    "ja": "そのくらいのハンデはつけてあげなきゃね。",
    "ko": "그 정도 핸디캡은 줘야겠지?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.46,
@@ -34,7 +34,7 @@
    "speaker": "카타기리 시호",
    "ja": "あ、あなたがスーチーパイさんだったのですか?",
    "ko": "다, 당신이 스치파이 씨였던 건가요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 16.3,
@@ -42,7 +42,7 @@
    "speaker": "카타기리 시호",
    "ja": "あたくしショックのパーですわ。",
    "ko": "저, 충격으로 머릿속이 하얘졌답니다.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "「ショックのパー」: 충격으로 멍해진다는 옛 유행어(パー=텅 빔). 뜻으로 옮김"
   },
   {
@@ -51,7 +51,7 @@
    "speaker": "스치파이",
    "ja": "はいはい、放心してないで麻雀始めるわよ。",
    "ko": "네네, 멍하니 있지 말고 마작 시작하자.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 放信してないで (放信→放心)"
   }

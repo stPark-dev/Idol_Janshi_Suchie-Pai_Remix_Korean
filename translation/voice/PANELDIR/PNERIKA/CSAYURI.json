@@ -10,7 +10,7 @@
    "speaker": "에리카",
    "ja": "ううう、もうお嫁に行けないわー。",
    "ko": "흐윽, 이제 시집 못 가~!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있음: ダメにいけないわー! / VAD 없음: ううう、もうお嫁に行けないわー。 — VAD 없음 쪽을 따름"
   }

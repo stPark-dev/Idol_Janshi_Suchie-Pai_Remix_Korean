@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "ユキ、人前でリボン取ったことないのに。",
    "ko": "유키, 남들 앞에서 리본 푼 적 없는데.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있음: 「雪一枚。」, VAD 없음: 「雪一枚でリボン取ったことないのに。」 → 「ユキ、人前で」로 추정"
   }

@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "ウサギハウスへようこそ。",
    "ko": "토끼 하우스에 어서 오세요~",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.16,
@@ -18,7 +18,7 @@
    "speaker": "시호",
    "ja": "あの、この辺りにお医者様はいらっしゃいませんか?",
    "ko": "저, 이 근처에 의사 선생님은 안 계신가요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.34,
@@ -26,7 +26,7 @@
    "speaker": "사유리",
    "ja": "はい、あたくしがお医者様でーす。",
    "ko": "네~, 제가 의사 선생님이에요~",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 10.58,
@@ -34,7 +34,7 @@
    "speaker": "사유리",
    "ja": "あなたの心の隙間をお埋めする、",
    "ko": "당신 마음의 빈틈을 채워 드리는,",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "「心のスキマお埋めします」는 만화 『웃는 세일즈맨』의 명대사 패러디"
   },
   {
@@ -42,8 +42,9 @@
    "end": 17.3,
    "speaker": "사유리",
    "ja": "魂のドクター、さゆりちゃんでーす。",
-   "ko": "영혼의 닥터, 사유리 짱이에요~",
-   "status": "needs_review"
+   "ko": "영혼의 닥터, 사유리예요~",
+   "status": "needs_human_review",
+   "note": "검수: ~ちゃん은 이름만(표기 결정). 이전: 사유리 짱"
   },
   {
    "start": 17.7,
@@ -51,7 +52,7 @@
    "speaker": "시호",
    "ja": "ま、まさにワンダーランドですわ。",
    "ko": "정, 정말 원더랜드네요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 20.74,
@@ -59,7 +60,7 @@
    "speaker": "사유리",
    "ja": "つらいこと、悲しいこと、みんな忘れて盛り上がりましょう。",
    "ko": "괴로운 일, 슬픈 일 다 잊고 신나게 놀아요!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 27.14,
@@ -67,7 +68,7 @@
    "speaker": "사유리",
    "ja": "ささ、ご注文は?",
    "ko": "자자, 주문은요?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 받아쓰기: ご呪文は? (VAD 없음 쪽 ご注文は 채택)"
   },
@@ -77,7 +78,7 @@
    "speaker": "시호",
    "ja": "あ、いえ、私は結構ですから。",
    "ko": "아, 아니에요. 저는 괜찮답니다.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 32.66,
@@ -85,7 +86,7 @@
    "speaker": "사유리",
    "ja": "うーん、そうですか。",
    "ko": "으음, 그래요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 36.44,
@@ -93,7 +94,7 @@
    "speaker": "사유리",
    "ja": "では、お言葉に甘えまして。",
    "ko": "그럼 사양 않고...",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 39.96,
@@ -101,7 +102,7 @@
    "speaker": "사유리",
    "ja": "オーダー!",
    "ko": "주문 들어갑니다!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 40.74,
@@ -109,7 +110,7 @@
    "speaker": "사유리",
    "ja": "ジャンボフランク5、ナポリタン2、ラザニア、ハムサンド、",
    "ko": "점보 소시지 5, 나폴리탄 2, 라자냐, 햄 샌드위치,",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: ジャムフランク5 (VAD 있음: ジャンボフランク5)"
   },
@@ -119,7 +120,7 @@
    "speaker": "사유리",
    "ja": "カニコロッケ、グラタン、シーフードピザ、お寿司に餃子2人前、",
    "ko": "게살 크로켓, 그라탱, 해물 피자, 초밥에 만두 2인분,",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: カニコロケ、ブラタン (VAD 있음: グラタン)"
   },
@@ -129,7 +130,7 @@
    "speaker": "사유리",
    "ja": "350gステーキ、焼き方はレア、あとプリンとパフェ。",
    "ko": "350g 스테이크 레어로, 그리고 푸딩이랑 파르페.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 50.14,
@@ -137,7 +138,7 @@
    "speaker": "사유리",
    "ja": "あ、お寿司と餃子は出前でお願いします。",
    "ko": "아, 초밥이랑 만두는 배달로 부탁해요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 53.02,
@@ -145,7 +146,7 @@
    "speaker": "사유리",
    "ja": "イチゴムースとアイスオーレは食後にね。",
    "ko": "딸기 무스랑 아이스 오레는 식후에요~",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 57.02,
@@ -153,7 +154,7 @@
    "speaker": "시호",
    "ja": "あの、私そろそろお暇いたしますので……",
    "ko": "저, 저는 슬슬 실례하겠사오니...",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: お行き止まりいたしますので (문맥상 お暇(いとま)いたしますので)"
   },
@@ -163,7 +164,7 @@
    "speaker": "사유리",
    "ja": "わあ、逃げる気ですね。",
    "ko": "앗, 도망칠 생각이군요!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 63.84,
@@ -171,7 +172,7 @@
    "speaker": "사유리",
    "ja": "わかりました。麻雀で私に勝ったら見逃してあげます。",
    "ko": "알겠어요. 마작으로 저를 이기면 봐 드릴게요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

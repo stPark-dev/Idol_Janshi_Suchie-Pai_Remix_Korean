@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "あなたは正真正銘、最強の雀士だわ。",
    "ko": "너는 명실상부 최강의 작사야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 5.36,
@@ -18,7 +18,7 @@
    "speaker": "스치파이",
    "ja": "もし、この勝負を通して何か得るものがあったのなら、私に聞かせてくれる?",
    "ko": "이 승부로 뭔가 얻은 게 있다면 나한테 들려줄래?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 11.9,
@@ -26,7 +26,7 @@
    "speaker": "유키",
    "ja": "なんだ、そうならそうと早く言えばいいのに。",
    "ko": "뭐야, 그런 거면 진작 말하지.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

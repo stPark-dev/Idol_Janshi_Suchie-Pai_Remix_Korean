@@ -10,7 +10,7 @@
    "speaker": "루미",
    "ja": "あんたの場合、若いっつうより幼いって感じよね。",
    "ko": "넌 젊다기보다는 어리다는 느낌이야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 4.26,
@@ -18,7 +18,7 @@
    "speaker": "루미",
    "ja": "やっぱ女は花も恥じらう二十歳が旬よ。",
    "ko": "역시 여자는 꽃다운 스무 살이 한창이지.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 8.78,
@@ -26,7 +26,7 @@
    "speaker": "유키",
    "ja": "来年二十一のくせに。",
    "ko": "내년이면 스물하나면서.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

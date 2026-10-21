@@ -10,7 +10,7 @@
    "speaker": "마이",
    "ja": "私は今、とにかく雀士としての道を極めてみたいの。",
    "ko": "난 지금 어쨌든 작사의 길을 끝까지 가 보고 싶어.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 5.06,
@@ -18,7 +18,7 @@
    "speaker": "리에",
    "ja": "そう。だったら次の相手はエリカね。",
    "ko": "그래. 그럼 다음 상대는 에리카네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.96,
@@ -26,7 +26,7 @@
    "speaker": "리에",
    "ja": "多分病院のあたりをうろうろしてるはずよ。",
    "ko": "아마 병원 근처를 어슬렁거리고 있을 거야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 11.84,
@@ -34,7 +34,7 @@
    "speaker": "리에",
    "ja": "じゃあ、健闘を祈ってるわ。",
    "ko": "그럼 건투를 빌게.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

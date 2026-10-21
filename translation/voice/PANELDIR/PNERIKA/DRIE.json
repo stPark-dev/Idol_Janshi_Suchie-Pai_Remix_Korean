@@ -10,7 +10,7 @@
    "speaker": "에리카",
    "ja": "いやーん!",
    "ko": "싫어잉~!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 イエーイ! (VAD 없음만). 탈의 장면이라 いやーん으로 추정"
   }

@@ -10,7 +10,7 @@
    "speaker": "마이",
    "ja": "さっきはよくも人をバカにしてくれたわね。",
    "ko": "아까는 잘도 사람을 바보 취급했겠다.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 2.92,
@@ -18,7 +18,7 @@
    "speaker": "마이",
    "ja": "お礼にこのパイを置いていくわよ。",
    "ko": "답례로 이 파이를 두고 갈게.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 5.04,
@@ -26,7 +26,7 @@
    "speaker": "루미",
    "ja": "お礼なんかいらないわよ。",
    "ko": "답례 같은 거 필요 없어.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.72,
@@ -34,7 +34,7 @@
    "speaker": "루미",
    "ja": "でもま、ただならまあ味見ぐらいはしてあげましょう。",
    "ko": "뭐, 공짜라면 맛 정도는 봐 주지.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 11.88,
@@ -42,7 +42,7 @@
    "speaker": "마이",
    "ja": "ふふふ、甘いわ。",
    "ko": "후후후, 순진하긴.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 14.28,
@@ -50,7 +50,7 @@
    "speaker": "마이",
    "ja": "それを一度食したら、",
    "ko": "그걸 한 번 먹었다간,",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 16.52,
@@ -58,7 +58,7 @@
    "speaker": "마이",
    "ja": "美味しい、食べたい、でも太る、食べられない、",
    "ko": "맛있어, 먹고 싶어, 하지만 살쪄, 못 먹어,",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 太く → 太る"
   },
@@ -68,7 +68,7 @@
    "speaker": "마이",
    "ja": "の無限地獄よ。",
    "ko": "의 무한 지옥이야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 22.82,
@@ -76,7 +76,7 @@
    "speaker": "마이",
    "ja": "あははははは。",
    "ko": "아하하하하하.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

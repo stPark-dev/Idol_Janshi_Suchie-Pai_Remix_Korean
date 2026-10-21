@@ -10,7 +10,7 @@
    "speaker": "마이",
    "ja": "ああ、ちょっと!ここまで来てやめる気?",
    "ko": "아, 잠깐! 여기까지 와서 그만둘 거야?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "「ああ」는 VAD 없는 받아쓰기에만 있음"
   }
  ]

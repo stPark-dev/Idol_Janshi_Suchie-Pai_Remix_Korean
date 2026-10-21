@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "ユキちゃんずるーい。",
    "ko": "유키, 치사해요~",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 없음: 「で、雪ちゃんずるーい。」 — 이름 표기를 고침"
   }

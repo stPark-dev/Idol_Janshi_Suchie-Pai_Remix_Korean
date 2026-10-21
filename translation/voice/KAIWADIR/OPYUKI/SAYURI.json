@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "あ〜、今日は何食べようかな〜?",
    "ko": "아~ 오늘은 뭐 먹을까~?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 5.61,
@@ -18,7 +18,7 @@
    "speaker": "사유리",
    "ja": "そうですね〜。",
    "ko": "글쎄요~",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "모르는 사이인데 사유리가 슬쩍 맞장구침"
   },
   {
@@ -27,7 +27,7 @@
    "speaker": "사유리",
    "ja": "中華なんかどうでしょう?",
    "ko": "중국 요리 같은 건 어때요?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "VAD 없음 받아쓰기에만 온전히 있음"
   },
   {
@@ -36,7 +36,7 @@
    "speaker": "유키",
    "ja": "中華ね〜。",
    "ko": "중국 요리라~",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.52,
@@ -44,7 +44,7 @@
    "speaker": "유키",
    "ja": "美味しそうだけど、カロリー高そうだし。",
    "ko": "맛있겠지만 칼로리가 높을 것 같고.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 15.58,
@@ -52,7 +52,7 @@
    "speaker": "사유리",
    "ja": "何言ってんですか。",
    "ko": "무슨 소리예요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 17.3,
@@ -60,7 +60,7 @@
    "speaker": "사유리",
    "ja": "私たちみたいな育ち盛りには、そんなの関係ありません。",
    "ko": "우리처럼 한창 클 나이엔 그런 거 상관없어요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 21.96,
@@ -68,7 +68,7 @@
    "speaker": "유키",
    "ja": "そうね。ユキ、餃子だったら100個くらい食べれるし。",
    "ko": "그렇지. 유키, 만두라면 100개쯤은 먹을 수 있고.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 25.58,
@@ -76,7 +76,7 @@
    "speaker": "사유리",
    "ja": "そうですか。",
    "ko": "그래요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 27.94,
@@ -84,7 +84,7 @@
    "speaker": "사유리",
    "ja": "では、私は150個にチャレンジしましょう。",
    "ko": "그럼 저는 150개에 도전할게요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 31.32,
@@ -92,7 +92,7 @@
    "speaker": "유키",
    "ja": "うーん、じゃあ全部で250個ね。",
    "ko": "음~ 그럼 전부 250개네.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: '250個の'"
   },
@@ -102,15 +102,16 @@
    "speaker": "유키",
    "ja": "ちょっと待って、あんた誰よ。",
    "ko": "잠깐, 너 누구야?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 36.5,
    "end": 38.4,
    "speaker": "사유리",
    "ja": "私はウサギちゃんです。",
-   "ko": "저는 토끼 아가씨예요.",
-   "status": "needs_review"
+   "ko": "저는 토끼예요.",
+   "status": "needs_human_review",
+   "note": "검수: 사유리 자신은 \"토끼\"(표기 결정). 이전: 토끼 아가씨"
   },
   {
    "start": 39.14,
@@ -118,7 +119,7 @@
    "speaker": "사유리",
    "ja": "しかも",
    "ko": "게다가",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 40.8,
@@ -126,7 +127,7 @@
    "speaker": "사유리",
    "ja": "お腹すきました。",
    "ko": "배가 고파요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 42.14,
@@ -134,7 +135,7 @@
    "speaker": "사유리",
    "ja": "何か食べさせてくれないと暴れちゃいますよ。",
    "ko": "뭐 좀 먹여 주지 않으면 난동 부릴 거예요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 46.36,
@@ -142,7 +143,7 @@
    "speaker": "유키",
    "ja": "勝手に暴れればいいでしょ。",
    "ko": "맘대로 난동 부리든가.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 48.3,
@@ -150,7 +151,7 @@
    "speaker": "사유리",
    "ja": "ユキちゃん、つれないなー。",
    "ko": "유키, 매정하네~",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: '勇気強いだなー'(VAD 없음) / '勇気しいらないと'(VAD 있음). 'ユキちゃんつれないなー'로 추정"
   },
@@ -160,7 +161,7 @@
    "speaker": "사유리",
    "ja": "では、作戦を変えて",
    "ko": "그럼 작전을 바꿔서",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 54.2,
@@ -168,7 +169,7 @@
    "speaker": "사유리",
    "ja": "麻雀で勝負です。",
    "ko": "마작으로 승부예요!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

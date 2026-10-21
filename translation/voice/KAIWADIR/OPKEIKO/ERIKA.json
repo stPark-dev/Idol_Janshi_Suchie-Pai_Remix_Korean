@@ -10,7 +10,7 @@
    "speaker": "케이코",
    "ja": "いらっしゃいませ。",
    "ko": "어서 오세요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 1.14,
@@ -18,7 +18,7 @@
    "speaker": "에리카",
    "ja": "ねえ、あなた麻雀強いでしょ。",
    "ko": "어이, 너 마작 세지?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.94,
@@ -26,7 +26,7 @@
    "speaker": "케이코",
    "ja": "残念でした。ルールもよく知らないわ。",
    "ko": "아쉽게 됐네. 난 규칙도 잘 몰라.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.74,
@@ -34,7 +34,7 @@
    "speaker": "에리카",
    "ja": "はあ、がっかり。",
    "ko": "하아, 김새네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 9.92,
@@ -42,7 +42,7 @@
    "speaker": "케이코",
    "ja": "代わりにとびっきり強い子を知ってるわよ。",
    "ko": "대신 끝내주게 센 애를 알고 있지.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 13.0,
@@ -50,7 +50,7 @@
    "speaker": "케이코",
    "ja": "でも自分から勝負を挑んでくるようなタイプじゃないし、",
    "ko": "근데 먼저 승부를 걸어오는 타입은 아니라서,",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 16.52,
@@ -58,7 +58,7 @@
    "speaker": "케이코",
    "ja": "相手をしてくれるかどうか。",
    "ko": "상대해 줄지는 모르겠네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 18.9,
@@ -66,7 +66,7 @@
    "speaker": "에리카",
    "ja": "ねえねえ、悪いけどその子のこと詳しく教えてくれる?",
    "ko": "이봐, 미안한데 그 애 얘기 자세히 좀 해 줄래?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

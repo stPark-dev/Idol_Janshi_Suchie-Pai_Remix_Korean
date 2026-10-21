@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "さゆりちゃんです。ご飯まだ?",
    "ko": "사유리랍니다~ 밥은 아직이야?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "VAD 없는 받아쓰기에만 있음"
   }
  ]

@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "あら、今日はついてるみたいね。",
    "ko": "어머, 오늘은 운이 좋은가 봐.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 2.58,
@@ -18,7 +18,7 @@
    "speaker": "리에",
    "ja": "あなたのような可愛い子が私を訪ねてくれるなんて。",
    "ko": "너처럼 귀여운 애가 날 찾아와 주다니.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.86,
@@ -26,7 +26,7 @@
    "speaker": "시호",
    "ja": "ま、まさかここは、あの来てはいけないと言われたオフィスなのでは?",
    "ko": "서, 설마 여기는... 오면 안 된다던 그 사무실인가요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.78,
@@ -34,7 +34,7 @@
    "speaker": "리에",
    "ja": "名前はなんて言うの?歳は?",
    "ko": "이름이 뭐니? 나이는?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 16.04,
@@ -42,7 +42,7 @@
    "speaker": "리에",
    "ja": "キスの経験ある?",
    "ko": "키스해 본 적 있어?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 18.78,
@@ -50,7 +50,7 @@
    "speaker": "시호",
    "ja": "ひょ、ひょっとしてあなたが会ってはいけないと言われた",
    "ko": "호, 혹시 당신이... 만나면 안 된다던",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 23.06,
@@ -58,7 +58,7 @@
    "speaker": "시호",
    "ja": "あのリエさんなのでは?",
    "ko": "그 리에 씨인가요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 26.18,
@@ -66,7 +66,7 @@
    "speaker": "리에",
    "ja": "まあ、私のこと知ってるの?なら話は早いわ。",
    "ko": "어머, 나를 아니? 그럼 얘기가 빠르겠네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 29.98,
@@ -74,7 +74,7 @@
    "speaker": "리에",
    "ja": "早速麻雀で勝負よ。",
    "ko": "당장 마작으로 승부하자.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 32.76,
@@ -82,7 +82,7 @@
    "speaker": "시호",
    "ja": "あ、まさに、これは",
    "ko": "아, 이, 이건 바로...",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: あまじさいこれは / あまちさいこれは — 「あ、まさに」로 추정. 청취 확인 필요"
   },
@@ -92,7 +92,7 @@
    "speaker": "시호",
    "ja": "最悪のパターンとまで言われた展開なのでは?",
    "ko": "최악의 패턴이라고까지 불리던 전개인가요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 39.02,
@@ -100,7 +100,7 @@
    "speaker": "리에",
    "ja": "なんか面白いわね、この子。",
    "ko": "이 애, 왠지 재밌네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

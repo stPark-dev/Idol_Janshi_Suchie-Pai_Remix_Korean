@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "かわいかったわよ、うさぎちゃん。今度は卓球で決着つけましょうね。",
    "ko": "귀여웠어, 토끼 아가씨. 다음엔 탁구로 결판내자.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 5.0,
@@ -18,7 +18,7 @@
    "speaker": "사유리",
    "ja": "えー!卓球も得意なんですか?",
    "ko": "네에?! 탁구도 잘하세요?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 「シー!」 → 놀란 소리로 추정"
   },
@@ -28,7 +28,7 @@
    "speaker": "사유리",
    "ja": "あなた一体何の会社に勤めてるんですか?",
    "ko": "당신 대체 무슨 회사에 다니는 거예요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.7,
@@ -36,7 +36,7 @@
    "speaker": "리에",
    "ja": "秘密。",
    "ko": "비밀.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

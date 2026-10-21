@@ -10,7 +10,7 @@
    "speaker": "시호",
    "ja": "もう服を着てもよろしいですか?",
    "ko": "이제 옷을 입어도 될까요?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있음: 「この服を着てもよろしいですか?」, VAD 없음: 「もう服を…」 — 뒤쪽을 따름"
   }

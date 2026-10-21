@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "あら、私ピザなんて頼んだかしら。",
    "ko": "어머, 내가 피자 같은 걸 시켰던가?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.26,
@@ -18,7 +18,7 @@
    "speaker": "마이",
    "ja": "ピザじゃなくてパイよ。",
    "ko": "피자가 아니라 파이야!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 5.38,
@@ -26,7 +26,7 @@
    "speaker": "마이",
    "ja": "しかも配達じゃなくて、あなたに一対一の麻雀勝負を挑みに来たのよ。",
    "ko": "게다가 배달이 아니라, 당신한테 일대일 마작 승부를 걸러 왔어!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: しかもハイタスじゃなくて (配達로 고침)"
   },
@@ -36,7 +36,7 @@
    "speaker": "리에",
    "ja": "あら、面白いわね。",
    "ko": "어머, 재밌네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.32,
@@ -44,7 +44,7 @@
    "speaker": "리에",
    "ja": "でも負けた時の覚悟はできてるのかしら?",
    "ko": "하지만 졌을 때 각오는 돼 있니?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 15.88,
@@ -52,7 +52,7 @@
    "speaker": "마이",
    "ja": "わ、私は絶対負けないもん!",
    "ko": "나, 난 절대 안 져!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 18.58,
@@ -60,7 +60,7 @@
    "speaker": "리에",
    "ja": "一途ね。気に入ったわ。勝負しましょう。",
    "ko": "한결같구나. 마음에 들었어. 승부하자.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

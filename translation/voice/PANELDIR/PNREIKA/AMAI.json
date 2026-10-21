@@ -9,8 +9,9 @@
    "end": 0.76,
    "speaker": "레이카",
    "ja": "負けましたわ。",
-   "ko": "졌군요.",
-   "status": "needs_review"
+   "ko": "제가 졌네요.",
+   "status": "needs_human_review",
+   "note": "검수: '졌군요'는 상대가 졌다는 뜻으로 읽힐 수 있어 고침"
   }
  ]
 }

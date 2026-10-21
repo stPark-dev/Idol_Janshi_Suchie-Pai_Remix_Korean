@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "うわー、綺麗です。",
    "ko": "우와~ 예뻐요.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있음은 12.7초 앞을 놓침. 0~12초는 VAD 없음 받아쓰기만 있음"
   },
@@ -20,7 +20,7 @@
    "speaker": "사유리",
    "ja": "私と一緒にウサギちゃんペアになりませんか?",
    "ko": "저랑 같이 토끼 콤비 안 하실래요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.32,
@@ -28,7 +28,7 @@
    "speaker": "사유리",
    "ja": "二人でウサギちゃんを極めましょう。",
    "ko": "둘이서 토끼의 길을 갈고닦아요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 9.74,
@@ -36,7 +36,7 @@
    "speaker": "시호",
    "ja": "わ、私は遠慮しておきます。",
    "ko": "저, 저는 사양하겠습니다.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.62,
@@ -44,7 +44,7 @@
    "speaker": "사유리",
    "ja": "わかりました。",
    "ko": "알겠어요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 14.74,
@@ -52,7 +52,7 @@
    "speaker": "사유리",
    "ja": "猫さんならいいんですね。",
    "ko": "고양이라면 괜찮은 거죠?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 16.62,
@@ -60,7 +60,7 @@
    "speaker": "시호",
    "ja": "お断りいたします。",
    "ko": "거절하겠습니다.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 18.8,
@@ -68,7 +68,7 @@
    "speaker": "사유리",
    "ja": "ありゃー、残念です。",
    "ko": "어머나~ 아쉬워요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

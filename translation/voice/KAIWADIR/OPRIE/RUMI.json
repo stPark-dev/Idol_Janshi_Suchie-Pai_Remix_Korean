@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "あなた、本当の看護婦じゃないわね。",
    "ko": "너, 진짜 간호사는 아니지?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.06,
@@ -18,7 +18,7 @@
    "speaker": "루미",
    "ja": "ギク、いきなり何を言い出すのかしら。",
    "ko": "뜨끔! 가, 갑자기 무슨 소릴 하는 거야?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.62,
@@ -26,7 +26,7 @@
    "speaker": "루미",
    "ja": "ああ、きっとカルシウムが足りないのね。",
    "ko": "아아, 분명 칼슘이 부족한 거야.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "말하는 사람 추정: 가짜 간호사 루미가 엉터리 의학 상식으로 얼버무림"
   },
   {
@@ -35,7 +35,7 @@
    "speaker": "루미",
    "ja": "毎日バナナを食べないと体が黄色くなって死ぬわよ。",
    "ko": "매일 바나나를 안 먹으면 몸이 노래져서 죽는다?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 15.16,
@@ -43,7 +43,7 @@
    "speaker": "리에",
    "ja": "慌てたとこも可愛いわね。",
    "ko": "당황하는 모습도 귀엽네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 17.18,
@@ -51,7 +51,7 @@
    "speaker": "리에",
    "ja": "まあどうでもいいことなんだけど、",
    "ko": "뭐, 아무래도 상관없지만,",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 19.32,
@@ -59,7 +59,7 @@
    "speaker": "리에",
    "ja": "麻雀で私が勝ったら本当のことを教えてくれるかしら。",
    "ko": "마작에서 내가 이기면 진실을 말해 줄래?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

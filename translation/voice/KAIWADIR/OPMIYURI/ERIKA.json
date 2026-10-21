@@ -9,10 +9,10 @@
    "end": 3.08,
    "speaker": "미유리",
    "ja": "わあ、婦警さんだ。かっこいい。",
-   "ko": "와아, 경찰 언니다! 멋있다.",
-   "status": "needs_review",
+   "ko": "와아, 여경 언니다! 멋있다.",
+   "status": "needs_human_review",
    "asr_uncertain": true,
-   "note": "VAD 없는 받아쓰기에만 있음, 받아쓰기: わあ、不敬さんだ。かっこいい。"
+   "note": "VAD 없는 받아쓰기에만 있음, 받아쓰기: わあ、不敬さんだ。かっこいい。 검수: 婦警さん(아이가 부름) = '여경 언니'"
   },
   {
    "start": 4.27,
@@ -20,7 +20,7 @@
    "speaker": "에리카",
    "ja": "ねえ、お嬢ちゃん。この病院に偽看護婦が出入りしてたんだけど、",
    "ko": "얘, 꼬마야. 이 병원에 가짜 간호사가 드나들었다던데,",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 8.99,
@@ -28,7 +28,7 @@
    "speaker": "에리카",
    "ja": "怪しい人見なかったかな?",
    "ko": "수상한 사람 못 봤니?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 11.27,
@@ -36,7 +36,7 @@
    "speaker": "미유리",
    "ja": "看護婦さんはみんな病気の人のお世話をしてるよ。",
    "ko": "간호사 언니들은 다 아픈 사람을 돌봐 주는걸.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 15.57,
@@ -44,7 +44,7 @@
    "speaker": "미유리",
    "ja": "一生懸命の人に偽物も本物もないよ。",
    "ko": "열심히 하는 사람한테 가짜 진짜가 어딨어.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 20.31,
@@ -52,7 +52,7 @@
    "speaker": "에리카",
    "ja": "う、うん。ごめんね。さっきのは間違い。",
    "ko": "으, 응. 미안해. 아까 그 말은 취소할게.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 24.87,
@@ -60,7 +60,7 @@
    "speaker": "에리카",
    "ja": "看護婦も婦警も偽物なんていないわよね。",
    "ko": "간호사도 여경도 가짜 같은 건 없는 거야, 그치?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 看護婦も父兄も/不敬も (婦警로 고침). 에리카 자신이 가짜 여경이라는 자기 변호"
   },
@@ -70,7 +70,7 @@
    "speaker": "미유리",
    "ja": "婦警さん?",
    "ko": "여경 언니?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 父兄さん?"
   },
@@ -80,7 +80,7 @@
    "speaker": "에리카",
    "ja": "さあ、頑張んなくっちゃ!",
    "ko": "자, 힘내야지!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

@@ -10,7 +10,7 @@
    "speaker": "안자이 사치코",
    "ja": "あんた、さっきからウロウロしてるけど、この辺で何かあったのかい?",
    "ko": "너, 아까부터 어슬렁거리던데 이 근처에서 무슨 일 있었냐?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 5.18,
@@ -18,7 +18,7 @@
    "speaker": "니시노 에리카",
    "ja": "何にもないからウロウロしてんのよ。",
    "ko": "아무 일도 없으니까 어슬렁거리는 거야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 8.74,
@@ -26,7 +26,7 @@
    "speaker": "니시노 에리카",
    "ja": "ね、どっかに事件ない?",
    "ko": "있지, 어디 사건 없어?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 10.52,
@@ -34,7 +34,7 @@
    "speaker": "안자이 사치코",
    "ja": "変な婦警さんだね、どうも。",
    "ko": "거참, 이상한 여경 나리네.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 変な不計算だね、どうも。 (不計算→婦警さん)"
   },
@@ -44,15 +44,16 @@
    "speaker": "안자이 사치코",
    "ja": "うーん、私の勘だと、あのオフィスビルが怪しいね。",
    "ko": "음~ 내 감으로는 저 오피스 빌딩이 수상한데.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 18.66,
    "end": 21.0,
    "speaker": "니시노 에리카",
    "ja": "了解!直ちに急行しまーす!",
-   "ko": "알았어! 즉시 출동한다~!",
-   "status": "needs_review"
+   "ko": "알겠습니다! 즉시 출동합니다~!",
+   "status": "needs_human_review",
+   "note": "검수: 원문 「急行しまーす」는 경찰 흉내 존댓말(이전: 알았어! 즉시 출동한다~!)"
   },
   {
    "start": 21.12,
@@ -60,7 +61,7 @@
    "speaker": "니시노 에리카",
    "ja": "では!",
    "ko": "그럼!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 22.52,
@@ -68,7 +69,7 @@
    "speaker": "안자이 사치코",
    "ja": "はぁ、今日も平和だね。",
    "ko": "하아, 오늘도 평화롭구먼.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

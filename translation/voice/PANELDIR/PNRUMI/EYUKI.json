@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "うううう、ユキの胸もこのくらいあればな。",
    "ko": "으으으, 유키 가슴도 이만큼 있으면 좋겠다.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 없음에만 있음. 받아쓰기 雪の胸 → ユキ"
   },
@@ -20,7 +20,7 @@
    "speaker": "유키",
    "ja": "試合に勝って勝負に負けたというのはこういうことなのね。",
    "ko": "시합에 이기고 승부에 졌다는 게 이런 거구나.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 없음에만 있음"
   },
@@ -30,7 +30,7 @@
    "speaker": "루미",
    "ja": "あら、なんか悪いことしちゃったかしら?",
    "ko": "어머, 내가 뭐 잘못했나?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있음: 良いことしちゃったかしら? / VAD 없음: 悪いこと — 문맥상 悪いこと"
   },
@@ -40,7 +40,7 @@
    "speaker": "루미",
    "ja": "そうだ、もう一ついい方法があったわ。",
    "ko": "맞다, 좋은 방법이 하나 더 있어.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 15.0,
@@ -48,7 +48,7 @@
    "speaker": "유키",
    "ja": "え、なになに?",
    "ko": "응, 뭔데 뭔데?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 16.14,
@@ -56,7 +56,7 @@
    "speaker": "루미",
    "ja": "いや、簡単なことなんだけど、",
    "ko": "아니, 간단한 건데,",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 19.38,
@@ -64,15 +64,16 @@
    "speaker": "루미",
    "ja": "要は揉んでもらえばいいのよね。",
    "ko": "요컨대 누가 주물러 주면 되는 거야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 22.94,
    "end": 28.62,
    "speaker": "유키",
    "ja": "え、やだ、ユキそんな恥ずかしいこと、もう信じらんない。",
-   "ko": "에, 싫어, 유키 그런 부끄러운 거, 정말 못 믿겠어.",
-   "status": "needs_review"
+   "ko": "에, 싫어. 유키는 그런 부끄러운 거… 정말 말도 안 돼!",
+   "status": "needs_human_review",
+   "note": "검수: 信じらんない를 '못 믿겠어' 직역에서 자연스러운 말로"
   },
   {
    "start": 30.0,
@@ -80,7 +81,7 @@
    "speaker": "루미",
    "ja": "それか。",
    "ko": "아니면…",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 それか (두 벌 모두). 끝이 잘린 말로 보이며 화자·뜻 불확실"
   }

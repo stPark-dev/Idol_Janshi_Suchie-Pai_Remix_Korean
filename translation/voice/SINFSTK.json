@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "必殺スーチースティック。",
    "ko": "필살 스치스틱!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 「数値スティック」 → スーチースティック"
   },
@@ -20,7 +20,7 @@
    "speaker": "스치파이",
    "ja": "リーチをかければフリテンだろうが5枚目だろうが",
    "ko": "리치를 걸면 후리텐이든 5장째든",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 「振り点」 → フリテン"
   },
@@ -30,7 +30,7 @@
    "speaker": "스치파이",
    "ja": "一発で当たり牌をツモってこれるわ。",
    "ko": "일발로 화료패를 쯔모해 올 수 있어.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 「積もって」 → ツモって"
   },
@@ -39,8 +39,9 @@
    "end": 10.78,
    "speaker": "스치파이",
    "ja": "物理学者も裸足で逃げ出す奇跡の必殺技よ。",
-   "ko": "물리학자도 맨발로 도망칠 기적의 필살기야.",
-   "status": "needs_review"
+   "ko": "물리학자도 줄행랑칠 기적의 필살기야.",
+   "status": "needs_human_review",
+   "note": "검수: 裸足で逃げ出す는 관용구(당해 내지 못하고 달아남), RUMI2와 같은 식으로"
   }
  ]
 }

@@ -9,8 +9,9 @@
    "end": 4.08,
    "speaker": "에리카",
    "ja": "ユキ、お前から勝負を挑んでおいて、負けるなよ。",
-   "ko": "유키, 네가 먼저 승부를 걸어 놓고 지지 마라.",
-   "status": "needs_review"
+   "ko": "유키, 네가 먼저 승부를 걸어 놓고 지면 어떡하냐.",
+   "status": "needs_human_review",
+   "note": "검수: 이미 진 뒤의 핀잔이라 \"지지 마라\"보다 자연스럽게"
   },
   {
    "start": 4.38,
@@ -18,7 +19,7 @@
    "speaker": "에리카",
    "ja": "ううう、ユキちゃん、泣いちゃう。",
    "ko": "우우우, 유키, 울어 버릴 거야~",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 없음에만 있음. 에리카가 유키를 흉내 내는 대사로 추정(다음 줄 「人の真似して」) — 말하는 사람 확인 필요"
   },
@@ -28,7 +29,7 @@
    "speaker": "유키",
    "ja": "あのね、人の真似して遊ばないでくれる?",
    "ko": "저기, 남 흉내 내면서 놀지 말아 줄래?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

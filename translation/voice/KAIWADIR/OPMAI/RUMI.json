@@ -10,7 +10,7 @@
    "speaker": "마이",
    "ja": "コーヒーのおかわりいかがですか?",
    "ko": "커피 리필 해 드릴까요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 1.73,
@@ -18,7 +18,7 @@
    "speaker": "루미",
    "ja": "うーん、あなたがアンコのマイさんね。",
    "ko": "흐음, 네가 그 안코의 마이구나.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 5.23,
@@ -26,7 +26,7 @@
    "speaker": "마이",
    "ja": "な、なぜその名前を?",
    "ko": "어, 어떻게 그 이름을?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.75,
@@ -34,7 +34,7 @@
    "speaker": "루미",
    "ja": "まあ、蛇の道は蛇ってとこかしら。",
    "ko": "뭐, 뱀 길은 뱀이 아는 법이지.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "蛇の道は蛇: 같은 부류의 일은 같은 부류가 잘 안다는 속담"
   },
   {
@@ -43,7 +43,7 @@
    "speaker": "마이",
    "ja": "うふふ、そういうこと。あなたも雀士ね。",
    "ko": "우후후, 그렇다면 너도 작사구나.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 16.1,
@@ -51,7 +51,7 @@
    "speaker": "마이",
    "ja": "いいわ、名前くらい聞いといてあげる。",
    "ko": "좋아, 이름 정도는 들어 둘게.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 18.95,
@@ -59,7 +59,7 @@
    "speaker": "루미",
    "ja": "チャンタのルミ。",
    "ko": "찬타의 루미.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 20.09,
@@ -67,7 +67,7 @@
    "speaker": "마이",
    "ja": "舌かみそうな名前ね。",
    "ko": "혀 깨물 것 같은 이름이네.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "「チャンタのルミ」가 발음하기 꼬인다는 농담"
   },
   {
@@ -76,7 +76,7 @@
    "speaker": "루미",
    "ja": "ほっといてよ。さあ、勝負よ。",
    "ko": "내버려 둬! 자, 승부야!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "「さあ、勝負よ」는 마이일 수도 있음(말하는 사람 추정)"
   }
  ]

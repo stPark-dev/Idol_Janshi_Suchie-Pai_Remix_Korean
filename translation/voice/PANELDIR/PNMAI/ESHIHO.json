@@ -10,7 +10,7 @@
    "speaker": "시호",
    "ja": "あのー、もう帰ってもよろしいでしょうか?",
    "ko": "저기, 이제 돌아가도 될까요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.9,
@@ -18,7 +18,7 @@
    "speaker": "마이",
    "ja": "あら、どこへ行くの?",
    "ko": "어머, 어디 가는데?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.26,
@@ -26,7 +26,7 @@
    "speaker": "시호",
    "ja": "私、もともと中華街へ行くつもりだったんです。",
    "ko": "저, 원래 차이나타운에 갈 생각이었어요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 10.24,
@@ -34,7 +34,7 @@
    "speaker": "시호",
    "ja": "それが、なんだかわからないうちにこんな…",
    "ko": "그런데 어쩌다 보니 이런…",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 13.5,
@@ -42,7 +42,7 @@
    "speaker": "마이",
    "ja": "え?でも…",
    "ko": "어? 그래도…",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 14.84,
@@ -50,7 +50,7 @@
    "speaker": "시호",
    "ja": "お願いです。もう何もおっしゃらないでください。",
    "ko": "부탁이에요. 이제 아무 말씀도 하지 마세요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 18.46,
@@ -58,7 +58,7 @@
    "speaker": "마이",
    "ja": "あ、でも、中華街には…",
    "ko": "아, 그래도 차이나타운에는…",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 20.46,
@@ -66,7 +66,7 @@
    "speaker": "마이",
    "ja": "ああ!",
    "ko": "아!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 21.48,
@@ -74,7 +74,7 @@
    "speaker": "시호",
    "ja": "それでは失礼いたします。",
    "ko": "그럼 실례하겠습니다.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

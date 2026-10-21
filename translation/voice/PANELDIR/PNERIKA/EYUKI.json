@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "そ、そこまでしないと麻雀って上達しないんですか?",
    "ko": "그, 그렇게까지 해야 마작 실력이 느는 거예요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 4.06,
@@ -18,7 +18,7 @@
    "speaker": "에리카",
    "ja": "一番大切なものを賭けて戦うからこそ、気持ちの入り方が違うのよ。",
    "ko": "가장 소중한 걸 걸고 싸우니까 마음가짐이 달라지는 거야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 9.72,
@@ -26,17 +26,17 @@
    "speaker": "유키",
    "ja": "ふんふん、勉強になったわ。",
    "ko": "흠흠, 공부가 됐어.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.54,
    "end": 16.7,
    "speaker": "유키",
    "ja": "ところで婦警さん、今の勝負はわざと負けてくれたのよね?",
-   "ko": "그런데 경찰 언니, 방금 승부는 일부러 져 준 거지?",
-   "status": "needs_review",
+   "ko": "그런데 여경 언니, 방금 승부는 일부러 져 준 거지?",
+   "status": "needs_human_review",
    "asr_uncertain": true,
-   "note": "받아쓰기 不敬さん → 婦警さん"
+   "note": "받아쓰기 不敬さん → 婦警さん / 검수: 경찰 언니 → 여경 언니(표기 결정)"
   },
   {
    "start": 17.82,
@@ -44,7 +44,7 @@
    "speaker": "유키",
    "ja": "まさか、本気でやってユキを裸にしようなんて考えてなかったわよね?",
    "ko": "설마 진심으로 유키를 벗기려던 건 아니었지?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 雪を裸に → ユキ"
   },
@@ -54,7 +54,7 @@
    "speaker": "유키",
    "ja": "まさか。",
    "ko": "설마.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 24.9,
@@ -62,7 +62,7 @@
    "speaker": "에리카",
    "ja": "も、もちろんよ、もちろん。",
    "ko": "무, 물론이지, 물론.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

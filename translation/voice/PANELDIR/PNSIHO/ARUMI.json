@@ -10,7 +10,7 @@
    "speaker": "시호",
    "ja": "診察していただけるのですか?",
    "ko": "진찰해 주시는 건가요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

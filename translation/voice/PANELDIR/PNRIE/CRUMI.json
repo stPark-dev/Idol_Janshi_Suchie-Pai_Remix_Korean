@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "とんだ誤算だったわ。",
    "ko": "이건 큰 오산이었어.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 トンダゴさんだったわ → とんだ誤算"
   }

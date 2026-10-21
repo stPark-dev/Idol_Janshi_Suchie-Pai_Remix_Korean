@@ -10,7 +10,7 @@
    "speaker": "스치파이",
    "ja": "ハイパーせっかん。",
    "ko": "하이퍼 응징!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 없는 받아쓰기에만 있음(「ハイパー石棺」) → せっかん(折檻)"
   },
@@ -20,7 +20,7 @@
    "speaker": "스치파이",
    "ja": "相手にロンされてしまったいけない捨て牌に愛の一撃を食らわせて",
    "ko": "상대에게 론 당한 나쁜 버림패에 사랑의 일격을 먹여서",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 「アイの一撃」 → 愛の一撃으로 봄"
   },
@@ -30,7 +30,7 @@
    "speaker": "스치파이",
    "ja": "勝負をうやむやにする、インド人もびっくりの必殺技よ。",
    "ko": "승부를 흐지부지 만드는, 인도 사람도 깜짝 놀랄 필살기야.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "「インド人もびっくり」: 옛 카레 광고 문구에서 온 일본 관용 개그(아주 놀랍다)"
   }
  ]

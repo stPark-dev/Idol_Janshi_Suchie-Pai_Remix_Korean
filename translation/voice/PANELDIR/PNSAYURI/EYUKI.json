@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "なーにぶりっこしてんのよ。",
    "ko": "뭘 그렇게 내숭을 떨어?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 1.86,
@@ -18,7 +18,7 @@
    "speaker": "사유리",
    "ja": "ユキちゃんの真似です。",
    "ko": "유키 흉내예요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.82,
@@ -26,7 +26,7 @@
    "speaker": "사유리",
    "ja": "あは、いやーん。困っちゃうー。",
    "ko": "아핫, 싫어잉~ 곤란해~",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.24,
@@ -34,7 +34,7 @@
    "speaker": "유키",
    "ja": "まあ、今日はご飯抜き。",
    "ko": "흥, 오늘은 밥 없어.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "「まあ」로 들림. 「もう」일 수도"
   },
@@ -44,7 +44,7 @@
    "speaker": "사유리",
    "ja": "ごめんなさーい。",
    "ko": "잘못했어요~",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 없음에만 있음"
   }

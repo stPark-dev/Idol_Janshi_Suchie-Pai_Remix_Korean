@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "コンティニューしてくんないと泣くわよ。",
    "ko": "컨티뉴 안 해 주면 울 거야.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있음 「参入して」, VAD 없음 「コンティニューして」를 따름"
   }

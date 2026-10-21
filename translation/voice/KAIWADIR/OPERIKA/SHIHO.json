@@ -10,7 +10,7 @@
    "speaker": "에리카",
    "ja": "なになに?事件?殺人?強盗?",
    "ko": "뭐야 뭐야? 사건? 살인? 강도?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.44,
@@ -18,7 +18,7 @@
    "speaker": "시호",
    "ja": "あの、道を尋ねたいんですけど。",
    "ko": "저, 길을 좀 여쭤보고 싶은데요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.22,
@@ -26,7 +26,7 @@
    "speaker": "에리카",
    "ja": "あちゃー。",
    "ko": "아이고.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.9,
@@ -34,7 +34,7 @@
    "speaker": "에리카",
    "ja": "そんなのその辺の交番行って聞いてよ、もう。",
    "ko": "그런 건 근처 파출소 가서 물어봐, 참.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 「その辺の交番員って聞いてよ」→「交番行って」"
   },
@@ -44,7 +44,7 @@
    "speaker": "에리카",
    "ja": "あー、退屈だわ。",
    "ko": "아~ 지루해.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 13.42,
@@ -52,7 +52,7 @@
    "speaker": "시호",
    "ja": "それでしたら、その、交番への道を。",
    "ko": "그러시다면, 그, 파출소 가는 길을…",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 17.2,
@@ -60,7 +60,7 @@
    "speaker": "에리카",
    "ja": "あなた、私に喧嘩売ってんのね?",
    "ko": "너, 나한테 싸움 거는 거지?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 20.8,
@@ -68,7 +68,7 @@
    "speaker": "에리카",
    "ja": "いいわ。さ、銃を抜きなさい。",
    "ko": "좋아. 자, 총을 뽑아!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 23.44,
@@ -76,7 +76,7 @@
    "speaker": "시호",
    "ja": "あ、私、銃なんか持ってません。",
    "ko": "어머, 저는 총 같은 건 없는데요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 26.56,
@@ -84,7 +84,7 @@
    "speaker": "에리카",
    "ja": "じゃあ、麻雀で決着つけるしかないわ。",
    "ko": "그럼 마작으로 결판을 낼 수밖에 없겠네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 28.88,
@@ -92,7 +92,7 @@
    "speaker": "에리카",
    "ja": "勝負よ!",
    "ko": "승부다!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "どうしよう、負けちゃったわ。",
    "ko": "어떡해, 져 버렸어.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있음: 「よーしよー負けちゃったわー。」, VAD 없음: 「どうしよう、負けちゃったわ。」 — 뒤쪽을 따름"
   }

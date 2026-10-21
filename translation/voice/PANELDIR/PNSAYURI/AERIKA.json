@@ -10,7 +10,7 @@
    "speaker": "사유리",
    "ja": "ガーン。負けてしまいました。",
    "ko": "쿠궁! 져 버렸어요.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있음: 「負けてしまいました。」(1.58~), VAD 없음: 「グワーン。負けてしまいました。」 — 「ガーン」(충격 효과음)으로 추정"
   }

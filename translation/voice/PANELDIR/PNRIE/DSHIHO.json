@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "あーん、もう。",
    "ko": "아앙, 정말.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 アーモン。 → あーん、もう 로 추정 (신음 섞인 감탄)"
   }

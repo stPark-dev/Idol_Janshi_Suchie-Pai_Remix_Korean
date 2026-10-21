@@ -10,7 +10,7 @@
    "speaker": "안자이 사치코",
    "ja": "何だい、お嬢ちゃん。私に何か用かい?",
    "ko": "뭐야, 꼬마 아가씨. 나한테 무슨 볼일 있어?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.94,
@@ -18,7 +18,7 @@
    "speaker": "미즈노 유키",
    "ja": "歩き煙草はみんなの迷惑です。やめた方がいいと思います。",
    "ko": "길에서 담배 피우면 다들 피해 봐요. 그만두는 게 좋겠어요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 8.46,
@@ -26,15 +26,16 @@
    "speaker": "안자이 사치코",
    "ja": "ガキンチョが固いこと言うなよ。",
    "ko": "꼬맹이가 딱딱한 소리 하지 마.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 11.4,
    "end": 15.2,
    "speaker": "미즈노 유키",
    "ja": "私ガキンチョじゃないわ。麻雀だってすっごく強いんだから。",
-   "ko": "나 꼬맹이 아니거든요! 마작도 엄청 잘한다고요.",
-   "status": "needs_review"
+   "ko": "저 꼬맹이 아니거든요! 마작도 엄청 잘한다고요.",
+   "status": "needs_human_review",
+   "note": "검수: 해요체와 어울리게 나→저"
   },
   {
    "start": 15.88,
@@ -42,7 +43,7 @@
    "speaker": "안자이 사치코",
    "ja": "へえ、面白いじゃん。だったら私のダチ公んとこへ行ってみろよ。",
    "ko": "흐음, 재밌네. 그럼 내 친구한테 한번 가 보라고.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: ダチコンとこ (ダチ公んとこ로 봄)"
   },
@@ -52,7 +53,7 @@
    "speaker": "안자이 사치코",
    "ja": "かわいい子にはすぐ手を出すやつだ。",
    "ko": "귀여운 애한텐 바로 손대는 녀석이야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 24.94,
@@ -60,7 +61,7 @@
    "speaker": "안자이 사치코",
    "ja": "お嬢ちゃんもきっと大人にしてもらえるぜ。",
    "ko": "꼬마 아가씨도 분명 어른으로 만들어 줄걸.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

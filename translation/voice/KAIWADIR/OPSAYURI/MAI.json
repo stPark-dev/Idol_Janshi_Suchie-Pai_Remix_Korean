@@ -10,15 +10,16 @@
    "speaker": "사유리",
    "ja": "あれ?お店間違えてませんか?",
    "ko": "어라? 가게 잘못 찾아오신 거 아니에요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.22,
    "end": 6.08,
    "speaker": "사유리",
    "ja": "ここはウサギさんのお店ですよ。",
-   "ko": "여긴 토끼 씨네 가게인데요.",
-   "status": "needs_review"
+   "ko": "여긴 토끼네 가게인데요.",
+   "status": "needs_human_review",
+   "note": "검수: 사유리 자신은 \"토끼\"(표기 결정). 이전: 토끼 씨네"
   },
   {
    "start": 6.68,
@@ -26,7 +27,7 @@
    "speaker": "마이",
    "ja": "まあ、失礼ね。私はお客よ。",
    "ko": "어머, 실례네. 난 손님이야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 10.46,
@@ -34,7 +35,7 @@
    "speaker": "마이",
    "ja": "ふん。店長呼んでもらえる?",
    "ko": "흥. 점장 좀 불러 줄래?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: あふん。"
   },
@@ -44,7 +45,7 @@
    "speaker": "사유리",
    "ja": "うわぁ、ごめんなさい。",
    "ko": "으아, 죄송해요!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 14.66,
@@ -52,7 +53,7 @@
    "speaker": "사유리",
    "ja": "何でもしますから、それだけは。",
    "ko": "뭐든지 할 테니까 그것만은!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 17.5,
@@ -60,7 +61,7 @@
    "speaker": "마이",
    "ja": "ふーん。何でもするのね。",
    "ko": "흐응. 뭐든지 한다 이거지?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 20.86,
@@ -68,7 +69,7 @@
    "speaker": "마이",
    "ja": "何でも。",
    "ko": "뭐든지.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 22.46,
@@ -76,7 +77,7 @@
    "speaker": "마이",
    "ja": "じゃ、麻雀しましょう。",
    "ko": "그럼 마작 하자.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 24.34,
@@ -84,7 +85,7 @@
    "speaker": "사유리",
    "ja": "い、ここは麻雀するお店ではありませんが。",
    "ko": "에, 여긴 마작 하는 가게가 아닌데요...",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 27.94,
@@ -92,7 +93,7 @@
    "speaker": "마이",
    "ja": "店長どこ、店長。",
    "ko": "점장 어딨어, 점장!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 29.84,
@@ -100,7 +101,7 @@
    "speaker": "사유리",
    "ja": "しま、しま、しましょ!",
    "ko": "해요, 해요, 하자고요!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: しましましましょ (당황해서 말을 더듬는 것으로 해석)"
   }

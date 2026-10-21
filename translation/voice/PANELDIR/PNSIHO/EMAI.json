@@ -10,7 +10,7 @@
    "speaker": "마이",
    "ja": "ま、なかなかいい勝負だったわね。",
    "ko": "뭐, 꽤 좋은 승부였어.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.08,
@@ -18,7 +18,7 @@
    "speaker": "시호",
    "ja": "あの、あなたは新手の通り魔さんか何かなのでしょうか。",
    "ko": "저기, 당신은 신종 길거리 괴한이나 그런 분인가요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.56,
@@ -26,7 +26,7 @@
    "speaker": "마이",
    "ja": "こんな可愛い通り魔がいるもんですか。",
    "ko": "이렇게 귀여운 괴한이 어디 있어!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 10.36,
@@ -34,7 +34,7 @@
    "speaker": "마이",
    "ja": "じゃ、またいつかね。",
    "ko": "그럼, 언젠가 또 봐.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.14,
@@ -42,7 +42,7 @@
    "speaker": "시호",
    "ja": "はあ?あの、お元気で。",
    "ko": "네에? 저기, 안녕히 가세요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

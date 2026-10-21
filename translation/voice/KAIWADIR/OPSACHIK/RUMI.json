@@ -10,7 +10,7 @@
    "speaker": "안자이 사치코",
    "ja": "よ、看護婦さん、景気はどうだい?",
    "ko": "여, 간호사 양반. 경기는 어때?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.1,
@@ -18,7 +18,7 @@
    "speaker": "사사키 루미",
    "ja": "病院と葬儀屋は不景気に越したことないわ。",
    "ko": "병원이랑 장의사는 불경기일수록 좋은 거야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.98,
@@ -26,7 +26,7 @@
    "speaker": "사사키 루미",
    "ja": "それよっか、あなた麻雀やるでしょ?私と勝負しない?",
    "ko": "그보다 너, 마작 하지? 나랑 한판 붙을래?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 11.18,
@@ -34,7 +34,7 @@
    "speaker": "안자이 사치코",
    "ja": "遠慮しとくよ。",
    "ko": "사양할게.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 13.14,
@@ -42,7 +42,7 @@
    "speaker": "안자이 사치코",
    "ja": "女二人でやっても盛り上がらねえだろうし、",
    "ko": "여자 둘이서 해 봤자 달아오르지도 않을 테고,",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 15.88,
@@ -50,7 +50,7 @@
    "speaker": "안자이 사치코",
    "ja": "盛り上がっちまうのも怖いしね。",
    "ko": "달아올라 버려도 무섭잖아.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "「やる」「盛り上がる」에 성적인 뜻을 겹친 농담 — '달아오르다'로 이중 의미 유지"
   },
   {
@@ -59,7 +59,7 @@
    "speaker": "사사키 루미",
    "ja": "なんだ、案外度胸ないのね。",
    "ko": "뭐야, 의외로 배짱이 없네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 22.5,
@@ -67,7 +67,7 @@
    "speaker": "안자이 사치코",
    "ja": "まあな、私はあんたらほど若くないさ",
    "ko": "뭐 그렇지. 난 너희만큼 젊지 않거든.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 27.18,
@@ -75,7 +75,7 @@
    "speaker": "안자이 사치코",
    "ja": "そういう話なら、あっちに麻雀好きのバニーガールがいる店があるぜ",
    "ko": "그런 얘기라면 저쪽에 마작 좋아하는 바니걸이 있는 가게가 있어.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 32.52,
@@ -83,7 +83,7 @@
    "speaker": "안자이 사치코",
    "ja": "覗いてみたらどうだい?",
    "ko": "한번 들러 보지 그래?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

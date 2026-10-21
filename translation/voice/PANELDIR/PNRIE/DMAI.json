@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "完敗ね。",
    "ko": "완패네.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 乾杯ね → 完敗ね"
   }

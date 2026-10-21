@@ -10,7 +10,7 @@
    "speaker": "케이코",
    "ja": "あら、マイちゃんお久しぶり。最近どうしてる?",
    "ko": "어머, 마이, 오랜만이야. 요즘 어떻게 지내?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 麻雀ちゃんお久しぶり (문맥상 マイちゃん)"
   },
@@ -20,7 +20,7 @@
    "speaker": "케이코",
    "ja": "彼氏でも見つかった?",
    "ko": "남자친구라도 생겼어?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: からしでも見つかった? (문맥상 彼氏)"
   },
@@ -30,7 +30,7 @@
    "speaker": "마이",
    "ja": "はあ、私のパイの味がわかる男なんて、そうひょこひょことはいないわよ。",
    "ko": "하아, 내 파이 맛을 아는 남자가 그렇게 쉽게 나타나겠어?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "パイ는 마이네 가게 파이·마작패(牌)·가슴(おっぱい)을 겹친 말일 수 있음. 한국어도 '파이'로 둠"
   },
   {
@@ -39,7 +39,7 @@
    "speaker": "케이코",
    "ja": "うふふふ、へえ、そうなの。じゃあ毎日麻雀ばっかり?",
    "ko": "우후후, 흐응, 그렇구나. 그럼 매일 마작만 해?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 17.38,
@@ -47,7 +47,7 @@
    "speaker": "마이",
    "ja": "それがね、なかなか強い相手がいなくてね。",
    "ko": "그게 말이야, 센 상대가 좀처럼 없어서.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 20.88,
@@ -55,7 +55,7 @@
    "speaker": "케이코",
    "ja": "じゃあいい人紹介してあげるわ。",
    "ko": "그럼 좋은 사람 소개해 줄게.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 22.82,
@@ -63,7 +63,7 @@
    "speaker": "케이코",
    "ja": "うちによく来る子なんだけど、麻雀結構強いみたいよ。",
    "ko": "우리 가게 단골인데, 마작이 꽤 센가 봐.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 27.56,
@@ -71,7 +71,7 @@
    "speaker": "케이코",
    "ja": "残念ながら年下の女の子なんだけどね。",
    "ko": "아쉽게도 연하의 여자애지만.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 30.98,
@@ -79,7 +79,7 @@
    "speaker": "마이",
    "ja": "なんだ。でもまあ、退屈しのぎにお相手願おうかな。",
    "ko": "뭐야. 그래도 심심풀이로 한판 붙어 볼까.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

@@ -11,7 +11,7 @@
    "speaker": "리에",
    "ja": "やっぱりムチが欲しいわ。",
    "ko": "역시 채찍이 갖고 싶어.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 2.22,
@@ -19,7 +19,7 @@
    "speaker": "스치파이",
    "ja": "変われば変わるものです。",
    "ko": "사람이 이렇게나 변하네요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

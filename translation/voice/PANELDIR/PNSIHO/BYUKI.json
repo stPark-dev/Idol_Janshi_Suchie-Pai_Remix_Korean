@@ -9,10 +9,10 @@
    "end": 1.08,
    "speaker": "시호",
    "ja": "上もですか?",
-   "ko": "위도요?",
-   "status": "needs_review",
+   "ko": "윗옷도요?",
+   "status": "needs_human_review",
    "asr_uncertain": true,
-   "note": "VAD 있음은 「ですか?」만 잡음. VAD 없음: 「上もですか?」"
+   "note": "VAD 있음은 「ですか?」만 잡음. VAD 없음: 「上もですか?」 / 검수: 「上も」는 윗옷을 뜻함"
   }
  ]
 }

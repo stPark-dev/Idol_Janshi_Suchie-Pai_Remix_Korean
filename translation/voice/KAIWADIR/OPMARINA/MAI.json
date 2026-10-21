@@ -10,7 +10,7 @@
    "speaker": "마리나",
    "ja": "やっほー。マイちゃん、何してるの?",
    "ko": "야호~ 마이, 뭐 해?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있는 받아쓰기는 「マリナちゃん何してるの?」. 말하는 사람이 마리나이므로 VAD 없는 쪽 「マイちゃん」을 씀"
   },
@@ -20,7 +20,7 @@
    "speaker": "마이",
    "ja": "あのね、この辺に麻雀の強い人がいるって聞いてきたんだけど。",
    "ko": "있잖아, 이 근처에 마작 센 사람이 있다고 듣고 왔는데.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.8,
@@ -28,7 +28,7 @@
    "speaker": "마리나",
    "ja": "それってもしかして、サユリのことかな?",
    "ko": "그거 혹시 사유리 얘기인가?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 「サヨリ」 → 「サユリ」(사유리)로 봄"
   },
@@ -38,7 +38,7 @@
    "speaker": "마이",
    "ja": "マリナちゃん知ってるの?詳しく教えてくれない?",
    "ko": "마리나 알아? 자세히 좀 가르쳐 줄래?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 13.98,
@@ -46,7 +46,7 @@
    "speaker": "마리나",
    "ja": "サユリなら、この先のウサギハウスにいるわよ。行ってみれば?",
    "ko": "사유리라면 이 앞 토끼 하우스에 있어. 가 보지 그래?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 「サヨリ」 → 「サユリ」"
   }

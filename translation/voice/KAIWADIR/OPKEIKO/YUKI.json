@@ -10,7 +10,7 @@
    "speaker": "케이코",
    "ja": "どうしたの、ユキちゃん。ぼーっとしちゃって。",
    "ko": "왜 그래, 유키. 멍하니 있고.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.26,
@@ -18,7 +18,7 @@
    "speaker": "유키",
    "ja": "え?うん。考え事してたの。",
    "ko": "에? 응. 생각 좀 하고 있었어.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 8.24,
@@ -26,7 +26,7 @@
    "speaker": "유키",
    "ja": "あたしってダメだなーって。",
    "ko": "난 참 글렀구나 하고.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 11.08,
@@ -34,7 +34,7 @@
    "speaker": "유키",
    "ja": "素敵かなーって人が現れても、ついつよがっちゃうの。",
    "ko": "멋지다 싶은 사람이 나타나도 그만 센 척해 버려.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 15.62,
@@ -42,7 +42,7 @@
    "speaker": "유키",
    "ja": "心の中では、尽くすタイプの女の子に憧れているのになー。",
    "ko": "마음속으론 헌신하는 타입의 여자애를 동경하는데.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: つくしタイプ (문맥상 尽くすタイプ)"
   },
@@ -52,7 +52,7 @@
    "speaker": "케이코",
    "ja": "あはは、おませね。",
    "ko": "아하하, 조숙하네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 24.08,
@@ -60,7 +60,7 @@
    "speaker": "유키",
    "ja": "ああ、ユキ、あなたになら何をされてもいいの。",
    "ko": "아아, 유키는 당신이라면 무슨 짓을 당해도 좋아요.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "유키가 동경하는 헌신형 여자애를 연기하는 대사로 해석"
   },
   {
@@ -69,7 +69,7 @@
    "speaker": "유키",
    "ja": "あなたが望むなら、ユキ、どんな恥ずかしいことでもできるのよ。",
    "ko": "당신이 원한다면 유키는 어떤 부끄러운 일도 할 수 있어요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 33.22,
@@ -77,7 +77,7 @@
    "speaker": "유키",
    "ja": "ほら見て。",
    "ko": "자, 봐요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 36.7,
@@ -85,7 +85,7 @@
    "speaker": "케이코",
    "ja": "まっ、どじょうすくいでもやる気?",
    "ko": "어머, 미꾸라지 춤이라도 추려고?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "どじょうすくい: 소쿠리로 미꾸라지 잡는 시늉을 하는 우스꽝스러운 민속춤. '부끄러운 일'을 이걸로 비꼰 농담"
   },
   {
@@ -94,7 +94,7 @@
    "speaker": "유키",
    "ja": "もう、ひどいわ。乙女の純情を笑うなんて。",
    "ko": "정말 너무해! 소녀의 순정을 비웃다니.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 乙女の順調 (문맥상 純情)"
   },
@@ -104,15 +104,16 @@
    "speaker": "케이코",
    "ja": "何があったのか知らないけど、",
    "ko": "무슨 일이 있었는진 모르겠지만,",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 45.66,
    "end": 48.3,
    "speaker": "케이코",
    "ja": "そんなに大人の世界に憧れてるんだったら、",
-   "ko": "그렇게 어른의 세계가 동경된다면",
-   "status": "needs_review"
+   "ko": "그렇게 어른의 세계를 동경한다면",
+   "status": "needs_human_review",
+   "note": "검수: '동경된다면' 어색한 피동 수정"
   },
   {
    "start": 48.3,
@@ -120,7 +121,7 @@
    "speaker": "케이코",
    "ja": "いいところを紹介してあげるわね。",
    "ko": "좋은 곳을 소개해 줄게.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

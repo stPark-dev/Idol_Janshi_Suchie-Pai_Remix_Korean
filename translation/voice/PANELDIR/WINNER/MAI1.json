@@ -10,7 +10,7 @@
    "speaker": "레이카",
    "ja": "まあ、とりあえずおめでとうと言わせてもらうよ。",
    "ko": "뭐, 일단 축하한다고는 해 두지.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.86,
@@ -18,7 +18,7 @@
    "speaker": "레이카",
    "ja": "今日からあんたが最強の雀士さ。",
    "ko": "오늘부터 네가 최강의 작사야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.54,
@@ -26,7 +26,7 @@
    "speaker": "마이",
    "ja": "これで、私やっと麻雀を卒業してパイ作りに専念できるわ。",
    "ko": "이걸로 나도 드디어 마작을 졸업하고 파이 만들기에 전념할 수 있겠다!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.68,
@@ -34,7 +34,7 @@
    "speaker": "스치파이",
    "ja": "おめでとうって言いたいとこだけど、",
    "ko": "축하한다고 말해 주고 싶지만,",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 15.58,
@@ -42,7 +42,7 @@
    "speaker": "스치파이",
    "ja": "舞ちゃん、あなたはまだ経験不足だわ。",
    "ko": "마이, 넌 아직 경험이 부족해.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 「麻雀、あなたはまだ経験不足だわ」 → 「舞ちゃん」으로 봄(마이 이름을 麻雀으로 잘못 들음)"
   },
@@ -52,7 +52,7 @@
    "speaker": "마이",
    "ja": "え、なになに?",
    "ko": "어? 뭐야 뭐야?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

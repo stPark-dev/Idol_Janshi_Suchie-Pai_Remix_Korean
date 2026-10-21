@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "あら、あなた本物の婦警さん?",
    "ko": "어머, 너 진짜 여경이니?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: あなた本物の父兄さん? (婦警さん으로 고침)"
   },
@@ -20,15 +20,16 @@
    "speaker": "리에",
    "ja": "その制服って古いタイプなんじゃない?",
    "ko": "그 제복, 옛날 거 아니야?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 5.78,
    "end": 9.4,
    "speaker": "에리카",
    "ja": "あちゃー、人が気にしてることをよくも。",
-   "ko": "아차~ 남이 신경 쓰는 걸 감히!",
-   "status": "needs_review"
+   "ko": "아이고~ 남이 신경 쓰는 걸 감히!",
+   "status": "needs_human_review",
+   "note": "검수: あちゃー는 '아차'(실수 깨달음)가 아니라 난감함 → '아이고'"
   },
   {
    "start": 10.02,
@@ -36,7 +37,7 @@
    "speaker": "에리카",
    "ja": "これは事件ね。名誉毀損で射殺しちゃおうかしら。",
    "ko": "이건 사건이야. 명예훼손으로 사살해 버릴까?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 15.2,
@@ -44,7 +45,7 @@
    "speaker": "리에",
    "ja": "その銃も本物じゃないわね。",
    "ko": "그 총도 진짜가 아니네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 17.8,
@@ -52,7 +53,7 @@
    "speaker": "리에",
    "ja": "おもちゃの銃では私を言いなりにはできないわよ。",
    "ko": "장난감 총으로는 날 마음대로 못 해.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 22.24,
@@ -60,7 +61,7 @@
    "speaker": "에리카",
    "ja": "なるほど、そういうこと。",
    "ko": "흐응, 그렇다 이거지.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: なる、そういうこと (なるほど로 봄). 말하는 사람도 추정"
   },
@@ -70,7 +71,7 @@
    "speaker": "에리카",
    "ja": "じゃあ麻雀でならどう?私の実力試してみる?",
    "ko": "그럼 마작이라면 어때? 내 실력 시험해 볼래?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 29.02,
@@ -78,7 +79,7 @@
    "speaker": "리에",
    "ja": "そうね、そっちの方は本物だといいんだけど。",
    "ko": "글쎄, 그쪽은 진짜면 좋겠는데.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

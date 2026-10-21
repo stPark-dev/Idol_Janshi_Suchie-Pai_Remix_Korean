@@ -10,7 +10,7 @@
    "speaker": "유카리",
    "ja": "ん?薬を探してらっしゃるの?",
    "ko": "응? 약을 찾고 계세요?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 그대로: んー、薬を探してらっしゃるの。 何を探して…일 수도 있음"
   },
@@ -20,7 +20,7 @@
    "speaker": "시호",
    "ja": "はい、でもいつの間にか麻雀をしているんです。",
    "ko": "네, 그런데 어느새 마작을 하고 있답니다.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 7.52,
@@ -28,7 +28,7 @@
    "speaker": "시호",
    "ja": "相手の方は負けると服を脱いでしまうし、",
    "ko": "상대분은 지면 옷을 벗어 버리고,",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 10.68,
@@ -36,7 +36,7 @@
    "speaker": "시호",
    "ja": "負けたら私も脱がなくてはいけないのかしらと、",
    "ko": "저도 지면 벗어야 하는 걸까 싶어서",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 14.52,
@@ -44,7 +44,7 @@
    "speaker": "시호",
    "ja": "ハラハラドキドキです。",
    "ko": "조마조마 두근두근해요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 17.08,
@@ -52,7 +52,7 @@
    "speaker": "유카리",
    "ja": "まあお気の毒に。",
    "ko": "어머, 딱하기도 해라.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 19.02,
@@ -60,7 +60,7 @@
    "speaker": "유카리",
    "ja": "でも安心して、良い病院を紹介いたしますわ。",
    "ko": "하지만 안심하세요, 좋은 병원을 소개해 드릴게요.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "시호를 아픈 사람으로 여기고 병원을 권하는 농담"
   }
  ]

@@ -10,7 +10,7 @@
    "speaker": "마리나",
    "ja": "ああ、リエさん、こんにちは。",
    "ko": "아, 리에 씨, 안녕하세요.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 없는 받아쓰기에만 있음: 「ああ、リエスさん、こんにちは。」"
   },
@@ -20,7 +20,7 @@
    "speaker": "리에",
    "ja": "あら、マリナじゃないの。",
    "ko": "어머, 마리나 아니니.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 5.43,
@@ -28,7 +28,7 @@
    "speaker": "마리나",
    "ja": "もしかして、あたしに会いに来てくれたんですか?",
    "ko": "혹시 저 만나러 와 주신 거예요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 10.05,
@@ -36,7 +36,7 @@
    "speaker": "리에",
    "ja": "それもあるわ。でも今日は私のお相手をしてくれる子を探してるのよ。",
    "ko": "그것도 있지. 하지만 오늘은 내 상대가 되어 줄 아이를 찾고 있어.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 15.54,
@@ -44,7 +44,7 @@
    "speaker": "마리나",
    "ja": "ふーん、あたしじゃダメなんですか?",
    "ko": "흐응~ 저로는 안 되나요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 19.48,
@@ -52,7 +52,7 @@
    "speaker": "리에",
    "ja": "バカね。マリナはとってもいい子よ。",
    "ko": "바보. 마리나는 정말 착한 아이잖니.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 23.38,
@@ -60,7 +60,7 @@
    "speaker": "리에",
    "ja": "今日は麻雀のお相手を探しているのよ。",
    "ko": "오늘은 마작 상대를 찾고 있는 거야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 26.24,
@@ -68,7 +68,7 @@
    "speaker": "마리나",
    "ja": "あはは、よかった。",
    "ko": "아하하, 다행이다.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "VAD 없는 받아쓰기에만 있음"
   },
   {
@@ -76,10 +76,10 @@
    "end": 32.56,
    "speaker": "마리나",
    "ja": "あ、そういえば、さっきあそこにいた婦警さん、",
-   "ko": "아, 그러고 보니 아까 저기 있던 여경 언니,",
-   "status": "needs_review",
+   "ko": "아, 그러고 보니 아까 저기 있던 여경,",
+   "status": "needs_human_review",
    "asr_uncertain": true,
-   "note": "받아쓰기: 「不敬さん」/「フケイさん」 → 「婦警さん」"
+   "note": "받아쓰기: 「不敬さん」/「フケイさん」 → 「婦警さん」 검수: 리에에게 지칭하는 말이라 '여경'(배치 공통 표기)"
   },
   {
    "start": 32.56,
@@ -87,7 +87,7 @@
    "speaker": "마리나",
    "ja": "結構リエさんの好みのタイプかもしれませんよ。",
    "ko": "꽤 리에 씨 취향일지도 몰라요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 36.08,
@@ -95,7 +95,7 @@
    "speaker": "리에",
    "ja": "ほんと?じゃあちょっと声かけてみようかしら。",
    "ko": "정말? 그럼 살짝 말 걸어 볼까.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

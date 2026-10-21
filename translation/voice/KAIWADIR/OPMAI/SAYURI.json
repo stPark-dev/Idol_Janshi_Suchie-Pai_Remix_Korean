@@ -10,7 +10,7 @@
    "speaker": "마이",
    "ja": "いらっしゃいませ。当店自慢のあんこ入りパイは、",
    "ko": "어서 오세요. 저희 가게 자랑인 앙꼬 파이는...",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.38,
@@ -18,7 +18,7 @@
    "speaker": "마이",
    "ja": "あら?一つなくなってるわ。",
    "ko": "어라? 하나가 없어졌네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.82,
@@ -26,7 +26,7 @@
    "speaker": "마이",
    "ja": "あ、まさか!",
    "ko": "앗, 설마!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 9.82,
@@ -34,7 +34,7 @@
    "speaker": "사유리",
    "ja": "とっても美味しいです。",
    "ko": "정말 맛있어요~",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 13.86,
@@ -42,7 +42,7 @@
    "speaker": "사유리",
    "ja": "全部食べちゃった。",
    "ko": "다 먹어 버렸다~",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 貼っちゃった (VAD 있음) / 全部飲んじゃった (VAD 없음) — 파이를 먹은 장면이라 「全部食べちゃった」로 추정. 청취 확인 필요"
   },
@@ -52,7 +52,7 @@
    "speaker": "마이",
    "ja": "ちょ、ちょっと。ちゃんとお金払ってよね。",
    "ko": "자, 잠깐! 돈은 제대로 내야 해!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 21.3,
@@ -60,7 +60,7 @@
    "speaker": "사유리",
    "ja": "そうですね。私に麻雀で勝ったら払ってあげますわ。",
    "ko": "글쎄요~ 저한테 마작으로 이기면 내 드릴게요.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 麻雀で買ってったら (勝ったら로 고침)"
   },
@@ -70,7 +70,7 @@
    "speaker": "마이",
    "ja": "何よそれ!",
    "ko": "그게 뭐야!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

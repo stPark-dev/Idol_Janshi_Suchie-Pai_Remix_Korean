@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "なーによ、あの先公。",
    "ko": "뭐야, 그 꼰대 선생!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 'あの線香'. 선생을 낮춰 부르는 속어 '先公'으로 추정"
   },
@@ -20,7 +20,7 @@
    "speaker": "유키",
    "ja": "ユキの可愛さに嫉妬してわざと難しい問題やらせたんだわ。",
    "ko": "유키가 귀여워서 질투 나니까 일부러 어려운 문제 시킨 거야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 5.88,
@@ -28,7 +28,7 @@
    "speaker": "유키",
    "ja": "やーねえ、年取ると。",
    "ko": "싫다~ 나이 들면 저렇다니까.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 'やねえとしとると'"
   },
@@ -38,7 +38,7 @@
    "speaker": "루미",
    "ja": "あん、ちょっとあんた。",
    "ko": "앗, 잠깐 너!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "첫 'あん'은 부딪힌 유키의 소리일 수도 있음"
   },
   {
@@ -47,7 +47,7 @@
    "speaker": "루미",
    "ja": "ちゃんと前見て歩かないと危ないわよ。",
    "ko": "앞 좀 제대로 보고 걸어야지, 위험하잖아.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.0,
@@ -55,7 +55,7 @@
    "speaker": "유키",
    "ja": "おばさんは黙っててよ。",
    "ko": "아줌마는 빠져 있어!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 13.86,
@@ -63,7 +63,7 @@
    "speaker": "루미",
    "ja": "なに?二十歳の乙女捕まえておばさんですって?",
    "ko": "뭐? 스무 살 꽃다운 처녀더러 아줌마라고?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: 'おばさんと?'"
   },
@@ -73,7 +73,7 @@
    "speaker": "루미",
    "ja": "よく言ったわね。",
    "ko": "말 한번 잘했다?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 18.74,
@@ -81,7 +81,7 @@
    "speaker": "유키",
    "ja": "ユキ十七だもん。三年若いもん。",
    "ko": "유키는 열일곱이거든. 세 살 어리거든.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 21.54,
@@ -89,7 +89,7 @@
    "speaker": "루미",
    "ja": "なーに言ってんのよ。",
    "ko": "무슨 소리야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 23.38,
@@ -97,7 +97,7 @@
    "speaker": "루미",
    "ja": "じゃあ三年経てば私と同じ二十歳じゃない。",
    "ko": "그럼 3년 지나면 나랑 똑같은 스무 살이잖아.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 26.26,
@@ -105,16 +105,16 @@
    "speaker": "유키",
    "ja": "違うもん。おばさんは二十三だもん。",
    "ko": "아니거든. 그땐 아줌마는 스물셋이거든.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 28.9,
    "end": 34.08,
    "speaker": "루미",
    "ja": "ムカーッ!仏のルミちゃんももうプッツンきたわ",
-   "ko": "빠직! 부처님 같은 루미 님도 이젠 뚜껑 열렸어!",
-   "status": "needs_review",
-   "note": "'仏の顔も三度まで'(부처님 얼굴도 세 번까지)를 비튼 말"
+   "ko": "빠직! 부처님 같은 루미도 이젠 뚜껑 열렸어!",
+   "status": "needs_human_review",
+   "note": "'仏の顔も三度まで'(부처님 얼굴도 세 번까지)를 비튼 말 / 검수: ~ちゃん은 이름만(표기 결정). 이전: 루미 님"
   },
   {
    "start": 34.64,
@@ -122,7 +122,7 @@
    "speaker": "루미",
    "ja": "麻雀で決着つけてやろうじゃない",
    "ko": "마작으로 결판을 내 주겠어!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기: '決着つけとろうじゃない'"
   }

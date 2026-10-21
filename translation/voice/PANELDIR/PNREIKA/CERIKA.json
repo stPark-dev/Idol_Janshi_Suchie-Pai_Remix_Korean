@@ -10,7 +10,7 @@
    "speaker": "레이카",
    "ja": "脱ぐときゃこのくらいやるもんだよ。",
    "ko": "벗을 땐 이 정도는 해야지.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 縫うときゃ → 脱ぐときゃ"
   }

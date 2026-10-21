@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "あのー、やっぱりユキも脱がなくちゃダメですか?",
    "ko": "저기~ 역시 유키도 벗어야 돼요?",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 「雪も」 → 「ユキも」"
   }

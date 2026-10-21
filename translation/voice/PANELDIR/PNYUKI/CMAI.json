@@ -9,8 +9,9 @@
    "end": 1.78,
    "speaker": "유키",
    "ja": "やだ、恥ずかしいよ。",
-   "ko": "싫다, 부끄러워.",
-   "status": "needs_review"
+   "ko": "싫어, 부끄러워.",
+   "status": "needs_human_review",
+   "note": "검수: 「やだ」를 \"싫다\"→\"싫어\""
   }
  ]
 }

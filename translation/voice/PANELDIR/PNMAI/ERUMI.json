@@ -10,7 +10,7 @@
    "speaker": "루미",
    "ja": "なかなかいい筋してるけど、詰めが甘いみたいね。",
    "ko": "꽤 소질은 있는데 마무리가 무르네.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 爪が甘い → 詰めが甘い"
   },
@@ -20,7 +20,7 @@
    "speaker": "루미",
    "ja": "一回、糖尿病の検診を受けたほうがいいわ。",
    "ko": "당뇨병 검진 한번 받아 보는 게 좋겠어.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "甘い(무르다/달다) 말장난을 이어 당뇨병 검진 농담"
   },
@@ -30,7 +30,7 @@
    "speaker": "마이",
    "ja": "そんなんで人を診断しないでよ!",
    "ko": "그런 걸로 사람을 진단하지 마!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

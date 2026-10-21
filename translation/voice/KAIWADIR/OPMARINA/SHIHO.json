@@ -10,7 +10,7 @@
    "speaker": "마리나",
    "ja": "あら、しほちゃん、元気してる?",
    "ko": "어머, 시호, 잘 지내?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 2.86,
@@ -18,7 +18,7 @@
    "speaker": "시호",
    "ja": "マリナさんはいつも元気そうですわね。",
    "ko": "마리나 씨는 늘 기운이 넘치시네요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.06,
@@ -26,7 +26,7 @@
    "speaker": "마리나",
    "ja": "もちろん。私はいつも元気よ。",
    "ko": "물론이지. 난 언제나 기운 넘쳐.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 9.38,
@@ -34,7 +34,7 @@
    "speaker": "마리나",
    "ja": "だって元気じゃないと遊べないんだもん。",
    "ko": "기운이 없으면 못 놀잖아.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.7,
@@ -42,7 +42,7 @@
    "speaker": "시호",
    "ja": "私は最近あまり食欲がなくて。",
    "ko": "저는 요즘 입맛이 별로 없어서요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 16.16,
@@ -50,7 +50,7 @@
    "speaker": "마리나",
    "ja": "へえ、それならさ、この先にあるレストランに行ってみたら?",
    "ko": "헤에, 그럼 말이야, 이 앞에 있는 레스토랑에 가 보면 어때?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 20.28,
@@ -58,7 +58,7 @@
    "speaker": "마리나",
    "ja": "あそこのパイってとっても美味しいから、きっとしほちゃんも気に入ると思うよ。",
    "ko": "거기 파이가 엄청 맛있거든. 시호도 분명 마음에 들 거야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

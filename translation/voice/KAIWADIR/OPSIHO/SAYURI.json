@@ -9,8 +9,9 @@
    "end": 2.65,
    "speaker": "시호",
    "ja": "まあ、かわいらしいウサギさんですね。",
-   "ko": "어머, 귀여운 토끼 씨네요.",
-   "status": "needs_review"
+   "ko": "어머, 귀여운 토끼 아가씨네요.",
+   "status": "needs_human_review",
+   "note": "검수: 남이 사유리를 부를 때 \"토끼 아가씨\"(표기 결정). 이전: 토끼 씨"
   },
   {
    "start": 4.04,
@@ -18,7 +19,7 @@
    "speaker": "사유리",
    "ja": "ああ、そんなかわいいだなんて。",
    "ko": "아잉, 귀엽다니 그런~",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "VAD 없는 받아쓰기에만 있는 줄"
   },
   {
@@ -27,7 +28,7 @@
    "speaker": "사유리",
    "ja": "嬉しいです。",
    "ko": "기뻐요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 10.14,
@@ -35,7 +36,7 @@
    "speaker": "시호",
    "ja": "あ、それでは私はこれで。",
    "ko": "아, 그럼 저는 이만.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 13.58,
@@ -43,7 +44,7 @@
    "speaker": "사유리",
    "ja": "はーい。",
    "ko": "네~",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 14.8,
@@ -51,7 +52,7 @@
    "speaker": "사유리",
    "ja": "へっ、あ、あの、あの、その、待ってください。",
    "ko": "엣, 아, 저기, 저기요, 그게, 기다려 주세요!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 19.06,
@@ -59,7 +60,7 @@
    "speaker": "시호",
    "ja": "え?",
    "ko": "네?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 19.5,
@@ -67,7 +68,7 @@
    "speaker": "사유리",
    "ja": "あ、あたしは、ただのウサギさんで、怪しい人ではありません。",
    "ko": "저, 저는 그냥 토끼고, 수상한 사람이 아니에요.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있는 받아쓰기는 「が、あたしは、だ、」만 잡음. 나머지는 VAD 없는 쪽(「私はただのウサギさんで怪しい人ではありません。」). 23.60 나눔 시각은 단어 시각이 없어 추정"
   },
@@ -77,7 +78,7 @@
    "speaker": "사유리",
    "ja": "話を聞いてください。",
    "ko": "얘기 좀 들어 주세요.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 없는 받아쓰기에만 있음. 시작 시각 추정"
   },
@@ -87,7 +88,7 @@
    "speaker": "시호",
    "ja": "ああ、十分怪しいと思いますけど。",
    "ko": "아아, 충분히 수상하다고 생각합니다만.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 30.52,
@@ -95,7 +96,7 @@
    "speaker": "사유리",
    "ja": "あの、しほさんは麻雀が得意だって聞いたもので、",
    "ko": "저기, 시호 씨가 마작을 잘한다고 들어서요,",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 35.08,
@@ -103,7 +104,7 @@
    "speaker": "사유리",
    "ja": "一度遊んでみたかったんです。",
    "ko": "한번 같이 놀아 보고 싶었어요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 37.8,
@@ -111,7 +112,7 @@
    "speaker": "사유리",
    "ja": "あたしと麻雀で勝負してください。",
    "ko": "저랑 마작으로 승부해 주세요!",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있는 받아쓰기: 「あたしと麻雀でしょ?」. VAD 없는 쪽 「私と麻雀で勝負してください」를 씀"
   },
@@ -121,7 +122,7 @@
    "speaker": "시호",
    "ja": "麻雀で?",
    "ko": "마작으로요?",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 42.42,
@@ -129,7 +130,7 @@
    "speaker": "사유리",
    "ja": "さあ、それじゃあ麻雀勝負、レディー・ゴー!",
    "ko": "자, 그럼 마작 승부, 레디~ 고!",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 47.76,
@@ -137,7 +138,7 @@
    "speaker": "시호",
    "ja": "はあ、私に選択の余地はないのですね。",
    "ko": "하아, 저에게 선택의 여지는 없는 거군요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

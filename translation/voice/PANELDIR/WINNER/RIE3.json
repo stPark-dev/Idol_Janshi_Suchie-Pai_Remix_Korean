@@ -10,7 +10,7 @@
    "speaker": "레이카",
    "ja": "まあ、とりあえずおめでとうと言わせてもらうよ。",
    "ko": "뭐, 일단 축하한다고는 해 두지.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.86,
@@ -18,7 +18,7 @@
    "speaker": "레이카",
    "ja": "今日からあんたが最強の雀士さ。",
    "ko": "오늘부터 네가 최강의 작사야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.82,
@@ -26,7 +26,7 @@
    "speaker": "리에",
    "ja": "私は自由が好きなの。こんなところであなたの後を継ぐ気なんてないわ。",
    "ko": "난 자유로운 게 좋거든. 이런 데서 네 뒤를 이을 생각은 없어.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 12.72,
@@ -34,7 +34,7 @@
    "speaker": "스치파이",
    "ja": "かっこいいこと言うのね。",
    "ko": "멋진 말을 하네.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 14.96,
@@ -42,7 +42,7 @@
    "speaker": "리에",
    "ja": "まあ。",
    "ko": "어머.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

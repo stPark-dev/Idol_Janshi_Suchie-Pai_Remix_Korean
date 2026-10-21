@@ -11,7 +11,7 @@
    "speaker": "마이",
    "ja": "いらっしゃいませ。アンパイズへようこそ。",
    "ko": "어서 오세요. 안파이즈에 오신 걸 환영해요.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "가게 이름: VAD 있음 「パンパイズ」, VAD 없음 「アンパイズ」(あんこパイ와 安牌의 말장난으로 보임). 음역 '안파이즈'"
   },
@@ -21,7 +21,7 @@
    "speaker": "스치파이",
    "ja": "問題の和洋折衷、あんこ入りパイも好評みたいだし、",
    "ko": "말 많던 화양 절충 팥소 파이도 평이 좋다니,",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "「問題の」는 '화제의(話題の)'일 수도 있음"
   },
   {
@@ -30,7 +30,7 @@
    "speaker": "스치파이",
    "ja": "世の中わかんないものです。",
    "ko": "세상일은 알 수 없네요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 10.0,
@@ -38,7 +38,7 @@
    "speaker": "스치파이",
    "ja": "はい。",
    "ko": "네.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "말한 사람 불확실(내레이션 끝맺음으로 봄)"
   }
  ]

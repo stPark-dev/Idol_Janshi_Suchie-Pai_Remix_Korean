@@ -10,7 +10,7 @@
    "speaker": "유키",
    "ja": "結構いいとこ行ってたけど惜しかったわね。",
    "ko": "꽤 선전했는데 아깝게 됐네.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "VAD 있음: 「リーセン行ってたけど」, VAD 없음: 「結構いい戦い行ってたけど」 → 「いいとこ行ってた」로 추정"
   },
@@ -20,7 +20,7 @@
    "speaker": "시호",
    "ja": "こんな小さな子に負けてしまうなんて。",
    "ko": "이렇게 어린애한테 지다니.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.96,
@@ -28,7 +28,7 @@
    "speaker": "시호",
    "ja": "でも油断は大敵ですよ。",
    "ko": "그래도 방심은 금물이에요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 9.42,
@@ -36,7 +36,7 @@
    "speaker": "유키",
    "ja": "平気よ平気。絶対勝っちゃうわ。",
    "ko": "괜찮아, 괜찮아. 무조건 이길 거야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

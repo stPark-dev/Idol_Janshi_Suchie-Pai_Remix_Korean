@@ -9,8 +9,9 @@
    "end": 3.92,
    "speaker": "스치파이",
    "ja": "というわけで、エリカさんは本当の婦人警官になってしまいました。",
-   "ko": "그리하여 에리카 씨는 진짜 여자 경찰관이 되어 버렸어요.",
-   "status": "needs_review"
+   "ko": "그리하여 에리카 씨는 진짜 여경이 되어 버렸어요.",
+   "status": "needs_human_review",
+   "note": "검수: 婦人警官도 표기 통일(여경)"
   },
   {
    "start": 4.6,
@@ -18,7 +19,7 @@
    "speaker": "스치파이",
    "ja": "しかも本場アメリカで。",
    "ko": "그것도 본고장 미국에서요.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }

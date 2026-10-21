@@ -11,7 +11,7 @@
    "speaker": "시호",
    "ja": "志穂です。私のこと忘れないでくださいね。",
    "ko": "시호예요. 저를 잊지 말아 주세요.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "note": "VAD 없는 받아쓰기에만 있음"
   }
  ]

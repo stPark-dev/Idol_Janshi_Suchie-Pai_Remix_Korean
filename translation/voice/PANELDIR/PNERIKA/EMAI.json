@@ -10,7 +10,7 @@
    "speaker": "마이",
    "ja": "そう?これが美少女雀士、舞ちゃんの実力よ。",
    "ko": "어때? 이게 미소녀 작사 마이의 실력이야.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 麻雀ちゃん. 문맥상 舞ちゃん으로 추정"
   },
@@ -20,7 +20,7 @@
    "speaker": "에리카",
    "ja": "わかったわよ。でも、きっとあなたの運もここまでね。",
    "ko": "알았어. 하지만 네 운도 분명 여기까지야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 9.86,
@@ -28,7 +28,7 @@
    "speaker": "에리카",
    "ja": "これだけ派手に動き回れば、あの最強の雀士があなたに勝負を挑んでくるわ。",
    "ko": "이렇게 요란하게 돌아다니면 그 최강의 작사가 너한테 승부를 걸어올 거야.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 14.92,
@@ -36,7 +36,7 @@
    "speaker": "마이",
    "ja": "心配ご無用よ。返り討ちよ。",
    "ko": "걱정 마셔. 되받아쳐 줄 테니까.",
-   "status": "needs_review",
+   "status": "needs_human_review",
    "asr_uncertain": true,
    "note": "받아쓰기 心配ごめんよ → 心配ご無用よ"
   }

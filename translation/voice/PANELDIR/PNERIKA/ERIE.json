@@ -10,7 +10,7 @@
    "speaker": "리에",
    "ja": "あなた、案外可愛いとこあるのね。",
    "ko": "너, 의외로 귀여운 구석이 있구나.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 3.08,
@@ -18,7 +18,7 @@
    "speaker": "에리카",
    "ja": "こんな時に言わないでよ。恥ずかしいな。",
    "ko": "이럴 때 그런 말 하지 마. 창피하잖아.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   },
   {
    "start": 6.82,
@@ -26,7 +26,7 @@
    "speaker": "리에",
    "ja": "今度私のオフィスへいらっしゃい。もちろん麻雀の腕をもっと上げてからね。",
    "ko": "다음에 내 사무실로 와. 물론 마작 실력을 더 키운 다음에.",
-   "status": "needs_review"
+   "status": "needs_human_review"
   }
  ]
 }
